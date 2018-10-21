@@ -1,4 +1,4 @@
-CAMs commissioning jest zahardkodowany w OBC i wykonywany jest na telekomendę z GS w trybie eksperymentu lub może być wywołany przez OBC w trakcie [PLD commissioning](pld.md). Poniżej przedstawiono sekwencję komend wykonywaną przez OBC.
+CAMs commissioning jest zahardkodowany w OBC i wykonywany jest na telekomendę z GS w trybie eksperymentu lub może być wywołany przez OBC w trakcie [PLD commissioning](mission_plan/commissioning/pld.md). Poniżej przedstawiono sekwencję komend wykonywaną przez OBC.
 
 CAMnadir/CAMwing quick check
 ==
