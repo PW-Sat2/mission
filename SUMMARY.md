@@ -8,3 +8,4 @@
         * [CAMs](mission_plan/commissioning/cams.md)
         * [PLD](mission_plan/commissioning/pld.md)
 
+* [Sessions](sessions/index.md)
