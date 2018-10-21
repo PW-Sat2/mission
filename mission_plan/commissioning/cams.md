@@ -15,3 +15,9 @@ There are 20 of numbers in range between 0..60 or FAIL (a FAIL may be presented 
 CAM Photo test
 ==
 After a quick check, a photo test should be run. There is a 'photo' command in OBC terminal that takes photos from each camera in three resolutions (128, 240 and 480 px) and saves to separate files. Such procedure should be run at this phase. 
+
+# Sample code
+
+```python
+{% include "./code.py" %}
+```
