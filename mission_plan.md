@@ -17,7 +17,7 @@
 * Just wait, nothing to do
 
 **T+40min - T+2h**
-* [Antenna deployment procedure](leop/antenna_deployment_procedure.md).
+* [Antenna deployment procedure](mission_plan/leop/antenna_deployment_procedure.md).
 * After antenna deployment:
 ** enable telemetry downlink,
 ** turn on iMTQ, perform self-test and enable detumbling.
@@ -46,7 +46,7 @@ PLD Commissioning
 
 **T+4day - T+7day:**
 
-* [TC] [PLD commissioning](commissioning/pld.md).
+* [TC] [PLD commissioning](mission_plan/commissioning/pld.md).
 * [TC] Files list downloading.
 * [TC] PLD commissioning files downloading and deleting.
 
@@ -61,7 +61,7 @@ Experiments
 
 **T+11day - T+18day**
 
-* [TC] [SunS experiment](experiments/suns.md)
+* [TC] [SunS experiment](mission_plan/experiments/suns.md)
 * [TC] Files list downloading.
 * [TC] SunS experiment files downloading and deleting.
 
@@ -74,19 +74,19 @@ Extended Mission
 ==
 
 **T+25day - T+27day**
-* [TC] [RadFET experiment](experiments/redfet.md)
+* [TC] [RadFET experiment](mission_plan/experiments/redfet.md)
 * [TC] RadFET experiment files downloading.
 
 **T+28day - T+33day**
-* [TC] [CAMs commissioning](commissioning/cams.md) and CAMs photos.
+* [TC] [CAMs commissioning](mission_plan/commissioning/cams.md) and CAMs photos.
 * [TC] Photos downloading.
 
 **T+33day - T+36day**
-* [TC] [SunS experiment](experiments/suns.md)
+* [TC] [SunS experiment](mission_plan/experiments/suns.md)
 * [TC] SunS experiment files downloading.
 
 **T+36day - T+38day**
-* [TC] [SADS experiment](experiments/sads.md)
+* [TC] [SADS experiment](mission_plan/experiments/sads.md)
 * [TC] SADS experiment files downloading.
 
 SAIL Experiment {icon bolt}
@@ -94,7 +94,7 @@ SAIL Experiment {icon bolt}
 
 **T+39day - [TBD]**
 
-* [TC] [SAIL experiment](experiments/sads.md)
+* [TC] [SAIL experiment](mission_plan/experiments/sads.md)
 
 **T+40day**
 
@@ -107,4 +107,4 @@ Activity after SAIL deployment
 
 **SAIL Experiment files downloading**
 * [TM] Beacons receiving.
-* [TC] [SAIL experiment](experiments/sads.md) files downloading.
+* [TC] [SAIL experiment](mission_plan/experiments/sads.md) files downloading.
