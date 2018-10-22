@@ -19,5 +19,5 @@ After a quick check, a photo test should be run. There is a 'photo' command in O
 # Sample code
 
 ```python
-{% include "./code.py" %}
+{% include "code.py" %}
 ```
