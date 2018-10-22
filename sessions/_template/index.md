@@ -8,5 +8,8 @@
 MISSING
 {% endblock %}
 
+## Checklist
+{% include "./checklist.md" %}
+
 ## Tasklist
 {% read_file tasklist %}{%endread_file%}

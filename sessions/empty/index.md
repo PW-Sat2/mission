@@ -1,1 +1,1 @@
-{% extends "../_session.md" %}
+{% extends "../_template/index.md" %}
