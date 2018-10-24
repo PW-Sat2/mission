@@ -7,7 +7,7 @@ module.exports = {
             body: `\`\`\`python\n${c}\n\`\`\``,
             parse: true
         }), c => ({
-            body: 'Missing block',
+            body: `Missing file ${contentPath}`,
             parse: true
         }));
     }
