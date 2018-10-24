@@ -6,7 +6,8 @@ module.exports = {
     // Map of new blocks
     blocks: {
         read_file: require('./read_file'),
-        checklist: require('./checklist')
+        checklist: require('./checklist'),
+        artifacts: require('./artifacts')
     },
 
     // Map of new filters
