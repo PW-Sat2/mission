@@ -1,0 +1,14 @@
+{
+    "Progress": {
+        "Higher downlink baudrate test." : [false, "Test 9600 bps downlink bitrate. If it is OK next sessions with higher baudrate."],
+        "Telemetry files downloading." : [false, "To test new baudrate."],
+        "Trigger `SunS Experiment`." : [false, "SunS experiment parameters: x=1, y=2."],
+        "`Files List` downloading." : [false, "To determine that SunS experiment file exists."],
+        "`SunS Experiment` file downloading." : [false, "At 9600 bps if possible."],
+        "Deleting `SunS Experiment` file." : [false, "To free space."],
+        "Called `PurgePhotoTelecommand`.": [false, "To take some nice pictures."],
+        "`Files List` of pictures downloaded." : [false, "To check that pictures exist."],
+        "Pictures downloaded." : [false, "Download pictures created by `PurgePhotoTelecommand`."],
+        "Both `SunS Experiment` file and pictures deleted." : [false, "To free space."]
+    }
+}
