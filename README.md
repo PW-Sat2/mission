@@ -1,3 +1,10 @@
-PW-Sat2 mission plan, uplink scripts and session reports. To be used by OPER team.
+## Mission plan
+See [&#x1F4C5; Mission Plan](mission_plan/).
 
-* [Mission plan](mission_plan/index.md)
+## Latest sessions
+Placeholder for scripts which generates [sessions](sessions/) list with links.
+
+|**Index**|**Time**|**Phase**|**Status**|**Short description**|
+|:-:|:-:|:-:|:-:|-|
+| [2](sessions/2018-10-22 2020) | 2018-10-22 20:20 | [Payload Commissioning](mission_plan/payload_commissioning/) | <span style='color:orange;font-size:200%' title="Planned">&#x231A;</span> | Files list to check that payload commissioning generated proper files. |
+| [1](sessions/2018-10-21 1511) | 2018-10-21 15:11 | [Payload Commissioning](mission_plan/payload_commissioning/) | <span style='color:green;font-size:200%' title="Success">&#x2611;</span> | Triggering payload commissioning with telecommand. |

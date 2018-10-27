@@ -1,0 +1,19 @@
+{
+    "Progress": {
+        "Trigger `RadFET Experiment`." : [false, "Use parameters for RadFET Experiment 1"],
+        "`List Files` downloading 1." : [false, "To check that `RadFET Experiment` file exists."],
+        "`RadFET Experiment` files downloading." : [false, "Download with 9600 bps if possible."],
+        "`RadFET Experiment` files deleting." : [false, "To free space."],
+        "Called `PurgePhotoTelecommand`.": [false, "To take some nice pictures."],
+        "`List Files` downloading 2." : [false, "To check that pictures exist."],
+        "Pictures downloaded." : [false, "Download pictures created by `PurgePhotoTelecommand`."],
+        "Trigger `SunS Experiment`." : [false, "SunS experiment parameters: x=1, y=2."],
+        "`List Files` downloading 3." : [false, "To determine that SunS experiment file exists."],
+        "`SunS Experiment` file downloading." : [false, "At 9600 bps if possible."],
+        "Deleting `SunS Experiment` file." : [false, "To free space."],
+        "Calling `SADS Experiment`" : [false, "Performing this experiment if possible."],
+        "`List Files` downloading 4." : [false, "To check that SADS Experiment files exist."],
+        "`SADS Experiment` file downloading." : [false, "At 9600 bps if possible."],
+        "`SADS Experiment` files deleting." : [false, "To free space."]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "Mission Plan": {
+        "[Launch](launch) phase." : [true, "now | T+0"],
+        "[LEOP](leop) phase." : [false, "T+0 | T+4 hour"],
+        "[Bus Commissioning](bus_commissioning) phase." : [false, "T+4 hour | T+4 day"],
+        "[Payload Commissioning](pld_commissioning) phase." : [false, "T+4 day | T+7 day"],
+        "[Experiments](experiments) phase." : [false, "T+7 day | T+25 day"],
+        "[Extended Mission](extended) phase." : [false, "T+25 day | T+38 day"],
+        "[SAIL Deployment](sail_deployment) phase." : [false, "T+39 day | TBD"],
+        "[Activity after SAIL deployment](after_sail_deployment) phase." : [false, "T+40 day | TBD"]
+    }
+}
