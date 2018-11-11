@@ -6,9 +6,9 @@
         "`Files List` downloading." : [false, "To determine that SunS experiment file exists."],
         "`SunS Experiment` file downloading." : [false, "At 9600 bps if possible."],
         "Deleting `SunS Experiment` file." : [false, "To free space."],
-        "Called `PurgePhotoTelecommand`.": [false, "To take some nice pictures."],
+        "Called `TakePhotoTelecommand`.": [false, "To take some nice pictures."],
         "`Files List` of pictures downloaded." : [false, "To check that pictures exist."],
-        "Pictures downloaded." : [false, "Download pictures created by `PurgePhotoTelecommand`."],
+        "Pictures downloaded." : [false, "Download pictures created by `TakePhotoTelecommand`."],
         "Both `SunS Experiment` file and pictures deleted." : [false, "To free space."]
     }
 }
