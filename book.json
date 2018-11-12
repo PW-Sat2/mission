@@ -1,6 +1,5 @@
 {
     "plugins": [
-        "pwsat@plugins/gitbook-plugin-pwsat",
-        "advanced-emoji"
+        "pwsat@plugins/gitbook-plugin-pwsat"
     ]
 }
