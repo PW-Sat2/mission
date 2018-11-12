@@ -1,5 +1,5 @@
 const path = require('path');
 
 module.exports = function(p) {
-    return path.basename(path.dirname(p));
+    return p.substring(0, p.lastIndexOf("/") + 1);
 }
