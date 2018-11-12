@@ -13,6 +13,8 @@
     * [After SAIL deployment](/mission_plan/after_sail_deployment/index.md)
 
 * [Sessions](/sessions/index.md)
-    * [2018-10-22 20:20](/sessions/2/index.md)
-    * [2018-10-21 15:11](/sessions/1/index.md)
-    * [Empty](/sessions/empty/index.md)
+    * [2: 2018-11-20 21:20](/sessions/2/index.md)
+    * [1: 2018-11-20 09:15](/sessions/1/index.md)
+    * [Templates](/sessions/templates/index.md)
+        * [SunS Experiment](/sessions/templates/suns/index.md)
+        * [RadFET Experiment](/sessions/templates/radfet/index.md)
