@@ -7,7 +7,8 @@ module.exports = {
     blocks: {
         read_file: require('./read_file'),
         checklist: require('./checklist'),
-        artifacts: require('./artifacts')
+        artifacts: require('./artifacts'),
+        subpages:  require('./subpages')
     },
 
     // Map of new filters
