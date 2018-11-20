@@ -1,2 +1,2 @@
 # Templates for next sessions
-{% subpages "sessions/_templates" %}{% endsubpages %}
+{% session_templates %}{% endsession_templates %}

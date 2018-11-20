@@ -8,7 +8,8 @@ module.exports = {
         read_file: require('./read_file'),
         checklist: require('./checklist'),
         artifacts: require('./artifacts'),
-        subpages:  require('./subpages')
+        session_templates:  require('./session_templates'),
+        sessions: require('./sessions')
     },
 
     // Map of new filters
