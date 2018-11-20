@@ -1,33 +1,38 @@
 const fs = require('fs');
-const _ = require('lodash');
 
-function getArtifacts(folder) {
-    if (!fs.existsSync(folder)) {
-        return [];
+function isItemIgnored(item, ignoredItems) {
+    for (let index = 0; index < ignoredItems.length; index++) {
+        if (ignoredItems[index] === item) {
+            return true;
+        }
     }
-
-    return fs.readdirSync(folder);
-}
-
-function foundList(pathToRead, items) {
-    //return items.map(i => `* <a href="${pathToRead}/${i}/index.md" target="_blank">${i}<a/>`);
-    return items.map(i => `* [${i}](/${pathToRead}/${i}/index.md)`);
+    return false;
 }
 
 module.exports = {
-    process: function(block) {
-        const ctx = this;
-
-        const pathToRead = ctx.resolve(block.args[0]);
-        const folders = getArtifacts(pathToRead);
-
-        const items = [
-            ...foundList(block.args[0], folders)
-        ];
-
-        return {
-            body: items.join('\n'),
-            parse: true
+    getSubpages: function(ResolvedPathToRead) {
+        if (!fs.existsSync(ResolvedPathToRead)) {
+            return [];
         }
+        return fs.readdirSync(ResolvedPathToRead);
+    },
+
+    buildSubpagesLinks: function(pathToRead, items) {
+        return items.map(i => `/${pathToRead}/${i}/index.md`);
+    },
+
+    buildMarkdownLinks: function(pathToRead, items) {
+        return items.map(i => `[${i}](/${pathToRead}/${i}/index.md)`);
+    },
+
+    filterItems: function(items, itemsToFilter) {
+        var items_filtered = []
+        for (let index = 0; index < items.length; index++) {
+            const item = items[index];
+            if (!isItemIgnored(item, itemsToFilter)) {
+                items_filtered.push(item);
+            }
+        }
+        return items_filtered;
     }
-}
+};
