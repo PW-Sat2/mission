@@ -1,6 +1,8 @@
 const subpages = require('./subpages');
 const fs = require('fs');
 
+const UNDEFINED = "[TBD]";
+
 const MISSION_PLAN_PATH = "mission_plan/progress.json";
 const MISSION_PLAN_KEY = 'Mission Plan';
 
@@ -35,6 +37,6 @@ module.exports = {
             }
         }
 
-        return requestedPhaseId;
+        return UNDEFINED;
     }
 }
