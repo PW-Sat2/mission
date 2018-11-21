@@ -17,8 +17,16 @@ module.exports = {
         return fs.readdirSync(ResolvedPathToRead);
     },
 
-    buildSubpagesLinks: function(pathToRead, items) {
+    buildIndexLinks: function(pathToRead, items) {
         return items.map(i => `/${pathToRead}/${i}/index.md`);
+    },
+
+    buildSubpagesPaths: function(pathToRead, items) {
+        return items.map(i => `/${pathToRead}/${i}/`);
+    },
+
+    buildItems: function(pathToRead, items) {
+        return items.map(i => `${i}`);
     },
 
     buildMarkdownLinks: function(pathToRead, items) {
