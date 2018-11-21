@@ -9,7 +9,8 @@ module.exports = {
         checklist: require('./checklist'),
         artifacts: require('./artifacts'),
         session_templates:  require('./session_templates'),
-        sessions: require('./sessions')
+        sessions: require('./sessions'),
+        session_data: require('./session_data')
     },
 
     // Map of new filters

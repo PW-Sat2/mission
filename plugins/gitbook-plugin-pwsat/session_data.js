@@ -13,23 +13,42 @@ const STATUS_SUCCESS_SYM = "<span style='color:green;font-size:200%' title='Succ
 
 
 function readSessionData(resolvedPathToSessionData) {
-    return JSON.parse(fs.readFileSync(resolvedPathToSessionData));
+    try {
+        return JSON.parse(fs.readFileSync(resolvedPathToSessionData));
+    }
+    catch (error) {
+        return {};
+    }
 }
 
 function getParameter(resolvedPathToSession, key) {
-    parameter = readSessionData(resolvedPathToSession + "data.json")['Session'][key];
-    if (parameter == null) {
+    try {
+        parameter = readSessionData(resolvedPathToSession + "data.json")['Session'][key];
+        if (parameter == null) {
+            return UNDEFINED;
+        }
+        return parameter;
+    }
+    catch (error) {
         return UNDEFINED;
     }
-    return parameter;
 }
 
 function parseIsoTime(timeToParse) {
-    const date = timeToParse.split("T")[0];
-    const utcTime = timeToParse.split("T")[1].split(".")[0];
-    const timeZone = timeToParse.split("T")[1].split("+")[1];
+    try {
+        const date = timeToParse.split("T")[0];
+        const utcTime = timeToParse.split("T")[1].split(".")[0].split("+")[0];
+        const timeZone = timeToParse.split("T")[1].split("+")[1];
 
-    return date + " " + utcTime + "+" + timeZone;
+        if (date.length != 10) { throw "DateError"; }
+        if (utcTime.length < 5) { throw "TimeError"; }
+        if (timeZone.length < 5) { throw "ZoneError"; }
+
+        return date + " " + utcTime + "+" + timeZone;
+    } 
+    catch (error) {
+        return UNDEFINED;
+    }
 }
 
 module.exports = {
@@ -38,7 +57,7 @@ module.exports = {
     },
 
     getStopTime: function(resolvedPathToSession) {
-        return getParameter(resolvedPathToSession, 'stop_time_iso_with_zone');
+        return parseIsoTime(getParameter(resolvedPathToSession, 'stop_time_iso_with_zone'));
     },
 
     getPhase: function(resolvedPathToSession) {
@@ -55,10 +74,37 @@ module.exports = {
             case STATUS_SUCCESS:
                 return STATUS_SUCCESS_SYM;
         }
-        return status;
+        return UNDEFINED;
     },
 
     getShortDescription: function(resolvedPathToSession) {
-        return getParameter(resolvedPathToSession, 'short_description');
+        shortDescription = getParameter(resolvedPathToSession, 'short_description');
+        if (shortDescription.length == 0) {
+            return UNDEFINED;
+        }
+        return shortDescription;
+    },
+
+    process: function(block) {
+        const sessionIndexFilePath = block.args[0];
+        const sessionDir = sessionIndexFilePath.replace("index.md", "");
+
+        const index = sessionDir.split('/').slice(-2)[0];
+        const startTime = module.exports.getStartTime(sessionDir);
+        const stopTime = module.exports.getStopTime(sessionDir);
+        const phase = module.exports.getPhase(sessionDir);
+        const status =  module.exports.getStatus(sessionDir);
+        const description = module.exports.getShortDescription(sessionDir);
+
+        sessionDataTable = [
+            `|**Index**|**Start Time**|**Stop Time**|**Phase**|**Status**|**Short description**|`,
+            `|:-:|:-:|:-:|:-:|:-:|:-|`,
+            `|${index}|${startTime}|${stopTime}|${phase}|${status}|${description}|`
+        ]
+
+        return {
+            body: sessionDataTable.join('\n'),
+            parse: true
+        }
     }
 };

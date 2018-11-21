@@ -4,7 +4,7 @@
 {% set artifactsFolder = path + "/artifacts" %}
 {% set requiredArtifacts = [ "frames.csv", "beacons.json" ] %}
 
-# Session {{ page.title }}
+{% session_data file.path %}{% endsession_data %}
 
 ## Goal
 {% block goal %}
