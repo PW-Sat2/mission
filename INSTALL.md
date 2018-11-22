@@ -4,7 +4,6 @@ PW-Sat2 mission plan, uplink scripts and session reports. To be used by OPER tea
 * Install Node.js 8.x.x LTS: https://nodejs.org/en/
 * Call:
 > npm install -g gitbook-cli <br/>
-> npm install gitbook-plugin-advanced-emoji
 
 # How to run
 * Clone this repo and go there
