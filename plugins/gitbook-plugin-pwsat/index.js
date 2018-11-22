@@ -1,6 +1,8 @@
 module.exports = {
     // Map of hooks
     hooks: {
+        init: function() {
+        }
     },
 
     // Map of new blocks
