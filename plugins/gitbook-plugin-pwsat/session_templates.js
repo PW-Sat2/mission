@@ -14,6 +14,10 @@ module.exports = {
             ...subpages.buildMarkdownLinks(pathToRead, items_filtered)
         ];
 
+        for (let index = 0; index <links.length; index++) {
+            links[index] = '* ' + links[index]
+        }
+
         return {
             body: links.join('\n'),
             parse: true

@@ -1,7 +1,4 @@
-# Summary
-
 * [Start](/README.md)
-
 * [Mission plan](/mission_plan/index.md)
     * [Launch](/mission_plan/launch/index.md)
     * [LEOP](/mission_plan/leop/index.md)
@@ -10,11 +7,10 @@
     * [Experiments](/mission_plan/experiments/index.md)
     * [Extended Mission](/mission_plan/extended/index.md)
     * [SAIL Deployment](/mission_plan/sail_deployment/index.md)
-    * [After SAIL deployment](/mission_plan/after_sail_deployment/index.md)
-
+    * [Activity after SAIL deployment](/mission_plan/after_sail_deployment/index.md)
 * [Sessions](/sessions/index.md)
-    * [1: 2018-11-20 09:15](/sessions/1/index.md)
+    * [1: 2018-11-26 08:01:02+01:00](/sessions/1/index.md)
     * [Templates](/sessions/_templates/index.md)
-        * [LEOP](/sessions/_templates/leop/index.md)
-        * [SunS Experiment](/sessions/_templates/suns/index.md)
-        * [RadFET Experiment](/sessions/_templates/radfet/index.md)
+       * [leop](/sessions/_templates/leop/index.md)
+       * [radfet](/sessions/_templates/radfet/index.md)
+       * [suns](/sessions/_templates/suns/index.md)
