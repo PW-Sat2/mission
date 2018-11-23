@@ -9,6 +9,7 @@
     * [SAIL Deployment](/mission_plan/sail_deployment/index.md)
     * [Activity after SAIL deployment](/mission_plan/after_sail_deployment/index.md)
 * [Sessions](/sessions/index.md)
+    * [2: [TBD]](/sessions/2/index.md)
     * [1: 2018-11-26 08:01:02+01:00](/sessions/1/index.md)
     * [Templates](/sessions/_templates/index.md)
        * [leop](/sessions/_templates/leop/index.md)
