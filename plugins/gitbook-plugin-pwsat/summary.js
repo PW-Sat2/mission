@@ -32,26 +32,20 @@ function templatesMarkdownLinks() {
     return markdownLinksFormatted;
 }
 
-module.exports = {
-    generate: function() {
-        //
+function generate() {
+    summary = [
+        '* [Start](/README.md)',
+        '* [Mission plan](/mission_plan/index.md)',
+        ...missionPlanGenerator(),
+        '* [Sessions](/sessions/index.md)',
+        ...sessions.markdownLinks(),
+        '    * [Templates](/sessions/_templates/index.md)',
+        ...templatesMarkdownLinks()
+    ]
 
-        //const missionPlanItems = subpages.getSubpages(MISSION_PLAN_PATH);
-        //missionPlanItemsFiltered = subpages.filterItems(missionPlanItems, MISSION_PLAN_IGNORED);
-
-        summary = [
-            '* [Start](/README.md)',
-            '* [Mission plan](/mission_plan/index.md)',
-            ...missionPlanGenerator(),
-            '* [Sessions](/sessions/index.md)',
-            ...sessions.markdownLinks(),
-            '    * [Templates](/sessions/_templates/index.md)',
-            ...templatesMarkdownLinks()
-        ]
-
-        fs.writeFileSync(SUMMARY_PATH, summary.join('\n'));
-    }
+    fs.writeFileSync(SUMMARY_PATH, summary.join('\n'));
 }
 
+
 console.info("Info: generating SUMMARY.md");
-module.exports.generate();
+generate();
