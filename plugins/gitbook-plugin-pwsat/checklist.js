@@ -15,11 +15,13 @@ function areDetailsOnChecklist(value) {
 }
 
 function buildDisplayItem(name, value) {
-    const checked = value[0] === true ? CHECKED_MARK : UNCHECKED_MARK;
-    const details = value[1]
     if (areDetailsOnChecklist(value)) {
+        const checked = value[0] === true ? CHECKED_MARK : UNCHECKED_MARK;
+        const details = value[1]
+
         return `|${checked}|${name}|${details}|`;
     }
+    const checked = value === true ? CHECKED_MARK : UNCHECKED_MARK;
     return `|${checked}|${name}|`;
 }
 
