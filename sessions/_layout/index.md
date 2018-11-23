@@ -2,7 +2,7 @@
 {% set tasklist = path + "/tasklist.py" %}
 {% set checklistFile = path + "/checklist.json" %}
 {% set artifactsFolder = path + "/artifacts" %}
-{% set requiredArtifacts = [ "frames.csv", "/beacons.json" ] %}
+{% set requiredArtifacts = [ "/frames.csv", "/beacons.json" ] %}
 
 {% session_data file.path %}{% endsession_data %}
 
