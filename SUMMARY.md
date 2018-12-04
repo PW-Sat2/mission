@@ -9,6 +9,7 @@
     * [SAIL Deployment](/mission_plan/sail_deployment/index.md)
     * [Activity after SAIL deployment](/mission_plan/after_sail_deployment/index.md)
 * [Sessions](/sessions/index.md)
+    * [5: 2018-12-04 19:52:14+01:00](/sessions/5/index.md)
     * [4: 2018-12-04 18:16:41+01:00](/sessions/4/index.md)
     * [3: 2018-12-04 10:33:04+01:00](/sessions/3/index.md)
     * [2: 2018-12-04 08:57:27+01:00](/sessions/2/index.md)
