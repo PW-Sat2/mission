@@ -4,6 +4,7 @@ tasks = [
     [tc.SetBitrate(100, 1), Send, WaitMode.Wait],
 
     [[tc.SendBeacon(), 5], SendLoop, WaitMode.NoWait],
+    [tc.ListFiles(1, '/'), Send, WaitMode.Wait],
 
     [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(30, '/telemetry.leop', [i for i in range(3, 450, 50)]), Send, WaitMode.Wait],
