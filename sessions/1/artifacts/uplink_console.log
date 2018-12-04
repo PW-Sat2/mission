@@ -1,0 +1,16 @@
+COMM> run(tasks)
+[2018-12-04 08:53:48:281115] Step 1/4: SendLoop([0x7f1c6e9c6d90: ^080-PingTelecommand, 5])...  <Ctrl+C> to break SendLoop(5s).
+###############################################################################################################^C
+Done
+[2018-12-04 09:03:22:846106] Step 2/4: SendLoop([0x7f1c6e13b4d0: ^174-SendBeacon, 10])...  <Ctrl+C> to break SendLoop(10s).
+#####################################^C
+Done
+[2018-12-04 09:09:35:988144] Step 3/4: SendLoop([0x7f1c6e13b210: ^015-ListFiles, cid=01, path=/, 5])...  <Ctrl+C> to break 
+SendLoop(5s).
+#^C
+Done
+[2018-12-04 09:09:36:208953] Step 4/4: SendLoop([0x7f1c6e13b350: ^174-SendBeacon, 10])...  <Ctrl+C> to break SendLoop(10s).
+#^C
+Done
+
+COMM>
