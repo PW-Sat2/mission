@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Stop antenna deployment. Download `telemetry.leop`.",
         "phase": "bus_commissioning",
-        "status": "planned",
+        "status": "success",
         "start_time_iso_with_zone": "2018-12-04T18:16:41.688+01:00",
         "stop_time_iso_with_zone": "2018-12-04T18:26:17.419+01:00"
     }

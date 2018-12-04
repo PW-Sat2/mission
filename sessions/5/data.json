@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Testing 9600bps on download `telemetry.leop`.",
         "phase": "bus_commissioning",
-        "status": "planned",
+        "status": "success",
         "start_time_iso_with_zone": "2018-12-04T19:52:14+01:00",
         "stop_time_iso_with_zone": "2018-12-04T20:04:51+01:00"
     }
