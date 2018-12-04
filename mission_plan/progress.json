@@ -1,7 +1,7 @@
 {
     "Mission Plan": {
         "[Launch](/mission_plan/launch/index.md)" : [true, "now | T+0"],
-        "[LEOP](/mission_plan/leop/index.md)" : [false, "T+0 | T+4 hour"],
+        "[LEOP](/mission_plan/leop/index.md)" : [true, "T+0 | T+4 hour"],
         "[Bus Commissioning](/mission_plan/bus_commissioning/index.md)" : [false, "T+4 hour | T+4 day"],
         "[Payload Commissioning](/mission_plan/pld_commissioning/index.md)" : [false, "T+4 day | T+7 day"],
         "[Experiments](/mission_plan/experiments/index.md)" : [false, "T+7 day | T+25 day"],
