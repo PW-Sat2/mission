@@ -4,8 +4,9 @@ tasks = [
 
     [tc.ListFiles(1, '/'), Send, WaitMode.Wait],
 
-    [tc.RemoveFile(31, '/leop'), Send, WaitMode.Wait],
     [tc.RemoveFile(32, '/telemetry.leop'), Send, WaitMode.Wait],
+    
+    [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
 
     [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(41, '/telemetry.current', [i for i in range(0, 1200, 100)]), Send, WaitMode.Wait],
