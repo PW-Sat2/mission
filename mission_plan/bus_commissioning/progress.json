@@ -3,7 +3,7 @@
         "First `Beacon` received." : [true, "`Beacons` receiving by [HAM radio](http://radio.pw-sat.pl) and PW-Sat2 GSs. Main PW-Sat2 GS sends `Send Beacon` telecommands to request more beacon frames."],
         "First `Files List` downloaded." : [true, "To check that both `/leop_telemetry` and `/leop` exist."],
         "Requested chunks of `/telemetry.leop` and `/leop` downloaded." : [true, "To find out what was happening at the beginning."],
-        "Requested chunks of `/telemetry.current` and `/telemetry.previous` downloaded." : [false, "To get a better look on the state of the satellite between few last orbits."],
+        "Requested chunks of `/telemetry.current` downloaded." : [false, "To get a better look on the state of the satellite between few last orbits."],
         "Deleted `/telemetry.leop` and `/leop`." : [false, "To free space."],
         "`Set Antenna Deployment Mask` called." : [true, "If a stable radio link was established call this telecommand. It disables `Antenna Deployment Process` after every reboot."]
     }
