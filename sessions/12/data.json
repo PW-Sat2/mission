@@ -1,0 +1,9 @@
+{
+    "Session": {
+        "short_description": "More chunks of `telemetry.previous` and `telemetry.current`. Camera commissioning.",
+        "phase": "pld_commissioning",
+        "status": "planned",
+        "start_time_iso_with_zone": "2018-12-05T21:34:42+01:00",
+        "stop_time_iso_with_zone": "2018-12-05T21:45:34+01:00"
+    }
+}
