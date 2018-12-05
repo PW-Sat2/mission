@@ -1,11 +1,11 @@
 {
     "Progress": {
-        "Called `Perform Payload Commissioning Experiment`.": [false, "Run `Perform Payload Commissioning Experiment` telecommand with file_name=`/payload`. To test the PLD board."],
-        "`Files List` downloaded." : [false, "To check that `/payload` file exists."],
-        "Downloaded `/payload` file.": [false, "Output data from `Payload Commissioning Experiment`."],
+        "Called `Perform Payload Commissioning Experiment`.": [true, "Run `Perform Payload Commissioning Experiment` telecommand with file_name=`/payload`. To test the PLD board."],
+        "`Files List` downloaded." : [true, "To check that `/payload` file exists."],
+        "Downloaded `/pld_1` file test photos.": [false, "Output data from `Payload Commissioning Experiment`."],
         "Called `Perform Camera Commissioning Experiment`.": [false, "It tests Cameras."],
         "`Files List` of pictures downloaded." : [false, "To check that test pictures exist."],
         "Pictures downloaded." : [false, "Download pictures created by `TakePhotoTelecommand`."],
-        "Both `/payload` file and pictures deleted." : [false, "To free space."]
+        "Both `/pld_1` file and pictures deleted." : [false, "To free space."]
     }
 }
