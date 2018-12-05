@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Download payload commissiong data `/pld_1`, `pld_1_1.jpg` photo adn last chunks of `telemetry.previous`.",
         "phase": "pld_commissioning",
-        "status": "planned",
+        "status": "success",
         "start_time_iso_with_zone": "2018-12-05T19:57:56+01:00",
         "stop_time_iso_with_zone": "2018-12-05T20:10:35+01:00"
     }
