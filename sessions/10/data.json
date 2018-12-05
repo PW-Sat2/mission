@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Download payload commissiong data `/pld_1` and last chunks of `leop`.",
         "phase": "pld_commissioning",
-        "status": "planned",
+        "status": "success",
         "start_time_iso_with_zone": "2018-12-05T18:24:36+01:00",
         "stop_time_iso_with_zone": "2018-12-05T18:34:36+01:00"
     }
