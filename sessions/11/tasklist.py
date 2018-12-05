@@ -18,10 +18,10 @@ tasks = [
 
     [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(27, '/pld_1_1.jpg', [i for i in range(24, 30, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(28, '/pld_1_1.jpg', [i for i in range(36, 42, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(28, '/pld_1_1.jpg', [i for i in range(30, 42, 1)]), Send, WaitMode.Wait],
 
     [tc.SendBeacon(), Send, WaitMode.NoWait],
-    [tc.DownloadFile(29, '/pld_1_1.jpg', [i for i in range(48, 52, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(29, '/pld_1_1.jpg', [i for i in range(42, 52, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(30, '/pld_1_1.jpg', [i for i in range(52, 58, 1)]), Send, WaitMode.Wait],
 
     # telemetry.previous to check state just before and during pld commissioning
