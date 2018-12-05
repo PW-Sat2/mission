@@ -11,9 +11,6 @@
 MISSING
 {% endblock %}
 
-## Checklist
-{% checklist "sessions/_layout/checklist.json", checklistFile %}{% endchecklist %}
-
 ## Tasklist
 {% read_file tasklist %}{%endread_file%}
 
