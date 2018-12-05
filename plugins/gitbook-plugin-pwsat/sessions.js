@@ -17,8 +17,9 @@ function buildSessions(resolvedPathToSessions, items_filtered) {
         const sessionPhase = session_data.getPhase(sessionDir);
         const sessionStatus = session_data.getStatus(sessionDir);
         const sessionDescription = session_data.getShortDescription(sessionDir);
+        const markdownLink = `[${(index + 1).toString()}](/sessions/${(index + 1).toString()}/index.md)`;
 
-        sessions.push(`|${markdownLinks[index]}|${sessionStartTime}|${sessionPhase}|${sessionStatus}|${sessionDescription}|`);
+        sessions.push(`|${markdownLink}|${sessionStartTime}|${sessionPhase}|${sessionStatus}|${sessionDescription}|`);
     }
     return sessions.reverse();
 }
@@ -64,11 +65,12 @@ module.exports = {
     
         var sessionsExtendedMarkdownLinks = [];
         for (let index = 0; index < sessionPaths.length; index++) {
-            dirName = (index + 1).toString();
+            const dirName = (index + 1).toString();
             const sessionDir = SESSIONS_PATH + "\\" + dirName + "\\";
             const sessionStartTime =  session_data.getStartTime(sessionDir);
+            const sessionPath = `/sessions/${(index + 1).toString()}/`;
 
-            sessionsExtendedMarkdownLinks.push('    * [' + dirName + ': ' + sessionStartTime + '](' + sessionPaths[index] + 'index.md)')
+            sessionsExtendedMarkdownLinks.push('    * [' + dirName + ': ' + sessionStartTime + '](' + sessionPath + 'index.md)')
         }
 
         return sessionsExtendedMarkdownLinks.reverse();
