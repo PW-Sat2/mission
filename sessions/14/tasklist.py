@@ -2,11 +2,11 @@ tasks = [
     [[tc.PingTelecommand(), 3], SendLoop, WaitMode.NoWait],
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
-    [tc.ListFiles(169, '/'), Send, WaitMode.Wait],
+    [tc.ListFiles(168, '/'), Send, WaitMode.Wait],
 
     # Nadir CAM - high res - rest of chunks
     [tc.SendBeacon(), Send, WaitMode.NoWait],
-    [tc.DownloadFile(151, '/pld_1_2.jpg', [5]), Send, WaitMode.Wait],
+    [tc.DownloadFile(111, '/pld_1_2.jpg', [5]), Send, WaitMode.Wait],
 
     [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(218, '/pld_1_2.jpg', [i for i in range(80, 90, 1)]), Send, WaitMode.Wait],
