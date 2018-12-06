@@ -5,7 +5,7 @@ tasks = [
     [tc.ListFiles(11, '/'), Send, WaitMode.Wait],
 
     # Pld commissioning photo remove
-    [tc.RemoveFile(12, '/pld_1_2.jpg'), Send, WaitMode.Wait],
+    # Photo pld_1_2.jpg to be removed in next session
 
     # Camera commissioning photos remove
     # Photos cam_0.jpg and cam_1.jpg to be removed later
