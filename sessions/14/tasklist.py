@@ -2,12 +2,25 @@ tasks = [
     [[tc.PingTelecommand(), 3], SendLoop, WaitMode.NoWait],
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
-    [tc.ListFiles(168, '/'), Send, WaitMode.Wait],
+    [tc.ListFiles(158, '/'), Send, WaitMode.Wait],
 
-    # Nadir CAM - high res - rest of chunks
+    # Nadir CAM - high res
     [tc.SendBeacon(), Send, WaitMode.NoWait],
-    [tc.DownloadFile(111, '/pld_1_2.jpg', [5]), Send, WaitMode.Wait],
-
+    [tc.DownloadFile(111, '/pld_1_2.jpg', [i for i in range(0, 10, 1)]), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.NoWait],
+    [tc.DownloadFile(211, '/pld_1_2.jpg', [i for i in range(10, 20, 1)]), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.NoWait],
+    [tc.DownloadFile(212, '/pld_1_2.jpg', [i for i in range(20, 30, 1)]), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.NoWait],
+    [tc.DownloadFile(213, '/pld_1_2.jpg', [i for i in range(30, 40, 1)]), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.NoWait],
+    [tc.DownloadFile(214, '/pld_1_2.jpg', [i for i in range(40, 50, 1)]), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.NoWait],
+    [tc.DownloadFile(215, '/pld_1_2.jpg', [i for i in range(50, 60, 1)]), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.NoWait],
+    [tc.DownloadFile(216, '/pld_1_2.jpg', [i for i in range(60, 70, 1)]), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.NoWait],
+    [tc.DownloadFile(217, '/pld_1_2.jpg', [i for i in range(70, 80, 1)]), Send, WaitMode.Wait],
     [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(218, '/pld_1_2.jpg', [i for i in range(80, 90, 1)]), Send, WaitMode.Wait],
     [tc.SendBeacon(), Send, WaitMode.NoWait],
@@ -28,25 +41,11 @@ tasks = [
     # telemetry
     [tc.DownloadFile(35, '/telemetry.current', [i for i in range(500, 700, 25)]), Send, WaitMode.Wait],
     [tc.DownloadFile(36, '/telemetry.current', [i for i in range(512, 700, 25)]), Send, WaitMode.Wait],
-    [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(37, '/telemetry.current', [i for i in range(506, 700, 25)]), Send, WaitMode.Wait],
     [tc.DownloadFile(38, '/telemetry.current', [i for i in range(518, 700, 25)]), Send, WaitMode.Wait],
 
-    [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(39, '/telemetry.current', [i for i in range(503, 700, 25)]), Send, WaitMode.Wait],
     [tc.DownloadFile(40, '/telemetry.current', [i for i in range(509, 700, 25)]), Send, WaitMode.Wait],
-    [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(41, '/telemetry.current', [i for i in range(515, 700, 25)]), Send, WaitMode.Wait],
     [tc.DownloadFile(42, '/telemetry.current', [i for i in range(521, 700, 25)]), Send, WaitMode.Wait],
-
-    # Nadir CAM - low res - sholud be shadowed
-    [tc.DownloadFile(226, '/cam_0.jpg', [i for i in range(0, 5, 1)]), Send, WaitMode.Wait],
-
-    # Nadir mid res - same case
-    [tc.DownloadFile(227, '/cam_1.jpg', [i for i in range(0, 8, 1)]), Send, WaitMode.Wait],
-
-    [tc.DownloadFile(118, '/telemetry.current', [i for i in range(500, 1700, 100)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(119, '/telemetry.current', [i for i in range(550, 1700, 100)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(120, '/telemetry.current', [i for i in range(525, 1700, 100)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(121, '/telemetry.current', [i for i in range(575, 1700, 100)]), Send, WaitMode.Wait],
 ]
