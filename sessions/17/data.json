@@ -1,6 +1,6 @@
 {
     "Session": {
-        "short_description": "Downloading SunS Experiment data, Persistent Sate, telemetry and cam commissioning photos. Deleting downloaded files.",
+        "short_description": "Downloading SunS Experiment data and telemetry. Deleting old files.",
         "phase": "experiments",
         "status": "planned",
         "start_time_iso_with_zone": "2018-12-05T21:02:43+01:00",
