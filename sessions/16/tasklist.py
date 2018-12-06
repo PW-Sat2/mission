@@ -35,8 +35,8 @@ tasks = [
 
     [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(114, '/suns_test_sec', [i for i in range(0, 10, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(115, '/suns_test_sec', [i for i in range(0, 10, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(116, '/suns_test_sec', [i for i in range(0, 10, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(115, '/suns_test_sec', [i for i in range(10, 20, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(116, '/suns_test_sec', [i for i in range(20, 30, 1)]), Send, WaitMode.Wait],
 
     [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(117, '/suns_test', [i for i in range(30, 40, 1)]), Send, WaitMode.Wait],
@@ -49,8 +49,8 @@ tasks = [
     [tc.DownloadFile(123, '/suns_test', [i for i in range(90, 100, 1)]), Send, WaitMode.Wait],
 
     [tc.SendBeacon(), Send, WaitMode.NoWait],
-    [tc.DownloadFile(124, '/suns_test_sec', [i for i in range(0, 10, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(125, '/suns_test_sec', [i for i in range(0, 10, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(124, '/suns_test_sec', [i for i in range(30, 40, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(125, '/suns_test_sec', [i for i in range(40, 50, 1)]), Send, WaitMode.Wait],
 
     # Telemetry when triggered suns experiment
     [tc.DownloadFile(126, '/telemetry.previous', [i for i in range(1900, 2280, 25)]), Send, WaitMode.Wait],
