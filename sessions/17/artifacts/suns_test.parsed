@@ -1,0 +1,3289 @@
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 522,
+                                      'B': 521,
+                                      'C': 521,
+                                      'D': 520,
+                                      'Structure': 401},
+                     'VisibleLight': [[15150, 9387, 3500, 8233],
+                                      [15331, 9413, 3271, 8416],
+                                      [15825, 9169, 3519, 8232]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2198, 2540, 2229, 2546, 2801]}}
+{'Gyro': {'Temperature': -19530, 'X': -10, 'Y': -43, 'Z': 14}}
+{'time': '2 days, 10:43:27.350000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 522,
+                                      'B': 522,
+                                      'C': 521,
+                                      'D': 521,
+                                      'Structure': 403},
+                     'VisibleLight': [[15878, 10191, 4540, 9338],
+                                      [15969, 10174, 4269, 9396],
+                                      [16525, 9921, 4576, 9219]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2134, 2514, 2188, 2508, 2799]}}
+{'Gyro': {'Temperature': -19524, 'X': -11, 'Y': -43, 'Z': 14}}
+{'time': '2 days, 10:43:32.250000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 523,
+                                      'B': 522,
+                                      'C': 522,
+                                      'D': 521,
+                                      'Structure': 405},
+                     'VisibleLight': [[16410, 10719, 5290, 10265],
+                                      [16508, 10684, 4975, 10152],
+                                      [17202, 10386, 5553, 9983]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2087, 2492, 2160, 2478, 2798]}}
+{'Gyro': {'Temperature': -19514, 'X': -10, 'Y': -42, 'Z': 14}}
+{'time': '2 days, 10:43:37.100000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 523,
+                                      'B': 523,
+                                      'C': 522,
+                                      'D': 521,
+                                      'Structure': 407},
+                     'VisibleLight': [[16942, 11172, 6258, 11115],
+                                      [16966, 11218, 5945, 10898],
+                                      [17920, 10831, 6142, 10741]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2043, 2471, 2136, 2447, 2798]}}
+{'Gyro': {'Temperature': -19521, 'X': -10, 'Y': -43, 'Z': 13}}
+{'time': '2 days, 10:43:42.650000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 524,
+                                      'B': 523,
+                                      'C': 522,
+                                      'D': 522,
+                                      'Structure': 409},
+                     'VisibleLight': [[17624, 11622, 7030, 11965],
+                                      [17400, 11694, 6502, 11694],
+                                      [18514, 11293, 7040, 11509]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [1995, 2448, 2112, 2411, 2797]}}
+{'Gyro': {'Temperature': -19516, 'X': -11, 'Y': -44, 'Z': 13}}
+{'time': '2 days, 10:43:47.550000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 524,
+                                      'B': 524,
+                                      'C': 523,
+                                      'D': 523,
+                                      'Structure': 412},
+                     'VisibleLight': [[18156, 12035, 7655, 12562],
+                                      [17963, 11997, 7403, 12337],
+                                      [19035, 11694, 7822, 12151]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [1952, 2427, 2093, 2379, 2796]}}
+{'Gyro': {'Temperature': -19514, 'X': -11, 'Y': -44, 'Z': 13}}
+{'time': '2 days, 10:43:52.450000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 525,
+                                      'B': 524,
+                                      'C': 523,
+                                      'D': 523,
+                                      'Structure': 414},
+                     'VisibleLight': [[18563, 12413, 8542, 13148],
+                                      [18527, 12387, 8206, 12868],
+                                      [19455, 12083, 8431, 12812]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [1899, 2406, 2069, 2344, 2795]}}
+{'Gyro': {'Temperature': -19513, 'X': -11, 'Y': -44, 'Z': 12}}
+{'time': '2 days, 10:43:58.600000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 525,
+                                      'B': 525,
+                                      'C': 524,
+                                      'D': 524,
+                                      'Structure': 417},
+                     'VisibleLight': [[19036, 12810, 9322, 13983],
+                                      [18955, 12696, 8833, 13518],
+                                      [19879, 12558, 8970, 13533]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [1864, 2385, 2061, 2306, 2795]}}
+{'Gyro': {'Temperature': -19514, 'X': -11, 'Y': -45, 'Z': 12}}
+{'time': '2 days, 10:44:03.500000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 526,
+                                      'B': 525,
+                                      'C': 525,
+                                      'D': 524,
+                                      'Structure': 419},
+                     'VisibleLight': [[19334, 13050, 9985, 14602],
+                                      [19197, 13022, 9418, 14032],
+                                      [20005, 12846, 9578, 14112]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [1824, 2369, 2049, 2273, 2794]}}
+{'Gyro': {'Temperature': -19520, 'X': -11, 'Y': -45, 'Z': 11}}
+{'time': '2 days, 10:44:08.350000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 526,
+                                      'B': 526,
+                                      'C': 525,
+                                      'D': 525,
+                                      'Structure': 422},
+                     'VisibleLight': [[19441, 13315, 10453, 15211],
+                                      [19422, 13375, 9976, 14507],
+                                      [20262, 13090, 10051, 14661]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [1810, 2357, 2052, 2247, 2793]}}
+{'Gyro': {'Temperature': -19509, 'X': -11, 'Y': -46, 'Z': 11}}
+{'time': '2 days, 10:48:12.600000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 542,
+                                      'B': 542,
+                                      'C': 543,
+                                      'D': 541,
+                                      'Structure': 517},
+                     'VisibleLight': [[1207, 5906, 15180, 6665],
+                                      [1408, 5694, 14230, 6615],
+                                      [1437, 5839, 14572, 7075]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2713, 2535, 2713, 2506, 2773]}}
+{'Gyro': {'Temperature': -19270, 'X': -10, 'Y': -44, 'Z': 8}}
+{'time': '2 days, 10:48:17.450000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 542,
+                                      'B': 542,
+                                      'C': 543,
+                                      'D': 541,
+                                      'Structure': 517},
+                     'VisibleLight': [[1073, 5244, 14550, 5849],
+                                      [1208, 4957, 13608, 5766],
+                                      [1193, 5148, 13986, 6081]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2771, 2753, 2764, 2752, 2773]}}
+{'Gyro': {'Temperature': -19265, 'X': -10, 'Y': -44, 'Z': 8}}
+{'time': '2 days, 10:48:22.350000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 541,
+                                      'B': 542,
+                                      'C': 542,
+                                      'D': 541,
+                                      'Structure': 518},
+                     'VisibleLight': [[921, 4654, 13855, 5019],
+                                      [1006, 4149, 12989, 4917],
+                                      [987, 4404, 13267, 4989]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2772, 2756, 2765, 2755, 2773]}}
+{'Gyro': {'Temperature': -19282, 'X': -10, 'Y': -45, 'Z': 8}}
+{'time': '2 days, 10:48:28.500000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 541,
+                                      'B': 542,
+                                      'C': 542,
+                                      'D': 541,
+                                      'Structure': 518},
+                     'VisibleLight': [[717, 3786, 12756, 4029],
+                                      [778, 3299, 12130, 4014],
+                                      [751, 3402, 12495, 3931]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2772, 2758, 2765, 2757, 2773]}}
+{'Gyro': {'Temperature': -19276, 'X': -10, 'Y': -44, 'Z': 8}}
+{'time': '2 days, 10:48:33.350000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 541,
+                                      'B': 542,
+                                      'C': 542,
+                                      'D': 541,
+                                      'Structure': 518},
+                     'VisibleLight': [[541, 3062, 11999, 3184],
+                                      [588, 2587, 11312, 3182],
+                                      [552, 2799, 11661, 3411]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2773, 2759, 2765, 2758, 2773]}}
+{'Gyro': {'Temperature': -19260, 'X': -10, 'Y': -43, 'Z': 8}}
+{'time': '2 days, 10:48:38.200000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 541,
+                                      'B': 542,
+                                      'C': 542,
+                                      'D': 540,
+                                      'Structure': 517},
+                     'VisibleLight': [[399, 2266, 11161, 2377],
+                                      [428, 1972, 10540, 2122],
+                                      [399, 2254, 10717, 2554]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2774, 2760, 2765, 2759, 2773]}}
+{'Gyro': {'Temperature': -19256, 'X': -10, 'Y': -43, 'Z': 9}}
+{'time': '2 days, 10:48:44.350000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 541,
+                                      'B': 541,
+                                      'C': 542,
+                                      'D': 540,
+                                      'Structure': 516},
+                     'VisibleLight': [[280, 1580, 10134, 477],
+                                      [289, 1212, 9291, 300],
+                                      [267, 1207, 9347, 323]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2776, 2762, 2767, 2761, 2774]}}
+{'Gyro': {'Temperature': -19263, 'X': -10, 'Y': -44, 'Z': 8}}
+{'time': '2 days, 10:48:49.250000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 540,
+                                      'B': 541,
+                                      'C': 541,
+                                      'D': 540,
+                                      'Structure': 515},
+                     'VisibleLight': [[184, 1037, 9070, 144],
+                                      [192, 809, 8226, 119],
+                                      [173, 589, 8404, 130]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2776, 2763, 2769, 2762, 2774]}}
+{'Gyro': {'Temperature': -19249, 'X': -10, 'Y': -43, 'Z': 9}}
+{'time': '2 days, 10:48:54.150000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 540,
+                                      'B': 541,
+                                      'C': 541,
+                                      'D': 539,
+                                      'Structure': 514},
+                     'VisibleLight': [[78, 654, 8095, 95],
+                                      [84, 413, 7314, 90],
+                                      [77, 270, 7499, 92]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2777, 2765, 2771, 2763, 2774]}}
+{'Gyro': {'Temperature': -19250, 'X': -10, 'Y': -44, 'Z': 10}}
+{'time': '2 days, 10:49:02.350000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 539,
+                                      'B': 540,
+                                      'C': 541,
+                                      'D': 539,
+                                      'Structure': 512},
+                     'VisibleLight': [[49, 152, 6335, 68],
+                                      [47, 93, 5831, 67],
+                                      [44, 113, 6193, 62]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2781, 2769, 2777, 2765, 2775]}}
+{'Gyro': {'Temperature': -19253, 'X': -10, 'Y': -44, 'Z': 9}}
+{'time': '2 days, 10:53:09.850000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 525,
+                                      'B': 526,
+                                      'C': 526,
+                                      'D': 525,
+                                      'Structure': 432},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2803, 2792, 2800, 2788, 2796]}}
+{'Gyro': {'Temperature': -19020, 'X': -10, 'Y': -43, 'Z': 6}}
+{'time': '2 days, 10:53:14.700000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 525,
+                                      'B': 526,
+                                      'C': 526,
+                                      'D': 524,
+                                      'Structure': 432},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2803, 2792, 2800, 2787, 2795]}}
+{'Gyro': {'Temperature': -19028, 'X': -10, 'Y': -44, 'Z': 6}}
+{'time': '2 days, 10:53:20.250000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 525,
+                                      'B': 526,
+                                      'C': 526,
+                                      'D': 524,
+                                      'Structure': 431},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2803, 2791, 2800, 2787, 2795]}}
+{'Gyro': {'Temperature': -19020, 'X': -10, 'Y': -43, 'Z': 7}}
+{'time': '2 days, 10:53:25.100000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 525,
+                                      'B': 526,
+                                      'C': 525,
+                                      'D': 524,
+                                      'Structure': 431},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2803, 2791, 2800, 2787, 2795]}}
+{'Gyro': {'Temperature': -19030, 'X': -10, 'Y': -43, 'Z': 7}}
+{'time': '2 days, 10:53:29.950000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 525,
+                                      'B': 526,
+                                      'C': 525,
+                                      'D': 524,
+                                      'Structure': 430},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2803, 2792, 2800, 2787, 2795]}}
+{'Gyro': {'Temperature': -19023, 'X': -10, 'Y': -44, 'Z': 8}}
+{'time': '2 days, 10:53:36.050000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 525,
+                                      'B': 525,
+                                      'C': 525,
+                                      'D': 524,
+                                      'Structure': 429},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2803, 2792, 2800, 2787, 2795]}}
+{'Gyro': {'Temperature': -19021, 'X': -10, 'Y': -43, 'Z': 8}}
+{'time': '2 days, 10:53:40.950000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 525,
+                                      'B': 525,
+                                      'C': 525,
+                                      'D': 524,
+                                      'Structure': 429},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2804, 2792, 2800, 2788, 2796]}}
+{'Gyro': {'Temperature': -19021, 'X': -10, 'Y': -43, 'Z': 8}}
+{'time': '2 days, 10:53:45.800000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 525,
+                                      'B': 525,
+                                      'C': 525,
+                                      'D': 524,
+                                      'Structure': 428},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2804, 2792, 2800, 2788, 2796]}}
+{'Gyro': {'Temperature': -19020, 'X': -10, 'Y': -42, 'Z': 8}}
+{'time': '2 days, 10:53:51.300000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 524,
+                                      'B': 525,
+                                      'C': 525,
+                                      'D': 523,
+                                      'Structure': 427},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2804, 2792, 2801, 2788, 2796]}}
+{'Gyro': {'Temperature': -19021, 'X': -10, 'Y': -42, 'Z': 8}}
+{'time': '2 days, 10:53:56.200000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 524,
+                                      'B': 525,
+                                      'C': 524,
+                                      'D': 523,
+                                      'Structure': 426},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2804, 2792, 2801, 2788, 2796]}}
+{'Gyro': {'Temperature': -19025, 'X': -10, 'Y': -42, 'Z': 9}}
+{'time': '2 days, 10:58:00.600000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 517,
+                                      'B': 518,
+                                      'C': 518,
+                                      'D': 517,
+                                      'Structure': 389},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2814, 2802, 2811, 2798, 2806]}}
+{'Gyro': {'Temperature': -19258, 'X': -10, 'Y': -44, 'Z': 10}}
+{'time': '2 days, 10:58:06.750000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 517,
+                                      'B': 518,
+                                      'C': 518,
+                                      'D': 517,
+                                      'Structure': 389},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2814, 2802, 2810, 2797, 2806]}}
+{'Gyro': {'Temperature': -19260, 'X': -10, 'Y': -45, 'Z': 10}}
+{'time': '2 days, 10:58:11.600000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 517,
+                                      'B': 518,
+                                      'C': 517,
+                                      'D': 516,
+                                      'Structure': 389},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2814, 2802, 2811, 2797, 2806]}}
+{'Gyro': {'Temperature': -19284, 'X': -10, 'Y': -46, 'Z': 11}}
+{'time': '2 days, 10:58:16.450000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 517,
+                                      'B': 518,
+                                      'C': 517,
+                                      'D': 516,
+                                      'Structure': 388},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2814, 2802, 2811, 2798, 2806]}}
+{'Gyro': {'Temperature': -19276, 'X': -11, 'Y': -45, 'Z': 10}}
+{'time': '2 days, 10:58:22'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 517,
+                                      'B': 518,
+                                      'C': 517,
+                                      'D': 516,
+                                      'Structure': 388},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2814, 2802, 2811, 2798, 2806]}}
+{'Gyro': {'Temperature': -19281, 'X': -11, 'Y': -46, 'Z': 10}}
+{'time': '2 days, 10:58:26.850000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 517,
+                                      'B': 517,
+                                      'C': 517,
+                                      'D': 516,
+                                      'Structure': 387},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2814, 2802, 2811, 2798, 2806]}}
+{'Gyro': {'Temperature': -19275, 'X': -11, 'Y': -45, 'Z': 11}}
+{'time': '2 days, 10:58:31.700000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 516,
+                                      'B': 517,
+                                      'C': 517,
+                                      'D': 516,
+                                      'Structure': 386},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2815, 2802, 2811, 2798, 2806]}}
+{'Gyro': {'Temperature': -19279, 'X': -11, 'Y': -45, 'Z': 11}}
+{'time': '2 days, 10:58:37.850000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 516,
+                                      'B': 517,
+                                      'C': 517,
+                                      'D': 515,
+                                      'Structure': 386},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2815, 2802, 2811, 2798, 2806]}}
+{'Gyro': {'Temperature': -19279, 'X': -11, 'Y': -45, 'Z': 11}}
+{'time': '2 days, 10:58:42.700000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 516,
+                                      'B': 517,
+                                      'C': 516,
+                                      'D': 515,
+                                      'Structure': 385},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2815, 2803, 2812, 2798, 2807]}}
+{'Gyro': {'Temperature': -19287, 'X': -11, 'Y': -46, 'Z': 11}}
+{'time': '2 days, 10:58:47.550000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 516,
+                                      'B': 517,
+                                      'C': 516,
+                                      'D': 515,
+                                      'Structure': 384},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2815, 2803, 2812, 2799, 2807]}}
+{'Gyro': {'Temperature': -19269, 'X': -11, 'Y': -46, 'Z': 12}}
+{'time': '2 days, 11:02:58'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 509,
+                                      'B': 510,
+                                      'C': 509,
+                                      'D': 508,
+                                      'Structure': 347},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2825, 2812, 2821, 2808, 2816]}}
+{'Gyro': {'Temperature': -20008, 'X': -12, 'Y': -47, 'Z': 13}}
+{'time': '2 days, 11:03:02.900000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 509,
+                                      'B': 510,
+                                      'C': 509,
+                                      'D': 508,
+                                      'Structure': 347},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2824, 2812, 2821, 2807, 2816]}}
+{'Gyro': {'Temperature': -20030, 'X': -14, 'Y': -46, 'Z': 13}}
+{'time': '2 days, 11:03:07.750000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 509,
+                                      'B': 510,
+                                      'C': 509,
+                                      'D': 508,
+                                      'Structure': 348},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2824, 2812, 2821, 2807, 2816]}}
+{'Gyro': {'Temperature': -20021, 'X': -14, 'Y': -46, 'Z': 14}}
+{'time': '2 days, 11:03:14.950000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 509,
+                                      'B': 510,
+                                      'C': 509,
+                                      'D': 508,
+                                      'Structure': 347},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2824, 2811, 2821, 2807, 2816]}}
+{'Gyro': {'Temperature': -20024, 'X': -14, 'Y': -47, 'Z': 15}}
+{'time': '2 days, 11:03:19.850000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 509,
+                                      'B': 510,
+                                      'C': 509,
+                                      'D': 508,
+                                      'Structure': 347},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2824, 2812, 2821, 2808, 2816]}}
+{'Gyro': {'Temperature': -20023, 'X': -14, 'Y': -46, 'Z': 15}}
+{'time': '2 days, 11:03:24.750000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 509,
+                                      'B': 510,
+                                      'C': 509,
+                                      'D': 508,
+                                      'Structure': 347},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2824, 2812, 2821, 2807, 2816]}}
+{'Gyro': {'Temperature': -19973, 'X': -15, 'Y': -47, 'Z': 16}}
+{'time': '2 days, 11:03:30.800000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 509,
+                                      'B': 510,
+                                      'C': 509,
+                                      'D': 508,
+                                      'Structure': 346},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2824, 2812, 2821, 2808, 2816]}}
+{'Gyro': {'Temperature': -20014, 'X': -15, 'Y': -47, 'Z': 15}}
+{'time': '2 days, 11:03:35.700000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 509,
+                                      'B': 509,
+                                      'C': 509,
+                                      'D': 508,
+                                      'Structure': 346},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2825, 2812, 2821, 2808, 2816]}}
+{'Gyro': {'Temperature': -20005, 'X': -14, 'Y': -48, 'Z': 16}}
+{'time': '2 days, 11:03:40.550000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 509,
+                                      'B': 509,
+                                      'C': 509,
+                                      'D': 508,
+                                      'Structure': 346},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2825, 2812, 2821, 2808, 2816]}}
+{'Gyro': {'Temperature': -20038, 'X': -15, 'Y': -47, 'Z': 17}}
+{'time': '2 days, 11:03:46.700000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 509,
+                                      'B': 509,
+                                      'C': 509,
+                                      'D': 508,
+                                      'Structure': 345},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2825, 2812, 2821, 2808, 2816]}}
+{'Gyro': {'Temperature': -20051, 'X': -15, 'Y': -48, 'Z': 17}}
+{'time': '2 days, 11:07:57.400000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 508,
+                                      'B': 509,
+                                      'C': 508,
+                                      'D': 507,
+                                      'Structure': 339},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2827, 2814, 2823, 2810, 2818]}}
+{'Gyro': {'Temperature': -20851, 'X': -19, 'Y': -46, 'Z': 13}}
+{'time': '2 days, 11:08:02.300000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 508,
+                                      'B': 509,
+                                      'C': 508,
+                                      'D': 507,
+                                      'Structure': 339},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2826, 2813, 2822, 2809, 2818]}}
+{'Gyro': {'Temperature': -20863, 'X': -19, 'Y': -46, 'Z': 14}}
+{'time': '2 days, 11:08:07.800000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 508,
+                                      'B': 509,
+                                      'C': 508,
+                                      'D': 507,
+                                      'Structure': 340},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2826, 2813, 2822, 2809, 2818]}}
+{'Gyro': {'Temperature': -20830, 'X': -18, 'Y': -46, 'Z': 13}}
+{'time': '2 days, 11:08:12.650000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 508,
+                                      'B': 509,
+                                      'C': 508,
+                                      'D': 508,
+                                      'Structure': 341},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2826, 2813, 2822, 2809, 2817]}}
+{'Gyro': {'Temperature': -20877, 'X': -18, 'Y': -46, 'Z': 13}}
+{'time': '2 days, 11:08:17.550000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 508,
+                                      'B': 509,
+                                      'C': 509,
+                                      'D': 508,
+                                      'Structure': 341},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2826, 2813, 2822, 2809, 2817]}}
+{'Gyro': {'Temperature': -20902, 'X': -19, 'Y': -45, 'Z': 15}}
+{'time': '2 days, 11:08:23.650000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 508,
+                                      'B': 509,
+                                      'C': 508,
+                                      'D': 508,
+                                      'Structure': 341},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2826, 2813, 2822, 2809, 2817]}}
+{'Gyro': {'Temperature': -20940, 'X': -18, 'Y': -45, 'Z': 14}}
+{'time': '2 days, 11:08:28.550000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 508,
+                                      'B': 509,
+                                      'C': 509,
+                                      'D': 508,
+                                      'Structure': 341},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2826, 2813, 2822, 2809, 2817]}}
+{'Gyro': {'Temperature': -20928, 'X': -19, 'Y': -45, 'Z': 15}}
+{'time': '2 days, 11:08:33.400000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 508,
+                                      'B': 509,
+                                      'C': 508,
+                                      'D': 508,
+                                      'Structure': 341},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2826, 2813, 2822, 2809, 2817]}}
+{'Gyro': {'Temperature': -21038, 'X': -19, 'Y': -44, 'Z': 15}}
+{'time': '2 days, 11:08:38.900000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 508,
+                                      'B': 509,
+                                      'C': 509,
+                                      'D': 508,
+                                      'Structure': 342},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2826, 2813, 2822, 2808, 2817]}}
+{'Gyro': {'Temperature': -21054, 'X': -18, 'Y': -44, 'Z': 16}}
+{'time': '2 days, 11:08:43.800000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 508,
+                                      'B': 509,
+                                      'C': 508,
+                                      'D': 508,
+                                      'Structure': 342},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2825, 2813, 2822, 2809, 2817]}}
+{'Gyro': {'Temperature': -21009, 'X': -18, 'Y': -44, 'Z': 16}}
+{'time': '2 days, 11:12:46.725000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 505,
+                                      'B': 505,
+                                      'C': 505,
+                                      'D': 504,
+                                      'Structure': 324},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2832, 2819, 2828, 2814, 2823]}}
+{'Gyro': {'Temperature': -21673, 'X': -19, 'Y': -47, 'Z': 16}}
+{'time': '2 days, 11:12:52.825000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 505,
+                                      'B': 505,
+                                      'C': 505,
+                                      'D': 504,
+                                      'Structure': 324},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2831, 2818, 2827, 2814, 2822]}}
+{'Gyro': {'Temperature': -21706, 'X': -18, 'Y': -47, 'Z': 16}}
+{'time': '2 days, 11:12:57.675000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 504,
+                                      'B': 505,
+                                      'C': 505,
+                                      'D': 504,
+                                      'Structure': 324},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2831, 2818, 2827, 2814, 2822]}}
+{'Gyro': {'Temperature': -21770, 'X': -18, 'Y': -47, 'Z': 16}}
+{'time': '2 days, 11:13:02.525000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 504,
+                                      'B': 505,
+                                      'C': 505,
+                                      'D': 504,
+                                      'Structure': 324},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2831, 2818, 2828, 2814, 2823]}}
+{'Gyro': {'Temperature': -21746, 'X': -19, 'Y': -47, 'Z': 16}}
+{'time': '2 days, 11:13:08.025000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 504,
+                                      'B': 505,
+                                      'C': 505,
+                                      'D': 504,
+                                      'Structure': 323},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2831, 2818, 2827, 2814, 2822]}}
+{'Gyro': {'Temperature': -21778, 'X': -18, 'Y': -48, 'Z': 17}}
+{'time': '2 days, 11:13:12.875000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 504,
+                                      'B': 505,
+                                      'C': 505,
+                                      'D': 503,
+                                      'Structure': 323},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2831, 2818, 2828, 2814, 2823]}}
+{'Gyro': {'Temperature': -21876, 'X': -18, 'Y': -48, 'Z': 16}}
+{'time': '2 days, 11:13:17.725000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 504,
+                                      'B': 505,
+                                      'C': 504,
+                                      'D': 503,
+                                      'Structure': 323},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2831, 2819, 2828, 2814, 2823]}}
+{'Gyro': {'Temperature': -21891, 'X': -19, 'Y': -48, 'Z': 17}}
+{'time': '2 days, 11:13:23.825000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 504,
+                                      'B': 504,
+                                      'C': 504,
+                                      'D': 503,
+                                      'Structure': 322},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2832, 2819, 2828, 2814, 2823]}}
+{'Gyro': {'Temperature': -21909, 'X': -19, 'Y': -48, 'Z': 17}}
+{'time': '2 days, 11:13:28.675000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 504,
+                                      'B': 504,
+                                      'C': 504,
+                                      'D': 503,
+                                      'Structure': 321},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2832, 2819, 2828, 2814, 2823]}}
+{'Gyro': {'Temperature': -21889, 'X': -18, 'Y': -49, 'Z': 18}}
+{'time': '2 days, 11:13:33.525000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 504,
+                                      'B': 504,
+                                      'C': 504,
+                                      'D': 503,
+                                      'Structure': 321},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2832, 2819, 2828, 2814, 2823]}}
+{'Gyro': {'Temperature': -21892, 'X': -18, 'Y': -48, 'Z': 18}}
+{'time': '2 days, 11:17:42.575000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 498,
+                                      'B': 498,
+                                      'C': 498,
+                                      'D': 497,
+                                      'Structure': 290},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2840, 2828, 2837, 2823, 2832]}}
+{'Gyro': {'Temperature': -22678, 'X': -21, 'Y': -47, 'Z': 18}}
+{'time': '2 days, 11:17:47.375000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 498,
+                                      'B': 498,
+                                      'C': 498,
+                                      'D': 497,
+                                      'Structure': 290},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2840, 2827, 2836, 2822, 2831]}}
+{'Gyro': {'Temperature': -22692, 'X': -21, 'Y': -47, 'Z': 18}}
+{'time': '2 days, 11:17:52.225000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 498,
+                                      'B': 498,
+                                      'C': 498,
+                                      'D': 497,
+                                      'Structure': 290},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2840, 2827, 2836, 2822, 2831]}}
+{'Gyro': {'Temperature': -22693, 'X': -20, 'Y': -48, 'Z': 19}}
+{'time': '2 days, 11:17:59.375000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 497,
+                                      'B': 498,
+                                      'C': 498,
+                                      'D': 497,
+                                      'Structure': 290},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2840, 2827, 2836, 2822, 2831]}}
+{'Gyro': {'Temperature': -22712, 'X': -21, 'Y': -49, 'Z': 20}}
+{'time': '2 days, 11:18:04.225000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 498,
+                                      'B': 498,
+                                      'C': 498,
+                                      'D': 497,
+                                      'Structure': 290},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2840, 2827, 2836, 2822, 2831]}}
+{'Gyro': {'Temperature': -22691, 'X': -21, 'Y': -48, 'Z': 21}}
+{'time': '2 days, 11:18:09.075000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 497,
+                                      'B': 498,
+                                      'C': 498,
+                                      'D': 497,
+                                      'Structure': 289},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2840, 2827, 2836, 2822, 2831]}}
+{'Gyro': {'Temperature': -22703, 'X': -22, 'Y': -49, 'Z': 21}}
+{'time': '2 days, 11:18:18.025000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 497,
+                                      'B': 498,
+                                      'C': 497,
+                                      'D': 497,
+                                      'Structure': 289},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2840, 2827, 2836, 2823, 2831]}}
+{'Gyro': {'Temperature': -22682, 'X': -22, 'Y': -50, 'Z': 22}}
+{'time': '2 days, 11:18:22.875000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 497,
+                                      'B': 498,
+                                      'C': 497,
+                                      'D': 496,
+                                      'Structure': 289},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2840, 2827, 2837, 2823, 2831]}}
+{'Gyro': {'Temperature': -22690, 'X': -21, 'Y': -49, 'Z': 21}}
+{'time': '2 days, 11:18:27.675000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 497,
+                                      'B': 498,
+                                      'C': 497,
+                                      'D': 496,
+                                      'Structure': 288},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2840, 2827, 2836, 2823, 2831]}}
+{'Gyro': {'Temperature': -22715, 'X': -23, 'Y': -49, 'Z': 22}}
+{'time': '2 days, 11:18:33.825000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 497,
+                                      'B': 498,
+                                      'C': 497,
+                                      'D': 496,
+                                      'Structure': 288},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2840, 2827, 2837, 2823, 2832]}}
+{'Gyro': {'Temperature': -22724, 'X': -22, 'Y': -51, 'Z': 22}}
+{'time': '2 days, 11:22:39.025000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 494,
+                                      'B': 494,
+                                      'C': 494,
+                                      'D': 493,
+                                      'Structure': 269},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2846, 2833, 2842, 2828, 2837]}}
+{'Gyro': {'Temperature': -23391, 'X': -26, 'Y': -52, 'Z': 23}}
+{'time': '2 days, 11:22:43.875000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 494,
+                                      'B': 494,
+                                      'C': 494,
+                                      'D': 493,
+                                      'Structure': 270},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2845, 2832, 2841, 2827, 2836]}}
+{'Gyro': {'Temperature': -23486, 'X': -25, 'Y': -51, 'Z': 23}}
+{'time': '2 days, 11:22:49.325000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 494,
+                                      'B': 494,
+                                      'C': 494,
+                                      'D': 493,
+                                      'Structure': 270},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2845, 2832, 2842, 2828, 2836]}}
+{'Gyro': {'Temperature': -23478, 'X': -25, 'Y': -51, 'Z': 24}}
+{'time': '2 days, 11:22:54.175000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 494,
+                                      'B': 494,
+                                      'C': 494,
+                                      'D': 493,
+                                      'Structure': 270},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2845, 2832, 2841, 2827, 2836]}}
+{'Gyro': {'Temperature': -23498, 'X': -25, 'Y': -50, 'Z': 24}}
+{'time': '2 days, 11:22:59.025000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 494,
+                                      'B': 494,
+                                      'C': 494,
+                                      'D': 493,
+                                      'Structure': 270},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2845, 2832, 2841, 2827, 2836]}}
+{'Gyro': {'Temperature': -23509, 'X': -25, 'Y': -50, 'Z': 23}}
+{'time': '2 days, 11:23:05.125000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 494,
+                                      'B': 494,
+                                      'C': 494,
+                                      'D': 493,
+                                      'Structure': 270},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2845, 2832, 2842, 2827, 2836]}}
+{'Gyro': {'Temperature': -23501, 'X': -25, 'Y': -50, 'Z': 23}}
+{'time': '2 days, 11:23:09.975000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 494,
+                                      'B': 494,
+                                      'C': 494,
+                                      'D': 493,
+                                      'Structure': 270},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2845, 2832, 2841, 2828, 2836]}}
+{'Gyro': {'Temperature': -23498, 'X': -24, 'Y': -51, 'Z': 23}}
+{'time': '2 days, 11:23:14.825000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 494,
+                                      'B': 494,
+                                      'C': 494,
+                                      'D': 493,
+                                      'Structure': 270},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2845, 2832, 2841, 2828, 2836]}}
+{'Gyro': {'Temperature': -23497, 'X': -24, 'Y': -50, 'Z': 22}}
+{'time': '2 days, 11:23:20.275000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 494,
+                                      'B': 494,
+                                      'C': 494,
+                                      'D': 493,
+                                      'Structure': 270},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2845, 2832, 2841, 2828, 2836]}}
+{'Gyro': {'Temperature': -23510, 'X': -26, 'Y': -50, 'Z': 23}}
+{'time': '2 days, 11:23:25.125000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 494,
+                                      'B': 494,
+                                      'C': 494,
+                                      'D': 493,
+                                      'Structure': 270},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2845, 2832, 2842, 2827, 2836]}}
+{'Gyro': {'Temperature': -23599, 'X': -25, 'Y': -49, 'Z': 22}}
+{'time': '2 days, 11:27:30.200000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 491,
+                                      'B': 492,
+                                      'C': 492,
+                                      'D': 491,
+                                      'Structure': 255},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2849, 2836, 2845, 2832, 2840]}}
+{'Gyro': {'Temperature': -24231, 'X': -26, 'Y': -53, 'Z': 25}}
+{'time': '2 days, 11:27:40.450000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 491,
+                                      'B': 492,
+                                      'C': 492,
+                                      'D': 491,
+                                      'Structure': 256},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2848, 2835, 2845, 2831, 2840]}}
+{'Gyro': {'Temperature': -24217, 'X': -27, 'Y': -54, 'Z': 23}}
+{'time': '2 days, 11:27:45.250000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 491,
+                                      'B': 492,
+                                      'C': 492,
+                                      'D': 491,
+                                      'Structure': 256},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2848, 2835, 2845, 2831, 2840]}}
+{'Gyro': {'Temperature': -24208, 'X': -27, 'Y': -54, 'Z': 24}}
+{'time': '2 days, 11:27:50.100000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 491,
+                                      'B': 492,
+                                      'C': 491,
+                                      'D': 490,
+                                      'Structure': 256},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2848, 2835, 2845, 2831, 2840]}}
+{'Gyro': {'Temperature': -24161, 'X': -28, 'Y': -53, 'Z': 22}}
+{'time': '2 days, 11:27:55.550000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 491,
+                                      'B': 492,
+                                      'C': 491,
+                                      'D': 490,
+                                      'Structure': 256},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2848, 2835, 2845, 2831, 2840]}}
+{'Gyro': {'Temperature': -24200, 'X': -27, 'Y': -53, 'Z': 21}}
+{'time': '2 days, 11:28:00.350000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 491,
+                                      'B': 492,
+                                      'C': 491,
+                                      'D': 490,
+                                      'Structure': 256},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2848, 2835, 2844, 2831, 2840]}}
+{'Gyro': {'Temperature': -24231, 'X': -26, 'Y': -53, 'Z': 21}}
+{'time': '2 days, 11:28:05.200000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 491,
+                                      'B': 492,
+                                      'C': 491,
+                                      'D': 490,
+                                      'Structure': 256},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2848, 2835, 2845, 2831, 2839]}}
+{'Gyro': {'Temperature': -24206, 'X': -26, 'Y': -53, 'Z': 20}}
+{'time': '2 days, 11:28:11.850000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 491,
+                                      'B': 492,
+                                      'C': 491,
+                                      'D': 490,
+                                      'Structure': 256},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2848, 2835, 2845, 2831, 2839]}}
+{'Gyro': {'Temperature': -24219, 'X': -27, 'Y': -53, 'Z': 18}}
+{'time': '2 days, 11:28:16.650000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 491,
+                                      'B': 492,
+                                      'C': 491,
+                                      'D': 490,
+                                      'Structure': 256},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2848, 2835, 2845, 2831, 2840]}}
+{'Gyro': {'Temperature': -24201, 'X': -26, 'Y': -53, 'Z': 19}}
+{'time': '2 days, 11:28:21.500000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 491,
+                                      'B': 492,
+                                      'C': 491,
+                                      'D': 490,
+                                      'Structure': 256},
+                     'VisibleLight': [[0, 0, 0, 0],
+                                      [0, 0, 0, 0],
+                                      [0, 0, 0, 0]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2848, 2835, 2845, 2831, 2840]}}
+{'Gyro': {'Temperature': -24239, 'X': -26, 'Y': -52, 'Z': 17}}
+{'time': '2 days, 11:32:26.350000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 507,
+                                      'B': 507,
+                                      'C': 506,
+                                      'D': 506,
+                                      'Structure': 317},
+                     'VisibleLight': [[18092, 14863, 15311, 18155],
+                                      [18222, 15052, 15063, 17723],
+                                      [18271, 14814, 15446, 17559]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [1851, 2276, 2166, 2028, 2820]}}
+{'Gyro': {'Temperature': -24520, 'X': -27, 'Y': -54, 'Z': 22}}
+{'time': '2 days, 11:32:31.150000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 508,
+                                      'B': 507,
+                                      'C': 507,
+                                      'D': 507,
+                                      'Structure': 320},
+                     'VisibleLight': [[17991, 14894, 15723, 18439],
+                                      [18151, 15003, 15334, 17883],
+                                      [18136, 14849, 15778, 17808]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [1857, 2269, 2174, 2009, 2819]}}
+{'Gyro': {'Temperature': -24538, 'X': -28, 'Y': -54, 'Z': 22}}
+{'time': '2 days, 11:32:36'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 508,
+                                      'B': 508,
+                                      'C': 508,
+                                      'D': 507,
+                                      'Structure': 324},
+                     'VisibleLight': [[17829, 14850, 16124, 18708],
+                                      [18021, 15019, 15640, 18061],
+                                      [17955, 14859, 16122, 17923]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [1862, 2261, 2181, 1991, 2817]}}
+{'Gyro': {'Temperature': -24518, 'X': -29, 'Y': -54, 'Z': 20}}
+{'time': '2 days, 11:32:42.750000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 509,
+                                      'B': 509,
+                                      'C': 509,
+                                      'D': 508,
+                                      'Structure': 328},
+                     'VisibleLight': [[17687, 14938, 16727, 18812],
+                                      [17766, 15088, 15932, 18327],
+                                      [17792, 15118, 16543, 18183]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [1871, 2248, 2190, 1966, 2816]}}
+{'Gyro': {'Temperature': -24535, 'X': -28, 'Y': -55, 'Z': 20}}
+{'time': '2 days, 11:32:47.600000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 510,
+                                      'B': 509,
+                                      'C': 509,
+                                      'D': 509,
+                                      'Structure': 331},
+                     'VisibleLight': [[17611, 15087, 17011, 18844],
+                                      [17742, 15146, 16206, 18464],
+                                      [17807, 15287, 16863, 18364]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [1877, 2237, 2194, 1948, 2816]}}
+{'Gyro': {'Temperature': -24559, 'X': -28, 'Y': -55, 'Z': 21}}
+{'time': '2 days, 11:32:52.400000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 510,
+                                      'B': 510,
+                                      'C': 510,
+                                      'D': 509,
+                                      'Structure': 335},
+                     'VisibleLight': [[17656, 15278, 17316, 18972],
+                                      [17527, 15202, 16357, 18545],
+                                      [17636, 15412, 17152, 18521]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [1885, 2225, 2198, 1931, 2814]}}
+{'Gyro': {'Temperature': -24557, 'X': -28, 'Y': -54, 'Z': 19}}
+{'time': '2 days, 11:32:57.850000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 511,
+                                      'B': 511,
+                                      'C': 511,
+                                      'D': 510,
+                                      'Structure': 338},
+                     'VisibleLight': [[17525, 15405, 17726, 19156],
+                                      [17306, 15215, 16627, 18600],
+                                      [17548, 15522, 17312, 18641]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [1894, 2211, 2201, 1912, 2814]}}
+{'Gyro': {'Temperature': -24538, 'X': -28, 'Y': -56, 'Z': 20}}
+{'time': '2 days, 11:33:02.700000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 511,
+                                      'B': 511,
+                                      'C': 511,
+                                      'D': 511,
+                                      'Structure': 341},
+                     'VisibleLight': [[17497, 15499, 17855, 19201],
+                                      [17158, 15246, 16835, 18660],
+                                      [17457, 15682, 17423, 18719]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [1904, 2198, 2203, 1895, 2813]}}
+{'Gyro': {'Temperature': -24541, 'X': -28, 'Y': -56, 'Z': 19}}
+{'time': '2 days, 11:33:07.500000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 512,
+                                      'B': 511,
+                                      'C': 512,
+                                      'D': 511,
+                                      'Structure': 344},
+                     'VisibleLight': [[17376, 15572, 18056, 19239],
+                                      [17155, 15380, 17089, 18747],
+                                      [17430, 15740, 17646, 18726]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [1913, 2183, 2204, 1881, 2812]}}
+{'Gyro': {'Temperature': -24570, 'X': -28, 'Y': -56, 'Z': 19}}
+{'time': '2 days, 11:33:14.450000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 513,
+                                      'B': 512,
+                                      'C': 513,
+                                      'D': 512,
+                                      'Structure': 349},
+                     'VisibleLight': [[17106, 15731, 18373, 19144],
+                                      [17062, 15532, 17567, 18794],
+                                      [17408, 15899, 18202, 18712]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [1928, 2160, 2205, 1859, 2811]}}
+{'Gyro': {'Temperature': -24592, 'X': -28, 'Y': -56, 'Z': 19}}
+{'time': '2 days, 11:37:20.450000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 521,
+                                      'B': 522,
+                                      'C': 523,
+                                      'D': 521,
+                                      'Structure': 407},
+                     'VisibleLight': [[175, 1724, 6465, 528],
+                                      [178, 1696, 5978, 526],
+                                      [168, 1766, 6337, 526]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2808, 2797, 2804, 2793, 2803]}}
+{'Gyro': {'Temperature': -24539, 'X': -27, 'Y': -53, 'Z': 19}}
+{'time': '2 days, 11:37:25.250000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 521,
+                                      'B': 522,
+                                      'C': 522,
+                                      'D': 520,
+                                      'Structure': 406},
+                     'VisibleLight': [[172, 1338, 5507, 486],
+                                      [175, 1077, 5223, 478],
+                                      [165, 1197, 5380, 478]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2808, 2798, 2805, 2792, 2803]}}
+{'Gyro': {'Temperature': -24636, 'X': -27, 'Y': -53, 'Z': 19}}
+{'time': '2 days, 11:37:30.700000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 521,
+                                      'B': 522,
+                                      'C': 522,
+                                      'D': 520,
+                                      'Structure': 405},
+                     'VisibleLight': [[168, 810, 5789, 473],
+                                      [170, 676, 5289, 462],
+                                      [152, 697, 1268, 461]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2810, 2799, 2807, 2793, 2803]}}
+{'Gyro': {'Temperature': -24517, 'X': -26, 'Y': -52, 'Z': 20}}
+{'time': '2 days, 11:37:35.500000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 520,
+                                      'B': 521,
+                                      'C': 521,
+                                      'D': 519,
+                                      'Structure': 404},
+                     'VisibleLight': [[147, 81, 331, 468],
+                                      [153, 77, 316, 460],
+                                      [145, 77, 320, 463]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2810, 2799, 2808, 2793, 2804]}}
+{'Gyro': {'Temperature': -24552, 'X': -27, 'Y': -52, 'Z': 20}}
+{'time': '2 days, 11:37:40.300000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 520,
+                                      'B': 521,
+                                      'C': 521,
+                                      'D': 519,
+                                      'Structure': 403},
+                     'VisibleLight': [[150, 69, 324, 473],
+                                      [155, 66, 310, 464],
+                                      [147, 66, 313, 467]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2811, 2799, 2808, 2794, 2804]}}
+{'Gyro': {'Temperature': -24534, 'X': -25, 'Y': -52, 'Z': 20}}
+{'time': '2 days, 11:37:46.350000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 520,
+                                      'B': 520,
+                                      'C': 520,
+                                      'D': 519,
+                                      'Structure': 401},
+                     'VisibleLight': [[153, 69, 317, 478],
+                                      [159, 66, 303, 470],
+                                      [150, 66, 306, 473]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2811, 2800, 2809, 2794, 2805]}}
+{'Gyro': {'Temperature': -24521, 'X': -28, 'Y': -52, 'Z': 19}}
+{'time': '2 days, 11:37:51.200000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 519,
+                                      'B': 520,
+                                      'C': 520,
+                                      'D': 518,
+                                      'Structure': 399},
+                     'VisibleLight': [[156, 69, 311, 483],
+                                      [162, 66, 298, 475],
+                                      [153, 66, 300, 478]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2812, 2800, 2809, 2795, 2805]}}
+{'Gyro': {'Temperature': -24525, 'X': -28, 'Y': -52, 'Z': 20}}
+{'time': '2 days, 11:37:56'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 519,
+                                      'B': 519,
+                                      'C': 519,
+                                      'D': 518,
+                                      'Structure': 397},
+                     'VisibleLight': [[159, 68, 305, 487],
+                                      [165, 65, 292, 479],
+                                      [156, 65, 294, 482]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2812, 2801, 2810, 2795, 2805]}}
+{'Gyro': {'Temperature': -24516, 'X': -27, 'Y': -52, 'Z': 20}}
+{'time': '2 days, 11:38:01.450000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 518,
+                                      'B': 519,
+                                      'C': 519,
+                                      'D': 517,
+                                      'Structure': 396},
+                     'VisibleLight': [[162, 67, 298, 490],
+                                      [167, 64, 285, 482],
+                                      [158, 64, 287, 485]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2813, 2802, 2810, 2796, 2806]}}
+{'Gyro': {'Temperature': -24520, 'X': -28, 'Y': -52, 'Z': 20}}
+{'time': '2 days, 11:38:06.250000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 518,
+                                      'B': 519,
+                                      'C': 518,
+                                      'D': 517,
+                                      'Structure': 394},
+                     'VisibleLight': [[163, 66, 290, 491],
+                                      [169, 63, 278, 484],
+                                      [160, 63, 280, 486]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2813, 2802, 2811, 2797, 2807]}}
+{'Gyro': {'Temperature': -24492, 'X': -27, 'Y': -51, 'Z': 21}}
+{'time': '2 days, 11:42:32.650000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 507,
+                                      'B': 508,
+                                      'C': 507,
+                                      'D': 506,
+                                      'Structure': 331},
+                     'VisibleLight': [[506, 6447, 589, 117],
+                                      [407, 6646, 629, 130],
+                                      [224, 6636, 218, 133]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2828, 2816, 2825, 2812, 2821]}}
+{'Gyro': {'Temperature': -24244, 'X': -26, 'Y': -52, 'Z': 17}}
+{'time': '2 days, 11:42:38.700000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 506,
+                                      'B': 508,
+                                      'C': 507,
+                                      'D': 505,
+                                      'Structure': 331},
+                     'VisibleLight': [[262, 6132, 365, 102],
+                                      [316, 6289, 314, 109],
+                                      [191, 6348, 152, 111]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2828, 2815, 2825, 2811, 2820]}}
+{'Gyro': {'Temperature': -24226, 'X': -25, 'Y': -52, 'Z': 17}}
+{'time': '2 days, 11:42:43.550000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 507,
+                                      'B': 508,
+                                      'C': 507,
+                                      'D': 505,
+                                      'Structure': 331},
+                     'VisibleLight': [[229, 5999, 224, 104],
+                                      [164, 6075, 140, 108],
+                                      [172, 6186, 111, 110]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2828, 2815, 2824, 2811, 2820]}}
+{'Gyro': {'Temperature': -24240, 'X': -25, 'Y': -52, 'Z': 17}}
+{'time': '2 days, 11:42:48.350000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 506,
+                                      'B': 508,
+                                      'C': 507,
+                                      'D': 505,
+                                      'Structure': 331},
+                     'VisibleLight': [[204, 5769, 132, 110],
+                                      [128, 5962, 67, 114],
+                                      [160, 5991, 82, 114]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2828, 2815, 2824, 2811, 2820]}}
+{'Gyro': {'Temperature': -24280, 'X': -25, 'Y': -52, 'Z': 17}}
+{'time': '2 days, 11:42:54.400000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 506,
+                                      'B': 508,
+                                      'C': 507,
+                                      'D': 505,
+                                      'Structure': 331},
+                     'VisibleLight': [[161, 5670, 53, 122],
+                                      [123, 5873, 41, 124],
+                                      [153, 5654, 57, 123]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2828, 2815, 2825, 2811, 2820]}}
+{'Gyro': {'Temperature': -24271, 'X': -25, 'Y': -51, 'Z': 17}}
+{'time': '2 days, 11:42:59.200000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 506,
+                                      'B': 508,
+                                      'C': 506,
+                                      'D': 505,
+                                      'Structure': 331},
+                     'VisibleLight': [[135, 6612, 34, 134],
+                                      [123, 6555, 27, 136],
+                                      [148, 6074, 43, 134]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2829, 2816, 2825, 2811, 2821]}}
+{'Gyro': {'Temperature': -24208, 'X': -25, 'Y': -51, 'Z': 17}}
+{'time': '2 days, 11:43:04.050000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 506,
+                                      'B': 507,
+                                      'C': 506,
+                                      'D': 505,
+                                      'Structure': 330},
+                     'VisibleLight': [[127, 5011, 22, 144],
+                                      [125, 5148, 19, 149],
+                                      [141, 5277, 31, 145]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2829, 2816, 2826, 2812, 2821]}}
+{'Gyro': {'Temperature': -24243, 'X': -26, 'Y': -50, 'Z': 17}}
+{'time': '2 days, 11:43:16.500000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 506,
+                                      'B': 507,
+                                      'C': 506,
+                                      'D': 505,
+                                      'Structure': 329},
+                     'VisibleLight': [[132, 3961, 16, 152],
+                                      [134, 3971, 16, 151],
+                                      [147, 3881, 21, 150]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2830, 2817, 2826, 2813, 2821]}}
+{'Gyro': {'Temperature': -24199, 'X': -25, 'Y': -50, 'Z': 18}}
+{'time': '2 days, 11:43:21.300000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 506,
+                                      'B': 507,
+                                      'C': 506,
+                                      'D': 505,
+                                      'Structure': 329},
+                     'VisibleLight': [[143, 3711, 19, 157],
+                                      [146, 3661, 19, 157],
+                                      [157, 3611, 23, 154]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2830, 2817, 2826, 2812, 2821]}}
+{'Gyro': {'Temperature': -24221, 'X': -26, 'Y': -50, 'Z': 17}}
+{'time': '2 days, 11:43:26.150000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 505,
+                                      'B': 507,
+                                      'C': 506,
+                                      'D': 504,
+                                      'Structure': 328},
+                     'VisibleLight': [[156, 3572, 23, 168],
+                                      [159, 3502, 23, 167],
+                                      [169, 3480, 25, 165]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2830, 2817, 2826, 2812, 2821]}}
+{'Gyro': {'Temperature': -24202, 'X': -25, 'Y': -49, 'Z': 18}}
+{'time': '2 days, 11:47:36.900000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 507,
+                                      'B': 508,
+                                      'C': 507,
+                                      'D': 506,
+                                      'Structure': 331},
+                     'VisibleLight': [[1512, 1327, 1144, 1303],
+                                      [1495, 1314, 1089, 1277],
+                                      [1538, 1322, 1133, 1291]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2765, 2760, 2759, 2754, 2820]}}
+{'Gyro': {'Temperature': -23961, 'X': -23, 'Y': -50, 'Z': 18}}
+{'time': '2 days, 11:47:41.750000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 507,
+                                      'B': 508,
+                                      'C': 507,
+                                      'D': 506,
+                                      'Structure': 332},
+                     'VisibleLight': [[1543, 1371, 1194, 1340],
+                                      [1524, 1356, 1137, 1313],
+                                      [1569, 1366, 1183, 1328]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2762, 2757, 2757, 2751, 2819]}}
+{'Gyro': {'Temperature': -23941, 'X': -23, 'Y': -51, 'Z': 17}}
+{'time': '2 days, 11:47:46.550000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 507,
+                                      'B': 508,
+                                      'C': 507,
+                                      'D': 506,
+                                      'Structure': 332},
+                     'VisibleLight': [[1573, 1415, 1245, 1376],
+                                      [1554, 1399, 1185, 1349],
+                                      [1600, 1411, 1233, 1365]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2760, 2754, 2755, 2748, 2819]}}
+{'Gyro': {'Temperature': -23877, 'X': -23, 'Y': -51, 'Z': 17}}
+{'time': '2 days, 11:47:52.600000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 507,
+                                      'B': 508,
+                                      'C': 507,
+                                      'D': 506,
+                                      'Structure': 333},
+                     'VisibleLight': [[1611, 1470, 1310, 1422],
+                                      [1590, 1452, 1246, 1395],
+                                      [1638, 1467, 1297, 1412]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2758, 2750, 2752, 2745, 2819]}}
+{'Gyro': {'Temperature': -23899, 'X': -21, 'Y': -50, 'Z': 17}}
+{'time': '2 days, 11:47:57.450000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 507,
+                                      'B': 508,
+                                      'C': 508,
+                                      'D': 506,
+                                      'Structure': 334},
+                     'VisibleLight': [[1640, 1514, 1364, 1459],
+                                      [1619, 1495, 1297, 1431],
+                                      [1668, 1512, 1349, 1450]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2756, 2748, 2750, 2742, 2818]}}
+{'Gyro': {'Temperature': -23907, 'X': -23, 'Y': -50, 'Z': 18}}
+{'time': '2 days, 11:48:02.250000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 507,
+                                      'B': 508,
+                                      'C': 507,
+                                      'D': 506,
+                                      'Structure': 334},
+                     'VisibleLight': [[1669, 1558, 1419, 1496],
+                                      [1648, 1537, 1348, 1467],
+                                      [1698, 1556, 1402, 1488]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2754, 2745, 2747, 2739, 2818]}}
+{'Gyro': {'Temperature': -23950, 'X': -22, 'Y': -50, 'Z': 18}}
+{'time': '2 days, 11:48:07.750000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 507,
+                                      'B': 508,
+                                      'C': 508,
+                                      'D': 507,
+                                      'Structure': 334},
+                     'VisibleLight': [[1702, 1608, 1482, 1539],
+                                      [1680, 1586, 1408, 1509],
+                                      [1733, 1607, 1465, 1532]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2751, 2741, 2745, 2736, 2818]}}
+{'Gyro': {'Temperature': -23920, 'X': -23, 'Y': -50, 'Z': 17}}
+{'time': '2 days, 11:48:12.550000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 508,
+                                      'B': 508,
+                                      'C': 508,
+                                      'D': 507,
+                                      'Structure': 335},
+                     'VisibleLight': [[1733, 1652, 1540, 1579],
+                                      [1710, 1629, 1462, 1548],
+                                      [1764, 1652, 1521, 1573]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2749, 2738, 2743, 2733, 2818]}}
+{'Gyro': {'Temperature': -23854, 'X': -22, 'Y': -52, 'Z': 18}}
+{'time': '2 days, 11:48:17.400000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 508,
+                                      'B': 508,
+                                      'C': 508,
+                                      'D': 507,
+                                      'Structure': 335},
+                     'VisibleLight': [[1764, 1697, 1599, 1619],
+                                      [1742, 1672, 1517, 1588],
+                                      [1796, 1698, 1580, 1614]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2747, 2736, 2741, 2730, 2818]}}
+{'Gyro': {'Temperature': -23866, 'X': -23, 'Y': -52, 'Z': 17}}
+{'time': '2 days, 11:48:23.450000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 508,
+                                      'B': 508,
+                                      'C': 508,
+                                      'D': 507,
+                                      'Structure': 336},
+                     'VisibleLight': [[1803, 1754, 1676, 1673],
+                                      [1781, 1727, 1590, 1641],
+                                      [1836, 1755, 1656, 1669]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2745, 2732, 2739, 2727, 2818]}}
+{'Gyro': {'Temperature': -23868, 'X': -23, 'Y': -50, 'Z': 18}}
+{'time': '2 days, 11:52:32.950000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 511,
+                                      'B': 511,
+                                      'C': 510,
+                                      'D': 509,
+                                      'Structure': 347},
+                     'VisibleLight': [[8567, 4825, 1603, 1351],
+                                      [8343, 4646, 1496, 1401],
+                                      [8714, 4326, 1534, 1442]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2793, 2762, 2793, 2756, 2815]}}
+{'Gyro': {'Temperature': -23364, 'X': -24, 'Y': -54, 'Z': 15}}
+{'time': '2 days, 11:52:37.750000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 511,
+                                      'B': 511,
+                                      'C': 510,
+                                      'D': 509,
+                                      'Structure': 348},
+                     'VisibleLight': [[8995, 4953, 1606, 1398],
+                                      [8802, 4798, 1494, 1567],
+                                      [9255, 4471, 1530, 1556]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2794, 2762, 2793, 2757, 2815]}}
+{'Gyro': {'Temperature': -23355, 'X': -23, 'Y': -54, 'Z': 15}}
+{'time': '2 days, 11:52:43.200000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 511,
+                                      'B': 511,
+                                      'C': 511,
+                                      'D': 509,
+                                      'Structure': 349},
+                     'VisibleLight': [[9513, 5075, 1623, 1602],
+                                      [9305, 5007, 1509, 1876],
+                                      [9888, 4637, 1540, 1803]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2796, 2762, 2793, 2758, 2814]}}
+{'Gyro': {'Temperature': -23307, 'X': -23, 'Y': -54, 'Z': 16}}
+{'time': '2 days, 11:52:48.850000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 511,
+                                      'B': 512,
+                                      'C': 511,
+                                      'D': 509,
+                                      'Structure': 350},
+                     'VisibleLight': [[10116, 5241, 1664, 2114],
+                                      [9774, 5258, 1548, 2090],
+                                      [10447, 4979, 1576, 2155]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2797, 2763, 2794, 2760, 2814]}}
+{'Gyro': {'Temperature': -23353, 'X': -24, 'Y': -55, 'Z': 15}}
+{'time': '2 days, 11:52:53.650000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 512,
+                                      'B': 512,
+                                      'C': 511,
+                                      'D': 510,
+                                      'Structure': 351},
+                     'VisibleLight': [[10633, 5475, 1717, 2552],
+                                      [10176, 5550, 1602, 2340],
+                                      [10885, 5337, 1627, 2351]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2798, 2765, 2795, 2762, 2814]}}
+{'Gyro': {'Temperature': -23311, 'X': -23, 'Y': -54, 'Z': 16}}
+{'time': '2 days, 11:52:59.750000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 512,
+                                      'B': 512,
+                                      'C': 511,
+                                      'D': 510,
+                                      'Structure': 352},
+                     'VisibleLight': [[11243, 5839, 1815, 2951],
+                                      [10651, 5886, 1691, 3024],
+                                      [11397, 5750, 1720, 3090]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2800, 2769, 2796, 2766, 2813]}}
+{'Gyro': {'Temperature': -23258, 'X': -23, 'Y': -54, 'Z': 16}}
+{'time': '2 days, 11:53:04.550000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 512,
+                                      'B': 512,
+                                      'C': 511,
+                                      'D': 510,
+                                      'Structure': 353},
+                     'VisibleLight': [[11635, 6124, 1883, 3482],
+                                      [11093, 6191, 1752, 3511],
+                                      [11647, 6075, 1805, 3514]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2801, 2770, 2796, 2768, 2813]}}
+{'Gyro': {'Temperature': -23279, 'X': -23, 'Y': -54, 'Z': 15}}
+{'time': '2 days, 11:53:09.400000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 512,
+                                      'B': 512,
+                                      'C': 511,
+                                      'D': 510,
+                                      'Structure': 354},
+                     'VisibleLight': [[12141, 6436, 1937, 4038],
+                                      [11638, 6482, 1798, 4132],
+                                      [12054, 6393, 1862, 4075]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2801, 2772, 2796, 2770, 2813]}}
+{'Gyro': {'Temperature': -23241, 'X': -24, 'Y': -54, 'Z': 15}}
+{'time': '2 days, 11:53:14.850000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 513,
+                                      'B': 512,
+                                      'C': 511,
+                                      'D': 511,
+                                      'Structure': 355},
+                     'VisibleLight': [[12490, 6847, 1991, 4715],
+                                      [12189, 6849, 1846, 4805],
+                                      [12584, 6770, 1922, 4681]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2695, 2731, 2678, 2731, 2812]}}
+{'Gyro': {'Temperature': -23213, 'X': -23, 'Y': -54, 'Z': 14}}
+{'time': '2 days, 11:53:19.700000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 513,
+                                      'B': 513,
+                                      'C': 512,
+                                      'D': 511,
+                                      'Structure': 356},
+                     'VisibleLight': [[12810, 7234, 2055, 5378],
+                                      [12732, 7142, 1900, 5433],
+                                      [13099, 7119, 1981, 5309]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2354, 2645, 2327, 2649, 2812]}}
+{'Gyro': {'Temperature': -23222, 'X': -23, 'Y': -53, 'Z': 15}}
+{'time': '2 days, 11:57:28.500000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 527,
+                                      'B': 527,
+                                      'C': 528,
+                                      'D': 527,
+                                      'Structure': 433},
+                     'VisibleLight': [[1187, 1398, 7494, 10669],
+                                      [1644, 1313, 7301, 10322],
+                                      [1518, 1294, 7342, 10644]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2780, 2755, 2760, 2767, 2795]}}
+{'Gyro': {'Temperature': -22877, 'X': -21, 'Y': -50, 'Z': 18}}
+{'time': '2 days, 11:57:35.150000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 527,
+                                      'B': 527,
+                                      'C': 527,
+                                      'D': 527,
+                                      'Structure': 434},
+                     'VisibleLight': [[1036, 1300, 7089, 10003],
+                                      [1142, 1237, 6930, 9765],
+                                      [1133, 1217, 6918, 10050]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2779, 2753, 2757, 2765, 2794]}}
+{'Gyro': {'Temperature': -22862, 'X': -22, 'Y': -50, 'Z': 18}}
+{'time': '2 days, 11:58:05.800000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 527,
+                                      'B': 527,
+                                      'C': 527,
+                                      'D': 527,
+                                      'Structure': 434},
+                     'VisibleLight': [[966, 1252, 6794, 9520],
+                                      [999, 1199, 6794, 9328],
+                                      [1039, 1174, 6671, 9605]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2778, 2751, 2755, 2764, 2794]}}
+{'Gyro': {'Temperature': -22794, 'X': -21, 'Y': -50, 'Z': 17}}
+{'time': '2 days, 11:58:10.650000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 527,
+                                      'B': 527,
+                                      'C': 528,
+                                      'D': 527,
+                                      'Structure': 434},
+                     'VisibleLight': [[910, 1213, 6539, 8994],
+                                      [931, 1167, 6586, 8827],
+                                      [971, 1136, 6458, 9140]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2777, 2750, 2752, 2763, 2794]}}
+{'Gyro': {'Temperature': -22825, 'X': -21, 'Y': -50, 'Z': 16}}
+{'time': '2 days, 11:58:16.100000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 526,
+                                      'B': 527,
+                                      'C': 527,
+                                      'D': 526,
+                                      'Structure': 435},
+                     'VisibleLight': [[868, 1179, 6261, 8433],
+                                      [883, 1135, 6218, 8259],
+                                      [920, 1092, 6169, 8587]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2776, 2749, 2751, 2762, 2794]}}
+{'Gyro': {'Temperature': -22753, 'X': -22, 'Y': -51, 'Z': 17}}
+{'time': '2 days, 11:58:20.950000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 526,
+                                      'B': 527,
+                                      'C': 527,
+                                      'D': 526,
+                                      'Structure': 434},
+                     'VisibleLight': [[840, 1147, 5962, 8013],
+                                      [854, 1105, 5889, 7746],
+                                      [887, 1065, 5938, 8076]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2774, 2748, 2750, 2762, 2794]}}
+{'Gyro': {'Temperature': -22737, 'X': -21, 'Y': -51, 'Z': 16}}
+{'time': '2 days, 11:58:25.800000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 526,
+                                      'B': 526,
+                                      'C': 527,
+                                      'D': 526,
+                                      'Structure': 434},
+                     'VisibleLight': [[817, 1121, 5734, 7508],
+                                      [823, 1081, 5557, 7302],
+                                      [855, 1049, 5702, 7576]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2774, 2748, 2749, 2762, 2794]}}
+{'Gyro': {'Temperature': -22705, 'X': -21, 'Y': -50, 'Z': 16}}
+{'time': '2 days, 11:58:31.900000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 526,
+                                      'B': 526,
+                                      'C': 527,
+                                      'D': 526,
+                                      'Structure': 434},
+                     'VisibleLight': [[794, 1101, 5458, 6935],
+                                      [794, 1066, 5242, 6747],
+                                      [825, 1041, 5485, 6899]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2773, 2747, 2748, 2762, 2794]}}
+{'Gyro': {'Temperature': -22737, 'X': -20, 'Y': -49, 'Z': 15}}
+{'time': '2 days, 11:58:36.700000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 526,
+                                      'B': 526,
+                                      'C': 527,
+                                      'D': 526,
+                                      'Structure': 433},
+                     'VisibleLight': [[786, 1089, 5189, 6559],
+                                      [783, 1059, 4876, 6402],
+                                      [816, 1034, 5153, 6391]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2773, 2747, 2747, 2761, 2795]}}
+{'Gyro': {'Temperature': -22744, 'X': -21, 'Y': -49, 'Z': 15}}
+{'time': '2 days, 11:58:41.550000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 526,
+                                      'B': 526,
+                                      'C': 526,
+                                      'D': 526,
+                                      'Structure': 432},
+                     'VisibleLight': [[781, 1079, 4958, 6145],
+                                      [778, 1053, 4559, 6015],
+                                      [812, 1025, 4854, 5955]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2773, 2747, 2747, 2761, 2795]}}
+{'Gyro': {'Temperature': -22721, 'X': -21, 'Y': -50, 'Z': 15}}
+{'time': '2 days, 12:02:51.400000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 517,
+                                      'B': 517,
+                                      'C': 517,
+                                      'D': 516,
+                                      'Structure': 382},
+                     'VisibleLight': [[2505, 3094, 1733, 1395],
+                                      [2461, 3087, 1653, 1382],
+                                      [2587, 3079, 1730, 1413]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2711, 2684, 2670, 2712, 2807]}}
+{'Gyro': {'Temperature': -22185, 'X': -18, 'Y': -48, 'Z': 18}}
+{'time': '2 days, 12:02:56.200000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 517,
+                                      'B': 517,
+                                      'C': 517,
+                                      'D': 516,
+                                      'Structure': 382},
+                     'VisibleLight': [[2599, 3164, 1796, 1464],
+                                      [2553, 3156, 1713, 1449],
+                                      [2683, 3149, 1793, 1481]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2706, 2680, 2666, 2708, 2807]}}
+{'Gyro': {'Temperature': -22190, 'X': -17, 'Y': -47, 'Z': 19}}
+{'time': '2 days, 12:03:01.050000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 516,
+                                      'B': 517,
+                                      'C': 517,
+                                      'D': 516,
+                                      'Structure': 382},
+                     'VisibleLight': [[2686, 3230, 1855, 1531],
+                                      [2639, 3239, 1769, 1514],
+                                      [2773, 3243, 1852, 1548]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2702, 2678, 2662, 2705, 2807]}}
+{'Gyro': {'Temperature': -22199, 'X': -17, 'Y': -48, 'Z': 18}}
+{'time': '2 days, 12:03:07.100000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 517,
+                                      'B': 517,
+                                      'C': 517,
+                                      'D': 516,
+                                      'Structure': 383},
+                     'VisibleLight': [[2789, 3309, 1925, 1612],
+                                      [2739, 3284, 1834, 1593],
+                                      [2877, 3295, 1921, 1627]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2698, 2675, 2658, 2700, 2807]}}
+{'Gyro': {'Temperature': -22173, 'X': -17, 'Y': -48, 'Z': 18}}
+{'time': '2 days, 12:03:11.950000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 517,
+                                      'B': 517,
+                                      'C': 517,
+                                      'D': 516,
+                                      'Structure': 383},
+                     'VisibleLight': [[2860, 3325, 1974, 1673],
+                                      [2809, 3316, 1880, 1651],
+                                      [2950, 3308, 1969, 1687]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2694, 2674, 2656, 2698, 2807]}}
+{'Gyro': {'Temperature': -22191, 'X': -17, 'Y': -48, 'Z': 18}}
+{'time': '2 days, 12:03:16.750000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 517,
+                                      'B': 517,
+                                      'C': 517,
+                                      'D': 516,
+                                      'Structure': 383},
+                     'VisibleLight': [[2922, 3344, 2018, 1731],
+                                      [2870, 3337, 1921, 1707],
+                                      [3013, 3325, 2012, 1743]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2691, 2673, 2654, 2695, 2806]}}
+{'Gyro': {'Temperature': -22195, 'X': -17, 'Y': -47, 'Z': 18}}
+{'time': '2 days, 12:03:22.250000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 517,
+                                      'B': 517,
+                                      'C': 517,
+                                      'D': 516,
+                                      'Structure': 383},
+                     'VisibleLight': [[2978, 3354, 2060, 1790],
+                                      [2927, 3349, 1961, 1764],
+                                      [3070, 3348, 2054, 1800]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2688, 2673, 2653, 2693, 2806]}}
+{'Gyro': {'Temperature': -22180, 'X': -18, 'Y': -48, 'Z': 17}}
+{'time': '2 days, 12:03:27.100000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 517,
+                                      'B': 517,
+                                      'C': 517,
+                                      'D': 516,
+                                      'Structure': 383},
+                     'VisibleLight': [[3012, 3348, 2090, 1836],
+                                      [2963, 3339, 1988, 1808],
+                                      [3105, 3328, 2083, 1845]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2686, 2673, 2653, 2691, 2807]}}
+{'Gyro': {'Temperature': -22179, 'X': -17, 'Y': -48, 'Z': 17}}
+{'time': '2 days, 12:03:31.900000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 517,
+                                      'B': 518,
+                                      'C': 517,
+                                      'D': 516,
+                                      'Structure': 383},
+                     'VisibleLight': [[3032, 3329, 2113, 1876],
+                                      [2985, 3320, 2010, 1846],
+                                      [3126, 3307, 2106, 1883]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2684, 2674, 2653, 2690, 2806]}}
+{'Gyro': {'Temperature': -22169, 'X': -16, 'Y': -48, 'Z': 18}}
+{'time': '2 days, 12:03:38.350000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 517,
+                                      'B': 517,
+                                      'C': 517,
+                                      'D': 516,
+                                      'Structure': 384},
+                     'VisibleLight': [[3038, 3287, 2134, 1918],
+                                      [2994, 3278, 2029, 1885],
+                                      [3132, 3266, 2125, 1922]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2682, 2676, 2654, 2689, 2806]}}
+{'Gyro': {'Temperature': -22137, 'X': -17, 'Y': -48, 'Z': 16}}
+{'time': '2 days, 12:07:46.550000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 520,
+                                      'B': 520,
+                                      'C': 520,
+                                      'D': 519,
+                                      'Structure': 394},
+                     'VisibleLight': [[6646, 4793, 4599, 9238],
+                                      [6865, 4719, 4341, 9232],
+                                      [6676, 4794, 4527, 9019]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2657, 2577, 2616, 2612, 2803]}}
+{'Gyro': {'Temperature': -21362, 'X': -17, 'Y': -50, 'Z': 16}}
+{'time': '2 days, 12:07:51.400000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 520,
+                                      'B': 520,
+                                      'C': 520,
+                                      'D': 519,
+                                      'Structure': 395},
+                     'VisibleLight': [[6425, 4833, 4674, 9357],
+                                      [6576, 4757, 4411, 9267],
+                                      [6308, 4834, 4600, 9087]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2655, 2574, 2613, 2608, 2802]}}
+{'Gyro': {'Temperature': -21398, 'X': -17, 'Y': -49, 'Z': 16}}
+{'time': '2 days, 12:07:57.250000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 520,
+                                      'B': 520,
+                                      'C': 520,
+                                      'D': 519,
+                                      'Structure': 397},
+                     'VisibleLight': [[6112, 4873, 4756, 9400],
+                                      [6195, 4796, 4490, 9277],
+                                      [5954, 4876, 4680, 9060]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2652, 2571, 2611, 2603, 2802]}}
+{'Gyro': {'Temperature': -21389, 'X': -18, 'Y': -50, 'Z': 16}}
+{'time': '2 days, 12:08:02.050000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 520,
+                                      'B': 520,
+                                      'C': 520,
+                                      'D': 520,
+                                      'Structure': 398},
+                     'VisibleLight': [[5739, 4901, 4820, 9365],
+                                      [5798, 4822, 4551, 9222],
+                                      [5668, 4905, 4741, 9051]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2650, 2568, 2609, 2600, 2801]}}
+{'Gyro': {'Temperature': -21402, 'X': -17, 'Y': -49, 'Z': 16}}
+{'time': '2 days, 12:08:06.900000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 521,
+                                      'B': 520,
+                                      'C': 520,
+                                      'D': 520,
+                                      'Structure': 399},
+                     'VisibleLight': [[5474, 4923, 4879, 9245],
+                                      [5447, 4843, 4609, 9164],
+                                      [5354, 4926, 4798, 9028]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2649, 2566, 2608, 2597, 2801]}}
+{'Gyro': {'Temperature': -21371, 'X': -18, 'Y': -50, 'Z': 16}}
+{'time': '2 days, 12:08:17.250000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 521,
+                                      'B': 521,
+                                      'C': 521,
+                                      'D': 520,
+                                      'Structure': 401},
+                     'VisibleLight': [[4790, 4948, 4988, 8983],
+                                      [4836, 4865, 4716, 8991],
+                                      [4747, 4944, 4905, 8902]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2646, 2562, 2606, 2592, 2800]}}
+{'Gyro': {'Temperature': -21374, 'X': -16, 'Y': -49, 'Z': 16}}
+{'time': '2 days, 12:08:22.100000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 521,
+                                      'B': 521,
+                                      'C': 521,
+                                      'D': 521,
+                                      'Structure': 402},
+                     'VisibleLight': [[4580, 4949, 5031, 8887],
+                                      [4588, 4865, 4759, 8842],
+                                      [4363, 4953, 4949, 8807]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2645, 2560, 2606, 2590, 2800]}}
+{'Gyro': {'Temperature': -21366, 'X': -17, 'Y': -50, 'Z': 15}}
+{'time': '2 days, 12:08:26.900000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 521,
+                                      'B': 521,
+                                      'C': 521,
+                                      'D': 521,
+                                      'Structure': 403},
+                     'VisibleLight': [[4254, 4954, 5070, 8837],
+                                      [4217, 4863, 4797, 8708],
+                                      [4275, 4964, 4988, 8729]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2644, 2559, 2606, 2588, 2800]}}
+{'Gyro': {'Temperature': -21362, 'X': -17, 'Y': -49, 'Z': 15}}
+{'time': '2 days, 12:08:32.950000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 521,
+                                      'B': 521,
+                                      'C': 521,
+                                      'D': 521,
+                                      'Structure': 404},
+                     'VisibleLight': [[3620, 4958, 5110, 8844],
+                                      [3914, 4862, 4834, 8804],
+                                      [3932, 4971, 5026, 8803]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2644, 2559, 2606, 2587, 2800]}}
+{'Gyro': {'Temperature': -21364, 'X': -16, 'Y': -49, 'Z': 15}}
+{'time': '2 days, 12:08:37.800000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 521,
+                                      'B': 521,
+                                      'C': 521,
+                                      'D': 521,
+                                      'Structure': 404},
+                     'VisibleLight': [[3453, 4956, 5135, 8819],
+                                      [3768, 4857, 4856, 8877],
+                                      [3795, 4969, 5049, 9205]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2644, 2559, 2607, 2586, 2800]}}
+{'Gyro': {'Temperature': -21369, 'X': -18, 'Y': -49, 'Z': 15}}
+{'time': '2 days, 12:12:43.950000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 519,
+                                      'B': 519,
+                                      'C': 519,
+                                      'D': 518,
+                                      'Structure': 395},
+                     'VisibleLight': [[1113, 2211, 1775, 780],
+                                      [1089, 2177, 1682, 778],
+                                      [1148, 2216, 1753, 813]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2757, 2700, 2722, 2731, 2804]}}
+{'Gyro': {'Temperature': -21003, 'X': -17, 'Y': -47, 'Z': 18}}
+{'time': '2 days, 12:12:50.600000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 519,
+                                      'B': 519,
+                                      'C': 519,
+                                      'D': 518,
+                                      'Structure': 395},
+                     'VisibleLight': [[1173, 2264, 1808, 822],
+                                      [1147, 2230, 1714, 819],
+                                      [1210, 2270, 1787, 855]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2754, 2698, 2719, 2728, 2804]}}
+{'Gyro': {'Temperature': -21022, 'X': -16, 'Y': -47, 'Z': 17}}
+{'time': '2 days, 12:12:55.450000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 519,
+                                      'B': 519,
+                                      'C': 519,
+                                      'D': 518,
+                                      'Structure': 395},
+                     'VisibleLight': [[1214, 2300, 1830, 852],
+                                      [1188, 2266, 1735, 848],
+                                      [1253, 2305, 1809, 884]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2753, 2696, 2717, 2727, 2804]}}
+{'Gyro': {'Temperature': -20954, 'X': -16, 'Y': -48, 'Z': 18}}
+{'time': '2 days, 12:13:00.300000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 519,
+                                      'B': 519,
+                                      'C': 519,
+                                      'D': 518,
+                                      'Structure': 395},
+                     'VisibleLight': [[1253, 2332, 1850, 880],
+                                      [1227, 2298, 1753, 875],
+                                      [1293, 2337, 1828, 912]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2751, 2695, 2715, 2725, 2804]}}
+{'Gyro': {'Temperature': -21018, 'X': -17, 'Y': -48, 'Z': 17}}
+{'time': '2 days, 12:13:05.800000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 518,
+                                      'B': 519,
+                                      'C': 519,
+                                      'D': 518,
+                                      'Structure': 395},
+                     'VisibleLight': [[1293, 2362, 1866, 908],
+                                      [1266, 2329, 1769, 903],
+                                      [1335, 2367, 1845, 940]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2749, 2694, 2713, 2724, 2804]}}
+{'Gyro': {'Temperature': -20981, 'X': -16, 'Y': -48, 'Z': 18}}
+{'time': '2 days, 12:13:34.775000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 518,
+                                      'B': 519,
+                                      'C': 519,
+                                      'D': 518,
+                                      'Structure': 395},
+                     'VisibleLight': [[1325, 2383, 1876, 930],
+                                      [1297, 2350, 1779, 924],
+                                      [1367, 2388, 1856, 961]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2748, 2693, 2712, 2723, 2804]}}
+{'Gyro': {'Temperature': -20982, 'X': -16, 'Y': -48, 'Z': 17}}
+{'time': '2 days, 12:13:39.875000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 518,
+                                      'B': 519,
+                                      'C': 519,
+                                      'D': 518,
+                                      'Structure': 395},
+                     'VisibleLight': [[1352, 2399, 1881, 948],
+                                      [1324, 2366, 1783, 942],
+                                      [1395, 2404, 1861, 979]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2747, 2693, 2711, 2722, 2804]}}
+{'Gyro': {'Temperature': -20857, 'X': -16, 'Y': -48, 'Z': 16}}
+{'time': '2 days, 12:13:45.975000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 518,
+                                      'B': 519,
+                                      'C': 519,
+                                      'D': 518,
+                                      'Structure': 395},
+                     'VisibleLight': [[1378, 2409, 1878, 964],
+                                      [1349, 2376, 1781, 957],
+                                      [1422, 2413, 1859, 994]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2746, 2693, 2710, 2722, 2804]}}
+{'Gyro': {'Temperature': -20911, 'X': -16, 'Y': -48, 'Z': 16}}
+{'time': '2 days, 12:13:50.825000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 518,
+                                      'B': 519,
+                                      'C': 519,
+                                      'D': 518,
+                                      'Structure': 394},
+                     'VisibleLight': [[1392, 2409, 1868, 970],
+                                      [1363, 2377, 1772, 964],
+                                      [1436, 2412, 1849, 1001]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2745, 2693, 2710, 2722, 2804]}}
+{'Gyro': {'Temperature': -20861, 'X': -16, 'Y': -48, 'Z': 16}}
+{'time': '2 days, 12:13:55.675000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 518,
+                                      'B': 519,
+                                      'C': 519,
+                                      'D': 517,
+                                      'Structure': 394},
+                     'VisibleLight': [[1400, 2416, 1852, 972],
+                                      [1370, 2369, 1756, 965],
+                                      [1444, 2403, 1833, 1002]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2745, 2694, 2710, 2722, 2804]}}
+{'Gyro': {'Temperature': -20867, 'X': -15, 'Y': -48, 'Z': 15}}
+{'time': '2 days, 12:18:05.125000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 515,
+                                      'B': 516,
+                                      'C': 516,
+                                      'D': 515,
+                                      'Structure': 378},
+                     'VisibleLight': [[938, 1124, 621, 507],
+                                      [918, 1126, 592, 502],
+                                      [966, 1118, 619, 513]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2778, 2764, 2762, 2769, 2807]}}
+{'Gyro': {'Temperature': -20012, 'X': -12, 'Y': -44, 'Z': 13}}
+{'time': '2 days, 12:18:09.975000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 516,
+                                      'B': 516,
+                                      'C': 516,
+                                      'D': 515,
+                                      'Structure': 379},
+                     'VisibleLight': [[946, 1135, 630, 517],
+                                      [927, 1137, 601, 511],
+                                      [974, 1129, 628, 523]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2777, 2763, 2761, 2768, 2807]}}
+{'Gyro': {'Temperature': -20022, 'X': -12, 'Y': -44, 'Z': 11}}
+{'time': '2 days, 12:18:14.875000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 515,
+                                      'B': 516,
+                                      'C': 516,
+                                      'D': 515,
+                                      'Structure': 379},
+                     'VisibleLight': [[951, 1143, 637, 525],
+                                      [932, 1145, 608, 519],
+                                      [979, 1137, 635, 531]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2776, 2762, 2760, 2767, 2806]}}
+{'Gyro': {'Temperature': -20041, 'X': -11, 'Y': -44, 'Z': 11}}
+{'time': '2 days, 12:18:21.025000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 516,
+                                      'B': 516,
+                                      'C': 516,
+                                      'D': 515,
+                                      'Structure': 380},
+                     'VisibleLight': [[953, 1147, 643, 532],
+                                      [934, 1149, 614, 526],
+                                      [981, 1141, 641, 539]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2776, 2762, 2760, 2767, 2806]}}
+{'Gyro': {'Temperature': -20027, 'X': -11, 'Y': -45, 'Z': 11}}
+{'time': '2 days, 12:18:25.875000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 516,
+                                      'B': 516,
+                                      'C': 516,
+                                      'D': 515,
+                                      'Structure': 380},
+                     'VisibleLight': [[951, 1146, 646, 536],
+                                      [932, 1148, 617, 530],
+                                      [978, 1140, 644, 542]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2776, 2762, 2759, 2766, 2806]}}
+{'Gyro': {'Temperature': -20019, 'X': -12, 'Y': -44, 'Z': 10}}
+{'time': '2 days, 12:18:30.775000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 516,
+                                      'B': 516,
+                                      'C': 516,
+                                      'D': 515,
+                                      'Structure': 380},
+                     'VisibleLight': [[945, 1141, 647, 537],
+                                      [927, 1143, 618, 531],
+                                      [973, 1136, 646, 543]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2776, 2761, 2759, 2767, 2806]}}
+{'Gyro': {'Temperature': -20019, 'X': -12, 'Y': -44, 'Z': 9}}
+{'time': '2 days, 12:18:36.325000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 516,
+                                      'B': 516,
+                                      'C': 516,
+                                      'D': 515,
+                                      'Structure': 380},
+                     'VisibleLight': [[936, 1132, 646, 535],
+                                      [918, 1134, 617, 529],
+                                      [964, 1127, 645, 542]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2776, 2761, 2759, 2767, 2806]}}
+{'Gyro': {'Temperature': -19994, 'X': -10, 'Y': -45, 'Z': 9}}
+{'time': '2 days, 12:18:41.225000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 516,
+                                      'B': 516,
+                                      'C': 516,
+                                      'D': 515,
+                                      'Structure': 380},
+                     'VisibleLight': [[977, 1121, 643, 532],
+                                      [955, 1123, 614, 526],
+                                      [1009, 1116, 642, 539]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2776, 2761, 2760, 2767, 2806]}}
+{'Gyro': {'Temperature': -20001, 'X': -11, 'Y': -45, 'Z': 9}}
+{'time': '2 days, 12:18:46.125000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 516,
+                                      'B': 516,
+                                      'C': 516,
+                                      'D': 515,
+                                      'Structure': 380},
+                     'VisibleLight': [[6771, 1285, 642, 529],
+                                      [6196, 1398, 615, 524],
+                                      [6282, 1287, 642, 538]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2776, 2762, 2760, 2767, 2806]}}
+{'Gyro': {'Temperature': -20004, 'X': -12, 'Y': -45, 'Z': 8}}
+{'time': '2 days, 12:18:52.275000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 516,
+                                      'B': 516,
+                                      'C': 516,
+                                      'D': 515,
+                                      'Structure': 381},
+                     'VisibleLight': [[7761, 1449, 645, 560],
+                                      [7548, 1631, 616, 566],
+                                      [7841, 1640, 644, 588]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2776, 2759, 2759, 2766, 2806]}}
+{'Gyro': {'Temperature': -19998, 'X': -11, 'Y': -46, 'Z': 8}}
+{'time': '2 days, 12:22:55.225000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 536,
+                                      'B': 536,
+                                      'C': 536,
+                                      'D': 535,
+                                      'Structure': 473},
+                     'VisibleLight': [[16716, 16751, 19552, 19194],
+                                      [16308, 16620, 18581, 18919],
+                                      [16804, 16666, 19367, 19048]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [1955, 2055, 2173, 1782, 2780]}}
+{'Gyro': {'Temperature': -19756, 'X': -13, 'Y': -46, 'Z': 7}}
+{'time': '2 days, 12:23:00.125000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 537,
+                                      'B': 536,
+                                      'C': 536,
+                                      'D': 536,
+                                      'Structure': 476},
+                     'VisibleLight': [[16239, 16814, 19736, 18961],
+                                      [15930, 16663, 18683, 18701],
+                                      [16392, 16767, 19459, 18803]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [1975, 2035, 2174, 1774, 2779]}}
+{'Gyro': {'Temperature': -19745, 'X': -12, 'Y': -46, 'Z': 6}}
+{'time': '2 days, 12:23:05.625000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 537,
+                                      'B': 537,
+                                      'C': 537,
+                                      'D': 536,
+                                      'Structure': 479},
+                     'VisibleLight': [[15573, 16891, 20046, 18837],
+                                      [15421, 16515, 18817, 18369],
+                                      [15839, 16855, 19573, 18474]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [1997, 2014, 2175, 1770, 2778]}}
+{'Gyro': {'Temperature': -19751, 'X': -12, 'Y': -46, 'Z': 7}}
+{'time': '2 days, 12:23:10.525000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 537,
+                                      'B': 537,
+                                      'C': 537,
+                                      'D': 536,
+                                      'Structure': 482},
+                     'VisibleLight': [[15120, 16883, 19955, 18382],
+                                      [15066, 16504, 19149, 17803],
+                                      [15445, 16900, 19702, 18243]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2017, 1996, 2178, 1767, 2778]}}
+{'Gyro': {'Temperature': -19755, 'X': -12, 'Y': -47, 'Z': 7}}
+{'time': '2 days, 12:23:15.425000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 537,
+                                      'B': 538,
+                                      'C': 538,
+                                      'D': 537,
+                                      'Structure': 484},
+                     'VisibleLight': [[14703, 16813, 19963, 17735],
+                                      [14373, 16514, 19269, 17355],
+                                      [14912, 16883, 19672, 18009]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2039, 1981, 2183, 1767, 2777]}}
+{'Gyro': {'Temperature': -19659, 'X': -12, 'Y': -45, 'Z': 7}}
+{'time': '2 days, 12:23:22.125000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 538,
+                                      'B': 538,
+                                      'C': 538,
+                                      'D': 537,
+                                      'Structure': 487},
+                     'VisibleLight': [[13824, 16504, 20097, 17008],
+                                      [13731, 16346, 19382, 16910],
+                                      [14184, 16834, 19824, 17540]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2069, 1961, 2192, 1769, 2777]}}
+{'Gyro': {'Temperature': -19752, 'X': -12, 'Y': -47, 'Z': 7}}
+{'time': '2 days, 12:23:27.025000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 538,
+                                      'B': 538,
+                                      'C': 539,
+                                      'D': 537,
+                                      'Structure': 489},
+                     'VisibleLight': [[13270, 16260, 20433, 16443],
+                                      [13270, 16068, 19252, 16565],
+                                      [13656, 16620, 19962, 17076]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2092, 1949, 2200, 1773, 2776]}}
+{'Gyro': {'Temperature': -19751, 'X': -12, 'Y': -47, 'Z': 7}}
+{'time': '2 days, 12:23:31.875000'}
+{'Padding': 16}
+'Synchronization'
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 539,
+                                      'B': 539,
+                                      'C': 539,
+                                      'D': 538,
+                                      'Structure': 491},
+                     'VisibleLight': [[12786, 15958, 20505, 16051],
+                                      [12860, 15678, 19143, 16005],
+                                      [13141, 16405, 19956, 16512]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2116, 1940, 2211, 1778, 2776]}}
+{'Gyro': {'Temperature': -19749, 'X': -12, 'Y': -47, 'Z': 8}}
+{'time': '2 days, 12:23:37.425000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 539,
+                                      'B': 539,
+                                      'C': 539,
+                                      'D': 538,
+                                      'Structure': 493},
+                     'VisibleLight': [[12190, 15629, 20423, 15471],
+                                      [12141, 15344, 19214, 15303],
+                                      [12431, 16045, 20036, 15944]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2144, 1933, 2225, 1787, 2775]}}
+{'Gyro': {'Temperature': -19740, 'X': -12, 'Y': -47, 'Z': 9}}
+{'time': '2 days, 12:23:42.325000'}
+{'ExpSunS.Primary': {'Status': {'ALS_ACK': 0,
+                                'ALS_ADC_Valid': 4095,
+                                'ALS_Presence': 4095},
+                     'Temperatures': {'A': 539,
+                                      'B': 540,
+                                      'C': 539,
+                                      'D': 538,
+                                      'Structure': 495},
+                     'VisibleLight': [[11712, 15378, 20453, 15042],
+                                      [11409, 14879, 19357, 14787],
+                                      [11754, 15659, 19993, 15437]],
+                     'WhoAmI ': 17}}
+{'RefSunS': {'Voltages': [2170, 1929, 2240, 1797, 2774]}}
+{'Gyro': {'Temperature': -19750, 'X': -12, 'Y': -48, 'Z': 9}}
+{'Padding': 25}
