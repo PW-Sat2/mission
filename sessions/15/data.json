@@ -1,9 +1,9 @@
 {
     "Session": {
-        "short_description": "Rest of chunks of the largest photo downloading.",
-        "phase": "pld_commissioning",
-        "status": "planned",
-        "start_time_iso_with_zone": "2018-12-05T09:08:14+01:00",
-        "stop_time_iso_with_zone": "2018-12-05T09:20:49+01:00"
+        "short_description": "First SunS Experiment to test SunS.",
+        "phase": "experiments",
+        "status": "success",
+        "start_time_iso_with_zone": "2018-12-05T10:34:16+01:00",
+        "stop_time_iso_with_zone": "2018-12-05T10:44:35+01:00"
     }
 }
