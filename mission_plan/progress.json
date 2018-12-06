@@ -3,7 +3,7 @@
         "[Launch](/mission_plan/launch/index.md)" : [true, "now | T+0"],
         "[LEOP](/mission_plan/leop/index.md)" : [true, "T+0 | T+4 hour"],
         "[Bus Commissioning](/mission_plan/bus_commissioning/index.md)" : [true, "T+4 hour | T+4 day"],
-        "[Payload Commissioning](/mission_plan/pld_commissioning/index.md)" : [false, "T+4 day | T+7 day"],
+        "[Payload Commissioning](/mission_plan/pld_commissioning/index.md)" : [true, "T+4 day | T+7 day"],
         "[Experiments](/mission_plan/experiments/index.md)" : [false, "T+7 day | T+25 day"],
         "[Extended Mission](/mission_plan/extended/index.md)" : [false, "T+25 day | T+38 day"],
         "[SAIL Deployment](/mission_plan/sail_deployment/index.md)" : [false, "T+39 day | TBD"],

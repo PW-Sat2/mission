@@ -1,5 +1,5 @@
 {% extends "/sessions/_layout/index.md" %}
 
 {% block goal %}
-Rest of chunks of the largest photo downloading.
+First SunS Experiment to test SunS.
 {% endblock %}
