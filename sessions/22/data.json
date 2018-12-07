@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Still recovery. Telemetry download to see recovery after latch-up. Set higher bitrate to save energy.",
         "phase": "experiments",
-        "status": "planned",
+        "status": "success",
         "start_time_iso_with_zone": "2018-12-07T19:34:27+01:00",
         "stop_time_iso_with_zone": "2018-12-07T19:44:59+01:00"
     }
