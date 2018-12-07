@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Still recovery. Telemetry download to see recovery after latch-up. On 9600 bps.",
         "phase": "experiments",
-        "status": "planned",
+        "status": "success",
         "start_time_iso_with_zone": "2018-12-07T21:09:33+01:00",
         "stop_time_iso_with_zone": "2018-12-07T21:22:17+01:00"
     }
