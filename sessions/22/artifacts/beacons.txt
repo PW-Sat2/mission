@@ -1,0 +1,46 @@
+0x30159b0L: v    BeaconFrame
+	BP VOLT 7.28 V, 7.31 V
+	BP TEMP 7.94 C, 7.69 C, 9.20 C
+	COMM PA TEMP NOW 8.94 C LAST 9.21 C
+	OBC CRC 0xBFFD
+	GYRO UNCAL -1.88 deg/sec, -3.20 deg/sec, 1.04 deg/sec
+
+
+0x3029080L: v    BeaconFrame
+	BP VOLT 7.28 V, 7.31 V
+	BP TEMP 7.81 C, 7.56 C, 9.20 C
+	COMM PA TEMP NOW 10.03 C LAST 11.01 C
+	OBC CRC 0xBFFD
+	GYRO UNCAL -1.88 deg/sec, -3.34 deg/sec, 1.32 deg/sec
+
+
+0x50580f0L: v    BeaconFrame
+	BP VOLT 7.42 V, 7.46 V
+	BP TEMP 7.56 C, 7.44 C, 9.20 C
+	COMM PA TEMP NOW 29.52 C LAST 29.41 C
+	OBC CRC 0xBFFD
+	GYRO UNCAL -2.37 deg/sec, -3.83 deg/sec, 1.67 deg/sec
+
+
+0x5062c88L: v    BeaconFrame
+	BP VOLT 7.28 V, 7.30 V
+	BP TEMP 7.44 C, 7.19 C, 9.20 C
+	COMM PA TEMP NOW 12.76 C LAST 12.76 C
+	OBC CRC 0xBFFD
+	GYRO UNCAL -2.30 deg/sec, -3.69 deg/sec, 1.60 deg/sec
+
+
+0x5073940L: v    BeaconFrame
+	BP VOLT 7.28 V, 7.30 V
+	BP TEMP 7.25 C, 7.00 C, 9.20 C
+	COMM PA TEMP NOW 11.50 C LAST 11.23 C
+	OBC CRC 0xBFFD
+	GYRO UNCAL -2.23 deg/sec, -3.62 deg/sec, 0.97 deg/sec
+
+
+0x5086550L: v    BeaconFrame
+	BP VOLT 7.18 V, 7.22 V
+	BP TEMP 7.31 C, 7.06 C, 9.20 C
+	COMM PA TEMP NOW 12.05 C LAST 11.94 C
+	OBC CRC 0xBFFD
+	GYRO UNCAL -2.23 deg/sec, -3.69 deg/sec, 1.25 deg/sec
