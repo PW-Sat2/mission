@@ -1,7 +1,5 @@
 tasks = [
-    [[tc.PingTelecommand(), 3], SendLoop, WaitMode.NoWait],
- 
-    [tc.SetBitrate(28, 1), Send, WaitMode.Wait],
+    [[tc.SetBitrate(28, 1), 3], SendLoop, WaitMode.NoWait],
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
