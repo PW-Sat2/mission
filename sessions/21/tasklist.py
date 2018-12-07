@@ -7,9 +7,8 @@ tasks = [
 
     [tc.ListFiles(12, '/'), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(221, '/telemetry.previous', [i for i in range(2100, 2280, 100)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(223, '/telemetry.previous', [i for i in range(2133, 2280, 100)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(224, '/telemetry.previous', [i for i in range(2166, 2280, 100)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(221, '/telemetry.previous', [i for i in range(2100, 2280, 20)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(223, '/telemetry.previous', [i for i in range(2110, 2280, 20)]), Send, WaitMode.Wait],
 
     [tc.DownloadFile(225, '/telemetry.current', [i for i in range(0, 30, 5)]), Send, WaitMode.Wait],
 
