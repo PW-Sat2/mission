@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Power cycle to prevent periodic power cycle between sessions. Then set to 9600 to save energy.",
         "phase": "experiments",
-        "status": "planned",
+        "status": "success",
         "start_time_iso_with_zone": "2018-12-08T19:41:23+01:00",
         "stop_time_iso_with_zone": "2018-12-08T19:52:15+01:00"
     }
