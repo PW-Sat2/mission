@@ -1,0 +1,9 @@
+{
+    "Session": {
+        "short_description": "Still recovery after latch-up. Downloading telemetry on 12000, then set back to 9600.",
+        "phase": "experiments",
+        "status": "planned",
+        "start_time_iso_with_zone": "2018-12-08T11:56:31+01:00",
+        "stop_time_iso_with_zone": "2018-12-08T12:07:14+01:00"
+    }
+}
