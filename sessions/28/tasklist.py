@@ -11,4 +11,6 @@ tasks = [
     [[tc.SetBitrate(199, 8), 3], SendLoop, WaitMode.NoWait],
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
+
+    [tc.ListFiles(230, '/'), Send, WaitMode.Wait],
 ]
