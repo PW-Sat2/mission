@@ -4,9 +4,11 @@ tasks = [
 
     [tc.ListFiles(83, '/'), Send, WaitMode.Wait],
 
-    # Telemetry between session x and x
-    #[tc.DownloadFile(12, '/telemetry.current', [i for i in range(750, 1750, 50)]), Send, WaitMode.Wait],
-    
+    # Telemetry between session 36 and 37
+    [tc.DownloadFile(11, '/telemetry.previous', [i for i in range(1950, 2280, 50)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(12, '/telemetry.current', [i for i in range(0, 800, 100)]), Send, WaitMode.Wait],
+
+    # Photos scheduled
     [tc.TakePhotoTelecommand(101, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=1), 'p1_128'), Send, WaitMode.Wait],
     [tc.TakePhotoTelecommand(102, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=1), 'p1_480'), Send, WaitMode.Wait],
 
