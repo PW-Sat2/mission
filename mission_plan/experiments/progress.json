@@ -3,7 +3,7 @@
         "Higher downlink baudrate test." : [true, "Test 9600 bps downlink bitrate. If it is OK next sessions with higher baudrate."],
         "Trigger test `SunS Experiment`." : [true, "Test SunS experiment to determine optimal parameters."],
         "`Test SunS Experiment` file downloading." : [true, "At 9600 bps if possible."],
-        "Trigger `SunS Experiment`." : [false, "SunS experiment."],
+        "Trigger `SunS Experiment`." : [true, "SunS experiment."],
         "`SunS Experiment` file downloading." : [false, "At 9600 bps if possible."],
         "Deleting `SunS Experiment` file." : [false, "To free space."],
         "Called `TakePhotoTelecommand`.": [false, "To take some nice pictures."],
