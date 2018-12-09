@@ -4,7 +4,7 @@
         "Trigger test `SunS Experiment`." : [true, "Test SunS experiment to determine optimal parameters."],
         "`Test SunS Experiment` file downloading." : [true, "At 9600 bps if possible."],
         "Trigger `SunS Experiment`." : [true, "SunS experiment."],
-        "`SunS Experiment` file downloading." : [false, "At 9600 bps if possible."],
+        "`SunS Experiment` file downloading." : [true, "At 9600 bps if possible."],
         "Deleting `SunS Experiment` file." : [false, "To free space."],
         "Called `TakePhotoTelecommand`.": [false, "To take some nice pictures."],
         "`Files List` of pictures downloaded." : [false, "To check that pictures exist."],
