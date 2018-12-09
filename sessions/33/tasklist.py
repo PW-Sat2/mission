@@ -15,4 +15,8 @@ tasks = [
     [[tc.SetBitrate(89, 8), 3], SendLoop, WaitMode.NoWait],
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
+
+    [tc.DownloadFile(42, '/suns_1', [80]), Send, WaitMode.Wait],
+
+    [tc.SendBeacon(), Send, WaitMode.Wait],
 ]
