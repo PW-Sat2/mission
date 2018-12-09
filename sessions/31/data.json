@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Few telemetry chunks download on 1200. SunS experiment triggering. Then 9600.",
         "phase": "experiments",
-        "status": "planned",
+        "status": "success",
         "start_time_iso_with_zone": "2018-12-09T08:51:43+01:00",
         "stop_time_iso_with_zone": "2018-12-09T09:01:51+01:00"
     }
