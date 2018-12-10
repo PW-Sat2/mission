@@ -1,0 +1,63 @@
+BeaconFrame
+      BP VOLT 7.59 V, 7.63 V
+      BP TEMP 5.19 C, 4.94 C, 5.50 C
+      COMM PA TEMP NOW 9.92 C LAST 12.92 C
+      GYRO UNCAL -2.23 deg/sec, -3.48 deg/sec, 1.18 deg/sec
+      EXPERIMENT None
+      MCU TEMP -2.78 C
+      3V3 DISTR CURRENT 35 mA
+
+PhotoSuccessFrame: CID=131 Seq=00
+PhotoSuccessFrame: CID=112 Seq=00
+SetBitrateSuccessFrame: Seq=00
+PhotoSuccessFrame: CID=122 Seq=00
+FileListSuccessFrame: CID=083 Seq=00, #files: 5
+FileSendSuccessFrame: CID=011 Seq=1950
+PhotoSuccessFrame: CID=102 Seq=00
+FileSendSuccessFrame: CID=012 Seq=100
+FileSendSuccessFrame: CID=012 Seq=500
+PhotoSuccessFrame: CID=101 Seq=00
+PhotoSuccessFrame: CID=111 Seq=00
+PhotoSuccessFrame: CID=121 Seq=00
+BeaconFrame
+      BP VOLT 7.57 V, 7.60 V
+      BP TEMP 5.38 C, 5.06 C, 5.50 C
+      COMM PA TEMP NOW 6.59 C LAST 7.90 C
+      GYRO UNCAL -2.23 deg/sec, -3.41 deg/sec, 1.88 deg/sec
+      EXPERIMENT None
+      MCU TEMP -2.46 C
+      3V3 DISTR CURRENT 52 mA
+
+FileSendSuccessFrame: CID=011 Seq=2150
+BeaconFrame
+      BP VOLT 7.57 V, 7.62 V
+      BP TEMP 5.50 C, 5.19 C, 5.50 C
+      COMM PA TEMP NOW 6.42 C LAST 7.90 C
+      GYRO UNCAL -2.37 deg/sec, -3.41 deg/sec, 2.02 deg/sec
+      EXPERIMENT None
+      MCU TEMP -1.67 C
+      3V3 DISTR CURRENT 49 mA
+
+FileSendSuccessFrame: CID=011 Seq=2050
+PhotoSuccessFrame: CID=142 Seq=00
+FileSendSuccessFrame: CID=011 Seq=2100
+PhotoSuccessFrame: CID=132 Seq=00
+FileSendSuccessFrame: CID=012 Seq=600
+BeaconFrame
+      BP VOLT 7.57 V, 7.60 V
+      BP TEMP 5.06 C, 4.81 C, 5.50 C
+      COMM PA TEMP NOW 9.32 C LAST 9.54 C
+      GYRO UNCAL -2.37 deg/sec, -3.55 deg/sec, 0.97 deg/sec
+      EXPERIMENT None
+      MCU TEMP -2.30 C
+      3V3 DISTR CURRENT 49 mA
+
+FileSendSuccessFrame: CID=012 Seq=400
+FileSendSuccessFrame: CID=011 Seq=2200
+PhotoSuccessFrame: CID=141 Seq=00
+FileSendSuccessFrame: CID=011 Seq=2250
+FileSendSuccessFrame: CID=012 Seq=200
+FileSendSuccessFrame: CID=012 Seq=700
+FileSendSuccessFrame: CID=012 Seq=300
+SetBitrateSuccessFrame: Seq=00
+FileSendSuccessFrame: CID=012 Seq=00
