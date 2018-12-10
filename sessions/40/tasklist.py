@@ -4,6 +4,9 @@ tasks = [
 
     [tc.ListFiles(22, '/'), Send, WaitMode.Wait],
 
+    # Persistent state
+    [tc.GetPersistentState(), Send, WaitMode.Wait],
+
     # Telemetry between session 39 and 40
     [tc.DownloadFile(14, '/telemetry.current', [i for i in range(1100, 2100, 100)]), Send, WaitMode.Wait],
 
