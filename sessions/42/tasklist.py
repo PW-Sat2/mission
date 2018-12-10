@@ -1,5 +1,5 @@
 tasks = [
-    [[tc.SetBitrate(80, 1), 5], SendLoop, WaitMode.NoWait],
+    [[tc.SetBitrate(80, BaudRate.BaudRate9600), 5], SendLoop, WaitMode.NoWait],
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
@@ -17,18 +17,8 @@ tasks = [
     [tc.RemoveFile(91, '/suns_1'), Send, WaitMode.Wait],
     [tc.RemoveFile(92, '/suns_1_sec'), Send, WaitMode.Wait],
 
-    [tc.ListFiles(, '/'), Send, WaitMode.Wait],
-
-    # Telemetry between session 41 and 42
-    [tc.DownloadFile(100, '/telemetry.previous', [i for i in range(2125, 2280, 15)]), Send, WaitMode.Wait],
-
-    # Telemetry between session 41 and 42
-    [tc.DownloadFile(101, '/telemetry.current', [i for i in range(0, 40, 4)]), Send, WaitMode.Wait],
+    [tc.ListFiles(93, '/'), Send, WaitMode.Wait],
 
     # Beacon for goodbye
-    [tc.SendBeacon(), Send, WaitMode.Wait],
-
-    [[tc.SetBitrate(102, 8), 5], SendLoop, WaitMode.NoWait],
-
     [tc.SendBeacon(), Send, WaitMode.Wait],
 ]
