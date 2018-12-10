@@ -14,12 +14,12 @@ tasks = [
     [tc.DownloadFile(34, '/telemetry.current', [i for i in range(32, 950, 50)]), Send, WaitMode.Wait],
 
     # Low res photo download
-    [tc.DownloadFile(101, '/p1_128_0.jpg', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(102, '/p2_128_0.jpg', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(103, '/p3_128_0.jpg', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(101, '/p1_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(102, '/p2_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(103, '/p3_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
     [tc.SendBeacon(), Send, WaitMode.NoWait],
-    [tc.DownloadFile(104, '/p4_128_0.jpg', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(105, '/p5_128_0.jpg', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(104, '/p4_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(105, '/p5_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 ]
