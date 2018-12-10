@@ -44,4 +44,7 @@ tasks = [
     [tc.DownloadFile(62, '/telemetry.previous', [i for i in range(1925, 2280, 50)]), Send, WaitMode.Wait],
     [tc.DownloadFile(63, '/telemetry.previous', [i for i in range(1912, 2280, 50)]), Send, WaitMode.Wait],
     [tc.DownloadFile(64, '/telemetry.previous', [i for i in range(1937, 2280, 50)]), Send, WaitMode.Wait],
+    
+    # Beacon for goodbye
+    [tc.SendBeacon(), Send, WaitMode.Wait],
 ]
