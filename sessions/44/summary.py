@@ -1,0 +1,1 @@
+decode_photo('p2_480_0')
