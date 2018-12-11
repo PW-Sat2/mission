@@ -1,19 +1,16 @@
 {
     "Progress": {
-        "Trigger `RadFET Experiment`." : [true, "Use parameters for RadFET Experiment 1"],
-        "`List Files` downloading 1." : [true, "To check that `RadFET Experiment` file exists."],
+        "Trigger first `RadFET Experiment`." : [true, "Use parameters for RadFET Experiment 1"],
         "`RadFET Experiment` files downloading." : [true, "Download with 9600 bps if possible."],
-        "`RadFET Experiment` files deleting." : [false, "To free space."],
-        "Called `Perform Camera Commissioning Experiment`.": [false, "It tests Cameras."],
-        "Called `TakePhotoTelecommand`.": [false, "To take some nice pictures."],
-        "`List Files` downloading 2." : [false, "To check that pictures exist."],
+        "`RadFET Experiment` files deleting." : [true, "To free space."],
+        "Called `TakePhotoTelecommand`.": [true, "To take some nice pictures. Camera as a `horizont sensor`."],
         "Pictures downloaded." : [false, "Download pictures created by `TakePhotoTelecommand`."],
         "Trigger `SunS Experiment`." : [false, "SunS experiment parameters: x=1, y=2."],
-        "`List Files` downloading 3." : [false, "To determine that SunS experiment file exists."],
         "`SunS Experiment` file downloading." : [false, "At 9600 bps if possible."],
         "Deleting `SunS Experiment` file." : [false, "To free space."],
         "Calling `SADS Experiment`" : [false, "Performing this experiment if possible."],
-        "`List Files` downloading 4." : [false, "To check that SADS Experiment files exist."],
+        "Trigger second `RadFET Experiment`." : [true, "Use parameters for RadFET Experiment 2"],
+        "Second `RadFET Experiment` files downloading." : [false, "Download with 9600 bps if possible."],
         "`SADS Experiment` file downloading." : [false, "At 9600 bps if possible."],
         "`SADS Experiment` files deleting." : [false, "To free space."]
     }
