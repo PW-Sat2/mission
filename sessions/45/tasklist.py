@@ -11,7 +11,7 @@ tasks = [
     [tc.DownloadFile(23, '/radfet', [i for i in range(0, 8, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(24, '/radfet', [i for i in range(8, 16, 1)]), Send, WaitMode.Wait],
 
-    # Goodbye satellite with 1200
+    # Goodbye satellite with 9600
     [tc.SetBitrate(25, BaudRate.BaudRate9600), Send, WaitMode.Wait],
     [tc.SendBeacon(), Send, WaitMode.Wait],
 ]
