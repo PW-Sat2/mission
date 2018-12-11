@@ -6,6 +6,6 @@
         "Called `Perform Camera Commissioning Experiment`.": [true, "It tests Cameras."],
         "`Files List` of pictures downloaded." : [true, "To check that test pictures exist."],
         "Pictures downloaded." : [true, "Download pictures created by `TakePhotoTelecommand`."],
-        "Both `/pld_1` file and pictures deleted." : [false, "To free space."]
+        "Both `/pld_1` file and pictures deleted." : [true, "To free space."]
     }
 }
