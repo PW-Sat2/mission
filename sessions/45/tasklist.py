@@ -5,7 +5,7 @@ tasks = [
     [tc.ListFiles(21, '/'), Send, WaitMode.Wait],
 
     # Telemetry download between session 41 and 44
-    [tc.DownloadFile(22, '/telemetry.current', [i for i in range(1300, 1500, 50)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(22, '/telemetry.current', [i for i in range(1300, 1500, 25)]), Send, WaitMode.Wait],
 
     # RadFET Experiment data download
     [tc.DownloadFile(23, '/radfet', [i for i in range(0, 8, 1)]), Send, WaitMode.Wait],
