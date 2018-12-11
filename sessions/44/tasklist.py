@@ -17,8 +17,10 @@ tasks = [
     [tc.DownloadFile(106, '/radfet', [i for i in range(0, 16, 1)]), Send, WaitMode.Wait],
 
     # Last hi res photo
-    [tc.DownloadFile(107, '/p2_480_0', [i for i in range(0, 30, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(108, '/p2_480_0', [i for i in range(30, 60, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(107, '/p2_480_0', [i for i in range(0, 15, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(108, '/p2_480_0', [i for i in range(15, 30, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(109, '/p2_480_0', [i for i in range(30, 45, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(110, '/p2_480_0', [i for i in range(45, 60, 1)]), Send, WaitMode.Wait],
 
     # Goodbye satellite
     [tc.SendBeacon(), Send, WaitMode.Wait],
