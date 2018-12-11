@@ -9,11 +9,11 @@ tasks = [
     [tc.RemoveFile(43, '/p2_480_0'), Send, WaitMode.Wait],
     [tc.ListFiles(44, '/'), Send, WaitMode.Wait],
 
-    # Telemetry download between session 42 and 43
+    # Telemetry download between session 46 and 47
     [tc.DownloadFile(45, '/telemetry.current', [i for i in range(0, 250, 25)]), Send, WaitMode.Wait],
     [tc.DownloadFile(46, '/telemetry.current', [i for i in range(12, 250, 25)]), Send, WaitMode.Wait],
 
-    # Take 50 low-res photos
+    # Take 29 low-res photos
     [tc.TakePhotoTelecommand(73, CameraLocation.Nadir, PhotoResolution.p128, 29, datetime.timedelta(minutes=45), 'hor'), Send, WaitMode.Wait],
 
     # Much more telemetry between 42 and 43
