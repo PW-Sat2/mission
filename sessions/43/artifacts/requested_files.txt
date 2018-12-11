@@ -1,0 +1,13 @@
+{'telemetry.current': {'CorrelationIds': [202],
+                       'RequestedChunks': [0,
+                                           800,
+                                           100,
+                                           200,
+                                           300,
+                                           400,
+                                           500,
+                                           600,
+                                           900,
+                                           700]},
+ 'telemetry.previous': {'CorrelationIds': [203],
+                        'RequestedChunks': [2200, 2250, 2100, 2150]}}
