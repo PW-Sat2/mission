@@ -1,8 +1,8 @@
 {
     "Session": {
-        "short_description": "Telemetry and RadFET experiment data download on 1200. Set back to 9600.",
+        "short_description": "Power cycle and set back to 9600.",
         "phase": "extended",
-        "status": "success",
+        "status": "planned",
         "start_time_iso_with_zone": "2018-12-11T12:13:56+01:00",
         "stop_time_iso_with_zone": "2018-12-11T12:23:53+01:00"
     }
