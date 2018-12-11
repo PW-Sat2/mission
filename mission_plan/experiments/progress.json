@@ -5,10 +5,10 @@
         "`Test SunS Experiment` file downloading." : [true, "At 9600 bps if possible."],
         "Trigger `SunS Experiment`." : [true, "SunS experiment."],
         "`SunS Experiment` file downloading." : [true, "At 9600 bps if possible."],
-        "Deleting `SunS Experiment` file." : [false, "To free space."],
-        "Called `TakePhotoTelecommand`.": [false, "To take some nice pictures."],
-        "`Files List` of pictures downloaded." : [false, "To check that pictures exist."],
-        "Pictures downloaded." : [false, "Download pictures created by `TakePhotoTelecommand`."],
-        "Both `SunS Experiment` file and pictures deleted." : [false, "To free space."]
+        "Deleting `SunS Experiment` file." : [true, "To free space."],
+        "Called `TakePhotoTelecommand`.": [true, "To take some nice pictures."],
+        "`Files List` of pictures downloaded." : [true, "To check that pictures exist."],
+        "Pictures downloaded." : [true, "Download pictures created by `TakePhotoTelecommand`."],
+        "Both `SunS Experiment` file and pictures deleted." : [true, "To free space."]
     }
 }
