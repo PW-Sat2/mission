@@ -8,6 +8,9 @@ tasks = [
     [tc.DownloadFile(132, '/telemetry.current', [i for i in range(1490, 1690, 10)]), Send, WaitMode.Wait],
     [tc.DownloadFile(133, '/telemetry.current', [i for i in range(1495, 1690, 10)]), Send, WaitMode.Wait],
 
+    #SunS Experiment triggering
+    [tc.PerformSunSExperiment(134, 0, 20, 250, datetime.timedelta(seconds=5), 3, datetime.timedelta(seconds=10), 'suns_2'), Send, WaitMode.Wait],
+
     # More low res photos
     # hor_0 downloaded
     [tc.DownloadFile(140, '/hor_1', [6]), Send, WaitMode.Wait],
