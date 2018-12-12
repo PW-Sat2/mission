@@ -5,11 +5,11 @@ tasks = [
     [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
 
     # Telemetry download between session 51 and 53
-    [tc.DownloadFile(12, '/telemetry.current', [i for i in range(0, 600, 25)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(13, '/telemetry.current', [i for i in range(12, 600, 25)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(12, '/telemetry.current', [i for i in range(5, 600, 25)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(13, '/telemetry.current', [i for i in range(17, 600, 25)]), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(10, '/telemetry.previous', [i for i in range(1850, 2280, 25)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(11, '/telemetry.previous', [i for i in range(1862, 2280, 25)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(10, '/telemetry.previous', [i for i in range(1855, 2280, 25)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(11, '/telemetry.previous', [i for i in range(1867, 2280, 25)]), Send, WaitMode.Wait],
 
     # SunS experiment download
     [tc.SendBeacon(), Send, WaitMode.NoWait],
