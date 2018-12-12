@@ -1,8 +1,8 @@
 {
     "Session": {
-        "short_description": "On 9600. Remove photos. List files.",
+        "short_description": "On 9600. Remove photos. List files. Low elevation pass.",
         "phase": "extended",
-        "status": "planned",
+        "status": "success",
         "start_time_iso_with_zone": "2018-12-12T12:20:02+01:00",
         "stop_time_iso_with_zone": "2018-12-12T12:29:40+01:00"
     }
