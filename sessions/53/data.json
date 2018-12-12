@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Download SunS experiment file and telemetry on 9600.",
         "phase": "extended",
-        "status": "planned",
+        "status": "success",
         "start_time_iso_with_zone": "2018-12-12T21:38:45+01:00",
         "stop_time_iso_with_zone": "2018-12-12T21:51:17+01:00"
     }
