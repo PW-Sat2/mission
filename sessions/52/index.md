@@ -1,5 +1,5 @@
 {% extends "/sessions/_layout/index.md" %}
 
 {% block goal %}
-On 9600. Remove photos. List files. Low elevation pass so nothing expected.
+Planned power cycle. Set back to 9600. Then download SunS experiment file.
 {% endblock %}
