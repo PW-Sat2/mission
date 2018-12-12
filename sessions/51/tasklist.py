@@ -20,6 +20,7 @@ tasks = [
     [tc.RemoveFile(108, '/hor_8'), Send, WaitMode.Wait],
     [tc.RemoveFile(109, '/hor_9'), Send, WaitMode.Wait],
     [tc.ListFiles(234, '/'), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.Wait],
 
     [tc.RemoveFile(200, '/hor_10'), Send, WaitMode.Wait],
     [tc.RemoveFile(201, '/hor_11'), Send, WaitMode.Wait],
@@ -32,6 +33,7 @@ tasks = [
     [tc.RemoveFile(208, '/hor_18'), Send, WaitMode.Wait],
     [tc.RemoveFile(209, '/hor_19'), Send, WaitMode.Wait],
     [tc.ListFiles(235, '/'), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.Wait],
 
     [tc.RemoveFile(210, '/hor_20'), Send, WaitMode.Wait],
     [tc.RemoveFile(211, '/hor_21'), Send, WaitMode.Wait],
@@ -42,8 +44,21 @@ tasks = [
     [tc.RemoveFile(216, '/hor_26'), Send, WaitMode.Wait],
     [tc.RemoveFile(217, '/hor_27'), Send, WaitMode.Wait],
     [tc.RemoveFile(218, '/hor_28'), Send, WaitMode.Wait],
-
     [tc.ListFiles(236, '/'), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+
+    # SunS experiment download
+    [tc.DownloadFile(1, '/suns_2', [i for i in range(0, 25, 25)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(2, '/suns_2', [i for i in range(25, 50, 25)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(3, '/suns_2', [i for i in range(50, 75, 25)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(4, '/suns_2', [i for i in range(75, 100, 25)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(5, '/suns_2', [i for i in range(100, 125, 25)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(6, '/suns_2', [i for i in range(125, 150, 25)]), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+    [tc.DownloadFile(7, '/suns_2', [i for i in range(150, 175, 25)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(8, '/suns_2', [i for i in range(175, 200, 25)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(9, '/suns_2', [i for i in range(200, 225, 25)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(10, '/suns_2', [i for i in range(225, 250, 25)]), Send, WaitMode.Wait],
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 ]
