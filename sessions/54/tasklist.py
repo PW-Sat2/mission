@@ -5,16 +5,16 @@ tasks = [
     [tc.ListFiles(11, '/'), Send, WaitMode.Wait],
 
     # Telemetry download between session 53 and 54
-    [tc.DownloadFile(20, '/telemetry.current', [i for i in range(570, 750, 50)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(21, '/telemetry.current', [i for i in range(595, 750, 50)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(20, '/telemetry.current', [i for i in range(570, 770, 50)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(21, '/telemetry.current', [i for i in range(595, 770, 50)]), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(22, '/telemetry.current', [i for i in range(582, 750, 50)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(23, '/telemetry.current', [i for i in range(607, 750, 50)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(22, '/telemetry.current', [i for i in range(582, 770, 50)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(23, '/telemetry.current', [i for i in range(607, 770, 50)]), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(24, '/telemetry.current', [i for i in range(576, 750, 50)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(25, '/telemetry.current', [i for i in range(588, 750, 50)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(26, '/telemetry.current', [i for i in range(601, 750, 50)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(27, '/telemetry.current', [i for i in range(613, 750, 50)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(24, '/telemetry.current', [i for i in range(576, 770, 50)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(25, '/telemetry.current', [i for i in range(588, 770, 50)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(26, '/telemetry.current', [i for i in range(601, 770, 50)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(27, '/telemetry.current', [i for i in range(613, 770, 50)]), Send, WaitMode.Wait],
 
     # SunS experiment secondary file
     [tc.DownloadFile(30, '/suns_2_sec', [i for i in range(0, 10, 1)]), Send, WaitMode.Wait],
