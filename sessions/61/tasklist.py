@@ -31,5 +31,7 @@ tasks = [
     [tc.RemoveFile(123, '/suns_2'), Send, WaitMode.Wait],
     [tc.RemoveFile(124, '/suns_2_sec'), Send, WaitMode.Wait],
 
+    [tc.ListFiles(66, '/'), Send, WaitMode.Wait],
+
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
