@@ -19,19 +19,6 @@ tasks = [
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
-    # Low res photos - PhotoSuccessFrames received
-    [tc.DownloadFile(20, '/p2_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(21, '/p10_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(22, '/p11_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(23, '/p12_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(24, '/p13_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(25, '/p15_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(26, '/p16_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(27, '/p17_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(28, '/p18_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(29, '/p19_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(30, '/p20_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-
     # More telemetry
     [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(10, '/telemetry.current', [i for i in range(12, 1000, 50)]), Send, WaitMode.Wait],
@@ -53,6 +40,19 @@ tasks = [
     [tc.DownloadFile(52, '/telemetry.previous', [i for i in range(1890, 1910, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(53, '/telemetry.previous', [i for i in range(1910, 1930, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(54, '/telemetry.previous', [i for i in range(1930, 1950, 1)]), Send, WaitMode.Wait],
+
+    # Low res photos - PhotoSuccessFrames received
+    [tc.DownloadFile(20, '/p2_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(21, '/p10_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(22, '/p11_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(23, '/p12_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(24, '/p13_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(25, '/p15_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(26, '/p16_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(27, '/p17_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(28, '/p18_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(29, '/p19_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(30, '/p20_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
 
     # SunS 2 secondary file
     [tc.SendBeacon(), Send, WaitMode.NoWait],
