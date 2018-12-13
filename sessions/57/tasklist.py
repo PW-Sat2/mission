@@ -4,9 +4,13 @@ tasks = [
 
     [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
 
+    # Telemetry between session 56 and 57
+    [tc.DownloadFile(3, '/telemetry.current', [i for i in range(2000, 2280, 12)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(4, '/telemetry.current', [i for i in range(2006, 2280, 12)]), Send, WaitMode.Wait],
+
     # Much more telemetry between session 53 and 00:00
-    [tc.DownloadFile(3, '/telemetry.previous', [i for i in range(580, 980, 25)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(4, '/telemetry.previous', [i for i in range(592, 980, 25)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(5, '/telemetry.previous', [i for i in range(580, 980, 25)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(6, '/telemetry.previous', [i for i in range(592, 980, 25)]), Send, WaitMode.Wait],
 
     # Low res photos - PhotoSuccessFrames received
     [tc.DownloadFile(20, '/p2_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
