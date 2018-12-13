@@ -1,5 +1,5 @@
 tasks = [
-    [[tc.SetBitrate(1, BaudRate.BaudRate9600), 5], SendLoop, WaitMode.NoWait],
+    [[tc.SetBitrate(1, BaudRate.BaudRate1200), 5], SendLoop, WaitMode.NoWait],
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
     [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
@@ -15,7 +15,7 @@ tasks = [
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
-    [[tc.SetBitrate(199, 8), 3], SendLoop, WaitMode.NoWait],
+    [[tc.SetBitrate(199, BaudRate.BaudRate9600), 3], SendLoop, WaitMode.NoWait],
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
@@ -56,12 +56,15 @@ tasks = [
 
     # SunS 2 secondary file
     [tc.SendBeacon(), Send, WaitMode.NoWait],
-    [tc.DownloadFile(60, '/suns_2_sec', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(61, '/suns_2_sec', [i for i in range(25, 50, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(62, '/suns_2_sec', [i for i in range(50, 75, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(63, '/suns_2_sec', [i for i in range(75, 100, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(64, '/suns_2_sec', [i for i in range(100, 125, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(65, '/suns_2_sec', [i for i in range(125, 150, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(60, '/suns_2_sec', [i for i in range(0, 15, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(61, '/suns_2_sec', [i for i in range(15, 30, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(62, '/suns_2_sec', [i for i in range(30, 45, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(63, '/suns_2_sec', [i for i in range(45, 60, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(64, '/suns_2_sec', [i for i in range(60, 75, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(65, '/suns_2_sec', [i for i in range(75, 90, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(66, '/suns_2_sec', [i for i in range(90, 105, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(67, '/suns_2_sec', [i for i in range(105, 120, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(68, '/suns_2_sec', [i for i in range(120, 125, 1)]), Send, WaitMode.Wait],
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 ]
