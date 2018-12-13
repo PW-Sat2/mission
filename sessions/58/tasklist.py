@@ -4,12 +4,22 @@ tasks = [
 
     [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
 
-    # Telemetry
+    # Telemetry between session 57 and 58
     [tc.DownloadFile(4, '/telemetry.current', [i for i in range(0, 1000, 50)]), Send, WaitMode.Wait],
     [tc.DownloadFile(5, '/telemetry.current', [i for i in range(25, 1000, 50)]), Send, WaitMode.Wait],
 
+    # Power cycle EPS B
+    [tc.PowerCycleTelecommand(166), Send, WaitMode.Wait],
+
+    [tc.PingTelecommand(), Send, WaitMode.Wait],
+
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+
+    [[tc.SetBitrate(199, 8), 3], SendLoop, WaitMode.NoWait],
+
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+
     # Low res photos - PhotoSuccessFrames received
-    [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(20, '/p2_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(21, '/p10_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(22, '/p11_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
@@ -46,12 +56,12 @@ tasks = [
 
     # SunS 2 secondary file
     [tc.SendBeacon(), Send, WaitMode.NoWait],
-    [tc.DownloadFile(60, '/telemetry.previous', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(61, '/telemetry.previous', [i for i in range(25, 50, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(62, '/telemetry.previous', [i for i in range(50, 75, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(63, '/telemetry.previous', [i for i in range(75, 100, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(64, '/telemetry.previous', [i for i in range(100, 125, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(65, '/telemetry.previous', [i for i in range(125, 150, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(60, '/suns_2_sec', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(61, '/suns_2_sec', [i for i in range(25, 50, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(62, '/suns_2_sec', [i for i in range(50, 75, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(63, '/suns_2_sec', [i for i in range(75, 100, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(64, '/suns_2_sec', [i for i in range(100, 125, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(65, '/suns_2_sec', [i for i in range(125, 150, 1)]), Send, WaitMode.Wait],
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 ]
