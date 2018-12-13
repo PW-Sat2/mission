@@ -1,0 +1,7 @@
+decode_photo('p6_480_0')
+decode_photo('p7_480_0')
+decode_photo('p8_480_0')
+decode_photo('p9_480_0')
+decode_photo('p11_480_0')
+decode_photo('p12_480_0')
+decode_photo('p13_480_0')
