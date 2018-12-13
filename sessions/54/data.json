@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Download latest telemetry on 9600. Low elevation pass.",
         "phase": "extended",
-        "status": "planned",
+        "status": "success",
         "start_time_iso_with_zone": "2018-12-12T23:17:38+01:00",
         "stop_time_iso_with_zone": "2018-12-12T23:25:18+01:00"
     }
