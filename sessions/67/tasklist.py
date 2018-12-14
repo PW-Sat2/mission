@@ -19,7 +19,12 @@ tasks = [
     # Remove photos - with no wait - experimental
     [tc.SendBeacon(), Send, WaitMode.Wait],
     [tc.RemoveFile(19, '/p14_480_0'), Send, WaitMode.NoWait],
+    [tc.RemoveFile(20, '/p15_480_0'), Send, WaitMode.NoWait],
+    [tc.RemoveFile(21, '/p8_480_0'), Send, WaitMode.NoWait],
+    [tc.RemoveFile(22, '/suns_3'), Send, WaitMode.NoWait],
+    # Remove repeat
     [tc.SendBeacon(), Send, WaitMode.Wait],
+    [tc.RemoveFile(19, '/p14_480_0'), Send, WaitMode.NoWait],
     [tc.RemoveFile(20, '/p15_480_0'), Send, WaitMode.NoWait],
     [tc.RemoveFile(21, '/p8_480_0'), Send, WaitMode.NoWait],
     [tc.RemoveFile(22, '/suns_3'), Send, WaitMode.NoWait],
