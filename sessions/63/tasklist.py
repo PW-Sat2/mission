@@ -43,9 +43,9 @@ tasks = [
     [tc.DownloadFile(82, '/telemetry.current', [i for i in range(3, 120, 5)]), Send, WaitMode.Wait],
     [tc.DownloadFile(83, '/telemetry.current', [i for i in range(4, 120, 5)]), Send, WaitMode.Wait],
     [tc.SendBeacon(), Send, WaitMode.NoWait],
-    [tc.DownloadFile(84, '/telemetry.current', [i for i in range(2200, 2225, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(85, '/telemetry.current', [i for i in range(2225, 2250, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(86, '/telemetry.current', [i for i in range(2250, 2280, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(84, '/telemetry.previous', [i for i in range(2200, 2225, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(85, '/telemetry.previous', [i for i in range(2225, 2250, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(86, '/telemetry.previous', [i for i in range(2250, 2280, 1)]), Send, WaitMode.Wait],
 
     # Much more telemetry between session 61 and 63
     [tc.DownloadFile(100, '/telemetry.previous', [i for i in range(1206, 2280, 50)]), Send, WaitMode.Wait],
