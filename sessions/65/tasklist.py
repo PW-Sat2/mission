@@ -1,8 +1,21 @@
 tasks = [
-    [[tc.SetBitrate(1, BaudRate.BaudRate9600), 5], SendLoop, WaitMode.NoWait],
+    # Set 1200
+    [[tc.SetBitrate(1, BaudRate.BaudRate1200), 5], SendLoop, WaitMode.NoWait],
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
     [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
+
+    [tc.PowerCycleTelecommand(3), Send, WaitMode.Wait],
+
+    [tc.PingTelecommand(), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+
+    # Third SunS experiment
+    [tc.PerformSunSExperiment(4, 0, 20, 250, datetime.timedelta(seconds=5), 3, datetime.timedelta(seconds=10), 'suns_3'), Send, WaitMode.Wait],
+
+    # Set 9600
+    [[tc.SetBitrate(5, BaudRate.BaudRate9600), 3], SendLoop, WaitMode.NoWait],
+    [tc.SendBeacon(), Send, WaitMode.Wait],
 
     # Telemetry between session 63 and 65
     [tc.DownloadFile(3, '/telemetry.current', [i for i in range(90, 1200, 100)]), Send, WaitMode.Wait],
