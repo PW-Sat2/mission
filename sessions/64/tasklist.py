@@ -76,16 +76,33 @@ tasks = [
     [tc.ListFiles(66, '/'), Send, WaitMode.Wait],
 
     # Hi res photos
-    [tc.DownloadFile(220, '/p14_480_0', [i for i in range(0, 20, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(221, '/p14_480_0', [i for i in range(20, 40, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(222, '/p14_480_0', [i for i in range(40, 60, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(223, '/p14_480_0', [i for i in range(60, 80, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(224, '/p14_480_0', [i for i in range(80, 104, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(220, '/p14_480_0', [i for i in range(0, 10, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(230, '/p14_480_0', [i for i in range(10, 20, 1)]), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(225, '/p15_480_0', [i for i in range(0, 22, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(226, '/p15_480_0', [i for i in range(22, 44, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(227, '/p15_480_0', [i for i in range(44, 66, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(228, '/p15_480_0', [i for i in range(66, 88, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(221, '/p14_480_0', [i for i in range(20, 30, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(231, '/p14_480_0', [i for i in range(30, 40, 1)]), Send, WaitMode.Wait],
+
+    [tc.DownloadFile(222, '/p14_480_0', [i for i in range(40, 50, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(232, '/p14_480_0', [i for i in range(50, 60, 1)]), Send, WaitMode.Wait],
+
+    [tc.DownloadFile(223, '/p14_480_0', [i for i in range(60, 70, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(233, '/p14_480_0', [i for i in range(70, 80, 1)]), Send, WaitMode.Wait],
+
+    [tc.DownloadFile(224, '/p14_480_0', [i for i in range(80, 92, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(234, '/p14_480_0', [i for i in range(92, 104, 1)]), Send, WaitMode.Wait],
+
+
+    [tc.DownloadFile(225, '/p15_480_0', [i for i in range(0, 11, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(235, '/p15_480_0', [i for i in range(11, 22, 1)]), Send, WaitMode.Wait],
+
+    [tc.DownloadFile(226, '/p15_480_0', [i for i in range(22, 33, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(236, '/p15_480_0', [i for i in range(33, 44, 1)]), Send, WaitMode.Wait],
+
+    [tc.DownloadFile(227, '/p15_480_0', [i for i in range(44, 55, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(237, '/p15_480_0', [i for i in range(55, 66, 1)]), Send, WaitMode.Wait],
+
+    [tc.DownloadFile(228, '/p15_480_0', [i for i in range(66, 77, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(238, '/p15_480_0', [i for i in range(77, 88, 1)]), Send, WaitMode.Wait],
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
