@@ -17,7 +17,9 @@ tasks = [
     [tc.DownloadFile(18, '/suns_3_sec', [i for i in range(100, 125, 1)]), Send, WaitMode.Wait],
 
     # Remove photos - with no wait - experimental
+    [tc.SendBeacon(), Send, WaitMode.Wait],
     [tc.RemoveFile(19, '/p14_480_0'), Send, WaitMode.NoWait],
+    [tc.SendBeacon(), Send, WaitMode.Wait],
     [tc.RemoveFile(20, '/p15_480_0'), Send, WaitMode.NoWait],
     [tc.RemoveFile(21, '/p8_480_0'), Send, WaitMode.NoWait],
     [tc.RemoveFile(22, '/suns_3'), Send, WaitMode.NoWait],
@@ -43,6 +45,7 @@ tasks = [
     [tc.DownloadFile(190, '/telemetry.current', [i for i in range(348, 1150, 50)]), Send, WaitMode.Wait],
 
     # More telemetry between session 66 and 67
+    [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(200, '/telemetry.current', [i for i in range(1101, 1300, 12)]), Send, WaitMode.Wait],
     [tc.DownloadFile(201, '/telemetry.current', [i for i in range(1102, 1300, 12)]), Send, WaitMode.Wait],
     [tc.DownloadFile(202, '/telemetry.current', [i for i in range(1103, 1300, 12)]), Send, WaitMode.Wait],
