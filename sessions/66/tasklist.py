@@ -41,34 +41,19 @@ tasks = [
     [tc.DownloadFile(99, '/p9_128_0', [6]), Send, WaitMode.Wait],
 
     # Remove photos
-    [tc.RemoveFile(100, '/p1_128_0'), Send, WaitMode.Wait],
-    [tc.RemoveFile(200, '/p1_480_0'), Send, WaitMode.Wait],
-
-    [tc.RemoveFile(101, '/p2_128_0'), Send, WaitMode.Wait],
-    [tc.RemoveFile(201, '/p2_480_0'), Send, WaitMode.Wait],
-
-    [tc.RemoveFile(102, '/p3_128_0'), Send, WaitMode.Wait],
-    [tc.RemoveFile(202, '/p3_480_0'), Send, WaitMode.Wait],
-
-    [tc.RemoveFile(103, '/p4_128_0'), Send, WaitMode.Wait],
     [tc.RemoveFile(203, '/p4_480_0'), Send, WaitMode.Wait],
 
-    [tc.RemoveFile(104, '/p5_128_0'), Send, WaitMode.Wait],
     [tc.RemoveFile(204, '/p5_480_0'), Send, WaitMode.Wait],
 
-    [tc.RemoveFile(105, '/p6_128_0'), Send, WaitMode.Wait],
     [tc.RemoveFile(205, '/p6_480_0'), Send, WaitMode.Wait],
 
     [tc.RemoveFile(106, '/p7_128_0'), Send, WaitMode.Wait],
-    [tc.RemoveFile(206, '/p7_480_0'), Send, WaitMode.Wait],
 
     [tc.RemoveFile(107, '/p8_128_0'), Send, WaitMode.Wait],
-    [tc.RemoveFile(207, '/p8_480_0'), Send, WaitMode.Wait],
 
     [tc.RemoveFile(108, '/p9_128_0'), Send, WaitMode.Wait],
     [tc.RemoveFile(208, '/p9_480_0'), Send, WaitMode.Wait],
 
-    [tc.RemoveFile(109, '/p10_128_0'), Send, WaitMode.Wait],
     [tc.RemoveFile(209, '/p10_480_0'), Send, WaitMode.Wait],
 
     [tc.RemoveFile(110, '/p11_128_0'), Send, WaitMode.Wait],
