@@ -18,12 +18,12 @@ tasks = [
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
     # Telemetry between session 63 and 65
-    [tc.DownloadFile(3, '/telemetry.current', [i for i in range(90, 1200, 100)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(4, '/telemetry.current', [i for i in range(140, 1200, 100)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(6, '/telemetry.current', [i for i in range(90, 1200, 100)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(7, '/telemetry.current', [i for i in range(140, 1200, 100)]), Send, WaitMode.Wait],
 
     # Some missing chunks
-    [tc.DownloadFile(5, '/p7_128_0', [5]), Send, WaitMode.Wait],
-    [tc.DownloadFile(6, '/p9_128_0', [6]), Send, WaitMode.Wait],
+    [tc.DownloadFile(8, '/p7_128_0', [5]), Send, WaitMode.Wait],
+    [tc.DownloadFile(9, '/p9_128_0', [6]), Send, WaitMode.Wait],
 
     # Remove photos
     [tc.RemoveFile(100, '/p1_128_0'), Send, WaitMode.Wait],
