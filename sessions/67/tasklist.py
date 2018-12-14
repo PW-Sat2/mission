@@ -56,5 +56,17 @@ tasks = [
     [tc.DownloadFile(207, '/telemetry.current', [i for i in range(1110, 1300, 12)]), Send, WaitMode.Wait],
     [tc.DownloadFile(208, '/telemetry.current', [i for i in range(1111, 1300, 12)]), Send, WaitMode.Wait],
 
+    # More telemetry during suns exp 3
+    [tc.DownloadFile(220, '/telemetry.current', [i for i in range(950, 1150, 12)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(221, '/telemetry.current', [i for i in range(951, 1150, 12)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(222, '/telemetry.current', [i for i in range(952, 1150, 12)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(223, '/telemetry.current', [i for i in range(953, 1150, 12)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(224, '/telemetry.current', [i for i in range(955, 1150, 12)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(225, '/telemetry.current', [i for i in range(956, 1150, 12)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(226, '/telemetry.current', [i for i in range(957, 1150, 12)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(227, '/telemetry.current', [i for i in range(959, 1150, 12)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(228, '/telemetry.current', [i for i in range(960, 1150, 12)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(229, '/telemetry.current', [i for i in range(961, 1150, 12)]), Send, WaitMode.Wait],
+
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
