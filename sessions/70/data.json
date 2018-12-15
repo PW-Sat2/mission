@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Download telemetry and RadFET exp data. On 9600.",
         "phase": "extended",
-        "status": "planned",
+        "status": "success",
         "start_time_iso_with_zone": "2018-12-15T11:01:26+01:00",
         "stop_time_iso_with_zone": "2018-12-15T11:13:45+01:00"
     }
