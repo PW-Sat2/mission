@@ -24,7 +24,7 @@ tasks = [
     [tc.DownloadFile(17, '/telemetry.previous', [i for i in range(1235, 1255, 2)]), Send, WaitMode.Wait],
 
     # gap between 13-12-2018 21:38 and 21:49
-    [tc.DownloadFile(18, '/telemetry.previous', [i for i in range(1251, 1273, 2)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(18, '/telemetry.previous', [i for i in range(1271, 1293, 2)]), Send, WaitMode.Wait],
 
     # gap between 13-12-2018 21:55 and 22:12
     [tc.DownloadFile(19, '/telemetry.previous', [i for i in range(1305, 1339, 2)]), Send, WaitMode.Wait],
