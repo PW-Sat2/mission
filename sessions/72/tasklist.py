@@ -17,6 +17,9 @@ tasks = [
     # Set periodic
     [tc.SetPeriodicMessageTelecommand(correlation_id=4, interval_minutes=1, repeat_count=1, message='We are the Borg.Lower your shields and surrender your ships.We will add your biological and technological distinctiveness to our own.Resistance is futile'), Send, WaitMode.Wait],
     
+    # Persistent state
+    [tc.GetPersistentState(), Send, WaitMode.Wait],
+
     # Set back to 9600
     [[tc.SetBitrate(100, BaudRate.BaudRate9600), 5], SendLoop, WaitMode.NoWait],
     [tc.SendBeacon(), Send, WaitMode.Wait],
