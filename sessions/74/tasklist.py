@@ -5,7 +5,7 @@ tasks = [
     [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
 
     # Set periodic
-    [tc.SetPeriodicMessageTelecommand(correlation_id=5, interval_minutes=1, repeat_count=0, message=''), Send, WaitMode.Wait],
+    [tc.SetPeriodicMessageTelecommand(correlation_id=5, interval_minutes=1, repeat_count=0, message='empty'), Send, WaitMode.Wait],
 
     # Telemetry between session 73 and 74
     [tc.DownloadFile(10, '/telemetry.current', [i for i in range(1450, 1700, 12)]), Send, WaitMode.Wait],
