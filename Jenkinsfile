@@ -15,6 +15,7 @@ pipeline {
                 withEnv(['PATH+NODE=C:/Tools/node8', 'PATH+GITBOOK=C:/tools/gitbook/node_modules/.bin']) {
                     bat('gitbook install')
                     bat('node "plugins/gitbook-plugin-pwsat/summary.js"')
+                    bat('python "analytics.py"')
                     bat('gitbook build')
                 }
 
