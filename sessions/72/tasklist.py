@@ -9,7 +9,7 @@ tasks = [
     [tc.DownloadFile(12, '/telemetry.current', [i for i in range(680, 1350, 100)]), Send, WaitMode.Wait],
 
     # Power cycle
-    [tc.PowerCycleTelecommand(3), Send, WaitMode.Wait],
+    [tc.RawI2C(13, 0, 0x35, 1, [0xE0]), Send, WaitMode.Wait],
 
     [tc.PingTelecommand(), Send, WaitMode.Wait],
     [tc.SendBeacon(), Send, WaitMode.Wait],
