@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Download telemetry, delete files, trigger second RadFET experiment. On 9600.",
         "phase": "extended",
-        "status": "planned",
+        "status": "success",
         "start_time_iso_with_zone": "2018-12-15T09:26:09+01:00",
         "stop_time_iso_with_zone": "2018-12-15T09:37:53+01:00"
     }

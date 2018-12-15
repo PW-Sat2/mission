@@ -7,7 +7,7 @@
         "Pictures downloaded." : [true, "Download pictures created by `TakePhotoTelecommand`."],
         "Trigger `SunS Experiment`." : [true, "SunS experiment parameters: x=1, y=2."],
         "`SunS Experiment` file downloading." : [true, "At 9600 bps if possible."],
-        "Deleting `SunS Experiment` file." : [false, "To free space."],
+        "Deleting `SunS Experiment` file." : [true, "To free space."],
         "Calling `SADS Experiment`" : [false, "Performing this experiment if possible."],
         "Trigger second `RadFET Experiment`." : [true, "Use parameters for RadFET Experiment 2"],
         "Second `RadFET Experiment` files downloading." : [false, "Download with 9600 bps if possible."],
