@@ -22,7 +22,7 @@ tasks = [
     [tc.DownloadFile(15, '/p6_480_0', [i for i in range(100, 120, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(16, '/p6_480_0', [i for i in range(120, 140, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(17, '/p6_480_0', [i for i in range(140, 160, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(18, '/p6_480_0', [i for i in range(160, 177, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(18, '/p6_480_0', [i for i in range(160, 171, 1)]), Send, WaitMode.Wait],
 
     [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(20, '/p7_480_0', [i for i in range(0, 20, 1)]), Send, WaitMode.Wait],
