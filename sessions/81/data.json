@@ -1,9 +1,9 @@
 {
     "Session": {
-        "short_description": "Telemetry and high res photos download on 9600. Fourth SunS experiment.",
+        "short_description": "Telemetry and high res photos download on 9600. SunS exp data download.",
         "phase": "extended",
-        "status": "planned",
-        "start_time_iso_with_zone": "2018-12-16T20:26:43+01:00",
-        "stop_time_iso_with_zone": "2018-12-16T20:38:59+01:00"
+        "status": "success",
+        "start_time_iso_with_zone": "2018-12-16T22:02:21+01:00",
+        "stop_time_iso_with_zone": "2018-12-16T22:14:24+01:00"
     }
 }
