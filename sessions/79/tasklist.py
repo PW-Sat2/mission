@@ -1,5 +1,5 @@
 tasks = [
-    [tc.SetBitrate(1, BaudRate.BaudRate1200), Send, WaitMode.Wait],
+    [[tc.SetBitrate(3, BaudRate.BaudRate1200), 5], SendLoop, WaitMode.NoWait],
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
     [tc.PowerCycleTelecommand(2), Send, WaitMode.Wait],
@@ -8,7 +8,7 @@ tasks = [
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
     # Set 9600
-    [[tc.SetBitrate(3, BaudRate.BaudRate9600), 3], SendLoop, WaitMode.NoWait],
+    [tc.SetBitrate(1, BaudRate.BaudRate9600), Send, WaitMode.Wait],
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
     [tc.ListFiles(4, '/'), Send, WaitMode.Wait],
