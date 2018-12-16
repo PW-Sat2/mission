@@ -1,12 +1,25 @@
 const fs = require('fs');
 const _ = require('lodash');
+const path = require('path');
 
 function getArtifacts(folder) {
     if (!fs.existsSync(folder)) {
         return [];
     }
 
-    return fs.readdirSync(folder);
+    items = fs.readdirSync(folder)
+        .filter(f => f != '.keep')
+        .filter(f => f != 'assembled')
+        ;
+
+    let assembled = [];
+
+    if (fs.existsSync(path.join(folder, 'assembled'))) {
+        assembled = fs.readdirSync(path.join(folder, 'assembled'))
+                .map(f => path.join('assembled', f));
+    }
+
+    return items.concat(assembled);
 }
 
 function missingList(items) {
