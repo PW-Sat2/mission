@@ -50,40 +50,41 @@ tasks = [
     [tc.RemoveFile(34, '/p10_480_0'), Send, WaitMode.NoWait],
 
     [tc.RemoveFile(35, '/p12_128_0'), Send, WaitMode.NoWait],
-    # p12_480_0 - to be removed - overexposed Earth
+    [tc.RemoveFile(36, '/p12_480_0'), Send, WaitMode.NoWait], # overexposed Earth
 
-    [tc.RemoveFile(36, '/p13_128_0'), Send, WaitMode.NoWait],
-    # p13_480_0 - to be removed - overexposed Earth
+    [tc.RemoveFile(37, '/p13_128_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(38, '/p10_480_0'), Send, WaitMode.NoWait], # overexposed Earth
 
-    [tc.RemoveFile(37, '/p14_128_0'), Send, WaitMode.Wait],
-    # p14_480_0 - to be removed - Sun or overexposed Earth
+    [tc.RemoveFile(39, '/p14_128_0'), Send, WaitMode.NoWait],
+    [tc.RemoveFile(40, '/p10_480_0'), Send, WaitMode.NoWait], # Sun or overexposed Earth
 
-    [tc.RemoveFile(38, '/p15_128_0'), Send, WaitMode.NoWait],
-    # p15_480_0 - to be removed - Sun
+    [tc.RemoveFile(41, '/p15_128_0'), Send, WaitMode.NoWait],
+    [tc.RemoveFile(42, '/p10_480_0'), Send, WaitMode.NoWait], # Sun
 
-    [tc.RemoveFile(39, '/p16_128_0'), Send, WaitMode.NoWait],
-    # p16_480_0 - to be removed - Sun
+    [tc.RemoveFile(43, '/p16_128_0'), Send, WaitMode.NoWait],
+    [tc.RemoveFile(44, '/p10_480_0'), Send, WaitMode.NoWait], # Sun
 
-    [tc.RemoveFile(40, '/p17_128_0'), Send, WaitMode.NoWait],
-    # p17_480_0 - to be removed - Sun
+    [tc.RemoveFile(45, '/p17_128_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(46, '/p10_480_0'), Send, WaitMode.NoWait], # Sun
 
-    [tc.RemoveFile(41, '/p18_128_0'), Send, WaitMode.NoWait],
-    # p18_480_0 - to be removed - Sun
+    [tc.RemoveFile(47, '/p18_128_0'), Send, WaitMode.NoWait],
+    [tc.RemoveFile(48, '/p10_480_0'), Send, WaitMode.NoWait], # Sun
 
-    [tc.RemoveFile(42, '/p19_128_0'), Send, WaitMode.NoWait],
-    # p19_480_0 - to be removed - Sun
+    [tc.RemoveFile(49, '/p19_128_0'), Send, WaitMode.NoWait],
+    [tc.RemoveFile(50, '/p10_480_0'), Send, WaitMode.NoWait], # Sun
 
-    # p20_128_0 and p20_480_0 - to be removed - Sun
+    [tc.RemoveFile(51, '/p20_128_0'), Send, WaitMode.NoWait],
+    [tc.RemoveFile(52, '/p20_480_0'), Send, WaitMode.NoWait], # Sun
 
-    [tc.ListFiles(49, '/'), Send, WaitMode.Wait],
+    [tc.ListFiles(53, '/'), Send, WaitMode.Wait],
 
     # Fourth SunS Experiment secondary data
-    [tc.DownloadFile(50, '/suns_4_sec', [i for i in range(0, 20, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(51, '/suns_4_sec', [i for i in range(20, 40, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(52, '/suns_4_sec', [i for i in range(40, 60, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(53, '/suns_4_sec', [i for i in range(60, 80, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(54, '/suns_4_sec', [i for i in range(80, 100, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(55, '/suns_4_sec', [i for i in range(100, 125, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(54, '/suns_4_sec', [i for i in range(0, 20, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(55, '/suns_4_sec', [i for i in range(20, 40, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(56, '/suns_4_sec', [i for i in range(40, 60, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(57, '/suns_4_sec', [i for i in range(60, 80, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(58, '/suns_4_sec', [i for i in range(80, 100, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(59, '/suns_4_sec', [i for i in range(100, 125, 1)]), Send, WaitMode.Wait],
  
     # More telemetry between session 81 and 82
     [tc.DownloadFile(60, '/telemetry.current', [i for i in range(6, 1100, 50)]), Send, WaitMode.Wait],
