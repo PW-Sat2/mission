@@ -37,7 +37,7 @@ tasks = [
     [tc.RemoveFile(27, '/p6_128_0'), Send, WaitMode.NoWait],
     # p6_480_0 not downloaded yet
 
-    [tc.RemoveFile(28, '/p7_128_0'), Send, WaitMode.NoWait],
+    [tc.RemoveFile(28, '/p7_128_0'), Send, WaitMode.Wait],
     # p7_480_0 not downloaded yet
 
     [tc.RemoveFile(29, '/p8_128_0'), Send, WaitMode.NoWait],
@@ -55,7 +55,7 @@ tasks = [
     [tc.RemoveFile(36, '/p13_128_0'), Send, WaitMode.NoWait],
     # p13_480_0 - to be removed - overexposed Earth
 
-    [tc.RemoveFile(37, '/p14_128_0'), Send, WaitMode.NoWait],
+    [tc.RemoveFile(37, '/p14_128_0'), Send, WaitMode.Wait],
     # p14_480_0 - to be removed - Sun or overexposed Earth
 
     [tc.RemoveFile(38, '/p15_128_0'), Send, WaitMode.NoWait],
