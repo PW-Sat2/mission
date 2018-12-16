@@ -9,12 +9,13 @@ tasks = [
     [tc.DownloadFile(4, '/telemetry.current', [i for i in range(1806, 2050, 12)]), Send, WaitMode.Wait],
 
     # Missing chunks of high res photos
-    [tc.DownloadFile(10, '/p5_480_0', [76, 13, 80, 52]), Send, WaitMode.Wait],
     [tc.DownloadFile(11, '/p6_480_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]), Send, WaitMode.Wait],
     [tc.DownloadFile(12, '/p6_480_0', [65, 66, 67, 82, 84, 85, 101, 105, 120, 121, 160, 161]), Send, WaitMode.Wait],
     [tc.DownloadFile(13, '/p7_480_0', [7, 8, 9, 10, 11, 25, 26, 92, 93, 34, 35, 38, 40, 74]), Send, WaitMode.Wait],
-    [tc.DownloadFile(14, '/p8_480_0', [24]), Send, WaitMode.Wait],
-    [tc.DownloadFile(15, '/p1_480_0', [10]), Send, WaitMode.Wait],
+    
+    [tc.DownloadFile(14, '/p8_480_0', [24]), Send, WaitMode.NoWait],
+    [tc.DownloadFile(15, '/p1_480_0', [10]), Send, WaitMode.NoWait],
+    [tc.DownloadFile(10, '/p5_480_0', [76, 13, 80, 52]), Send, WaitMode.NoWait],
 
     # Fourth SunS Experiment data
     [tc.SendBeacon(), Send, WaitMode.NoWait],
