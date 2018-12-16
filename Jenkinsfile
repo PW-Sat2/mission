@@ -19,6 +19,10 @@ pipeline {
                 }
 
                 dir('_book') {
+                    withEnv(['PATH+ZIP=C:/Program Files/7-Zip']) {
+                        bat('7z a archive.zip .\\*')
+                    }
+
                     sshPublisher(publishers: [
                         sshPublisherDesc(
                             configName: 'gajoch.pl', 
@@ -26,8 +30,6 @@ pipeline {
                                 sshTransfer(
                                     cleanRemote: true, 
                                     excludes: '', 
-                                    execCommand: '', 
-                                    execTimeout: 120000, 
                                     latten: false, 
                                     makeEmptyDirs: true, 
                                     noDefaultExcludes: false, 
@@ -35,7 +37,8 @@ pipeline {
                                     remoteDirectory: "WWW/mission/${env.BRANCH_NAME}", 
                                     remoteDirectorySDF: false, 
                                     removePrefix: '', 
-                                    sourceFiles: '**/*.*'
+                                    sourceFiles: 'archive.zip',
+                                    execCommand: "pwd && ls && cd WWW/mission/${env.BRANCH_NAME} && unzip -o archive.zip"
                                 )
                             ], 
                             usePromotionTimestamp: false, 
