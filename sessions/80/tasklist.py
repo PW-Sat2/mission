@@ -9,7 +9,7 @@ tasks = [
     [tc.DownloadFile(5, '/telemetry.current', [i for i in range(1675, 1870, 10)]), Send, WaitMode.Wait],
 
     # Fourth SunS experiment
-    [tc.PerformSunSExperiment(6, 0, 20, 250, datetime.timedelta(seconds=5), 3, datetime.timedelta(seconds=10), 'suns_3'), Send, WaitMode.Wait],
+    [tc.PerformSunSExperiment(6, 0, 20, 250, datetime.timedelta(seconds=5), 3, datetime.timedelta(seconds=10), 'suns_4'), Send, WaitMode.Wait],
     
     # High res photos download
     [tc.SendBeacon(), Send, WaitMode.NoWait],
