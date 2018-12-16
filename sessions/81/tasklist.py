@@ -15,7 +15,7 @@ tasks = [
     
     [tc.DownloadFile(14, '/p8_480_0', [24]), Send, WaitMode.NoWait],
     [tc.DownloadFile(15, '/p1_480_0', [10]), Send, WaitMode.NoWait],
-    [tc.DownloadFile(10, '/p5_480_0', [76, 13, 80, 52]), Send, WaitMode.NoWait],
+    [tc.DownloadFile(10, '/p5_480_0', [76, 13, 80, 52]), Send, WaitMode.Wait],
 
     # Fourth SunS Experiment data
     [tc.SendBeacon(), Send, WaitMode.NoWait],
