@@ -12,7 +12,7 @@ tasks = [
     [tc.DownloadFile(6, '/telemetry.current', [i for i in range(2039, 2230, 12)]), Send, WaitMode.Wait],
 
     # Wait until 21:37 on Ping  telecommand
-    [tc.PingTelecommand(), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.Wait],
 
     # Start at 21:37
     # Group 1
