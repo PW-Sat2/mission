@@ -39,6 +39,9 @@ tasks = [
     [tc.DownloadFile(30, '/suns_4_sec', [14, 15, 16, 34, 35, 36, 37, 40, 54, 55, 56, 71, 72, 94, 95]), Send, WaitMode.Wait],
     [tc.DownloadFile(31, '/suns_4_sec', [96, 100, 101, 102, 103, 104, 105, 106, 107, 112, 113, 122]), Send, WaitMode.Wait],
  
+    # RadFET Exp data download
+    [tc.DownloadFile(32, '/radfet_3', [i for i in range(0, 16, 1)]), Send, WaitMode.Wait],
+
     # More telemetry between session 82 and 83 (during RadFET exp)
     [tc.DownloadFile(40, '/telemetry.current', [i for i in range(1001, 1200, 12)]), Send, WaitMode.Wait],
     [tc.DownloadFile(41, '/telemetry.current', [i for i in range(1002, 1200, 12)]), Send, WaitMode.Wait],
