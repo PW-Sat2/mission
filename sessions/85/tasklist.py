@@ -2,7 +2,7 @@ tasks = [
     [[tc.SetBitrate(1, BaudRate.BaudRate1200), 5], SendLoop, WaitMode.NoWait],
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
-    [tc.PowerCycleTelecommand(2), Send, WaitMode.Wait],
+     [tc.RawI2C(2, 0, 0x35, 1, [0xE0]), Send, WaitMode.Wait],
 
     [tc.PingTelecommand(), Send, WaitMode.Wait],
     [tc.SendBeacon(), Send, WaitMode.Wait],
