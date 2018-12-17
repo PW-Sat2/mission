@@ -11,6 +11,9 @@ tasks = [
     [tc.DownloadFile(5, '/telemetry.current', [i for i in range(2033, 2230, 12)]), Send, WaitMode.Wait],
     [tc.DownloadFile(6, '/telemetry.current', [i for i in range(2039, 2230, 12)]), Send, WaitMode.Wait],
 
+    # Wait until 21:37 on Ping  telecommand
+    [tc.PingTelecommand(), Send, WaitMode.Wait],
+
     # Start at 21:37
     # Group 1
     [tc.TakePhotoTelecommand(102, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=14), 'p1_128'), Send, WaitMode.Wait],
