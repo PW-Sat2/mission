@@ -25,7 +25,7 @@ tasks = [
 
     # Remove downloaded photos
     [tc.RemoveFile(18, '/p6_480_0'), Send, WaitMode.NoWait],
-    [tc.RemoveFile(19, '/p7_480_0'), Send, WaitMode.NoWait],
+    # [tc.RemoveFile(19, '/p7_480_0'), Send, WaitMode.NoWait],
     [tc.RemoveFile(20, '/p3_480_0'), Send, WaitMode.Wait],
 
     # Remove old RadFET exp
