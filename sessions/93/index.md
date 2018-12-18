@@ -1,5 +1,5 @@
 {% extends "/sessions/_layout/index.md" %}
 
 {% block goal %}
-Download telemetry, photos and start SunS Exp.
+Download telemetry, and SunS Exp. files, remove old photos.
 {% endblock %}
