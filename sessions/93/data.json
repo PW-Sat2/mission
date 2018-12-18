@@ -1,0 +1,9 @@
+{
+    "Session": {
+        "short_description": "Download telemetry and SunS Experiment data. Remove downloaded and bad photos.",
+        "phase": "extended",
+        "status": "planned",
+        "start_time_iso_with_zone": "2018-12-18T22:14:10+01:00",
+        "stop_time_iso_with_zone": "2018-12-18T22:25:51+01:00"
+    }
+}
