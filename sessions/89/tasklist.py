@@ -65,6 +65,7 @@ tasks = [
     # Old suns exp
     [tc.RemoveFile(84, '/suns_4_sec'), Send, WaitMode.Wait],
 
+    [tc.ListFiles(3, '/'), Send, WaitMode.Wait],
 
     # Much more telemetry between session 87 and 88
     [tc.SendBeacon(), Send, WaitMode.NoWait],
