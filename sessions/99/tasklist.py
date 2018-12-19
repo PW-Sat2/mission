@@ -9,10 +9,10 @@ tasks = [
     [tc.DownloadFile(11, '/telemetry.current', [i for i in range(476, 670, 12)]), Send, WaitMode.Wait],
 
     # Sixth SunS experiment
-    [tc.PerformSunSExperiment(12, 0, 20, 250, datetime.timedelta(seconds=5), 3, datetime.timedelta(seconds=10), 'suns_6'), Send, WaitMode.Wait],
+    [tc.PerformSunSExperiment(12, 0, 20, 254, datetime.timedelta(seconds=2), 7, datetime.timedelta(seconds=10), 'suns_6'), Send, WaitMode.Wait],
 
     # ReadMemory, weird tele
-    [tc.ReadMemory(13, 0x8801b620, 248), Send, WaitMode.Wait],
+    [tc.ReadMemory(13, 0x8801b620, 248), Send, WaitMode.Wait], # scrubbing
 
     # More telemetry between session 98 and 99
     [tc.DownloadFile(20, '/telemetry.current', [i for i in range(473, 670, 12)]), Send, WaitMode.Wait],
