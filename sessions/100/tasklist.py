@@ -10,6 +10,9 @@ tasks = [
     [tc.DownloadFile(12, '/telemetry.current', [i for i in range(633, 830, 12)]), Send, WaitMode.Wait],
     [tc.DownloadFile(13, '/telemetry.current', [i for i in range(639, 830, 12)]), Send, WaitMode.Wait],
 
+    # ReadMemory, weird tele
+    [tc.ReadMemory(14, 0x8801b620, 248), Send, WaitMode.Wait], # scrubbing
+
     # More telemetry during suns exp
     [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(20, '/telemetry.current', [i for i in range(631, 830, 12)]), Send, WaitMode.Wait],
