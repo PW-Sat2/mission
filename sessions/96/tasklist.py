@@ -20,7 +20,7 @@ tasks = [
     # A few weird telecommands
     [tc.GetCompileInfoTelecommand(), Send, WaitMode.Wait],
     [tc.GetPersistentState(), Send, WaitMode.Wait],
-    [tc.ReadMemory(13, 0x8809ec74, 4), Send, WaitMode.Wait], # Read memory to check RAM utilization before power cycle
+    [tc.ReadMemory(23, 0x8809ec74, 4), Send, WaitMode.Wait], # Read memory to check RAM utilization before power cycle
 
     # More telemetry between sessions 94 and 95
     [tc.SendBeacon(), Send, WaitMode.NoWait],
