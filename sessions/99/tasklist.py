@@ -11,6 +11,9 @@ tasks = [
     # Sixth SunS experiment
     [tc.PerformSunSExperiment(12, 0, 20, 250, datetime.timedelta(seconds=5), 3, datetime.timedelta(seconds=10), 'suns_6'), Send, WaitMode.Wait],
 
+    # ReadMemory, weird tele
+    [tc.ReadMemory(13, 0x8801b620, 248), Send, WaitMode.Wait],
+
     # More telemetry between session 98 and 99
     [tc.DownloadFile(20, '/telemetry.current', [i for i in range(473, 670, 12)]), Send, WaitMode.Wait],
     [tc.DownloadFile(21, '/telemetry.current', [i for i in range(479, 670, 12)]), Send, WaitMode.Wait],
