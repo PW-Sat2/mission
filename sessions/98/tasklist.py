@@ -2,16 +2,23 @@ tasks = [
     [[tc.SetBitrate(1, BaudRate.BaudRate1200), 5], SendLoop, WaitMode.NoWait],
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
-    [tc.RawI2C(2, 0, 0x35, 1, [0xE0]), Send, WaitMode.Wait],
+    [tc.ReadMemory(2, 0x8809ec74, 4), Send, WaitMode.Wait], # Read memory to check RAM utilization before power cycle
+    [tc.ReadMemory(3, 0x88018760, 3720), Send, WaitMode.Wait], # YAFFS_dev structure
+
+    [tc.SendBeacon(), Send, WaitMode.Wait], # Wait until good communication
+    [tc.RawI2C(4, 0, 0x35, 1, [0xE0]), Send, WaitMode.Wait],
 
     [tc.PingTelecommand(), Send, WaitMode.Wait],
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
+    [tc.ReadMemory(5, 0x8809ec74, 4), Send, WaitMode.Wait], # Read memory to check RAM utilization before power cycle
+    [tc.ReadMemory(6, 0x88018760, 3720), Send, WaitMode.Wait], # YAFFS_dev structure
+
     # Set 9600
-    [tc.SetBitrate(3, BaudRate.BaudRate9600), Send, WaitMode.Wait],
+    [tc.SetBitrate(7, BaudRate.BaudRate9600), Send, WaitMode.Wait],
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
-    [tc.ListFiles(4, '/'), Send, WaitMode.Wait],
+    [tc.ListFiles(8, '/'), Send, WaitMode.Wait],
 
     # Telemetry between session 96 and 98
     [tc.DownloadFile(10, '/telemetry.previous', [i for i in range(1890, 2280, 25)]), Send, WaitMode.Wait],
