@@ -21,6 +21,7 @@ tasks = [
     [tc.GetCompileInfoTelecommand(), Send, WaitMode.Wait],
     [tc.GetPersistentState(), Send, WaitMode.Wait],
     [tc.ReadMemory(23, 0x8809ec74, 4), Send, WaitMode.Wait], # Read memory to check RAM utilization before power cycle
+    [tc.ReadMemory(24, 0x88018760, 3720), Send, WaitMode.Wait], # YAFFS_dev structure
 
     # More telemetry between sessions 94 and 95
     [tc.SendBeacon(), Send, WaitMode.NoWait],
