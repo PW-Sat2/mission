@@ -14,8 +14,13 @@ tasks = [
     [tc.DownloadFile(20, '/suns_5', [1, 13, 14, 95, 173, 202]), Send, WaitMode.Wait],
     [tc.DownloadFile(21, '/suns_5_sec', [55]), Send, WaitMode.Wait],
 
+    # RadFET experiment data
+    [tc.DownloadFile(22, '/radfet_4', [i for i in range(0, 16, 1)]), Send, WaitMode.Wait],
+
     # A few weird telecommands
     [tc.GetCompileInfoTelecommand(), Send, WaitMode.Wait],
+    [tc.GetPersistentState(), Send, WaitMode.Wait],
+    [tc.ReadMemory(13, 0x8809ec74, 4), Send, WaitMode.Wait], # Read memory to check RAM utilization before power cycle
 
     # More telemetry between sessions 94 and 95
     [tc.SendBeacon(), Send, WaitMode.NoWait],
