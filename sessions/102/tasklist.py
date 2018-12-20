@@ -8,8 +8,11 @@ tasks = [
     [tc.DownloadFile(10, '/telemetry.current', [i for i in range(2070, 2270, 12)]), Send, WaitMode.Wait],
     [tc.DownloadFile(11, '/telemetry.current', [i for i in range(2076, 2270, 12)]), Send, WaitMode.Wait],
 
+    # ReadMemory, weird telecommand
+    [tc.ReadMemory(14, 0x8801b620, 248), Send, WaitMode.Wait], # scrubbing
+
     # Photo download
-     # Low res photos - few error frames expected
+    # Low res photos - few error frames expected
     [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(20, '/p1_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(21, '/p2_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
