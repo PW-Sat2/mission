@@ -11,9 +11,6 @@ tasks = [
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
-    # ReadMemory, weird telecommand
-    [tc.ReadMemory(4, 0x8801b620, 248), Send, WaitMode.Wait], # scrubbing
-
     # Set 9600
     [tc.SetBitrate(5, BaudRate.BaudRate9600), Send, WaitMode.Wait],
     [tc.SendBeacon(), Send, WaitMode.Wait],
