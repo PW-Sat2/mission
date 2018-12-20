@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Power cycle EPS B and set back to 9600.",
         "phase": "extended",
-        "status": "planned",
+        "status": "success",
         "start_time_iso_with_zone": "2018-12-20T19:16:38+01:00",
         "stop_time_iso_with_zone": "2018-12-20T19:26:14+01:00"
     }
