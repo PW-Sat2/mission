@@ -39,7 +39,7 @@ tasks = [
     [tc.DownloadFile(53, '/telemetry.current', [i for i in range(821, 2150, 50)]), Send, WaitMode.Wait],
 
 
-    [tc.SendBeacon(), Send, WaitMode.NoWait], # test uplink on SendBeacon
+    [tc.SendBeacon(), Send, WaitMode.Wait], # test uplink on SendBeacon
     # Take photo - start at 10:00
     # Group 1
     [tc.TakePhotoTelecommand(102, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=8), 'p1_128'), Send, WaitMode.Wait],
