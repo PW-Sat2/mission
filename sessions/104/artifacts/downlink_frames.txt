@@ -81,7 +81,7 @@ FileSendSuccessFrame: CID=017 Seq=768
 FileSendErrorFrame: Seq=831
 FileSendSuccessFrame: CID=016 Seq=606
 FileSendSuccessFrame: CID=014 Seq=562
-FileSendSuccessFrame: CID=012 Seq=600
+FileSendSuccessFrame: CID=014 Seq=312
 FileSendSuccessFrame: CID=017 Seq=618
 FileSendSuccessFrame: CID=013 Seq=175
 FileSendSuccessFrame: CID=018 Seq=281
@@ -108,7 +108,7 @@ BeaconFrame
 
 FileSendSuccessFrame: CID=014 Seq=212
 FileSendSuccessFrame: CID=015 Seq=37
-FileSendSuccessFrame: CID=014 Seq=312
+FileSendSuccessFrame: CID=012 Seq=600
 FileSendSuccessFrame: CID=017 Seq=368
 FileSendSuccessFrame: CID=016 Seq=56
 FileSendSuccessFrame: CID=013 Seq=75
