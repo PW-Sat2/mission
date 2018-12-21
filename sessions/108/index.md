@@ -1,5 +1,5 @@
 {% extends "/sessions/_layout/index.md" %}
 
 {% block goal %}
-SunS experiment. Telemetry download.
+PLD commissioning experiment. Telemetry download.
 {% endblock %}
