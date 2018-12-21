@@ -23,9 +23,11 @@ tasks = [
     [tc.DownloadFile(37, '/telemetry.current', [i for i in range(161, 350, 12)]), Send, WaitMode.Wait],
 
     # Download PLD commissioning data
+    [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(40, '/pld_2', [i for i in range(0, 8, 1)]), Send, WaitMode.Wait],
 
     # Download PLD commissioning low and med res photos
+    [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(41, '/pld_2_0.jpg', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
 
     [tc.DownloadFile(42, '/pld_2_1.jpg', [i for i in range(0, 20, 1)]), Send, WaitMode.Wait],
@@ -33,6 +35,7 @@ tasks = [
     [tc.DownloadFile(44, '/pld_2_1.jpg', [i for i in range(40, 60, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(45, '/pld_2_1.jpg', [i for i in range(60, 80, 1)]), Send, WaitMode.Wait],
 
+    [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(46, '/pld_2_3.jpg', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
 
     [tc.DownloadFile(47, '/pld_2_4.jpg', [i for i in range(0, 20, 1)]), Send, WaitMode.Wait],
@@ -41,6 +44,7 @@ tasks = [
     [tc.DownloadFile(50, '/pld_2_4.jpg', [i for i in range(60, 80, 1)]), Send, WaitMode.Wait],
 
     # Download PLD commissioning hi res photos
+    [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(51, '/pld_2_2.jpg', [i for i in range(0, 20, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(52, '/pld_2_2.jpg', [i for i in range(20, 40, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(53, '/pld_2_2.jpg', [i for i in range(40, 60, 1)]), Send, WaitMode.Wait],
@@ -49,7 +53,7 @@ tasks = [
     [tc.DownloadFile(56, '/pld_2_2.jpg', [i for i in range(100, 120, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(57, '/pld_2_2.jpg', [i for i in range(120, 140, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(58, '/pld_2_2.jpg', [i for i in range(140, 160, 1)]), Send, WaitMode.Wait],
-
+    [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(61, '/pld_2_5.jpg', [i for i in range(0, 20, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(62, '/pld_2_5.jpg', [i for i in range(20, 40, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(63, '/pld_2_5.jpg', [i for i in range(40, 60, 1)]), Send, WaitMode.Wait],
