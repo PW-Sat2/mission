@@ -1,0 +1,16 @@
+0b45cedc242f140d4d7058ff41c8744c51f8494b
+find: paths must precede expression: `top_block.py'
+find: possible unquoted pattern after predicate `-iname'?
+GS Name: fp-gs
+OS: Linux satelajt 4.15.0-38-generic #41-Ubuntu SMP Wed Oct 10 10:59:38 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+GSControl directory: /home/sat_user/gs/GSControl
+GSControl revision: 8ed8fc6a1fdf34b43ff0dcc71f08d7307cf8c5a5 (dirty)
+Mission directory: /home/sat_user/gs/mission
+Mission revision: 0b45cedc242f140d4d7058ff41c8744c51f8494b
+Python path: /usr/bin/python2.7
+Python version: Python 2.7.15rc1
+GnuRadio path /home/sat_user/gr-new/bin/gnuradio-companion
+GnuRadio version 3.7.12.0
+gr-kiss checksum d41d8cd98f00b204e9800998ecf8427e
+GPredict path: /usr/bin/gpredict
+GPredict version: 2.2.1-ubuntu18.04~ppa3
