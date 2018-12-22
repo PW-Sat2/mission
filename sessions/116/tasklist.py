@@ -55,7 +55,7 @@ tasks = [
     [tc.DownloadFile(58, '/suns_7', [i for i in range(560, 580, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(59, '/suns_7', [i for i in range(580, 593, 1)]), Send, WaitMode.Wait],
 
-    # Download suns exp 6 secondary file
+    # Download suns exp 7 secondary file
     [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(60, '/suns_7_sec', [i for i in range(0, 20, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(61, '/suns_7_sec', [i for i in range(20, 40, 1)]), Send, WaitMode.Wait],
