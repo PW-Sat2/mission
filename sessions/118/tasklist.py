@@ -22,17 +22,17 @@ tasks = [
 
     # Download low res photos
     [tc.SendBeacon(), Send, WaitMode.NoWait],
-    [tc.DownloadFile(30, '/p1_128', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(31, '/p2_128', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(32, '/p3_128', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(33, '/p4_128', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(34, '/p5_128', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(30, '/p1_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(31, '/p2_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(32, '/p3_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(33, '/p4_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(34, '/p5_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
     [tc.SendBeacon(), Send, WaitMode.NoWait],
-    [tc.DownloadFile(35, '/p6_128', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(36, '/p7_128', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(37, '/p8_128', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(38, '/p9_128', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(39, '/p10_128', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(35, '/p6_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(36, '/p7_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(37, '/p8_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(38, '/p9_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(39, '/p10_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
 
     # suns_7_sec missings download
     [tc.SendBeacon(), Send, WaitMode.NoWait],
