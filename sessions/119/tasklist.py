@@ -11,7 +11,7 @@ tasks = [
     # TakePhoto queue - ASAP
     # Group 1
     [tc.SendBeacon(), Send, WaitMode.Wait],
-    [tc.TakePhotoTelecommand(70, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(seconds=30), 'p11_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(70, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(seconds=0), 'p11_128'), Send, WaitMode.Wait],
     [tc.TakePhotoTelecommand(71, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p11_480'), Send, WaitMode.Wait],
 
     # Group 2
