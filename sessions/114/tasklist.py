@@ -1,5 +1,5 @@
 tasks = [
-    [[tc.SetBitrate(1, BaudRate.BaudRate9600),5] SendLoop, WaitMode.Wait],
+    [[tc.SetBitrate(1, BaudRate.BaudRate9600),5], SendLoop, WaitMode.Wait],
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
