@@ -24,12 +24,49 @@ tasks = [
     [tc.DownloadFile(12, '/telemetry.current', [i for i in range(662, 1650, 50)]), Send, WaitMode.Wait],
     [tc.DownloadFile(13, '/telemetry.current', [i for i in range(687, 1650, 50)]), Send, WaitMode.Wait],
 
-
     # =========================================
     # TakePhoto queue over USA - start at 19:33
-    # [TODO]
+    # Group 1
+    [tc.TakePhotoTelecommand(40, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=27), 'p1_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(41, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p1_480'), Send, WaitMode.Wait],
 
+    # Group 2
+    [tc.TakePhotoTelecommand(42, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=1), 'p2_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(43, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p2_480'), Send, WaitMode.Wait],
 
+    # Group 3
+    [tc.TakePhotoTelecommand(44, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=1), 'p3_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(45, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p3_480'), Send, WaitMode.Wait],
+
+    # Group 4
+    [tc.TakePhotoTelecommand(46, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=1), 'p4_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(47, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p4_480'), Send, WaitMode.Wait],
+
+    # Group 5
+    [tc.TakePhotoTelecommand(48, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=1), 'p5_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(49, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p5_480'), Send, WaitMode.Wait],
+
+    # Group 6
+    [tc.TakePhotoTelecommand(50, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=1), 'p6_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(51, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p6_480'), Send, WaitMode.Wait],
+
+    # Group 7
+    [tc.TakePhotoTelecommand(52, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=1), 'p7_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(53, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p7_480'), Send, WaitMode.Wait],
+
+    # Group 8
+    [tc.TakePhotoTelecommand(54, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=1), 'p8_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(55, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p8_480'), Send, WaitMode.Wait],
+
+    # Group 9
+    [tc.TakePhotoTelecommand(56, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=1), 'p9_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(57, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p9_480'), Send, WaitMode.Wait],
+
+    # Group 10
+    [tc.TakePhotoTelecommand(58, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=1), 'p10_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(59, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p10_480'), Send, WaitMode.Wait],
+    # =========================================
+    
     # suns_7 missings download
     [tc.DownloadFile(60, '/suns_7', [45, 48, 64, 65, 67, 137, 159, 178, 179, 250, 496, 500, 513, 522, 559, 560, 563, 564]), Send, WaitMode.Wait],
 
