@@ -1,0 +1,99 @@
+FileSendErrorFrame: Seq=2225
+FileRemoveSuccessFrame: CID=045 Seq=00
+FileSendErrorFrame: Seq=2075
+FileSendErrorFrame: Seq=1825
+FileSendErrorFrame: Seq=2125
+FileSendErrorFrame: Seq=2250
+FileSendErrorFrame: Seq=1900
+FileSendErrorFrame: Seq=1975
+FileSendErrorFrame: Seq=1700
+FileListSuccessFrame: CID=003 Seq=00, #files: 6
+FileSendSuccessFrame: CID=011 Seq=700
+FileRemoveSuccessFrame: CID=047 Seq=00
+FileSendErrorFrame: Seq=1925
+FileRemoveErrorFrame: Seq=00
+FileSendSuccessFrame: CID=011 Seq=100
+FileSendSuccessFrame: CID=011 Seq=150
+FileListSuccessFrame: CID=003 Seq=00, #files: 6
+FileRemoveSuccessFrame: CID=059 Seq=00
+FileSendSuccessFrame: CID=011 Seq=550
+FileSendSuccessFrame: CID=011 Seq=250
+SetBitrateSuccessFrame: Seq=00
+FileSendErrorFrame: Seq=1725
+FileSendErrorFrame: Seq=1850
+FileRemoveSuccessFrame: CID=055 Seq=00
+FileRemoveSuccessFrame: CID=040 Seq=00
+FileSendErrorFrame: Seq=1750
+FileListSuccessFrame: CID=002 Seq=00, #files: 16
+FileSendSuccessFrame: CID=011 Seq=650
+FileRemoveSuccessFrame: CID=043 Seq=00
+FileRemoveSuccessFrame: CID=046 Seq=00
+FileSendErrorFrame: Seq=2200
+FileSendErrorFrame: Seq=1800
+FileSendSuccessFrame: CID=011 Seq=350
+FileSendSuccessFrame: CID=011 Seq=500
+FileSendErrorFrame: Seq=2275
+FileSendErrorFrame: Seq=1775
+FileSendErrorFrame: Seq=1875
+FileSendErrorFrame: Seq=2175
+FileSendSuccessFrame: CID=011 Seq=600
+FileSendSuccessFrame: CID=011 Seq=400
+FileRemoveSuccessFrame: CID=051 Seq=00
+FileSendErrorFrame: Seq=2025
+FileRemoveErrorFrame: Seq=00
+BeaconFrame
+      BP VOLT 7.68 V, 7.70 V
+      BP TEMP 7.81 C, 7.69 C, 9.20 C
+      COMM PA TEMP NOW 9.21 C LAST 9.15 C
+      COMM RX Current 119.50 mA
+      GYRO UNCAL -2.02 deg/sec, -3.41 deg/sec, 1.46 deg/sec
+      EXPERIMENT None
+      MCU TEMP 1.03 C
+      3V3 DISTR CURRENT 45 mA
+
+FileRemoveSuccessFrame: CID=048 Seq=00
+BeaconFrame
+      BP VOLT 7.68 V, 7.71 V
+      BP TEMP 7.94 C, 7.81 C, 9.20 C
+      COMM PA TEMP NOW 8.77 C LAST 8.94 C
+      COMM RX Current 48.01 mA
+      GYRO UNCAL -2.02 deg/sec, -3.27 deg/sec, 1.46 deg/sec
+      EXPERIMENT None
+      MCU TEMP 1.35 C
+      3V3 DISTR CURRENT 35 mA
+
+FileRemoveSuccessFrame: CID=041 Seq=00
+FileSendSuccessFrame: CID=011 Seq=750
+FileRemoveSuccessFrame: CID=049 Seq=00
+FileRemoveSuccessFrame: CID=058 Seq=00
+FileRemoveSuccessFrame: CID=060 Seq=00
+FileRemoveSuccessFrame: CID=056 Seq=00
+BeaconFrame
+      BP VOLT 7.70 V, 7.74 V
+      BP TEMP 8.00 C, 7.88 C, 9.20 C
+      COMM PA TEMP NOW 8.44 C LAST 8.06 C
+      COMM RX Current 47.61 mA
+      GYRO UNCAL -2.02 deg/sec, -3.34 deg/sec, 1.32 deg/sec
+      EXPERIMENT None
+      MCU TEMP 1.51 C
+      3V3 DISTR CURRENT 38 mA
+
+FileListSuccessFrame: CID=002 Seq=01, #files: 9
+FileSendErrorFrame: Seq=2050
+BeaconFrame
+      BP VOLT 7.67 V, 7.70 V
+      BP TEMP 7.75 C, 7.62 C, 9.20 C
+      COMM PA TEMP NOW 9.10 C LAST 8.99 C
+      COMM RX Current 48.19 mA
+      GYRO UNCAL -2.16 deg/sec, -3.48 deg/sec, 1.46 deg/sec
+      EXPERIMENT None
+      MCU TEMP 1.19 C
+      3V3 DISTR CURRENT 35 mA
+
+FileRemoveSuccessFrame: CID=042 Seq=00
+FileRemoveSuccessFrame: CID=050 Seq=00
+FileRemoveSuccessFrame: CID=053 Seq=00
+FileRemoveSuccessFrame: CID=057 Seq=00
+FileSendErrorFrame: Seq=2150
+FileSendErrorFrame: Seq=2100
+FileRemoveErrorFrame: Seq=00
