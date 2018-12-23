@@ -67,7 +67,6 @@ tasks = [
     [tc.DownloadFile(78, '/telemetry.current', [i for i in range(45, 900, 50)]), Send, WaitMode.Wait],
     [tc.DownloadFile(79, '/telemetry.current', [i for i in range(47, 900, 50)]), Send, WaitMode.Wait],
     [tc.DownloadFile(80, '/telemetry.current', [i for i in range(49, 900, 50)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(81, '/telemetry.current', [i for i in range(51, 900, 50)]), Send, WaitMode.Wait],
     [tc.SendBeacon(), Send, WaitMode.NoWait],
 
 
@@ -120,17 +119,5 @@ tasks = [
     [tc.DownloadFile(119, '/telemetry.current', [i for i in range(44, 900, 50)]), Send, WaitMode.Wait],
     [tc.DownloadFile(120, '/telemetry.current', [i for i in range(46, 900, 50)]), Send, WaitMode.Wait],
     [tc.DownloadFile(121, '/telemetry.current', [i for i in range(48, 900, 50)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(122, '/telemetry.current', [i for i in range(50, 900, 50)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(123, '/telemetry.current', [i for i in range(52, 900, 50)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(124, '/telemetry.current', [i for i in range(54, 900, 50)]), Send, WaitMode.Wait],
-    [tc.SendBeacon(), Send, WaitMode.NoWait],
-    [tc.DownloadFile(125, '/telemetry.current', [i for i in range(56, 900, 50)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(126, '/telemetry.current', [i for i in range(58, 900, 50)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(127, '/telemetry.current', [i for i in range(60, 900, 50)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(128, '/telemetry.current', [i for i in range(62, 900, 50)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(129, '/telemetry.current', [i for i in range(64, 900, 50)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(130, '/telemetry.current', [i for i in range(66, 900, 50)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(131, '/telemetry.current', [i for i in range(68, 900, 50)]), Send, WaitMode.Wait],
-
     [tc.SendBeacon(), Send, WaitMode.Wait],
 ]
