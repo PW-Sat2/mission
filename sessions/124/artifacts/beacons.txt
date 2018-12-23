@@ -10,17 +10,6 @@ BeaconFrame
 
 
 BeaconFrame
-      BP VOLT 7.58 V, 7.62 V
-      BP TEMP 3.44 C, 3.12 C, 3.70 C
-      COMM PA TEMP NOW 8.06 C LAST 7.95 C
-      COMM RX Current 48.59 mA
-      GYRO UNCAL -2.71 deg/sec, -3.90 deg/sec, 1.60 deg/sec
-      EXPERIMENT None
-      MCU TEMP -4.05 C
-      3V3 DISTR CURRENT 35 mA
-
-
-BeaconFrame
       BP VOLT 7.50 V, 7.52 V
       BP TEMP 4.50 C, 4.31 C, 5.50 C
       COMM PA TEMP NOW 20.07 C LAST 19.96 C
@@ -161,17 +150,6 @@ BeaconFrame
       EXPERIMENT None
       MCU TEMP -3.73 C
 !!!!! 3V3 DISTR CURRENT 113 mA
-
-
-BeaconFrame
-      BP VOLT 7.58 V, 7.62 V
-      BP TEMP 3.50 C, 3.25 C, 3.70 C
-      COMM PA TEMP NOW 8.39 C LAST 8.01 C
-      COMM RX Current 48.65 mA
-      GYRO UNCAL -2.71 deg/sec, -3.90 deg/sec, 1.67 deg/sec
-      EXPERIMENT None
-      MCU TEMP -3.89 C
-      3V3 DISTR CURRENT 40 mA
 
 
 BeaconFrame
