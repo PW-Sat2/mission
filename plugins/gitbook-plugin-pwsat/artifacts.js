@@ -2,6 +2,10 @@ const fs = require('fs');
 const _ = require('lodash');
 const path = require('path');
 
+String.prototype.contains = function(test) {
+    return this.indexOf(test) == -1 ? false : true;
+};
+
 function getArtifacts(folder) {
     if (!fs.existsSync(folder)) {
         return [];
@@ -10,6 +14,7 @@ function getArtifacts(folder) {
     items = fs.readdirSync(folder)
         .filter(f => f != '.keep')
         .filter(f => f != 'assembled')
+        .filter(f => !f.contains("uplink"))
         ;
 
     let assembled = [];
