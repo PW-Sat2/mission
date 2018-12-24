@@ -13,3 +13,9 @@ decode_photo('p7_128_0')
 decode_photo('p8_128_0')
 decode_photo('p9_128_0')
 decode_photo('p10_128_0')
+
+
+decode_photo('assembled/p1_128_0')
+decode_photo('assembled/p2_128_0')
+decode_photo('assembled/p3_128_0')
+decode_photo('assembled/p4_128_0')
