@@ -239,6 +239,7 @@ FileSendSuccessFrame: CID=032 Seq=54
 FileSendSuccessFrame: CID=052 Seq=450
 FileSendSuccessFrame: CID=033 Seq=62
 FileSendSuccessFrame: CID=033 Seq=63
+FileSendSuccessFrame: CID=063 Seq=79
 FileSendErrorFrame: Seq=1474
 FileSendSuccessFrame: CID=042 Seq=243
 FileSendSuccessFrame: CID=025 Seq=60
@@ -799,7 +800,6 @@ FileSendSuccessFrame: CID=061 Seq=39
 FileSendSuccessFrame: CID=080 Seq=2263
 FileSendSuccessFrame: CID=027 Seq=39
 FileSendSuccessFrame: CID=024 Seq=34
-FileSendSuccessFrame: CID=063 Seq=79
 FileSendSuccessFrame: CID=037 Seq=146
 BeaconFrame
       BP VOLT 7.48 V, 7.51 V
