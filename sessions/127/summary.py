@@ -15,6 +15,7 @@ decode_photo('p9_128_0')
 decode_photo('p10_128_0')
 
 decode_photo('p2_480_0')
+decode_photo('p1_480_0')
 
 decode_photo('assembled/p1_128_0')
 decode_photo('assembled/p2_128_0')
