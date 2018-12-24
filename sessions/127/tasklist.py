@@ -10,7 +10,7 @@ tasks = [
     [tc.DownloadFile(12, '/telemetry.previous', [i for i in range(2250, 2280, 2)]), Send, WaitMode.Wait],
     [tc.DownloadFile(13, '/telemetry.previous', [i for i in range(2251, 2280, 2)]), Send, WaitMode.Wait],
 
-    # Eith SunS experiment
+    # Eighth SunS experiment
     [tc.PerformSunSExperiment(20, 0, 20, 254, datetime.timedelta(seconds=2), 7, datetime.timedelta(seconds=10), 'suns_8'), Send, WaitMode.Wait],
 
     [tc.SendBeacon(), Send, WaitMode.NoWait],
