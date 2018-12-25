@@ -2,14 +2,10 @@ tasks = [
     # ============================================================================
     # Sail experiment training on 1200
     # ============================================================================
-    ["Tasklist for operator 1. Set 1200.", Print, WaitMode.Wait],
-
     [[tc.SetBitrate(1, BaudRate.BaudRate1200), 5], SendLoop, WaitMode.NoWait],
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
     [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
-
-    ["Start testing uplink/downlink.", Print, WaitMode.Wait],
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
     [tc.DownloadFile(3, '/telemetry.current', [i for i in range(0, 5, 1)]), Send, WaitMode.Wait],
@@ -24,10 +20,6 @@ tasks = [
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
     ["Go/no-go for uplink/downlink.", Print, WaitMode.Wait],
-
-    [tc.SendBeacon(), Send, WaitMode.Wait],
-
-    ["End of test Sail experiment.", Print, WaitMode.Wait],
 
     # ============================================================================
     # Ordinary and boring session on 9600
