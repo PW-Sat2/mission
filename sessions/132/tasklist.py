@@ -27,7 +27,7 @@ tasks = [
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
-    ["End of Sail experiment. Set 9600.", Print, WaitMode.Wait],
+    ["End of test Sail experiment.", Print, WaitMode.Wait],
 
     # ============================================================================
     # Ordinary and boring session on 9600
