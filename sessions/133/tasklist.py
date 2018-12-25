@@ -36,13 +36,19 @@ tasks = [
     [tc.DownloadFile(12, '/telemetry.current', [i for i in range(133, 300, 12)]), Send, WaitMode.Wait],
     [tc.DownloadFile(13, '/telemetry.current', [i for i in range(139, 300, 12)]), Send, WaitMode.Wait],
 
+    # Remove SunS files
+    ["Remove SunS files", Print, WaitMode.Wait],
+
+    [tc.RemoveFile(20, '/suns_8'), Send, WaitMode.NoWait],
+    [tc.RemoveFile(21, '/suns_8_sec'), Send, WaitMode.NoWait],
+
+    [tc.ListFiles(22, '/'), Send, WaitMode.Wait],
 
     # RadFET exp data download
     ["RadFET experiment data download", Print, WaitMode.Wait],
 
     [tc.DownloadFile(30, '/radfet_7', [i for i in range(0, 18, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(31, '/radfet_7', [i for i in range(18, 36, 1)]), Send, WaitMode.Wait],
-
 
     # High res photos download
     ["Hi-res photos download", Print, WaitMode.Wait],
