@@ -19,7 +19,7 @@ tasks = [
     [tc.DownloadFile(7, '/telemetry.current', [i for i in range(20, 25, 1)]), Send, WaitMode.Wait],
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
-    ["Go/no-go for uplink/downlink.", Print, WaitMode.Wait],
+    ["Go/no-go for uplink/downlink?", Print, WaitMode.Wait],
 
     # ============================================================================
     # Ordinary and boring session on 9600
