@@ -79,41 +79,61 @@ class SessionDataCollector:
     def number_of_sessions(self):
         return len(self.sessions.get_session_paths())
 
-#class NiceSessionPlots:
-#    def __init__(self):
 
-print "Info: Generating analytics..."
+class NiceSessionPlots:
+    PLOT_DPI = 600
+    PLOT_BAR_WIDTH = 0.4
 
-data_collector = SessionDataCollector()
-all_frames = data_collector.session_all_frames_counts()
+    def __init__(self):
+        data_collector = SessionDataCollector()
 
-# Plot to file
-x = range(1, data_collector.number_of_sessions() + 1)
-bar_width = 0.4
+        self.number_of_sessions = data_collector.number_of_sessions()
 
-plt.figure(1)
-plt.subplot(211)
-plt.title('Number of frames vs session number')
-plt.grid(True)
-plt.bar(x, all_frames, color='g', label="all.frames")
+        self.all_frames = data_collector.session_all_frames_counts()
+        self.fp_gs_downlink_frames = data_collector.session_fp_gs_downlink_frames_counts()
+        self.elka_downlink_frames = data_collector.session_elka_downlink_frames_counts()
 
-plt.xlim(xmin = 1, xmax = len(all_frames) + 1)
-plt.ylim(ymin = 0, ymax = max(all_frames) + 50)
-plt.ylabel('all.frames count')
+    def plot_all_frames_to_file(self, file_path):
+        x = range(1, self.number_of_sessions + 1)
 
-plt.legend(bbox_to_anchor=(0.5, 0.98), loc=1, borderaxespad=0., frameon=False)
+        plt.figure(1)
+        plt.title('all.frames vs session number')
+        plt.grid(True)
+        plt.bar(x, self.all_frames, color='g', label="all.frames")
 
-plt.subplot(212)
-plt.grid(True)
-plt.bar(map(operator.add, x, [-0.2 for i in range(0, len(x))]), data_collector.session_fp_gs_downlink_frames_counts(), bar_width, color='r', label="fp-gs")
-plt.hold(True)
-plt.bar(map(operator.add, x, [0.2 for i in range(0, len(x))]), data_collector.session_elka_downlink_frames_counts(), bar_width, color='b', label="elka")
+        plt.xlim(xmin = 1, xmax = len(self.all_frames) + 1)
+        plt.ylim(ymin = 0, ymax = max(self.all_frames) + 50)
+        plt.xlabel('Session number')
+        plt.ylabel('all.frames count')
 
-plt.xlim(xmin = 1, xmax = len(all_frames) + 1)
-plt.ylim(ymin = 0, ymax = max(all_frames) + 50)
-plt.xlabel('Session number')
-plt.ylabel('downlink.frames count')
+        plt.legend(bbox_to_anchor=(0.5, 0.98), loc=1, borderaxespad=0., frameon=False)
 
-plt.legend(bbox_to_anchor=(0.5, 0.98), loc=1, borderaxespad=0., frameon=False)
+        plt.savefig(file_path, dpi=self.PLOT_DPI)
 
-plt.savefig('frames_count.png', dpi=600)
+    def plot_fp_vs_elka_downlink_frames_to_file(self, file_path):
+        x = range(1, self.number_of_sessions + 1)
+
+        plt.figure(2)
+        plt.title('elka vs fp-gs downlink.frames vs session number')
+        plt.grid(True)
+        plt.bar(map(operator.add, x, [-0.2 for i in range(0, len(x))]), self.fp_gs_downlink_frames, self.PLOT_BAR_WIDTH, color='r', label="fp-gs")
+        plt.hold(True)
+        plt.bar(map(operator.add, x, [0.2 for i in range(0, len(x))]), self.elka_downlink_frames, self.PLOT_BAR_WIDTH, color='b', label="elka")
+
+        plt.xlim(xmin = 1, xmax = len(self.all_frames) + 1)
+        plt.ylim(ymin = 0, ymax = max(self.all_frames) + 50)
+        plt.xlabel('Session number')
+        plt.ylabel('downlink.frames count')
+
+        plt.legend(bbox_to_anchor=(0.5, 0.98), loc=1, borderaxespad=0., frameon=False)
+
+        plt.savefig(file_path, dpi=self.PLOT_DPI)
+
+
+if __name__ == "__main__":
+    session_plots = NiceSessionPlots()
+
+    print "Info: Generating analytics..."
+
+    session_plots.plot_all_frames_to_file("all_frames.png")
+    session_plots.plot_fp_vs_elka_downlink_frames_to_file("fp_vs_elka_frames.png")
