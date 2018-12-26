@@ -1,0 +1,3 @@
+# Hack for gitbook
+# Gitbook parses the main .gitignore but it does not parse this file
+*.png

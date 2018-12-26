@@ -83,6 +83,7 @@ class SessionDataCollector:
 class NiceSessionPlots:
     PLOT_DPI = 600
     PLOT_BAR_WIDTH = 0.4
+    PLOT_ASPECT_RATIO = 0.45
 
     def __init__(self):
         data_collector = SessionDataCollector()
@@ -96,7 +97,10 @@ class NiceSessionPlots:
     def plot_all_frames_to_file(self, file_path):
         x = range(1, self.number_of_sessions + 1)
 
-        plt.figure(1)
+        w, h = plt.figaspect(self.PLOT_ASPECT_RATIO)
+        fig = plt.figure(1, figsize=(w, h))
+        plt.rcParams.update({'font.size': 15})
+
         plt.title('all.frames vs session number')
         plt.grid(True)
         plt.bar(x, self.all_frames, color='g', label="all.frames")
@@ -113,7 +117,10 @@ class NiceSessionPlots:
     def plot_fp_vs_elka_downlink_frames_to_file(self, file_path):
         x = range(1, self.number_of_sessions + 1)
 
-        plt.figure(2)
+        w, h = plt.figaspect(self.PLOT_ASPECT_RATIO)
+        fig = plt.figure(2, figsize=(w, h))
+        plt.rcParams.update({'font.size': 15})
+
         plt.title('elka vs fp-gs downlink.frames vs session number')
         plt.grid(True)
         plt.bar(map(operator.add, x, [-0.2 for i in range(0, len(x))]), self.fp_gs_downlink_frames, self.PLOT_BAR_WIDTH, color='r', label="fp-gs")
@@ -133,7 +140,7 @@ class NiceSessionPlots:
 if __name__ == "__main__":
     session_plots = NiceSessionPlots()
 
-    print "Info: Generating analytics..."
+    print "\nInfo: Generating analytics...\n"
 
-    session_plots.plot_all_frames_to_file("all_frames.png")
-    session_plots.plot_fp_vs_elka_downlink_frames_to_file("fp_vs_elka_frames.png")
+    session_plots.plot_all_frames_to_file("plots/all_frames.png")
+    session_plots.plot_fp_vs_elka_downlink_frames_to_file("plots/fp_vs_elka_frames.png")
