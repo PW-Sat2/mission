@@ -52,28 +52,43 @@ class Sessions:
         
         return lines_in_files
 
-sessions = Sessions('sessions/')
+
+class SessionDataCollector:
+    def __init__(self):
+        self.sessions = Sessions('sessions/')
+
+    def session_all_frames_counts(self):
+        paths_to_all_frames = self.sessions.get_paths_to_files("/artifacts/all.frames")
+
+        return self.sessions.count_lines_in_files(paths_to_all_frames)
+
+    def session_elka_downlink_frames_counts(self):
+        paths_to_elka_downlink_frames = self.sessions.get_paths_to_files("/artifacts/elka_downlink.frames")
+
+        return self.sessions.count_lines_in_files(paths_to_elka_downlink_frames)
+    
+    def session_fp_gs_downlink_frames_counts(self):
+        paths_to_gliwice_downlink_frames = self.sessions.get_paths_to_files("/artifacts/gliwice_downlink.frames")
+        paths_to_fp_gs_downlink_frames = self.sessions.get_paths_to_files("/artifacts/fp-gs_downlink.frames")
+
+        gliwice_downlink_frames = self.sessions.count_lines_in_files(paths_to_gliwice_downlink_frames)
+        fp_gs_downlink_frames = self.sessions.count_lines_in_files(paths_to_fp_gs_downlink_frames)
+
+        return map(operator.add, fp_gs_downlink_frames, gliwice_downlink_frames)
+    
+    def number_of_sessions(self):
+        return len(self.sessions.get_session_paths())
+
+#class NiceSessionPlots:
+#    def __init__(self):
+
 print "Info: Generating analytics..."
 
-# Paths to frames
-paths_to_all_frames = sessions.get_paths_to_files("/artifacts/all.frames")
-
-paths_to_fp_gs_downlink_frames = sessions.get_paths_to_files("/artifacts/fp-gs_downlink.frames")
-paths_to_gliwice_downlink_frames = sessions.get_paths_to_files("/artifacts/gliwice_downlink.frames")
-
-paths_to_elka_downlink_frames = sessions.get_paths_to_files("/artifacts/elka_downlink.frames")
-
-all_frames = sessions.count_lines_in_files(paths_to_all_frames)
-
-# Counted frames
-gliwice_downlink_frames = sessions.count_lines_in_files(paths_to_gliwice_downlink_frames)
-fp_gs_downlink_frames = sessions.count_lines_in_files(paths_to_fp_gs_downlink_frames)
-fp_gs_downlink_frames = map(operator.add, fp_gs_downlink_frames, gliwice_downlink_frames)
-
-elka_downlink_frames = sessions.count_lines_in_files(paths_to_elka_downlink_frames)
+data_collector = SessionDataCollector()
+all_frames = data_collector.session_all_frames_counts()
 
 # Plot to file
-x = range(1, len(sessions.get_session_paths()) + 1)
+x = range(1, data_collector.number_of_sessions() + 1)
 bar_width = 0.4
 
 plt.figure(1)
@@ -90,9 +105,9 @@ plt.legend(bbox_to_anchor=(0.5, 0.98), loc=1, borderaxespad=0., frameon=False)
 
 plt.subplot(212)
 plt.grid(True)
-plt.bar(map(operator.add, x, [-0.2 for i in range(0, len(x))]), fp_gs_downlink_frames, bar_width, color='r', label="fp-gs")
+plt.bar(map(operator.add, x, [-0.2 for i in range(0, len(x))]), data_collector.session_fp_gs_downlink_frames_counts(), bar_width, color='r', label="fp-gs")
 plt.hold(True)
-plt.bar(map(operator.add, x, [0.2 for i in range(0, len(x))]), elka_downlink_frames, bar_width, color='b', label="elka")
+plt.bar(map(operator.add, x, [0.2 for i in range(0, len(x))]), data_collector.session_elka_downlink_frames_counts(), bar_width, color='b', label="elka")
 
 plt.xlim(xmin = 1, xmax = len(all_frames) + 1)
 plt.ylim(ymin = 0, ymax = max(all_frames) + 50)
