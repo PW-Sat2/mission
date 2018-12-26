@@ -168,6 +168,30 @@ class NiceSessionPlots:
 
         plt.savefig(file_path, dpi=self.PLOT_DPI)
 
+    def integrated_fp_vs_elka_downlink_frames_to_file(self, file_path):
+        x = range(1, self.number_of_sessions + 1)
+
+        elka_integrated = self.integrate_frames(self.elka_downlink_frames)
+        fp_gs_integrated = self.integrate_frames(self.fp_gs_downlink_frames)
+
+        w, h = plt.figaspect(self.PLOT_ASPECT_RATIO)
+        fig = plt.figure(figsize=(w, h))
+        plt.rcParams.update({'font.size': 15})
+
+        plt.title('Total number of elka vs fp-gs downlink.frames vs session number')
+        plt.grid(True)
+        plt.plot(map(operator.add, x, [-0.2 for i in range(0, len(x))]), fp_gs_integrated, color='r', label="fp-gs")
+        plt.hold(True)
+        plt.plot(map(operator.add, x, [0.2 for i in range(0, len(x))]), elka_integrated, color='b', label="elka")
+
+        plt.xlim(xmin = 1, xmax = len(elka_integrated) + 1)
+        plt.ylim(ymin = 0, ymax = max(elka_integrated) + 5000)
+        plt.xlabel('Session number')
+        plt.ylabel('Total downlink.frames')
+
+        plt.legend(bbox_to_anchor=(0.5, 0.98), loc=1, borderaxespad=0., frameon=False)
+
+        plt.savefig(file_path, dpi=self.PLOT_DPI)
 
 
 if __name__ == "__main__":
@@ -178,3 +202,4 @@ if __name__ == "__main__":
     session_plots.plot_all_frames_to_file("plots/all_frames.png")
     session_plots.plot_integrated_all_frames_to_file("plots/integrated_all_frames.png")
     session_plots.plot_fp_vs_elka_downlink_frames_to_file("plots/fp_vs_elka_frames.png")
+    session_plots.integrated_fp_vs_elka_downlink_frames_to_file("plots/integrated_fp_vs_elka_frames.png")
