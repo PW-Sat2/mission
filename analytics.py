@@ -94,11 +94,43 @@ class NiceSessionPlots:
         self.fp_gs_downlink_frames = data_collector.session_fp_gs_downlink_frames_counts()
         self.elka_downlink_frames = data_collector.session_elka_downlink_frames_counts()
 
+
+    def integrate_frames(self, frames):
+        frames_integration = []
+        sum_of_previous_frames = 0
+
+        for session_index in range(0, len(frames)):
+            sum_of_previous_frames += frames[session_index]
+            frames_integration.append(sum_of_previous_frames)
+
+        return frames_integration
+
+    def plot_integrated_all_frames_to_file(self, file_path):
+        x = range(1, self.number_of_sessions + 1)
+        all_frames_integrated = self.integrate_frames(self.all_frames)
+
+        w, h = plt.figaspect(self.PLOT_ASPECT_RATIO)
+        fig = plt.figure(figsize=(w, h))
+        plt.rcParams.update({'font.size': 15})
+
+        plt.title('Total number of all.frames vs session number')
+        plt.grid(True)
+        plt.plot(x, all_frames_integrated, color='g', label="Total number of all.frames")
+
+        plt.xlim(xmin = 1, xmax = len(all_frames_integrated) + 1)
+        plt.ylim(ymin = 0, ymax = max(all_frames_integrated) + 5000)
+        plt.xlabel('Session number')
+        plt.ylabel('Total all.frames')
+
+        plt.legend(bbox_to_anchor=(0.5, 0.98), loc=1, borderaxespad=0., frameon=False)
+
+        plt.savefig(file_path, dpi=self.PLOT_DPI)
+
     def plot_all_frames_to_file(self, file_path):
         x = range(1, self.number_of_sessions + 1)
 
         w, h = plt.figaspect(self.PLOT_ASPECT_RATIO)
-        fig = plt.figure(1, figsize=(w, h))
+        fig = plt.figure(figsize=(w, h))
         plt.rcParams.update({'font.size': 15})
 
         plt.title('all.frames vs session number')
@@ -118,7 +150,7 @@ class NiceSessionPlots:
         x = range(1, self.number_of_sessions + 1)
 
         w, h = plt.figaspect(self.PLOT_ASPECT_RATIO)
-        fig = plt.figure(2, figsize=(w, h))
+        fig = plt.figure(figsize=(w, h))
         plt.rcParams.update({'font.size': 15})
 
         plt.title('elka vs fp-gs downlink.frames vs session number')
@@ -137,10 +169,12 @@ class NiceSessionPlots:
         plt.savefig(file_path, dpi=self.PLOT_DPI)
 
 
+
 if __name__ == "__main__":
     session_plots = NiceSessionPlots()
 
     print "\nInfo: Generating analytics...\n"
 
     session_plots.plot_all_frames_to_file("plots/all_frames.png")
+    session_plots.plot_integrated_all_frames_to_file("plots/integrated_all_frames.png")
     session_plots.plot_fp_vs_elka_downlink_frames_to_file("plots/fp_vs_elka_frames.png")
