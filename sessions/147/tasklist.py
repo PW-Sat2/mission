@@ -13,8 +13,10 @@ tasks = [
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
     # Set 9600
-    [tc.SetBitrate(7, BaudRate.BaudRate9600), Send, WaitMode.Wait],
+    [tc.SetBitrate(6, BaudRate.BaudRate9600), Send, WaitMode.Wait],
     [tc.SendBeacon(), Send, WaitMode.Wait],
+
+    [tc.ReadMemory(7, 0x88017fe8, 8), Send, WaitMode.Wait], # _bootTime value
 
     [tc.ListFiles(8, '/'), Send, WaitMode.Wait],
 
