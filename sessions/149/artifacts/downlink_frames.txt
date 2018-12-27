@@ -1,0 +1,71 @@
+FileListSuccessFrame: CID=001 Seq=00, #files: 3
+BeaconFrame
+      BP VOLT 7.64 V, 7.67 V
+      BP TEMP 12.25 C, 12.00 C, 11.40 C
+      COMM PA TEMP NOW 12.76 C LAST 12.92 C
+      COMM RX Current 48.62 mA
+      GYRO UNCAL -1.53 deg/sec, -3.41 deg/sec, 1.39 deg/sec
+      EXPERIMENT None
+      MCU TEMP 6.43 C
+      3V3 DISTR CURRENT 38 mA
+
+BeaconFrame
+      BP VOLT 7.64 V, 7.68 V
+      BP TEMP 12.62 C, 12.38 C, 11.40 C
+      COMM PA TEMP NOW 13.19 C LAST 13.19 C
+      COMM RX Current 48.46 mA
+      GYRO UNCAL -1.53 deg/sec, -3.34 deg/sec, 1.25 deg/sec
+      EXPERIMENT None
+      MCU TEMP 8.02 C
+      3V3 DISTR CURRENT 33 mA
+
+BeaconFrame
+      BP VOLT 7.64 V, 7.67 V
+      BP TEMP 11.88 C, 11.56 C, 11.40 C
+      COMM PA TEMP NOW 11.99 C LAST 12.32 C
+      COMM RX Current 48.37 mA
+      GYRO UNCAL -1.67 deg/sec, -3.41 deg/sec, 1.25 deg/sec
+      EXPERIMENT None
+      MCU TEMP 5.79 C
+      3V3 DISTR CURRENT 33 mA
+
+BeaconFrame
+      BP VOLT 7.64 V, 7.68 V
+      BP TEMP 12.50 C, 12.25 C, 11.40 C
+      COMM PA TEMP NOW 13.14 C LAST 13.08 C
+      COMM RX Current 48.43 mA
+      GYRO UNCAL -1.53 deg/sec, -3.34 deg/sec, 1.32 deg/sec
+      EXPERIMENT None
+      MCU TEMP 7.54 C
+      3V3 DISTR CURRENT 33 mA
+
+BeaconFrame
+      BP VOLT 7.64 V, 7.67 V
+      BP TEMP 12.12 C, 11.88 C, 11.40 C
+      COMM PA TEMP NOW 12.43 C LAST 12.54 C
+      COMM RX Current 48.65 mA
+      GYRO UNCAL -1.60 deg/sec, -3.41 deg/sec, 1.39 deg/sec
+      EXPERIMENT None
+      MCU TEMP 6.43 C
+      3V3 DISTR CURRENT 42 mA
+
+BeaconFrame
+      BP VOLT 7.64 V, 7.68 V
+      BP TEMP 12.38 C, 12.12 C, 11.40 C
+      COMM PA TEMP NOW 13.08 C LAST 12.76 C
+      COMM RX Current 48.43 mA
+      GYRO UNCAL -1.60 deg/sec, -3.34 deg/sec, 1.39 deg/sec
+      EXPERIMENT None
+      MCU TEMP 7.22 C
+      3V3 DISTR CURRENT 40 mA
+
+BeaconFrame
+      BP VOLT 7.64 V, 7.68 V
+      BP TEMP 12.88 C, 12.62 C, 12.80 C
+      COMM PA TEMP NOW 13.58 C LAST 13.74 C
+      COMM RX Current 48.49 mA
+      GYRO UNCAL -1.46 deg/sec, -3.41 deg/sec, 1.11 deg/sec
+      EXPERIMENT None
+      MCU TEMP 7.70 C
+      3V3 DISTR CURRENT 35 mA
+
