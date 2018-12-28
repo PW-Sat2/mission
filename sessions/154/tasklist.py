@@ -4,7 +4,7 @@ tasks = [
 
     [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
 
-    # Telemetry between session 152 and 153
+    # Telemetry between session 152 and 154
     [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(11, '/telemetry.current', [i for i in range(556, 1600, 100)]), Send, WaitMode.Wait],
     [tc.DownloadFile(12, '/telemetry.current', [i for i in range(568, 1600, 100)]), Send, WaitMode.Wait],
