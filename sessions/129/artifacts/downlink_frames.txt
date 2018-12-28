@@ -171,7 +171,7 @@ FileSendSuccessFrame: CID=102 Seq=80
 FileSendSuccessFrame: CID=106 Seq=196
 FileRemoveSuccessFrame: CID=033 Seq=00
 FileSendSuccessFrame: CID=056 Seq=1415
-FileSendSuccessFrame: CID=027 Seq=1931
+FileSendSuccessFrame: CID=056 Seq=1965
 BeaconFrame
 !!!!! BP VOLT 0.00 V, 0.00 V
 !!!!! BP TEMP 0.00 C, 0.00 C, -999.00 C
@@ -485,7 +485,7 @@ FileSendSuccessFrame: CID=100 Seq=32
 FileSendSuccessFrame: CID=020 Seq=1400
 FileSendSuccessFrame: CID=059 Seq=1834
 FileSendSuccessFrame: CID=058 Seq=2078
-FileSendSuccessFrame: CID=056 Seq=1965
+FileSendSuccessFrame: CID=027 Seq=1931
 PongFrame: Seq=00
 FileSendSuccessFrame: CID=052 Seq=63
 BeaconFrame
