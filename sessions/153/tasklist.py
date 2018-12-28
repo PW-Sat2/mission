@@ -8,6 +8,10 @@ tasks = [
     [tc.ReadMemory(3, 0x8801b620, 248), Send, WaitMode.Wait], # scrubbing
     [tc.ReadMemory(4, 0x88017fe8, 8), Send, WaitMode.Wait], # _bootTime value
 
+    # Waiting for power cycle
+    ["Go/no-go for uplink/downlink?", Print, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+
     # Power cycle EPS B
     [tc.PowerCycleTelecommand(5), Send, WaitMode.Wait],
     [tc.PingTelecommand(), Send, WaitMode.Wait],
