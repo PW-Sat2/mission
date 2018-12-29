@@ -1,0 +1,179 @@
+FileSendSuccessFrame: CID=004 Seq=606
+FileSendSuccessFrame: CID=003 Seq=601
+SailExperimentFrame: Seq=15
+FileSendSuccessFrame: CID=013 Seq=10
+SailExperimentFrame: Seq=08
+FileSendSuccessFrame: CID=004 Seq=609
+FileSendSuccessFrame: CID=005 Seq=614
+FileSendSuccessFrame: CID=013 Seq=11
+BeaconFrame
+      BP VOLT 7.59 V, 7.63 V
+      BP TEMP 8.38 C, 8.06 C, 9.20 C
+      COMM PA TEMP NOW 13.30 C LAST 15.21 C
+      COMM RX Current 48.89 mA
+      GYRO UNCAL 0.21 deg/sec, -0.14 deg/sec, 0.90 deg/sec
+      EXPERIMENT Sail LoopImmediately
+      MCU TEMP 1.19 C
+!!!!! 3V3 DISTR CURRENT 216 mA
+
+SetBitrateSuccessFrame: Seq=00
+SailExperimentFrame: Seq=17
+FileSendSuccessFrame: CID=004 Seq=607
+SailExperimentFrame: Seq=11
+FileSendSuccessFrame: CID=006 Seq=618
+SailExperimentFrame: Seq=18
+FileSendSuccessFrame: CID=006 Seq=619
+SailExperimentFrame: Seq=04
+BeaconFrame
+      BP VOLT 7.63 V, 7.67 V
+      BP TEMP 8.94 C, 8.56 C, 11.10 C
+      COMM PA TEMP NOW 10.14 C LAST 9.26 C
+      COMM RX Current 118.61 mA
+      GYRO UNCAL -2.16 deg/sec, -3.76 deg/sec, 1.32 deg/sec
+      EXPERIMENT None
+      MCU TEMP 1.19 C
+      3V3 DISTR CURRENT 40 mA
+
+SailExperimentFrame: Seq=13
+SetBitrateSuccessFrame: Seq=00
+SailExperimentFrame: Seq=03
+SailExperimentFrame: Seq=01
+FileSendSuccessFrame: CID=003 Seq=602
+SailExperimentFrame: Seq=12
+BeaconFrame
+      BP VOLT 7.58 V, 7.62 V
+      BP TEMP 8.25 C, 8.00 C, 9.20 C
+      COMM PA TEMP NOW 17.73 C LAST 18.54 C
+      COMM RX Current 49.35 mA
+      GYRO UNCAL -2.37 deg/sec, -3.97 deg/sec, 3.20 deg/sec
+      EXPERIMENT Sail LoopImmediately
+      MCU TEMP 1.19 C
+!!!!! 3V3 DISTR CURRENT 220 mA
+
+BeaconFrame
+      BP VOLT 7.68 V, 7.71 V
+      BP TEMP 8.50 C, 8.12 C, 9.20 C
+      COMM PA TEMP NOW 12.76 C LAST 12.59 C
+      COMM RX Current 48.49 mA
+      GYRO UNCAL -2.09 deg/sec, -3.55 deg/sec, 1.39 deg/sec
+      EXPERIMENT None
+      MCU TEMP 0.87 C
+      3V3 DISTR CURRENT 38 mA
+
+SailExperimentFrame: Seq=06
+FileSendSuccessFrame: CID=013 Seq=12
+BeaconFrame
+      BP VOLT 7.60 V, 7.63 V
+      BP TEMP 8.75 C, 8.38 C, 11.10 C
+      COMM PA TEMP NOW 13.08 C LAST 12.87 C
+      COMM RX Current 117.64 mA
+      GYRO UNCAL -2.16 deg/sec, -3.69 deg/sec, 1.39 deg/sec
+      EXPERIMENT None
+      MCU TEMP 1.03 C
+      3V3 DISTR CURRENT 38 mA
+
+SailExperimentFrame: Seq=05
+BeaconFrame
+      BP VOLT 7.68 V, 7.71 V
+      BP TEMP 8.62 C, 8.31 C, 11.10 C
+      COMM PA TEMP NOW 16.63 C LAST 17.40 C
+      COMM RX Current 48.22 mA
+      GYRO UNCAL -2.16 deg/sec, -3.62 deg/sec, 1.39 deg/sec
+      EXPERIMENT None
+      MCU TEMP 1.03 C
+      3V3 DISTR CURRENT 38 mA
+
+FileListSuccessFrame: CID=002 Seq=00, #files: 3
+BeaconFrame
+      BP VOLT 7.57 V, 7.60 V
+      BP TEMP 8.25 C, 8.06 C, 9.20 C
+      COMM PA TEMP NOW 15.05 C LAST 17.13 C
+      COMM RX Current 48.83 mA
+      GYRO UNCAL -2.50 deg/sec, -3.69 deg/sec, 3.06 deg/sec
+      EXPERIMENT Sail LoopImmediately
+      MCU TEMP 1.19 C
+!!!!! 3V3 DISTR CURRENT 218 mA
+
+FileSendSuccessFrame: CID=004 Seq=605
+FileSendSuccessFrame: CID=003 Seq=603
+FileSendSuccessFrame: CID=006 Seq=615
+BeaconFrame
+      BP VOLT 7.58 V, 7.62 V
+      BP TEMP 8.38 C, 8.06 C, 9.20 C
+      COMM PA TEMP NOW 14.29 C LAST 15.54 C
+      COMM RX Current 48.98 mA
+      GYRO UNCAL -2.92 deg/sec, -3.34 deg/sec, 0.35 deg/sec
+      EXPERIMENT Sail LoopImmediately
+      MCU TEMP 1.03 C
+!!!!! 3V3 DISTR CURRENT 185 mA
+
+SailExperimentFrame: Seq=16
+SailExperimentFrame: Seq=10
+SailExperimentFrame: Seq=19
+FileSendSuccessFrame: CID=005 Seq=613
+SailExperimentFrame: Seq=00
+FileSendSuccessFrame: CID=003 Seq=604
+FileSendSuccessFrame: CID=005 Seq=610
+SailExperimentFrame: Seq=14
+BeaconFrame
+      BP VOLT 7.60 V, 7.64 V
+      BP TEMP 8.31 C, 8.06 C, 9.20 C
+      COMM PA TEMP NOW 15.76 C LAST 18.22 C
+      COMM RX Current 121.12 mA
+      GYRO UNCAL -3.13 deg/sec, -4.24 deg/sec, 2.71 deg/sec
+      EXPERIMENT Sail LoopImmediately
+      MCU TEMP 1.83 C
+!!!!! 3V3 DISTR CURRENT 220 mA
+
+SailExperimentFrame: Seq=09
+SailExperimentFrame: Seq=02
+BeaconFrame
+      BP VOLT 7.69 V, 7.73 V
+      BP TEMP 8.81 C, 8.44 C, 11.10 C
+      COMM PA TEMP NOW 9.70 C LAST 11.67 C
+      COMM RX Current 47.98 mA
+      GYRO UNCAL -2.16 deg/sec, -3.69 deg/sec, 1.32 deg/sec
+      EXPERIMENT None
+      MCU TEMP 0.87 C
+      3V3 DISTR CURRENT 35 mA
+
+BeaconFrame
+      BP VOLT 7.71 V, 7.74 V
+      BP TEMP 9.00 C, 8.62 C, 11.10 C
+      COMM PA TEMP NOW 8.06 C LAST 7.95 C
+      COMM RX Current 47.73 mA
+      GYRO UNCAL -2.16 deg/sec, -3.69 deg/sec, 1.39 deg/sec
+      EXPERIMENT None
+      MCU TEMP 1.03 C
+      3V3 DISTR CURRENT 35 mA
+
+SailExperimentFrame: Seq=20
+FileSendSuccessFrame: CID=006 Seq=616
+SailExperimentFrame: Seq=07
+FileSendSuccessFrame: CID=005 Seq=612
+FileSendSuccessFrame: CID=006 Seq=617
+FileSendSuccessFrame: CID=004 Seq=608
+BeaconFrame
+      BP VOLT 7.60 V, 7.63 V
+      BP TEMP 8.31 C, 8.06 C, 9.20 C
+      COMM PA TEMP NOW 16.09 C LAST 16.25 C
+      COMM RX Current 49.07 mA
+      GYRO UNCAL 4.17 deg/sec, -1.18 deg/sec, 2.57 deg/sec
+      EXPERIMENT Sail LoopImmediately
+      MCU TEMP 1.03 C
+!!!!! 3V3 DISTR CURRENT 204 mA
+
+BeaconFrame
+      BP VOLT 7.59 V, 7.63 V
+      BP TEMP 8.44 C, 8.12 C, 9.20 C
+      COMM PA TEMP NOW 12.65 C LAST 15.05 C
+      COMM RX Current 48.83 mA
+      GYRO UNCAL -2.09 deg/sec, -3.55 deg/sec, 1.46 deg/sec
+      EXPERIMENT Sail LoopImmediately
+      MCU TEMP 0.71 C
+!!!!! 3V3 DISTR CURRENT 206 mA
+
+FileSendSuccessFrame: CID=003 Seq=600
+ExperimentSuccessFrame: CID=101 Seq=00
+FileSendSuccessFrame: CID=013 Seq=09
+FileSendSuccessFrame: CID=005 Seq=611
