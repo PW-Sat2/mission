@@ -28,10 +28,17 @@ tasks = [
     # Missings of low-res photos just before and after sail deployment
     [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(13, '/sail.photo_13', [12]), Send, WaitMode.Wait],
-    [tc.DownloadFile(15, '/sail.photo_15', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]), Send, WaitMode.Wait],
-    [tc.DownloadFile(21, '/sail.photo_21', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]), Send, WaitMode.Wait],
-    [tc.DownloadFile(23, '/sail.photo_23', [32, 33, 34, 35, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]), Send, WaitMode.Wait],
-    [tc.DownloadFile(27, '/sail.photo_27', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]), Send, WaitMode.Wait],
+    [tc.DownloadFile(15, '/sail.photo_15', [0, 1, 2, 3, 4, 5, 6, 7, 8]), Send, WaitMode.Wait],
+    [tc.DownloadFile(16, '/sail.photo_15', [9, 10, 11, 12, 13, 14, 15]), Send, WaitMode.Wait],
+
+    [tc.DownloadFile(21, '/sail.photo_21', [0, 1, 2, 3, 4, 5, 6, 7]), Send, WaitMode.Wait],
+    [tc.DownloadFile(22, '/sail.photo_21', [8, 9, 10, 11, 12, 13, 14]), Send, WaitMode.Wait],
+
+    [tc.DownloadFile(23, '/sail.photo_23', [32, 33, 34, 35, 18, 19, 20, 21, 22]), Send, WaitMode.Wait],
+    [tc.DownloadFile(24, '/sail.photo_23', [23, 24, 25, 26, 27, 28, 29, 30, 31]), Send, WaitMode.Wait],
+
+    [tc.DownloadFile(27, '/sail.photo_27', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]), Send, WaitMode.Wait],
+    [tc.DownloadFile(28, '/sail.photo_27', [10, 11, 12, 13, 14, 15, 16, 17]), Send, WaitMode.Wait],
 
     # Remove black photos (covered by solar panels)
     [tc.SendBeacon(), Send, WaitMode.Wait],
