@@ -5,7 +5,10 @@ tasks = [
     # Power cycle EPS B
     [tc.PowerCycleTelecommand(5), Send, WaitMode.Wait],
     [tc.PingTelecommand(), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.Wait],
 
+    # Set 9600
+    [tc.SetBitrate(4, BaudRate.BaudRate9600), Send, WaitMode.Wait],
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
     [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
