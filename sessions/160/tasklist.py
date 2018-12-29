@@ -4,6 +4,9 @@ tasks = [
 
     [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
 
+    # STOP sail deployment by OBC
+    [tc.StopSailDeployment(3), Send, WaitMode.Wait],
+
     # Telemetry between session 158 and 160 - to estimate lifetime based on battery voltage
     [tc.SendBeacon(), Send, WaitMode.NoWait],
     [tc.DownloadFile(100, '/telemetry.current', [i for i in range(910, 1900, 100)]), Send, WaitMode.Wait],
