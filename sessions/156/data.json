@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Power cycle EPS B befeore Sail exp. Telemetry download on 1200.",
         "phase": "extended",
-        "status": "planned",
+        "status": "success",
         "start_time_iso_with_zone": "2018-12-29T09:12:00+01:00",
         "stop_time_iso_with_zone": "2018-12-29T09:23:05+01:00"
     }
