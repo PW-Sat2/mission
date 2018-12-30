@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Telemetry download. Energy saving.",
         "phase": "after_sail_deployment",
-        "status": "planned",
+        "status": "success",
         "start_time_iso_with_zone": "2018-12-30T21:47:48+01:00",
         "stop_time_iso_with_zone": "2018-12-30T22:00:08+01:00"
     }
