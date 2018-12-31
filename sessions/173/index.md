@@ -1,5 +1,5 @@
 {% extends "/sessions/_layout/index.md" %}
 
 {% block goal %}
-Telemetry download. Energy saving.
+Power cycle EPS B. Telemetry download. Energy saving.
 {% endblock %}

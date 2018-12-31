@@ -1,6 +1,6 @@
 {
     "Session": {
-        "short_description": "Telemetry download. Energy saving.",
+        "short_description": "Power cycle EPS B. Telemetry download. Energy saving.",
         "phase": "after_sail_deployment",
         "status": "planned",
         "start_time_iso_with_zone": "2018-12-31T20:18:26+01:00",
