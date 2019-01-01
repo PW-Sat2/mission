@@ -46,9 +46,6 @@ tasks = [
     [tc.SendBeacon(), Send, WaitMode.Wait],
     [tc.DownloadFile(60, '/telemetry.current', [i for i in range(553, 755, 12)]), Send, WaitMode.Wait],
     [tc.DownloadFile(61, '/telemetry.current', [i for i in range(559, 755, 12)]), Send, WaitMode.Wait],
-    [tc.SendBeacon(), Send, WaitMode.Wait],
-    [tc.DownloadFile(62, '/telemetry.current', [i for i in range(553, 755, 12)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(63, '/telemetry.current', [i for i in range(559, 755, 12)]), Send, WaitMode.Wait],
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
