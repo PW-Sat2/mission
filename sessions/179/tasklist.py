@@ -21,7 +21,7 @@ tasks = [
     [tc.DownloadFile(40, '/telemetry.current', [i for i in range(0, 600, 48)]), Send, WaitMode.Wait],
     [tc.DownloadFile(50, '/telemetry.previous', [i for i in range(1800, 2280, 24)]), Send, WaitMode.Wait],
 
-    # TakePhoto queue - start 20:30
+    ["TakePhoto queue - start 20:30", Print, WaitMode.Wait],
     # Group 1 - Alaska
     [tc.SendBeacon(), Send, WaitMode.Wait],
     [tc.TakePhotoTelecommand(70, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=15), 'p1_128'), Send, WaitMode.Wait],
