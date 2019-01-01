@@ -40,5 +40,7 @@ tasks = [
     [tc.DownloadFile(105, '/sads.photo_wing', [i for i in range(125, 150, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(106, '/sads.photo_wing', [i for i in range(150, 175, 1)]), Send, WaitMode.Wait],
 
+    [tc.DownloadFile(31, '/sads.exp', [i for i in range(0, 20, 1)]), Send, WaitMode.Wait],
+
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
