@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Beacons reception. Low elevation.",
         "phase": "after_sail_deployment",
-        "status": "planned",
+        "status": "success",
         "start_time_iso_with_zone": "2018-12-30T18:41:07+01:00",
         "stop_time_iso_with_zone": "2018-12-30T18:48:03+01:00"
     }
