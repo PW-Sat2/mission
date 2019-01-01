@@ -10,25 +10,25 @@ tasks = [
 
     # Low res photos download
     [tc.SendBeacon(), Send, WaitMode.Wait],
-    [tc.DownloadFile(3, '/p1_128', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(3, '/p1_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(5, '/p2_128', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(5, '/p2_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(7, '/p3_128', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(7, '/p3_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(9, '/p4_128', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(9, '/p4_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(11, '/p5_128', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(11, '/p5_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(13, '/p6_128', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(13, '/p6_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(15, '/p7_128', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(15, '/p7_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(17, '/p8_128', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(17, '/p8_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(19, '/p9_128', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(19, '/p9_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(21, '/p10_128', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(21, '/p10_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
 
     # Much more telemetry between session 176 and 179
     [tc.SendBeacon(), Send, WaitMode.Wait],
