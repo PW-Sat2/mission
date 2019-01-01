@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Trying to figure out if the satellite is still alive after SADS deployment.",
         "phase": "after_sail_deployment",
-        "status": "planned",
+        "status": "success",
         "start_time_iso_with_zone": "2019-01-01T11:04:30+01:00",
         "stop_time_iso_with_zone": "2019-01-01T11:16:39+01:00"
     }
