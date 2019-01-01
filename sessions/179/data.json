@@ -1,0 +1,9 @@
+{
+    "Session": {
+        "short_description": "Power cycle EPS A. Take photo queue.",
+        "phase": "after_sail_deployment",
+        "status": "planned",
+        "start_time_iso_with_zone": "2019-01-01T20:24:15+01:00",
+        "stop_time_iso_with_zone": "2019-01-01T20:36:15+01:00"
+    }
+}
