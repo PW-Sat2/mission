@@ -43,7 +43,7 @@ module.exports = {
         if (fs.existsSync(sessionDirArtifacts)){
             let files = fs.readdirSync(sessionDirArtifacts);
             for (var i = 0, len = files.length; i < len; i++) {
-                if(path.extname(files[i]) === ".jpg") {
+                if(path.extname(files[i]) === ".jpg" || path.extname(files[i]) === ".gif" || path.extname(files[i]) === ".mp4") {
                     images.push(files[i]);
                 }
             }
