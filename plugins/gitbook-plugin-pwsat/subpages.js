@@ -35,7 +35,7 @@ module.exports = {
     },
 
     getPhotosMarkdownLinks: function(sessionDirArtifacts, items){
-        return items.map(i => `![Image](${sessionDirArtifacts}/${i})`);
+        return items.map(i => `![${i}](${sessionDirArtifacts}/${i} \"${i}\")`);
     },
 
     filterSessionPhotos: function(sessionDirArtifacts){
