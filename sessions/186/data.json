@@ -1,0 +1,10 @@
+{
+    "Session": {
+        "short_description": "Beacons reception. List files.",
+        "phase": "after_sail_deployment",
+        "status": "auto",
+		"primary": "elka",
+        "start_time_iso_with_zone": "2019-01-03T08:07:22+01:00",
+        "stop_time_iso_with_zone": "2019-01-03T08:12:11+01:00"
+    }
+}
