@@ -3,7 +3,7 @@
         "short_description": "Beacons reception. List files.",
         "phase": "after_sail_deployment",
         "status": "auto",
-		"primary": "fp",
+        "primary": "fp",
         "start_time_iso_with_zone": "2019-01-03T19:02:39+01:00",
         "stop_time_iso_with_zone": "2019-01-03T19:11:15+01:00"
     }
