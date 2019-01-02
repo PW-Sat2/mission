@@ -24,7 +24,7 @@ function buildGallery() {
 
             const sessionAssembledPhotos = subpages.filterSessionPhotos(sessionDirArtifacts + '/assembled/');
             if (sessionAssembledPhotos.length > 0){
-                const sessionMarkdownAssembledPhotos = subpages.getPhotosMarkdownLinks(sessionDirArtifacts + '/assembled/', sessionPhotos);
+                const sessionMarkdownAssembledPhotos = subpages.getPhotosMarkdownLinks(sessionDirArtifacts + '/assembled', sessionAssembledPhotos);
                 sessionPhotosLinks.push(sessionMarkdownAssembledPhotos);
                 sessionPhotosLinks.push(`### Assembled`);
             }            
