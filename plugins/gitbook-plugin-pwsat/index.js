@@ -10,6 +10,7 @@ module.exports = {
         read_file: require('./read_file'),
         checklist: require('./checklist'),
         artifacts: require('./artifacts'),
+        gallery: require('./gallery'),
         session_templates:  require('./session_templates'),
         sessions: require('./sessions'),
         session_data: require('./session_data')
