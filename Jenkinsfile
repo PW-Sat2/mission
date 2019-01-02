@@ -23,29 +23,31 @@ pipeline {
                         bat('7z a archive.zip .\\*')
                     }
 
-                    sshPublisher(publishers: [
-                        sshPublisherDesc(
-                            configName: 'gajoch.pl', 
-                            transfers: [
-                                sshTransfer(
-                                    cleanRemote: true, 
-                                    excludes: '', 
-                                    latten: false, 
-                                    makeEmptyDirs: true, 
-                                    noDefaultExcludes: false, 
-                                    patternSeparator: '[, ]+', 
-                                    remoteDirectory: "WWW/mission/${env.BRANCH_NAME}", 
-                                    remoteDirectorySDF: false, 
-                                    removePrefix: '', 
-                                    sourceFiles: 'archive.zip',
-                                    execCommand: "pwd && ls && cd WWW/mission/${env.BRANCH_NAME} && unzip -o archive.zip"
-                                )
-                            ], 
-                            usePromotionTimestamp: false, 
-                            useWorkspaceInPromotion: false, 
-                            verbose: false
-                        )
-                    ])
+                    retry(3) {
+                        sshPublisher(publishers: [
+                            sshPublisherDesc(
+                                configName: 'gajoch.pl', 
+                                transfers: [
+                                    sshTransfer(
+                                        cleanRemote: false, 
+                                        excludes: '', 
+                                        latten: false, 
+                                        makeEmptyDirs: true, 
+                                        noDefaultExcludes: false, 
+                                        patternSeparator: '[, ]+', 
+                                        remoteDirectory: "WWW/mission/${env.BRANCH_NAME}", 
+                                        remoteDirectorySDF: false, 
+                                        removePrefix: '', 
+                                        sourceFiles: 'archive.zip',
+                                        execCommand: "pwd && ls && cd WWW/mission/${env.BRANCH_NAME} && unzip -o archive.zip"
+                                    )
+                                ], 
+                                usePromotionTimestamp: false, 
+                                useWorkspaceInPromotion: false, 
+                                verbose: false
+                            )
+                        ])
+                    }
                 }
 
                 step([
