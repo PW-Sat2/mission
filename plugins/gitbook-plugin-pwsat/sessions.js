@@ -2,7 +2,7 @@ const subpages = require('./subpages');
 const session_data = require('./session_data');
 
 const SESSIONS_PATH = "sessions";
-const SESSIONS_IGNORED = ["index.md", "_templates", "_layout"];
+const SESSIONS_IGNORED = ["index.md", "_templates", "_layout", "gallery.md"];
 
 
 function buildSessions(resolvedPathToSessions, items_filtered) {
