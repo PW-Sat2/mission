@@ -5,11 +5,11 @@ tasks = [
     [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
 
     # Telemetry between session 181 and 182
-    [tc.DownloadFile(10, '/telemetry.current', [i for i in range(2050, 2250, 24)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(11, '/telemetry.current', [i for i in range(2062, 2250, 24)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(10, '/telemetry.current', [i for i in range(1990, 2250, 24)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(11, '/telemetry.current', [i for i in range(2002, 2250, 24)]), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(12, '/telemetry.current', [i for i in range(2056, 2250, 24)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(13, '/telemetry.current', [i for i in range(2068, 2250, 24)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(12, '/telemetry.current', [i for i in range(1996, 2250, 24)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(13, '/telemetry.current', [i for i in range(2018, 2250, 24)]), Send, WaitMode.Wait],
 
     # High res photos download
     [tc.SendBeacon(), Send, WaitMode.Wait],
