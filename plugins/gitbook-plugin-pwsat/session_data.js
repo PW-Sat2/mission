@@ -6,11 +6,12 @@ const UNDEFINED = "[TBD]";
 const STATUS_PLANNED = "planned";
 const STATUS_FAILED = "failed";
 const STATUS_SUCCESS = "success";
+const STATUS_AUTO = "auto";
 
 const STATUS_PLANNED_SYM = "<span style='color:orange;font-size:200%' title='Planned'>&#x231A;</span>";
 const STATUS_FAILED_SYM = "<span style='color:red;font-size:200%' title='Failed'>&#x2612;</span>";
 const STATUS_SUCCESS_SYM = "<span style='color:green;font-size:200%' title='Success'>&#x2611;</span>";
-
+const STATUS_AUTO_SYM = "<span style='color:gray;font-size:200%' title='Auto'>&#x1F916;</span>";
 
 function readSessionData(resolvedPathToSessionData) {
     try {
@@ -73,6 +74,8 @@ module.exports = {
                 return STATUS_FAILED_SYM;
             case STATUS_SUCCESS:
                 return STATUS_SUCCESS_SYM;
+            case STATUS_AUTO:
+                return STATUS_AUTO_SYM;
         }
         return UNDEFINED;
     },
