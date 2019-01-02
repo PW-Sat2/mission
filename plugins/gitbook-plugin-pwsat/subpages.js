@@ -34,16 +34,18 @@ module.exports = {
         return items.map(i => `[${i}](/${pathToRead}/${i}/index.md)`);
     },
 
-    getPhotosMarkdownLinks: function(sessionDir, items){
-        return items.map(i => `![Image](${sessionDir}/artifacts/${i})`);
+    getPhotosMarkdownLinks: function(sessionDirArtifacts, items){
+        return items.map(i => `![Image](${sessionDirArtifacts}/${i})`);
     },
 
-    filterSessionPhotos: function(sessionDir){
+    filterSessionPhotos: function(sessionDirArtifacts){
         let images = [];
-        let files = fs.readdirSync(sessionDir + "/artifacts/");
-        for (var i = 0, len = files.length; i < len; i++) {
-            if(path.extname(files[i]) === ".jpg") {
-                images.push(files[i]);
+        if (fs.existsSync(sessionDirArtifacts)){
+            let files = fs.readdirSync(sessionDirArtifacts);
+            for (var i = 0, len = files.length; i < len; i++) {
+                if(path.extname(files[i]) === ".jpg") {
+                    images.push(files[i]);
+                }
             }
         }
         return images;

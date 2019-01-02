@@ -13,13 +13,24 @@ function buildGallery() {
         for (let index = 0; index < sessionPaths.length; index++) {
             const dirName = (index + 1).toString();
             const sessionDir = SESSIONS_PATH + "/" + dirName + "/";
-            const sessionPhotos = subpages.filterSessionPhotos(sessionDir);
+            const sessionDirArtifacts = sessionDir + 'artifacts';
+            const sessionPhotos = subpages.filterSessionPhotos(sessionDirArtifacts);
 
             if (sessionPhotos.length > 0){
-                const sessionMarkdownPhotos =  subpages.getPhotosMarkdownLinks(sessionDir, sessionPhotos);
+                const sessionMarkdownPhotos = subpages.getPhotosMarkdownLinks(sessionDirArtifacts, sessionPhotos);
                 sessionPhotosLinks.push(sessionMarkdownPhotos);
-                
-                const sessionStartTime =  session_data.getStartTime(sessionDir);
+                sessionPhotosLinks.push(`### Raw`);
+            }
+
+            const sessionAssembledPhotos = subpages.filterSessionPhotos(sessionDirArtifacts + '/assembled/');
+            if (sessionAssembledPhotos.length > 0){
+                const sessionMarkdownAssembledPhotos = subpages.getPhotosMarkdownLinks(sessionDirArtifacts + '/assembled/', sessionPhotos);
+                sessionPhotosLinks.push(sessionMarkdownAssembledPhotos);
+                sessionPhotosLinks.push(`### Assembled`);
+            }            
+
+            if (sessionPhotos.length > 0 || sessionAssembledPhotos.length > 0){
+                const sessionStartTime = session_data.getStartTime(sessionDir);
                 sessionPhotosLinks.push(`_${sessionStartTime}_\n`);
                 sessionPhotosLinks.push(`## [Session ${index + 1}](${sessionDir})`);
             }
