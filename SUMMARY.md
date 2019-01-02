@@ -1,4 +1,5 @@
 * [Start](/README.md)
+* [Gallery](/gallery.md)
 * [Mission plan](/mission_plan/index.md)
     * [Launch](/mission_plan/launch/index.md)
     * [LEOP](/mission_plan/leop/index.md)

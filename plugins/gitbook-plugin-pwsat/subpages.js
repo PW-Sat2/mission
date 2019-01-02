@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 
 function isItemIgnored(item, ignoredItems) {
     for (let index = 0; index < ignoredItems.length; index++) {
@@ -31,6 +32,23 @@ module.exports = {
 
     buildMarkdownLinks: function(pathToRead, items) {
         return items.map(i => `[${i}](/${pathToRead}/${i}/index.md)`);
+    },
+
+    getPhotosMarkdownLinks: function(sessionDirArtifacts, items){
+        return items.map(i => `![${i}](${sessionDirArtifacts}/${i} \"${i}\")`);
+    },
+
+    filterSessionPhotos: function(sessionDirArtifacts){
+        let images = [];
+        if (fs.existsSync(sessionDirArtifacts)){
+            let files = fs.readdirSync(sessionDirArtifacts);
+            for (var i = 0, len = files.length; i < len; i++) {
+                if(path.extname(files[i]) === ".jpg" || path.extname(files[i]) === ".gif" || path.extname(files[i]) === ".mp4") {
+                    images.push(files[i]);
+                }
+            }
+        }
+        return images;
     },
 
     filterItems: function(items, itemsToFilter) {
