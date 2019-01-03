@@ -5,6 +5,18 @@ tasks = [
     # ReadMemory, weird telecommands
     [tc.ReadMemory(2, 0x8801b620, 248), Send, WaitMode.Wait], # scrubbing
 
+    [tc.SendBeacon(), Send, WaitMode.Wait], # Wait until good communication
+    [tc.RawI2C(4, 0, 0x35, 1, [0xE0]), Send, WaitMode.Wait],
+
+    [tc.PingTelecommand(), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+
+    # Set 9600
+    [tc.SetBitrate(6, BaudRate.BaudRate9600), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+
+    [tc.ListFiles(8, '/'), Send, WaitMode.Wait],
+
     [tc.SendBeacon(), Send, WaitMode.Wait],
     [tc.RemoveFile(100, '/p10_480_0'), Send, WaitMode.NoWait],
     [tc.RemoveFile(101, '/p1_480_0'), Send, WaitMode.NoWait],
@@ -18,17 +30,7 @@ tasks = [
     [tc.RemoveFile(108, '/p8_480_0'), Send, WaitMode.NoWait],
     [tc.RemoveFile(109, '/p9_480_0'), Send, WaitMode.NoWait],
 
-    [tc.SendBeacon(), Send, WaitMode.Wait], # Wait until good communication
-    [tc.RawI2C(4, 0, 0x35, 1, [0xE0]), Send, WaitMode.Wait],
-
-    [tc.PingTelecommand(), Send, WaitMode.Wait],
-    [tc.SendBeacon(), Send, WaitMode.Wait],
-
-    # Set 9600
-    [tc.SetBitrate(6, BaudRate.BaudRate9600), Send, WaitMode.Wait],
-    [tc.SendBeacon(), Send, WaitMode.Wait],
-
-    [tc.ListFiles(8, '/'), Send, WaitMode.Wait],
+    
 
     # Telemetry previous starting in session 184
     [tc.DownloadFile(40, '/telemetry.previous', [i for i in range(1100, 2280, 48)]), Send, WaitMode.Wait],
@@ -41,6 +43,8 @@ tasks = [
     [tc.DownloadFile(45, '/telemetry.previous', [i for i in range(1118, 2280, 48)]), Send, WaitMode.Wait],
     [tc.DownloadFile(46, '/telemetry.previous', [i for i in range(1130, 2280, 48)]), Send, WaitMode.Wait],
     [tc.DownloadFile(47, '/telemetry.previous', [i for i in range(1142, 2280, 48)]), Send, WaitMode.Wait],
+
+    [tc.ListFiles(50, '/'), Send, WaitMode.Wait],
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
