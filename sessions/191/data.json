@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Remove files. Power cycle EPS A. Telemetry download.",
         "phase": "after_sail_deployment",
-        "status": "auto",
+        "status": "planned",
         "primary": "fp",
         "start_time_iso_with_zone": "2019-01-03T20:34:59+01:00",
         "stop_time_iso_with_zone": "2019-01-03T20:47:02+01:00"
