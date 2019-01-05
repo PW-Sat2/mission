@@ -3,6 +3,6 @@
 {% block goal %}
 Power cycle EPS A. Telemetry download.
 
-`tasklist.py` - regular, manually written, to download telemetry and to perform power cycle A.
-`tasklist_auto_generated.py` - first auto-generated session to download telemetry and to perform power cycle A.
+`tasklist_manual.py` - regular, manually written, to download telemetry and to perform power cycle A.
+`tasklist.py` - first auto-generated session to download telemetry and to perform power cycle A.
 {% endblock %}
