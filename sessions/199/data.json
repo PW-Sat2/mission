@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Telemetry download.", 
         "phase": "after_sail_deployment", 
-        "status": "planned", 
+        "status": "success", 
         "primary": "fp", 
         "start_time_iso_with_zone": "2019-01-04T22:16:49+01:00", 
         "stop_time_iso_with_zone": "2019-01-04T22:28:20+01:00", 
