@@ -1,0 +1,71 @@
+BeaconFrame
+      BP VOLT 7.57 V, 7.59 V
+      BP TEMP 6.06 C, 6.00 C, 7.40 C
+      COMM PA TEMP NOW 5.88 C LAST 5.44 C
+      COMM RX Current 48.71 mA
+      GYRO UNCAL -2.30 deg/sec, -3.48 deg/sec, 1.18 deg/sec
+      EXPERIMENT None
+      MCU TEMP -2.46 C
+      3V3 DISTR CURRENT 35 mA
+
+BeaconFrame
+      BP VOLT 7.56 V, 7.59 V
+      BP TEMP 6.25 C, 6.19 C, 7.40 C
+      COMM PA TEMP NOW 5.39 C LAST 5.50 C
+      COMM RX Current 48.65 mA
+      GYRO UNCAL -2.23 deg/sec, -3.34 deg/sec, 1.32 deg/sec
+      EXPERIMENT None
+      MCU TEMP -2.62 C
+      3V3 DISTR CURRENT 35 mA
+
+BeaconFrame
+      BP VOLT 7.56 V, 7.59 V
+      BP TEMP 6.12 C, 6.06 C, 7.40 C
+      COMM PA TEMP NOW 5.66 C LAST 5.50 C
+      COMM RX Current 49.04 mA
+      GYRO UNCAL -2.30 deg/sec, -3.34 deg/sec, 1.18 deg/sec
+      EXPERIMENT None
+      MCU TEMP -2.46 C
+      3V3 DISTR CURRENT 33 mA
+
+BeaconFrame
+      BP VOLT 7.60 V, 7.64 V
+      BP TEMP 6.44 C, 6.31 C, 7.40 C
+      COMM PA TEMP NOW 5.17 C LAST 4.73 C
+      COMM RX Current 48.34 mA
+      GYRO UNCAL -2.37 deg/sec, -3.55 deg/sec, 1.39 deg/sec
+      EXPERIMENT None
+      MCU TEMP -3.25 C
+      3V3 DISTR CURRENT 35 mA
+
+BeaconFrame
+      BP VOLT 7.64 V, 7.67 V
+      BP TEMP 6.62 C, 6.44 C, 7.40 C
+      COMM PA TEMP NOW 5.06 C LAST 5.22 C
+      COMM RX Current 48.89 mA
+      GYRO UNCAL -2.43 deg/sec, -3.48 deg/sec, 1.46 deg/sec
+      EXPERIMENT None
+      MCU TEMP -3.57 C
+      3V3 DISTR CURRENT 33 mA
+
+BeaconFrame
+      BP VOLT 7.65 V, 7.69 V
+      BP TEMP 6.88 C, 6.62 C, 7.40 C
+      COMM PA TEMP NOW 5.11 C LAST 5.06 C
+      COMM RX Current 48.19 mA
+      GYRO UNCAL -2.50 deg/sec, -3.55 deg/sec, 1.53 deg/sec
+      EXPERIMENT None
+      MCU TEMP -3.73 C
+      3V3 DISTR CURRENT 35 mA
+
+BeaconFrame
+      BP VOLT 7.56 V, 7.59 V
+      BP TEMP 6.06 C, 5.94 C, 7.40 C
+      COMM PA TEMP NOW 6.21 C LAST 5.99 C
+      COMM RX Current 48.65 mA
+      GYRO UNCAL -2.23 deg/sec, -3.41 deg/sec, 1.18 deg/sec
+      EXPERIMENT None
+      MCU TEMP -2.46 C
+      3V3 DISTR CURRENT 35 mA
+
+SetBitrateSuccessFrame: Seq=00
