@@ -1,0 +1,16 @@
+89e57378dd7d598a1f27659d34041cee367de62f
+find: paths must precede expression: `top_block.py'
+find: possible unquoted pattern after predicate `-iname'?
+GS Name: elka
+OS: Linux pwsat2gs 4.15.0-29-generic #31-Ubuntu SMP Tue Jul 17 15:39:52 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+GSControl directory: /home/pwsat2gs/gs/GSControl
+GSControl revision: dbd3cb520fd9255dbde1196422fdc89914e3c3b8 (dirty)
+Mission directory: /home/pwsat2gs/gs/mission
+Mission revision: 89e57378dd7d598a1f27659d34041cee367de62f (dirty)
+Python path: /usr/bin/python2.7
+Python version: Python 2.7.15rc1
+GnuRadio path /home/pwsat2gs/prefix/default/bin/gnuradio-companion
+GnuRadio version 3.7.13.4
+gr-kiss checksum d41d8cd98f00b204e9800998ecf8427e
+GPredict path: /usr/bin/gpredict
+GPredict version: 2.0-4
