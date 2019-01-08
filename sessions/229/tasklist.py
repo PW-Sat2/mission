@@ -5,6 +5,28 @@ tasks = [
 
     [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
 
+    # Take photo queue
+    # Group 1 - Poland (10:17)
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(70, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=0), 'p1_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(71, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p1_480'), Send, WaitMode.Wait],
+
+    # Group 2
+    [tc.TakePhotoTelecommand(72, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=2), 'p2_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(73, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p2_480'), Send, WaitMode.Wait],
+
+    # Group 3 - South Pole
+    [tc.TakePhotoTelecommand(74, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=30), 'p3_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(75, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p3_480'), Send, WaitMode.Wait],
+
+    # Group 4 - New Zeland
+    [tc.TakePhotoTelecommand(76, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=20), 'p4_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(77, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p4_480'), Send, WaitMode.Wait],
+
+    # Group 5 - Sea of Okhotsk
+    [tc.TakePhotoTelecommand(78, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=23), 'p5_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(79, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p5_480'), Send, WaitMode.Wait],
+
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
     # auto-generated telemetry start
@@ -21,6 +43,8 @@ tasks = [
     [tc.DownloadFile(40, '/telemetry.previous', [1823, 1873, 1923, 1973, 2023, 2073, 2123, 2173, 2223, 2273, 835, 885, 935, 985, 1035, 1085, 1135, 1185, 1235, 1285]), Send, WaitMode.Wait],
     [tc.DownloadFile(41, '/telemetry.previous', [1335, 1385, 1435, 1485, 1535, 1585, 1635, 1685, 1735, 1785, 1835, 1885, 1935, 1985, 2035, 2085, 2135, 2185, 2235]), Send, WaitMode.Wait],
     # auto-generated telemetry end
+
+    [tc.ListFiles(99, '/'), Send, WaitMode.Wait],
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
