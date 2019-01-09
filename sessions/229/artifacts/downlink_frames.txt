@@ -64,6 +64,7 @@ BeaconFrame
       3V3 DISTR CURRENT 35 mA
 
 FileSendSuccessFrame: CID=036 Seq=1299
+FileSendSuccessFrame: CID=202 Seq=19
 FileSendSuccessFrame: CID=040 Seq=985
 FileSendSuccessFrame: CID=030 Seq=892
 FileSendSuccessFrame: CID=041 Seq=1635
@@ -311,7 +312,6 @@ FileSendSuccessFrame: CID=036 Seq=1649
 FileSendSuccessFrame: CID=041 Seq=1885
 FileSendSuccessFrame: CID=037 Seq=2199
 FileListSuccessFrame: CID=099 Seq=00, #files: 7
-FileSendSuccessFrame: CID=201 Seq=00
 FileSendSuccessFrame: CID=032 Seq=1967
 BeaconFrame
       BP VOLT 7.42 V, 7.45 V
@@ -375,7 +375,6 @@ FileSendSuccessFrame: CID=041 Seq=1585
 FileSendSuccessFrame: CID=041 Seq=2185
 FileSendSuccessFrame: CID=040 Seq=1923
 FileSendSuccessFrame: CID=037 Seq=2099
-FileSendSuccessFrame: CID=202 Seq=19
 BeaconFrame
       BP VOLT 7.42 V, 7.46 V
       BP TEMP 7.44 C, 7.25 C, 9.20 C
@@ -386,6 +385,7 @@ BeaconFrame
       MCU TEMP -2.14 C
       3V3 DISTR CURRENT 35 mA
 
+FileSendSuccessFrame: CID=201 Seq=00
 FileSendSuccessFrame: CID=031 Seq=2192
 FileSendSuccessFrame: CID=032 Seq=1317
 FileSendSuccessFrame: CID=037 Seq=2049
