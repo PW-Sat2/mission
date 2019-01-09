@@ -6,8 +6,8 @@ tasks = [
 
     # Take photo queue to test cameras
     [tc.SendBeacon(), Send, WaitMode.Wait],
-    [tc.TakePhotoTelecommand(10, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=0), 'p1_128'), Send, WaitMode.Wait],
-    [tc.TakePhotoTelecommand(11, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=1), 'p2_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(10, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=0), 'p6_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(11, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=1), 'p7_128'), Send, WaitMode.Wait],
     
     # auto-generated telemetry start
     [tc.DownloadFile(20, '/telemetry.previous', [i for i in range(1150, 2280, 48)]), Send, WaitMode.Wait],
@@ -27,11 +27,11 @@ tasks = [
     [tc.DownloadFile(31, '/telemetry.current', [i for i in range(18, 450, 24)]), Send, WaitMode.Wait],
 
     # Low res photos download
-    [tc.DownloadFile(60, '/p1_128_0', [i for i in range(0, 18, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(61, '/p1_128_0', [i for i in range(18, 35, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(60, '/p6_128_0', [i for i in range(0, 18, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(61, '/p6_128_0', [i for i in range(18, 35, 1)]), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(62, '/p2_128_0', [i for i in range(0, 18, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(63, '/p2_128_0', [i for i in range(18, 35, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(62, '/p7_128_0', [i for i in range(0, 18, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(63, '/p7_128_0', [i for i in range(18, 35, 1)]), Send, WaitMode.Wait],
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
