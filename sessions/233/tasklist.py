@@ -45,5 +45,15 @@ tasks = [
     [tc.DownloadFile(51, '/telemetry.current', [705, 755, 805, 855, 905, 955, 1005, 1055, 1105, 1155]), Send, WaitMode.Wait],
     # auto-generated telemetry end
 
+    # Low res photos download
+    [tc.DownloadFile(60, '/p3_128_0', [i for i in range(0, 18, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(61, '/p3_128_0', [i for i in range(18, 35, 1)]), Send, WaitMode.Wait],
+
+    [tc.DownloadFile(62, '/p4_128_0', [i for i in range(0, 18, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(63, '/p4_128_0', [i for i in range(18, 35, 1)]), Send, WaitMode.Wait],
+
+    [tc.DownloadFile(64, '/p5_128_0', [i for i in range(0, 18, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(65, '/p5_128_0', [i for i in range(18, 35, 1)]), Send, WaitMode.Wait],
+
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
