@@ -48,8 +48,8 @@ tasks = [
 
     [tc.ListFiles(200, '/'), Send, WaitMode.Wait],
 
-    [[tc.DownloadFile(correlation_id=201, path='/p2_128_0', seqs=range(0, 22)), Send, WaitMode.Wait]]
-    [[tc.DownloadFile(correlation_id=202, path='/p1_128_0', seqs=range(0, 25)), Send, WaitMode.Wait]]
+    [tc.DownloadFile(correlation_id=201, path='/p2_128_0', seqs=range(0, 22)), Send, WaitMode.Wait],
+    [tc.DownloadFile(correlation_id=202, path='/p1_128_0', seqs=range(0, 25)), Send, WaitMode.Wait],
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
