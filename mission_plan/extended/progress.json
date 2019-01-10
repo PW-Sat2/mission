@@ -8,9 +8,9 @@
         "Trigger `SunS Experiment`." : [true, "SunS experiment parameters: x=1, y=2."],
         "`SunS Experiment` file downloading." : [true, "At 9600 bps if possible."],
         "Deleting `SunS Experiment` file." : [true, "To free space."],
-        "Calling `SADS Experiment`" : [false, "Performing this experiment if possible."],
+        "Calling `SADS Experiment`" : [true, "Performing this experiment if possible."],
         "Trigger second `RadFET Experiment`." : [true, "Use parameters for RadFET Experiment 2"],
         "Second `RadFET Experiment` files downloading." : [true, "Download with 9600 bps if possible."],
-        "`SADS Experiment` file downloading." : [false, "At 9600 bps if possible."]
+        "`SADS Experiment` file downloading." : [true, "At 9600 bps if possible."]
     }
 }
