@@ -14,6 +14,7 @@ BeaconFrame
       MCU TEMP 1.98 C
       3V3 DISTR CURRENT 33 mA
 
+FileSendSuccessFrame: CID=086 Seq=138
 FileSendSuccessFrame: CID=066 Seq=126
 FileSendSuccessFrame: CID=086 Seq=134
 FileSendSuccessFrame: CID=086 Seq=137
@@ -43,7 +44,7 @@ FileSendSuccessFrame: CID=037 Seq=1158
 FileRemoveSuccessFrame: CID=102 Seq=00
 FileSendSuccessFrame: CID=086 Seq=124
 FileSendSuccessFrame: CID=034 Seq=834
-FileSendSuccessFrame: CID=030 Seq=1068
+FileSendSuccessFrame: CID=033 Seq=432
 FileSendSuccessFrame: CID=065 Seq=108
 FileSendSuccessFrame: CID=080 Seq=15
 FileSendSuccessFrame: CID=075 Seq=100
@@ -112,6 +113,7 @@ FileSendSuccessFrame: CID=066 Seq=123
 FileSendSuccessFrame: CID=084 Seq=88
 FileSendSuccessFrame: CID=066 Seq=134
 FileSendSuccessFrame: CID=081 Seq=38
+PowerSuccessFrame: CID=003 Seq=00
 FileSendSuccessFrame: CID=034 Seq=1026
 FileSendSuccessFrame: CID=082 Seq=45
 FileSendSuccessFrame: CID=033 Seq=720
@@ -190,6 +192,7 @@ FileSendSuccessFrame: CID=072 Seq=50
 FileSendSuccessFrame: CID=033 Seq=1488
 FileSendSuccessFrame: CID=071 Seq=35
 FileSendSuccessFrame: CID=032 Seq=1464
+FileSendSuccessFrame: CID=086 Seq=139
 FileSendSuccessFrame: CID=076 Seq=135
 FileSendSuccessFrame: CID=072 Seq=44
 FileSendSuccessFrame: CID=084 Seq=93
@@ -226,12 +229,12 @@ FileSendSuccessFrame: CID=062 Seq=46
 FileSendSuccessFrame: CID=063 Seq=65
 FileSendSuccessFrame: CID=063 Seq=76
 FileSendSuccessFrame: CID=085 Seq=113
-FileSendSuccessFrame: CID=033 Seq=432
+FileSendSuccessFrame: CID=030 Seq=1068
 FileSendSuccessFrame: CID=062 Seq=58
 FileSendSuccessFrame: CID=030 Seq=396
 FileSendSuccessFrame: CID=034 Seq=642
 FileSendSuccessFrame: CID=073 Seq=76
-FileSendSuccessFrame: CID=035 Seq=1374
+FileSendSuccessFrame: CID=064 Seq=84
 FileSendSuccessFrame: CID=087 Seq=141
 FileSendSuccessFrame: CID=066 Seq=128
 FileSendSuccessFrame: CID=032 Seq=312
@@ -265,7 +268,7 @@ FileSendSuccessFrame: CID=075 Seq=103
 FileSendSuccessFrame: CID=084 Seq=84
 FileSendSuccessFrame: CID=060 Seq=13
 FileSendSuccessFrame: CID=032 Seq=792
-FileSendSuccessFrame: CID=086 Seq=122
+SetBitrateSuccessFrame: Seq=00
 FileSendSuccessFrame: CID=030 Seq=924
 FileSendSuccessFrame: CID=062 Seq=43
 FileSendSuccessFrame: CID=060 Seq=09
@@ -287,7 +290,7 @@ FileSendSuccessFrame: CID=075 Seq=113
 FileSendSuccessFrame: CID=071 Seq=22
 FileSendSuccessFrame: CID=037 Seq=774
 FileSendSuccessFrame: CID=060 Seq=10
-SetBitrateSuccessFrame: Seq=00
+FileSendSuccessFrame: CID=086 Seq=122
 FileSendSuccessFrame: CID=035 Seq=1182
 FileSendSuccessFrame: CID=033 Seq=624
 FileSendSuccessFrame: CID=080 Seq=10
@@ -339,7 +342,7 @@ FileSendSuccessFrame: CID=030 Seq=1356
 FileSendSuccessFrame: CID=037 Seq=342
 FileSendSuccessFrame: CID=075 Seq=116
 FileSendSuccessFrame: CID=030 Seq=780
-PowerSuccessFrame: CID=003 Seq=00
+FileSendSuccessFrame: CID=085 Seq=107
 FileSendSuccessFrame: CID=064 Seq=81
 FileSendSuccessFrame: CID=080 Seq=14
 FileSendSuccessFrame: CID=065 Seq=112
@@ -402,7 +405,6 @@ FileSendSuccessFrame: CID=031 Seq=996
 FileSendSuccessFrame: CID=084 Seq=80
 FileSendSuccessFrame: CID=033 Seq=1296
 FileSendSuccessFrame: CID=031 Seq=564
-FileSendSuccessFrame: CID=085 Seq=107
 FileSendSuccessFrame: CID=065 Seq=102
 FileSendSuccessFrame: CID=085 Seq=100
 FileSendSuccessFrame: CID=061 Seq=24
@@ -512,7 +514,7 @@ BeaconFrame
 
 FileSendSuccessFrame: CID=031 Seq=900
 FileSendSuccessFrame: CID=071 Seq=23
-FileSendSuccessFrame: CID=035 Seq=750
+FileSendSuccessFrame: CID=066 Seq=133
 FileSendSuccessFrame: CID=066 Seq=122
 FileSendSuccessFrame: CID=070 Seq=14
 FileSendSuccessFrame: CID=030 Seq=588
@@ -560,7 +562,6 @@ FileSendSuccessFrame: CID=084 Seq=95
 FileSendSuccessFrame: CID=034 Seq=690
 FileSendSuccessFrame: CID=032 Seq=600
 FileSendSuccessFrame: CID=030 Seq=540
-FileSendSuccessFrame: CID=066 Seq=133
 FileSendSuccessFrame: CID=085 Seq=119
 FileSendSuccessFrame: CID=066 Seq=130
 PongFrame: Seq=00
@@ -684,6 +685,7 @@ FileSendSuccessFrame: CID=084 Seq=94
 FileSendSuccessFrame: CID=076 Seq=120
 FileSendSuccessFrame: CID=061 Seq=22
 FileSendSuccessFrame: CID=034 Seq=1410
+FileSendSuccessFrame: CID=035 Seq=750
 FileSendSuccessFrame: CID=086 Seq=127
 FileSendSuccessFrame: CID=032 Seq=408
 FileSendSuccessFrame: CID=081 Seq=37
@@ -763,7 +765,7 @@ FileSendSuccessFrame: CID=036 Seq=522
 FileSendSuccessFrame: CID=064 Seq=98
 FileSendSuccessFrame: CID=062 Seq=44
 FileSendSuccessFrame: CID=062 Seq=52
-FileSendSuccessFrame: CID=064 Seq=84
+FileSendSuccessFrame: CID=035 Seq=1374
 FileSendSuccessFrame: CID=080 Seq=03
 BeaconFrame
       BP VOLT 7.51 V, 7.53 V
