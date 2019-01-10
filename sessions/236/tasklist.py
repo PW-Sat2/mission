@@ -7,7 +7,7 @@ tasks = [
     # Take photo queue to test cameras
     [tc.SendBeacon(), Send, WaitMode.Wait],
     [tc.TakePhotoTelecommand(10, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=0), 'p6_128'), Send, WaitMode.Wait],
-    [tc.TakePhotoTelecommand(11, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=1), 'p7_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(11, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=0), 'p7_128'), Send, WaitMode.Wait],
     
     # auto-generated telemetry start
     [tc.DownloadFile(20, '/telemetry.previous', [i for i in range(1150, 2280, 48)]), Send, WaitMode.Wait],
