@@ -7,6 +7,6 @@
         "[Experiments](/mission_plan/experiments/index.md)" : [true, "T+7 day | T+25 day"],
         "[Extended Mission](/mission_plan/extended/index.md)" : [true, "T+25 day | T+38 day"],
         "[SAIL Deployment](/mission_plan/sail_deployment/index.md)" : [true, "T+39 day | TBD"],
-        "[Activity after SAIL deployment](/mission_plan/after_sail_deployment/index.md)" : [false, "T+40 day | TBD"]
+        "[Activity after SAIL deployment](/mission_plan/after_sail_deployment/index.md)" : [true, "T+40 day | TBD"]
     }
 }
