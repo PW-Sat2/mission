@@ -1,8 +1,8 @@
 {
     "Session": {
-        "short_description": "Automatic session.", 
+        "short_description": "Telemetry download. Photo remove.", 
         "phase": "after_sail_deployment", 
-        "status": "auto", 
+        "status": "planned", 
         "primary": "elka", 
         "start_time_iso_with_zone": "2019-01-12T10:30:21+01:00", 
         "stop_time_iso_with_zone": "2019-01-12T10:43:24+01:00", 
