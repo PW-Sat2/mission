@@ -3,7 +3,7 @@
         "short_description": "Power cycle EPS A. Telemetry download.", 
         "phase": "after_sail_deployment", 
         "status": "planned", 
-        "primary": "fp", 
+        "primary": "elka", 
         "start_time_iso_with_zone": "2019-01-11T21:19:01+01:00", 
         "stop_time_iso_with_zone": "2019-01-11T21:31:59+01:00", 
         "maximum_elevation": 88.88
