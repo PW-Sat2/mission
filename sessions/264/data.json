@@ -3,7 +3,7 @@
         "short_description": "Automatic session.", 
         "phase": "after_sail_deployment", 
         "status": "auto", 
-        "primary": "fp", 
+        "primary": "elka", 
         "start_time_iso_with_zone": "2019-01-14T23:13:21+01:00", 
         "stop_time_iso_with_zone": "2019-01-14T23:22:13+01:00", 
         "maximum_elevation": 6.85
