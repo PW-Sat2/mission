@@ -1,8 +1,8 @@
 {
     "Session": {
-        "short_description": "Automatic session.", 
+        "short_description": "Power cycle B, telemetry and hi-res photos download.", 
         "phase": "after_sail_deployment", 
-        "status": "auto", 
+        "status": "planned", 
         "primary": "elka", 
         "start_time_iso_with_zone": "2019-01-16T20:11:30+01:00", 
         "stop_time_iso_with_zone": "2019-01-16T20:23:16+01:00", 
