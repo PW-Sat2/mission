@@ -41,6 +41,8 @@ tasks = [
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
+    [tc.ListFiles(80, '/'), Send, WaitMode.Wait],
+
     ["The next step is telemetry download.", Print, WaitMode.Wait],
 
     # auto-generated telemetry start
