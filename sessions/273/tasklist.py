@@ -11,21 +11,21 @@ tasks = [
     [tc.DownloadFile(60, '/p1_128_0', [i for i in range(0, 12, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(61, '/p1_128_0', [i for i in range(12, 24, 1)]), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(60, '/p2_128_0', [i for i in range(0, 18, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(61, '/p2_128_0', [i for i in range(18, 35, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(62, '/p2_128_0', [i for i in range(0, 18, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(63, '/p2_128_0', [i for i in range(18, 35, 1)]), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(60, '/p3_128_0', [i for i in range(0, 18, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(61, '/p3_128_0', [i for i in range(18, 35, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(64, '/p3_128_0', [i for i in range(0, 18, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(65, '/p3_128_0', [i for i in range(18, 35, 1)]), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(62, '/p4_128_0', [i for i in range(0, 18, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(63, '/p4_128_0', [i for i in range(18, 35, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(66, '/p4_128_0', [i for i in range(0, 18, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(67, '/p4_128_0', [i for i in range(18, 35, 1)]), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(64, '/p5_128_0', [i for i in range(0, 18, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(65, '/p5_128_0', [i for i in range(18, 35, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(68, '/p5_128_0', [i for i in range(0, 18, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(69, '/p5_128_0', [i for i in range(18, 35, 1)]), Send, WaitMode.Wait],
 
     # auto-generated telemetry start
-    [tc.DownloadFile(30, '/telemetry.current', [27, 77, 127, 177, 227, 52, 102, 152, 202, 40, 90, 140, 190, 240, 64, 114, 164, 214, 34, 84]), Send, WaitMode.Wait],
-    [tc.DownloadFile(31, '/telemetry.current', [134, 184, 234, 46, 96, 146, 196, 246, 58, 108, 158, 208, 70, 120, 170, 220]), Send, WaitMode.Wait],
+    [tc.DownloadFile(70, '/telemetry.current', [27, 77, 127, 177, 227, 52, 102, 152, 202, 40, 90, 140, 190, 240, 64, 114, 164, 214, 34, 84]), Send, WaitMode.Wait],
+    [tc.DownloadFile(71, '/telemetry.current', [134, 184, 234, 46, 96, 146, 196, 246, 58, 108, 158, 208, 70, 120, 170, 220]), Send, WaitMode.Wait],
     # auto-generated telemetry end
 
     # missings
