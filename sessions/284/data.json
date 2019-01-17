@@ -1,6 +1,6 @@
 {
     "Session": {
-        "short_description": "Telemetry download.", 
+        "short_description": "Telemetry download. Missing photo download. Remove already downloaded photos.", 
         "phase": "after_sail_deployment", 
         "status": "planned", 
         "primary": "elka", 
