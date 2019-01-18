@@ -1,6 +1,6 @@
 {
     "Session": {
-        "short_description": "Power cycle EPS B. Telemetry download.", 
+        "short_description": "File remove. Telemetry download", 
         "phase": "after_sail_deployment", 
         "status": "planned", 
         "primary": "elka", 
