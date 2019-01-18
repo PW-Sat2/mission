@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "File remove. Telemetry download", 
         "phase": "after_sail_deployment", 
-        "status": "planned", 
+        "status": "success", 
         "primary": "elka", 
         "start_time_iso_with_zone": "2019-01-18T21:56:42+01:00", 
         "stop_time_iso_with_zone": "2019-01-18T22:09:17+01:00", 
