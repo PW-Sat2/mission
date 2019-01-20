@@ -1,6 +1,6 @@
 {
     "Session": {
-        "short_description": "Automatic session.", 
+        "short_description": "Photos and telemetry download.", 
         "phase": "after_sail_deployment", 
         "status": "planned", 
         "primary": "elka", 
