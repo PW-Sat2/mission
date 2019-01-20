@@ -61,6 +61,8 @@ tasks = [
     [tc.DownloadFile(66, '/telemetry.current', [i for i in range(30, 1590, 48)]), Send, WaitMode.Wait],
     [tc.DownloadFile(67, '/telemetry.current', [i for i in range(42, 1590, 48)]), Send, WaitMode.Wait],
     # manually-generated telemetry end
+    
+    [tc.ListFiles(200, '/'), Send, WaitMode.Wait],
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
