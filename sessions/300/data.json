@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Automatic session.", 
         "phase": "after_sail_deployment", 
-        "status": "planned", 
+        "status": "success", 
         "primary": "elka", 
         "start_time_iso_with_zone": "2019-01-20T09:38:02+01:00", 
         "stop_time_iso_with_zone": "2019-01-20T09:50:23+01:00", 
