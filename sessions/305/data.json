@@ -1,8 +1,8 @@
 {
     "Session": {
-        "short_description": "Automatic session.", 
+        "short_description": "High res photos and telemetry download.", 
         "phase": "after_sail_deployment", 
-        "status": "auto", 
+        "status": "planned", 
         "primary": "elka", 
         "start_time_iso_with_zone": "2019-01-20T22:07:45+01:00", 
         "stop_time_iso_with_zone": "2019-01-20T22:20:07+01:00", 
