@@ -1,8 +1,8 @@
 {
     "Session": {
-        "short_description": "Automatic session.", 
+        "short_description": "Automatic session. Power cycle EPS B due to OBC MCU latch-up.", 
         "phase": "after_sail_deployment", 
-        "status": "auto", 
+        "status": "success", 
         "primary": "elka", 
         "start_time_iso_with_zone": "2019-01-21T09:43:17+01:00", 
         "stop_time_iso_with_zone": "2019-01-21T09:55:47+01:00", 
