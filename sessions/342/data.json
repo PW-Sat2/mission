@@ -1,6 +1,6 @@
 {
     "Session": {
-        "short_description": "Telemetry download", 
+        "short_description": "Telemetry download. Take photo queue.", 
         "phase": "after_sail_deployment", 
         "status": "planned", 
         "primary": "elka", 
