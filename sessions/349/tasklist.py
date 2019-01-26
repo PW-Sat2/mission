@@ -35,11 +35,18 @@ tasks = [
     [tc.DownloadFile(126, '/p7_480_0', [i for i in range(80, 86, 1)]), Send, WaitMode.Wait],
 
     # Remove downloaded low photos
-    [tc.RemoveFile(200, '/p7_128_0'), Send, WaitMode.Wait],
-    [tc.RemoveFile(201, '/p8_128_0'), Send, WaitMode.Wait],
-    [tc.RemoveFile(202, '/p9_128_0'), Send, WaitMode.Wait],
-    [tc.RemoveFile(203, '/p10_128_0'), Send, WaitMode.Wait],
-    [tc.RemoveFile(204, '/p2_480_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(200, '/p1_128_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(201, '/p2_128_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(202, '/p3_128_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(203, '/p4_128_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(204, '/p5_128_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(205, '/p6_128_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(206, '/p7_128_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(207, '/p8_128_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(208, '/p9_128_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(209, '/p10_128_0'), Send, WaitMode.Wait],
+    
+    [tc.RemoveFile(210, '/p2_480_0'), Send, WaitMode.Wait],
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
