@@ -1,0 +1,11 @@
+{
+    "Session": {
+        "short_description": "Automatic session.", 
+        "phase": "after_sail_deployment", 
+        "status": "auto", 
+        "primary": "fp", 
+        "start_time_iso_with_zone": "2019-02-01T23:12:06+01:00", 
+        "stop_time_iso_with_zone": "2019-02-01T23:21:02+01:00", 
+        "maximum_elevation": 7.07
+    }
+}
