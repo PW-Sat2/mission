@@ -45,13 +45,13 @@ tasks = [
     # auto-generated telemetry end
 
 	# Remove photos
-	tc.RemoveFile(200, '/p10_480_0'), Send, WaitMode.Wait],
-	tc.RemoveFile(201, '/p1_480_0'), Send, WaitMode.Wait],
-	tc.RemoveFile(202, '/p4_480_0'), Send, WaitMode.Wait],
-	tc.RemoveFile(203, '/p5_480_0'), Send, WaitMode.Wait],
-	tc.RemoveFile(204, '/p6_480_0'), Send, WaitMode.Wait],
-	tc.RemoveFile(205, '/p8_480_0'), Send, WaitMode.Wait],
-	tc.RemoveFile(206, '/p9_480_0'), Send, WaitMode.Wait],
+	[tc.RemoveFile(200, '/p10_480_0'), Send, WaitMode.Wait],
+	[tc.RemoveFile(201, '/p1_480_0'), Send, WaitMode.Wait],
+	[tc.RemoveFile(202, '/p4_480_0'), Send, WaitMode.Wait],
+	[tc.RemoveFile(203, '/p5_480_0'), Send, WaitMode.Wait],
+	[tc.RemoveFile(204, '/p6_480_0'), Send, WaitMode.Wait],
+	[tc.RemoveFile(205, '/p8_480_0'), Send, WaitMode.Wait],
+	[tc.RemoveFile(206, '/p9_480_0'), Send, WaitMode.Wait],
 	
 	[tc.ListFiles(207, '/'), Send, WaitMode.Wait],
 
