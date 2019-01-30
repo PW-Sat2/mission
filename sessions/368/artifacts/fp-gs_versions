@@ -1,0 +1,16 @@
+2bf840a097c8aafdef2485141f9e868834f6dda8
+find: paths must precede expression: `piwo.py'
+find: possible unquoted pattern after predicate `-iname'?
+GS Name: fp-gs
+OS: Linux satelajt 4.15.0-38-generic #41-Ubuntu SMP Wed Oct 10 10:59:38 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+GSControl directory: /home/sat_user/gs/GSControl
+GSControl revision: 194152159e9605ef27e84bc1ee882523c9be7588 (dirty)
+Mission directory: /home/sat_user/gs/mission
+Mission revision: 2bf840a097c8aafdef2485141f9e868834f6dda8
+Python path: /usr/bin/python2.7
+Python version: Python 2.7.15rc1
+GnuRadio path /home/sat_user/gr-new/bin/gnuradio-companion
+GnuRadio version 3.7.12.0
+gr-kiss checksum d41d8cd98f00b204e9800998ecf8427e
+GPredict path: /usr/bin/gpredict
+GPredict version: 2.2.1-ubuntu18.04~ppa3
