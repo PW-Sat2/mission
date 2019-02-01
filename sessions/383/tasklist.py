@@ -39,6 +39,7 @@ tasks = [
     [tc.DownloadFile(32, '/suns_ps_1', [i for i in range(220, 240, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(33, '/suns_ps_1', [i for i in range(240, 250, 1)]), Send, WaitMode.Wait],
 
+    # SunS suns_ps_1_sec experiment file download
     [tc.DownloadFile(40, '/suns_ps_1_sec', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(41, '/suns_ps_1_sec', [i for i in range(25, 50, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(42, '/suns_ps_1_sec', [i for i in range(50, 75, 1)]), Send, WaitMode.Wait],
@@ -46,6 +47,5 @@ tasks = [
     [tc.DownloadFile(44, '/suns_ps_1_sec', [i for i in range(100, 125, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(45, '/suns_ps_1_sec', [i for i in range(125, 150, 1)]), Send, WaitMode.Wait],
 
-    # SunS suns_ps_1_sec experiment file download
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
