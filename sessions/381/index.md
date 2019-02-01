@@ -1,5 +1,5 @@
 {% extends "/sessions/_layout/index.md" %}
 
 {% block goal %}
-Beacons reception. List files. Automatic session.
+Download telemetry during SunS experiment.
 {% endblock %}
