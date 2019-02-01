@@ -61,6 +61,10 @@ module.exports = {
         return parseIsoTime(getParameter(resolvedPathToSession, 'stop_time_iso_with_zone'));
     },
 
+    getMaxElevation: function(resolvedPathToSession) {
+        return getParameter(resolvedPathToSession, 'maximum_elevation') + "°";
+    },
+
     getPhase: function(resolvedPathToSession) {
         return mission_plan.getPhaseMarkdownLink(getParameter(resolvedPathToSession, 'phase'));
     },
@@ -95,14 +99,15 @@ module.exports = {
         const index = sessionDir.split('/').slice(-2)[0];
         const startTime = module.exports.getStartTime(sessionDir);
         const stopTime = module.exports.getStopTime(sessionDir);
+        const maxElevation = module.exports.getMaxElevation(sessionDir);
         const phase = module.exports.getPhase(sessionDir);
         const status =  module.exports.getStatus(sessionDir);
         const description = module.exports.getShortDescription(sessionDir);
 
         sessionDataTable = [
-            `|**Index**|**Start Time**|**Stop Time**|**Phase**|**Status**|**Short description**|`,
-            `|:-:|:-:|:-:|:-:|:-:|:-|`,
-            `|${index}|${startTime}|${stopTime}|${phase}|${status}|${description}|`
+            `|**Index**|**Start Time**|**Stop Time**|**Max. Elevation**|**Phase**|**Status**|**Short description**|`,
+            `|:-:|:-:|:-:|:-:|:-:|:-:|:-|`,
+            `|${index}|${startTime}|${stopTime}|${maxElevation}|${phase}|${status}|${description}|`
         ]
 
         return {
