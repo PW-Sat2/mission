@@ -62,7 +62,7 @@ module.exports = {
     },
 
     getMaxElevation: function(resolvedPathToSession) {
-        let degrees = getParameter(resolvedPathToSession, 'maximum_elevation');
+        const degrees = getParameter(resolvedPathToSession, 'maximum_elevation');
         return "${degrees}°";
     },
 
