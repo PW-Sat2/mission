@@ -68,6 +68,12 @@ tasks = [
     [tc.DownloadFile(41, '/telemetry.current', [669, 719, 769, 819, 869, 919, 969, 1019, 1069, 1119, 1169, 1219, 1269, 1319, 1369, 1419, 1469, 1519, 1569]), Send, WaitMode.Wait],
     # auto-generated telemetry end
 
+    # in-session mistake
+    [tc.DownloadFile(130, '/telemetry.current', range(0, 26)), Send, WaitMode.Wait],
+
+    # in-session photo download
+    [tc.DownloadFile(131, '/p1_128_0', range(0, 26)), Send, WaitMode.Wait],
+
     [tc.ListFiles(80, '/'), Send, WaitMode.Wait],
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
