@@ -1,5 +1,5 @@
 {% extends "/sessions/_layout/index.md" %}
 
 {% block goal %}
-Telemetry and photo download.
+Beacons reception. List files. Automatic session.
 {% endblock %}
