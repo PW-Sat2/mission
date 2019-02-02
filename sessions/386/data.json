@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Take photo queue. Telemetry download.", 
         "phase": "after_sail_deployment", 
-        "status": "planned", 
+        "status": "success", 
         "primary": "elka", 
         "start_time_iso_with_zone": "2019-02-02T10:45:07+01:00", 
         "stop_time_iso_with_zone": "2019-02-02T10:58:05+01:00", 
