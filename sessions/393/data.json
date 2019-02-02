@@ -1,0 +1,11 @@
+{
+    "Session": {
+        "short_description": "Telemetry and photo download.", 
+        "phase": "after_sail_deployment", 
+        "status": "planned", 
+        "primary": "elka", 
+        "start_time_iso_with_zone": "2019-02-03T10:49:52+01:00", 
+        "stop_time_iso_with_zone": "2019-02-03T11:02:53+01:00", 
+        "maximum_elevation": 63.63
+    }
+}
