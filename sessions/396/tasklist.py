@@ -6,17 +6,7 @@ tasks = [
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
-    [tc.RemoveFile(200, '/p1_128_0'), Send, WaitMode.Wait],
-    [tc.RemoveFile(201, '/p2_128_0'), Send, WaitMode.Wait],
-    [tc.RemoveFile(202, '/p3_128_0'), Send, WaitMode.Wait],
-    [tc.RemoveFile(203, '/p4_128_0'), Send, WaitMode.Wait],
-    [tc.RemoveFile(204, '/p5_128_0'), Send, WaitMode.Wait],
-
-    [tc.SendBeacon(), Send, WaitMode.Wait],
-
-    [tc.RemoveFile(205, '/p6_128_0'), Send, WaitMode.Wait],
     [tc.RemoveFile(206, '/p7_128_0'), Send, WaitMode.Wait],
-    [tc.RemoveFile(207, '/p8_128_0'), Send, WaitMode.Wait],
     [tc.RemoveFile(208, '/p9_128_0'), Send, WaitMode.Wait],
     [tc.RemoveFile(209, '/p10_128_0'), Send, WaitMode.Wait],
 
