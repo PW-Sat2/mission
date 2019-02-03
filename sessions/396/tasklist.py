@@ -22,7 +22,7 @@ tasks = [
     [tc.RemoveFile(214, '/suns_ps_1'), Send, WaitMode.Wait],
     [tc.RemoveFile(215, '/suns_ps_1_sec'), Send, WaitMode.Wait],
 
-    [tc.ListFiles(5, '/'), Send, WaitMode.Wait],    
+    [tc.ListFiles(220, '/'), Send, WaitMode.Wait],    
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
