@@ -2,6 +2,8 @@ tasks = [
     [[tc.SetBitrate(1, BaudRate.BaudRate9600), 5], SendLoop, WaitMode.NoWait],
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
+    
+    [tc.ListFiles(5, '/'), Send, WaitMode.Wait],
 
 	[tc.DownloadFile(30, '/telemetry.previous', [485, 491, 497, 509, 515, 521, 535, 541, 547, 559, 565, 571, 585, 591, 597, 609, 615, 621, 635, 641]), Send, WaitMode.Wait],
 	[tc.DownloadFile(31, '/telemetry.previous', [647, 653, 659, 665, 671, 685, 691, 697, 703, 709, 715, 721, 735, 741, 747, 753, 759, 765, 771, 785]), Send, WaitMode.Wait],
