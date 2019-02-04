@@ -1,8 +1,8 @@
 {
     "Session": {
-        "short_description": "Automatic session.", 
+        "short_description": "Power cycle and telemetry download", 
         "phase": "after_sail_deployment", 
-        "status": "auto", 
+        "status": "planned", 
         "primary": "fp", 
         "start_time_iso_with_zone": "2019-02-04T20:14:22+01:00", 
         "stop_time_iso_with_zone": "2019-02-04T20:26:10+01:00", 
