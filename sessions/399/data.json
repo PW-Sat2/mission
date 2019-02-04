@@ -1,6 +1,6 @@
 {
     "Session": {
-        "short_description": "Automatic session.", 
+        "short_description": "Telemetry.previous download - missings from previous sessions.", 
         "phase": "after_sail_deployment", 
         "status": "failed", 
         "primary": "elka", 
