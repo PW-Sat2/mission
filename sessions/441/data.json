@@ -1,0 +1,11 @@
+{
+    "Session": {
+        "short_description": "Automatic session.", 
+        "phase": "after_sail_deployment", 
+        "status": "auto", 
+        "primary": "elka", 
+        "start_time_iso_with_zone": "2019-02-10T09:48:41+01:00", 
+        "stop_time_iso_with_zone": "2019-02-10T10:01:18+01:00", 
+        "maximum_elevation": 36.36
+    }
+}
