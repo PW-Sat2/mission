@@ -28,7 +28,7 @@ tasks = [
     # auto-generated telemetry end
     
     [tc.DownloadFile(40, '/telemetry.current', [22, 34, 72, 84, 122, 134, 160, 172, 184, 210, 222, 234, 260, 272, 284, 310, 322]), Send, WaitMode.Wait],
-    [tc.DownloadFile(41, '/telemetry.current', [334, 354, 360, 372, 384, 410, 422, 434, 460, 472, 484, 504, 510, 522, 534, 560]), Send, WaitMode.Wait]
+    [tc.DownloadFile(41, '/telemetry.current', [334, 354, 360, 372, 384, 410, 422, 434, 460, 472, 484, 504, 510, 522, 534, 560]), Send, WaitMode.Wait],
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
