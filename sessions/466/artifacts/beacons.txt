@@ -1,11 +1,22 @@
 BeaconFrame @ 9600 bps
-      BP VOLT 7.28 V, 7.30 V
-      BP TEMP 8.19 C, 7.88 C, 9.20 C
-      COMM PA TEMP NOW 8.55 C LAST 8.77 C
-      COMM RX Current 124.90 mA
-      GYRO UNCAL -2.02 deg/sec, -3.20 deg/sec, 1.39 deg/sec
+      BP VOLT 7.28 V, 7.31 V
+      BP TEMP 9.25 C, 9.00 C, 11.10 C
+      COMM PA TEMP NOW 10.25 C LAST 10.14 C
+      COMM RX Current 50.26 mA
+      GYRO UNCAL -1.88 deg/sec, -3.20 deg/sec, 1.04 deg/sec
       EXPERIMENT None
-      MCU TEMP 0.71 C
+      MCU TEMP 3.25 C
+      3V3 DISTR CURRENT 33 mA
+
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.25 V, 7.29 V
+      BP TEMP 6.19 C, 5.94 C, 7.40 C
+      COMM PA TEMP NOW 13.58 C LAST 14.78 C
+      COMM RX Current 50.54 mA
+      GYRO UNCAL -2.43 deg/sec, -3.34 deg/sec, 1.32 deg/sec
+      EXPERIMENT None
+      MCU TEMP -2.78 C
       3V3 DISTR CURRENT 38 mA
 
 
@@ -33,6 +44,50 @@ BeaconFrame @ 9600 bps
 
 
 BeaconFrame @ 9600 bps
+      BP VOLT 7.28 V, 7.31 V
+      BP TEMP 9.12 C, 8.88 C, 11.10 C
+      COMM PA TEMP NOW 10.25 C LAST 9.92 C
+      COMM RX Current 50.75 mA
+      GYRO UNCAL -1.88 deg/sec, -3.34 deg/sec, 0.77 deg/sec
+      EXPERIMENT None
+      MCU TEMP 2.62 C
+      3V3 DISTR CURRENT 35 mA
+
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.27 V, 7.29 V
+      BP TEMP 6.81 C, 6.62 C, 9.20 C
+      COMM PA TEMP NOW 14.23 C LAST 15.98 C
+      COMM RX Current 50.54 mA
+      GYRO UNCAL -2.37 deg/sec, -3.20 deg/sec, 1.46 deg/sec
+      EXPERIMENT None
+      MCU TEMP -1.51 C
+      3V3 DISTR CURRENT 38 mA
+
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.36 V, 7.39 V
+      BP TEMP 5.81 C, 5.56 C, 7.40 C
+      COMM PA TEMP NOW 10.03 C LAST 12.16 C
+      COMM RX Current 49.29 mA
+      GYRO UNCAL -2.71 deg/sec, -3.41 deg/sec, 1.11 deg/sec
+      EXPERIMENT None
+      MCU TEMP -3.10 C
+      3V3 DISTR CURRENT 40 mA
+
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.28 V, 7.30 V
+      BP TEMP 8.19 C, 7.88 C, 9.20 C
+      COMM PA TEMP NOW 8.55 C LAST 8.77 C
+      COMM RX Current 124.90 mA
+      GYRO UNCAL -2.02 deg/sec, -3.20 deg/sec, 1.39 deg/sec
+      EXPERIMENT None
+      MCU TEMP 0.71 C
+      3V3 DISTR CURRENT 38 mA
+
+
+BeaconFrame @ 9600 bps
       BP VOLT 7.27 V, 7.29 V
       BP TEMP 7.50 C, 7.19 C, 9.20 C
       COMM PA TEMP NOW 7.84 C LAST 10.03 C
@@ -44,13 +99,13 @@ BeaconFrame @ 9600 bps
 
 
 BeaconFrame @ 9600 bps
-      BP VOLT 7.28 V, 7.31 V
-      BP TEMP 9.12 C, 8.88 C, 11.10 C
-      COMM PA TEMP NOW 10.25 C LAST 9.92 C
+      BP VOLT 7.28 V, 7.30 V
+      BP TEMP 8.50 C, 8.25 C, 11.10 C
+      COMM PA TEMP NOW 8.94 C LAST 9.48 C
       COMM RX Current 50.75 mA
-      GYRO UNCAL -1.88 deg/sec, -3.34 deg/sec, 0.77 deg/sec
+      GYRO UNCAL -2.23 deg/sec, -3.13 deg/sec, 1.18 deg/sec
       EXPERIMENT None
-      MCU TEMP 2.62 C
+      MCU TEMP 1.35 C
       3V3 DISTR CURRENT 35 mA
 
 
@@ -66,28 +121,6 @@ BeaconFrame @ 9600 bps
 
 
 BeaconFrame @ 9600 bps
-      BP VOLT 7.28 V, 7.30 V
-      BP TEMP 8.50 C, 8.25 C, 11.10 C
-      COMM PA TEMP NOW 8.94 C LAST 9.48 C
-      COMM RX Current 50.75 mA
-      GYRO UNCAL -2.23 deg/sec, -3.13 deg/sec, 1.18 deg/sec
-      EXPERIMENT None
-      MCU TEMP 1.35 C
-      3V3 DISTR CURRENT 35 mA
-
-
-BeaconFrame @ 9600 bps
-      BP VOLT 7.28 V, 7.31 V
-      BP TEMP 9.25 C, 9.00 C, 11.10 C
-      COMM PA TEMP NOW 10.25 C LAST 10.14 C
-      COMM RX Current 50.26 mA
-      GYRO UNCAL -1.88 deg/sec, -3.20 deg/sec, 1.04 deg/sec
-      EXPERIMENT None
-      MCU TEMP 3.25 C
-      3V3 DISTR CURRENT 33 mA
-
-
-BeaconFrame @ 9600 bps
       BP VOLT 7.12 V, 7.14 V
       BP TEMP 7.31 C, 7.06 C, 9.20 C
       COMM PA TEMP NOW 11.99 C LAST 11.77 C
@@ -95,15 +128,4 @@ BeaconFrame @ 9600 bps
       GYRO UNCAL -2.37 deg/sec, -3.27 deg/sec, 1.11 deg/sec
       EXPERIMENT None
       MCU TEMP -0.71 C
-      3V3 DISTR CURRENT 38 mA
-
-
-BeaconFrame @ 9600 bps
-      BP VOLT 7.27 V, 7.29 V
-      BP TEMP 6.81 C, 6.62 C, 9.20 C
-      COMM PA TEMP NOW 14.23 C LAST 15.98 C
-      COMM RX Current 50.54 mA
-      GYRO UNCAL -2.37 deg/sec, -3.20 deg/sec, 1.46 deg/sec
-      EXPERIMENT None
-      MCU TEMP -1.51 C
       3V3 DISTR CURRENT 38 mA
