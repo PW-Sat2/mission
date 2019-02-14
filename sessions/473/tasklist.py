@@ -38,9 +38,9 @@ tasks = [
     # auto-generated telemetry end
 
     #Session 469 missings
-    [tc.DownloadFile(31, '/telemetry.previous', [15, 33, 133, 147, 183, 233, 265, 283, 333, 377, 383, 465, 471, 483]), Send, WaitMode.Wait],
-    [tc.DownloadFile(32, '/telemetry.previous', [521, 533, 571, 577, 583, 633, 653, 683, 733, 777, 783, 833, 865]), Send, WaitMode.Wait],
-    [tc.DownloadFile(33, '/telemetry.previous', [883, 921, 933, 965, 971, 983, 1021, 1033, 1040, 1071, 1083, 1121, 1133]), Send, WaitMode.Wait],
+    [tc.DownloadFile(131, '/telemetry.previous', [15, 33, 133, 147, 183, 233, 265, 283, 333, 377, 383, 465, 471, 483]), Send, WaitMode.Wait],
+    [tc.DownloadFile(132, '/telemetry.previous', [521, 533, 571, 577, 583, 633, 653, 683, 733, 777, 783, 833, 865]), Send, WaitMode.Wait],
+    [tc.DownloadFile(133, '/telemetry.previous', [883, 921, 933, 965, 971, 983, 1021, 1033, 1040, 1071, 1083, 1121, 1133]), Send, WaitMode.Wait],
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
