@@ -1,0 +1,28 @@
+Iterations count: 693
+
+Primary slots scrubbing:
+	Offset: 327680
+	Count: 205
+	Corrected: 0
+	Time counter: 120000ms
+
+Secondary slots scrubbing:
+	Offset: 327680
+	Count: 205
+	Corrected: 0
+	Time counter: 180000ms
+
+Bootloader scrubbing:
+	Iterations count: 0
+	Copies corrected: 0
+	MCU pages corrected: 0
+	Time counter: 420000ms
+
+Safe mode scrubbing:
+	Iterations count: 0
+	Copies corrected: 0
+	EEPROM pages corrected: 0
+	Time counter: 480000ms
+
+Boot settings scrubbing:
+	Time counter: 1260000ms

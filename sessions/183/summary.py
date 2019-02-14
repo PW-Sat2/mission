@@ -10,3 +10,5 @@ for p in low_photos:
 for p in high_photos:
     extract_file('p{}_480_0'.format(p), also=PHOTO_SESSIONS)
     decode_photo('assembled/p{}_480_0'.format(p), output_file_name='assembled/p{}_480_0.jpg'.format(p))
+
+dump_scrubbing_status(2)
