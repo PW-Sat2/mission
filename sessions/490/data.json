@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Telemetry between 489 and 490 and missings since 486.", 
         "phase": "after_sail_deployment", 
-        "status": "planned", 
+        "status": "success", 
         "primary": "elka", 
         "start_time_iso_with_zone": "2019-02-17T11:57:26+01:00", 
         "stop_time_iso_with_zone": "2019-02-17T12:08:45+01:00", 
