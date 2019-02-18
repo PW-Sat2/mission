@@ -62,5 +62,8 @@ tasks = [
     [tc.RemoveFile(108, 'p8_128_0'), Send, WaitMode.Wait],
     [tc.RemoveFile(109, 'p10_480_0'), Send, WaitMode.Wait],
 
+    # List files!
+    [tc.ListFiles(200, '/'), Send, WaitMode.Wait],
+
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
