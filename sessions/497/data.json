@@ -2,7 +2,7 @@
     "Session": {
         "short_description": "Remove photos. Telemetry download is possible", 
         "phase": "after_sail_deployment", 
-        "status": "planned", 
+        "status": "success", 
         "primary": "fp", 
         "start_time_iso_with_zone": "2019-02-18T19:46:29+01:00", 
         "stop_time_iso_with_zone": "2019-02-18T19:57:27+01:00", 
