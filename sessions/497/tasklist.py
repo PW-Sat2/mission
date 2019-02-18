@@ -60,5 +60,34 @@ tasks = [
     [tc.DownloadFile(48, '/telemetry.current', [556, 606, 656, 706, 756, 806, 856, 906, 956, 1006, 1056, 1106, 1156, 1206, 1256, 1306]), Send, WaitMode.Wait],
     # auto-generated telemetry end
 
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+
+    # Remove files - try again, expect errors if first try succeeded
+    [tc.RemoveFile(120, 'p10_480_0'), Send, WaitMode.NoWait],
+    [tc.RemoveFile(121, 'p10_128_0'), Send, WaitMode.NoWait],
+    [tc.RemoveFile(122, 'p9_480_0' ), Send, WaitMode.NoWait],
+    [tc.RemoveFile(123, 'p9_128_0' ), Send, WaitMode.NoWait],
+    [tc.RemoveFile(124, 'p8_480_0' ), Send, WaitMode.NoWait],
+    [tc.RemoveFile(125, 'p8_128_0' ), Send, WaitMode.NoWait],
+    [tc.RemoveFile(126, 'p7_480_0' ), Send, WaitMode.NoWait],
+    [tc.RemoveFile(127, 'p7_128_0' ), Send, WaitMode.NoWait],
+    [tc.RemoveFile(128, 'p6_480_0' ), Send, WaitMode.NoWait],
+    [tc.RemoveFile(129, 'p6_128_0' ), Send, WaitMode.NoWait],
+
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+
+    [tc.RemoveFile(130, 'p5_480_0' ), Send, WaitMode.NoWait],
+    [tc.RemoveFile(131, 'p5_128_0' ), Send, WaitMode.NoWait],
+    [tc.RemoveFile(132, 'p4_480_0' ), Send, WaitMode.NoWait],
+    [tc.RemoveFile(133, 'p4_128_0' ), Send, WaitMode.NoWait],
+    [tc.RemoveFile(134, 'p3_480_0' ), Send, WaitMode.NoWait],
+    [tc.RemoveFile(135, 'p3_128_0' ), Send, WaitMode.NoWait],
+    [tc.RemoveFile(136, 'p2_480_0' ), Send, WaitMode.NoWait],
+    [tc.RemoveFile(137, 'p2_128_0' ), Send, WaitMode.NoWait],
+    [tc.RemoveFile(138, 'p1_480_0' ), Send, WaitMode.NoWait],
+    [tc.RemoveFile(139, 'p1_128_0' ), Send, WaitMode.NoWait],
+
+    [tc.ListFiles(4, '/'), Send, WaitMode.Wait],
+
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
