@@ -1,8 +1,8 @@
 {
     "Session": {
-        "short_description": "Automatic session.", 
+        "short_description": "Telemetry download 510 - 513. 8th RadFET experiment run.", 
         "phase": "after_sail_deployment", 
-        "status": "auto", 
+        "status": "planned", 
         "primary": "elka", 
         "start_time_iso_with_zone": "2019-02-21T10:40:03+01:00", 
         "stop_time_iso_with_zone": "2019-02-21T10:53:10+01:00", 
