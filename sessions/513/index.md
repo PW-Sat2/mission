@@ -1,5 +1,5 @@
 {% extends "/sessions/_layout/index.md" %}
 
 {% block goal %}
-Beacons reception. List files. Automatic session.
+Telemetry download 510 - 513. 8th RadFET experiment run.
 {% endblock %}
