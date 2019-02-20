@@ -49,4 +49,4 @@ tasks = [
     # auto-generated telemetry end
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
-]s
+]
