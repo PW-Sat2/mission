@@ -49,7 +49,7 @@ tasks = [
     [tc.DownloadFile(52, '/telemetry.current', [378, 428, 478, 528, 578, 628]), Send, WaitMode.Wait],
     # auto-generated telemetry end
 
-    [tc.RemoveFile(200, 'radfet_8' ), Send, WaitMode.NoWait],
+    [tc.RemoveFile(200, 'radfet_8' ), Send, WaitMode.Wait],
     
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
