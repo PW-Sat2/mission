@@ -36,16 +36,16 @@ tasks = [
     # auto-generated telemetry end
 
     # Low res photos download
-    [tc.DownloadFile(100, '/p1_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(101, '/p2_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(102, '/p3_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(103, '/p4_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(104, '/p5_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(105, '/p6_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(106, '/p7_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(107, '/p8_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(108, '/p9_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(109, '/p10_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(100, '/p1_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(101, '/p2_128_0', [i for i in range(0, 27, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(102, '/p3_128_0', [i for i in range(0, 25, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(103, '/p4_128_0', [i for i in range(0, 23, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(104, '/p5_128_0', [i for i in range(0, 18, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(105, '/p6_128_0', [i for i in range(0, 19, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(106, '/p7_128_0', [i for i in range(0, 22, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(107, '/p8_128_0', [i for i in range(0, 13, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(108, '/p9_128_0', [i for i in range(0, 17, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(109, '/p10_128_0', [i for i in range(0, 24, 1)]), Send, WaitMode.Wait],
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
