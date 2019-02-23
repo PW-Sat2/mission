@@ -1,11 +1,16 @@
 {
     "Session": {
-        "short_description": "Automatic session.", 
+        "index": 529, 
         "phase": "after_sail_deployment", 
-        "status": "auto", 
         "primary": "fp", 
-        "start_time_iso_with_zone": "2019-02-23T20:08:36+01:00", 
-        "stop_time_iso_with_zone": "2019-02-23T20:20:13+01:00", 
-        "maximum_elevation": 25.41
+        "start_time_iso_with_zone": "2019-02-23T20:08:43+01:00", 
+        "stop_time_iso_with_zone": "2019-02-23T20:20:21+01:00", 
+        "maximum_elevation": 25.52, 
+        "status": "planned", 
+        "session_tasks": [
+            "power-cycle-B", 
+            "telemetry"
+        ], 
+        "short_description": "Power cycle EPS B. Telemetry download. "
     }
 }
