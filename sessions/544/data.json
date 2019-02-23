@@ -3,9 +3,9 @@
         "index": 544, 
         "phase": "after_sail_deployment", 
         "primary": "fp", 
-        "start_time_iso_with_zone": "2019-02-25T21:52:06+01:00", 
-        "stop_time_iso_with_zone": "2019-02-25T22:04:48+01:00", 
-        "maximum_elevation": 42.99, 
+        "start_time_iso_with_zone": "2019-02-25T23:31:15+01:00", 
+        "stop_time_iso_with_zone": "2019-02-25T23:38:13+01:00", 
+        "maximum_elevation": 3.65, 
         "status": "auto", 
         "session_tasks": [
             "keep-alive"

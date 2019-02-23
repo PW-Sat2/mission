@@ -1,5 +1,5 @@
 {% extends "/sessions/_layout/index.md" %}
 
 {% block goal %}
-Beacons reception. List files. Automatic session.
+Power cycle EPS B. Telemetry download. 
 {% endblock %}

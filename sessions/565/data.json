@@ -2,10 +2,10 @@
     "Session": {
         "index": 565, 
         "phase": "after_sail_deployment", 
-        "primary": "fp", 
-        "start_time_iso_with_zone": "2019-02-28T22:05:38+01:00", 
-        "stop_time_iso_with_zone": "2019-02-28T22:18:03+01:00", 
-        "maximum_elevation": 31.85, 
+        "primary": "elka", 
+        "start_time_iso_with_zone": "2019-03-01T09:40:46+01:00", 
+        "stop_time_iso_with_zone": "2019-03-01T09:53:17+01:00", 
+        "maximum_elevation": 30.54, 
         "status": "auto", 
         "session_tasks": [
             "keep-alive"

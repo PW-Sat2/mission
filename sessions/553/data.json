@@ -3,9 +3,9 @@
         "index": 553, 
         "phase": "after_sail_deployment", 
         "primary": "elka", 
-        "start_time_iso_with_zone": "2019-02-27T09:31:59+01:00", 
-        "stop_time_iso_with_zone": "2019-02-27T09:44:12+01:00", 
-        "maximum_elevation": 25.51, 
+        "start_time_iso_with_zone": "2019-02-27T11:07:13+01:00", 
+        "stop_time_iso_with_zone": "2019-02-27T11:20:04+01:00", 
+        "maximum_elevation": 43.36, 
         "status": "auto", 
         "session_tasks": [
             "keep-alive"
