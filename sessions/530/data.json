@@ -1,15 +1,14 @@
 {
     "Session": {
-        "index": 530, 
-        "phase": "after_sail_deployment", 
-        "primary": "fp", 
-        "start_time_iso_with_zone": "2019-02-23T21:43:01+01:00", 
-        "stop_time_iso_with_zone": "2019-02-23T21:55:50+01:00", 
-        "maximum_elevation": 53.24, 
-        "status": "auto", 
+        "index": 530,
+        "phase": "after_sail_deployment",
+        "primary": "fp",
+        "start_time_iso_with_zone": "2019-02-23T21:43:01+01:00",
+        "stop_time_iso_with_zone": "2019-02-23T21:55:50+01:00",
+        "maximum_elevation": 53.24,
+        "status": "planned",
         "session_tasks": [
-            "keep-alive"
-        ], 
+        ],
         "short_description": "Telemetry download. p1 and p3 hi-res download. File remove."
     }
 }
