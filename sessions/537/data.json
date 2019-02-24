@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-02-24T21:47:34+01:00", 
         "stop_time_iso_with_zone": "2019-02-24T22:00:20+01:00", 
         "maximum_elevation": 47.78, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
             "keep-alive"
         ], 
-        "short_description": "Keep-alive session. "
+        "short_description": "Downloading missing telemetry, photos and removing photos. "
     }
 }
