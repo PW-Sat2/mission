@@ -6,7 +6,7 @@
         "start_time_iso_with_zone": "2019-02-23T21:43:01+01:00",
         "stop_time_iso_with_zone": "2019-02-23T21:55:50+01:00",
         "maximum_elevation": 53.24,
-        "status": "planned",
+        "status": "success",
         "session_tasks": [
         ],
         "short_description": "Telemetry download. p1 and p3 hi-res download. File remove."
