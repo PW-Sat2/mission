@@ -1,5 +1,5 @@
 {% extends "/sessions/_layout/index.md" %}
 
 {% block goal %}
-Keep-alive session. 
+Telemetry download (550-551) and missings from 550. 
 {% endblock %}
