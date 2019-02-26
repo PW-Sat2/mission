@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-02-26T21:56:37+01:00", 
         "stop_time_iso_with_zone": "2019-02-26T22:09:11+01:00", 
         "maximum_elevation": 38.79, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "keep-alive"
+            "telemetry"
         ], 
-        "short_description": "Keep-alive session. "
+        "short_description": "Telemetry download (550-551) and missings from 550. "
     }
 }
