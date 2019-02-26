@@ -47,6 +47,13 @@ tasks = [
     [tc.DownloadFile(50, '/telemetry.current', [493, 543, 593, 643, 693, 743, 793, 843, 893, 943, 993, 1043, 1093, 1143, 1193, 1243, 1293, 1343, 1393, 1443]), Send, WaitMode.Wait],
     [tc.DownloadFile(51, '/telemetry.current', [1493, 1543, 1593, 1643, 1693, 1743, 1793, 1843, 1893]), Send, WaitMode.Wait],
     # auto-generated telemetry end
+    
+    # remove files
+    [tc.RemoveFile(100, 'p1_480_0' ), Send, WaitMode.Wait],
+    [tc.RemoveFile(101, 'p4_480_0' ), Send, WaitMode.Wait],
+    [tc.RemoveFile(102, 'p7_480_0' ), Send, WaitMode.Wait],
+    
+    [tc.ListFiles(112, '/'), Send, WaitMode.Wait],
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
