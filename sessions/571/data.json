@@ -1,15 +1,13 @@
 {
-    "Session": {
-        "index": 571, 
-        "phase": "after_sail_deployment", 
-        "primary": "fp", 
-        "start_time_iso_with_zone": "2019-03-01T22:10:07+01:00", 
-        "stop_time_iso_with_zone": "2019-03-01T22:22:26+01:00", 
-        "maximum_elevation": 28.98, 
-        "status": "auto", 
-        "session_tasks": [
-            "keep-alive"
-        ], 
-        "short_description": "Keep-alive session. "
-    }
+  "Session": {
+    "index": 571,
+    "phase": "after_sail_deployment",
+    "primary": "fp",
+    "start_time_iso_with_zone": "2019-03-01T22:10:07+01:00",
+    "stop_time_iso_with_zone": "2019-03-01T22:22:26+01:00",
+    "maximum_elevation": 28.98,
+    "status": "planned",
+    "session_tasks": ["telemetry"],
+    "short_description": "Downloading telemetry around BP_A temp anomaly"
+  }
 }
