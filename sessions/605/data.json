@@ -1,0 +1,15 @@
+{
+    "Session": {
+        "index": 605, 
+        "phase": "after_sail_deployment", 
+        "primary": "fp", 
+        "start_time_iso_with_zone": "2019-03-06T22:32:20+01:00", 
+        "stop_time_iso_with_zone": "2019-03-06T22:43:54+01:00", 
+        "maximum_elevation": 18.42, 
+        "status": "auto", 
+        "session_tasks": [
+            "keep-alive"
+        ], 
+        "short_description": "Keep-alive session. "
+    }
+}
