@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-03-02T09:45:09+01:00", 
         "stop_time_iso_with_zone": "2019-03-02T09:57:46+01:00", 
         "maximum_elevation": 33.47, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "keep-alive"
+            "telemetry"
         ], 
-        "short_description": "Keep-alive session. "
+        "short_description": "Telemetry download and RadFET experiment."
     }
 }
