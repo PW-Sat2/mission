@@ -1,5 +1,5 @@
 {% extends "/sessions/_layout/index.md" %}
 
 {% block goal %}
-Keep-alive session. 
+Telemetry and RadFET 9 data download.
 {% endblock %}
