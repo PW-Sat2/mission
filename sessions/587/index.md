@@ -1,5 +1,5 @@
 {% extends "/sessions/_layout/index.md" %}
 
 {% block goal %}
-Keep-alive session. 
+Telemetry during SunS exp. Primary SunS exp file download.  
 {% endblock %}
