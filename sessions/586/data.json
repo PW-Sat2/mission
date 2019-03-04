@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-03-04T09:53:49+01:00", 
         "stop_time_iso_with_zone": "2019-03-04T10:06:38+01:00", 
         "maximum_elevation": 40.33, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "keep-alive"
+            "telemetry"
         ], 
-        "short_description": "Keep-alive session. "
+        "short_description": "Telemetry download. 2nd post-sail SunS experiment to figure out satellite orientation/rotation. "
     }
 }
