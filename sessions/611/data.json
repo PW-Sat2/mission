@@ -1,16 +1,13 @@
 {
-    "Session": {
-        "index": 611, 
-        "phase": "after_sail_deployment", 
-        "primary": "fp", 
-        "start_time_iso_with_zone": "2019-03-07T21:00:26+01:00", 
-        "stop_time_iso_with_zone": "2019-03-07T21:13:17+01:00", 
-        "maximum_elevation": 75.77, 
-        "status": "planned", 
-        "session_tasks": [
-            "power-cycle-B", 
-            "telemetry"
-        ], 
-        "short_description": "Power cycle EPS B. Telemetry download. "
-    }
+  "Session": {
+    "index": 611,
+    "phase": "after_sail_deployment",
+    "primary": "fp",
+    "start_time_iso_with_zone": "2019-03-07T21:00:26+01:00",
+    "stop_time_iso_with_zone": "2019-03-07T21:13:17+01:00",
+    "maximum_elevation": 75.77,
+    "status": "success",
+    "session_tasks": ["power-cycle-B", "telemetry"],
+    "short_description": "Power cycle EPS B. Telemetry download. "
+  }
 }
