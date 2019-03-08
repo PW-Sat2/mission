@@ -2,14 +2,14 @@
     "Session": {
         "index": 621, 
         "phase": "after_sail_deployment", 
-        "primary": "elka", 
+        "primary": "planned", 
         "start_time_iso_with_zone": "2019-03-09T10:15:13+01:00", 
         "stop_time_iso_with_zone": "2019-03-09T10:28:19+01:00", 
         "maximum_elevation": 65.78, 
         "status": "auto", 
         "session_tasks": [
-            "keep-alive"
+            "telemetry"
         ], 
-        "short_description": "Keep-alive session. "
+        "short_description": "Take photos. Telemetry. "
     }
 }
