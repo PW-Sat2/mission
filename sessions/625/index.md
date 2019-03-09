@@ -1,5 +1,5 @@
 {% extends "/sessions/_layout/index.md" %}
 
 {% block goal %}
-Power cycle EPS B. Telemetry download. 
+Power cycle EPS B. Telemetry download. Low-res photos download. 
 {% endblock %}
