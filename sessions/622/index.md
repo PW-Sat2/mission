@@ -1,5 +1,5 @@
 {% extends "/sessions/_layout/index.md" %}
 
 {% block goal %}
-Keep-alive session. 
+Download telemetry from photo period. Low-res photos download. 
 {% endblock %}
