@@ -8,8 +8,7 @@
         "maximum_elevation": 21.34, 
         "status": "planned", 
         "session_tasks": [
-            "power-cycle-B", 
-            "telemetry"
+            "power-cycle-B"
         ], 
         "short_description": "Power cycle EPS B."
     }
