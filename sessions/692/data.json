@@ -1,0 +1,15 @@
+{
+    "Session": {
+        "index": 692, 
+        "phase": "after_sail_deployment", 
+        "primary": "elka", 
+        "start_time_iso_with_zone": "2019-03-20T10:59:31+01:00", 
+        "stop_time_iso_with_zone": "2019-03-20T11:12:32+01:00", 
+        "maximum_elevation": 52.17, 
+        "status": "auto", 
+        "session_tasks": [
+            "keep-alive"
+        ], 
+        "short_description": "Keep-alive session. "
+    }
+}
