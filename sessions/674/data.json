@@ -8,9 +8,7 @@
         "maximum_elevation": 24.58, 
         "status": "planned", 
         "session_tasks": [
-            "power-cycle-B", 
-            "telemetry"
         ], 
-        "short_description": "Power cycle EPS B. Telemetry download. "
+        "short_description": "Deep sleep soft upload. "
     }
 }
