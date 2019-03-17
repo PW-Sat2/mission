@@ -1,15 +1,15 @@
 {
     "Session": {
         "index": 689, 
-        "phase": "after_sail_deployment", 
+        "phase": "zZz", 
         "primary": "fp", 
         "start_time_iso_with_zone": "2019-03-19T21:49:05+01:00", 
         "stop_time_iso_with_zone": "2019-03-19T22:01:53+01:00", 
         "maximum_elevation": 47.02, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "keep-alive"
+            "sleep-beacon"
         ], 
-        "short_description": "Keep-alive session. "
+        "short_description": "Get beacons from deep sleep"
     }
 }

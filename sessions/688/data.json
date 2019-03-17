@@ -1,16 +1,15 @@
 {
     "Session": {
         "index": 688, 
-        "phase": "after_sail_deployment", 
+        "phase": "zZz", 
         "primary": "fp", 
         "start_time_iso_with_zone": "2019-03-19T20:14:38+01:00", 
         "stop_time_iso_with_zone": "2019-03-19T20:26:29+01:00", 
         "maximum_elevation": 28.32, 
         "status": "planned", 
         "session_tasks": [
-            "power-cycle-B", 
-            "telemetry"
+            "sleep-beacon"
         ], 
-        "short_description": "Power cycle EPS B. Telemetry download. "
+        "short_description": "Get beacons from deep sleep"
     }
 }
