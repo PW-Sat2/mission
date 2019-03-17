@@ -1,0 +1,204 @@
+Upload[6]
+Upload[53]
+Upload[39]
+Upload[52]
+Upload[8]
+BeaconFrame @ 9600 bps
+!!!!! BP VOLT 6.93 V, 6.99 V
+      BP TEMP 7.88 C, 7.81 C, 9.20 C
+      COMM PA TEMP NOW 7.84 C LAST 7.79 C
+      COMM RX Current 52.37 mA
+      GYRO UNCAL -2.43 deg/sec, -3.69 deg/sec, 1.67 deg/sec
+      EXPERIMENT None
+      MCU TEMP -0.40 C
+      3V3 DISTR CURRENT 33 mA
+
+Upload[31]
+Upload[17]
+Upload[36]
+BeaconFrame @ 9600 bps
+      BP VOLT 7.07 V, 7.10 V
+      BP TEMP 7.00 C, 6.94 C, 7.40 C
+      COMM PA TEMP NOW 9.37 C LAST 9.26 C
+      COMM RX Current 49.38 mA
+      GYRO UNCAL -2.16 deg/sec, -3.76 deg/sec, 1.39 deg/sec
+      EXPERIMENT None
+      MCU TEMP 0.71 C
+      3V3 DISTR CURRENT 52 mA
+
+Upload[41]
+Upload[28]
+BeaconFrame @ 9600 bps
+      BP VOLT 7.12 V, 7.14 V
+      BP TEMP 7.19 C, 7.12 C, 7.40 C
+      COMM PA TEMP NOW 9.65 C LAST 9.37 C
+      COMM RX Current 54.02 mA
+      GYRO UNCAL -2.16 deg/sec, -3.69 deg/sec, 1.11 deg/sec
+      EXPERIMENT None
+      MCU TEMP 1.19 C
+      3V3 DISTR CURRENT 38 mA
+
+BeaconFrame @ 9600 bps
+!!!!! BP VOLT 6.93 V, 6.98 V
+      BP TEMP 7.12 C, 7.00 C, 7.40 C
+      COMM PA TEMP NOW 8.99 C LAST 8.83 C
+      COMM RX Current 52.80 mA
+      GYRO UNCAL -2.30 deg/sec, -3.76 deg/sec, 1.25 deg/sec
+      EXPERIMENT None
+      MCU TEMP 0.08 C
+      3V3 DISTR CURRENT 54 mA
+
+Upload[35]
+Upload[68]
+Upload[9]
+Upload[26]
+Upload[64]
+Upload[21]
+Upload[23]
+Upload[25]
+Upload[5]
+Upload[29]
+Upload[16]
+Upload[33]
+Upload[51]
+BeaconFrame @ 9600 bps
+      BP VOLT 7.07 V, 7.10 V
+      BP TEMP 7.06 C, 7.00 C, 7.40 C
+      COMM PA TEMP NOW 9.43 C LAST 9.37 C
+      COMM RX Current 50.90 mA
+      GYRO UNCAL -2.16 deg/sec, -3.69 deg/sec, 1.39 deg/sec
+      EXPERIMENT None
+      MCU TEMP 0.56 C
+      3V3 DISTR CURRENT 33 mA
+
+Upload[54]
+Upload[62]
+Upload[57]
+BeaconFrame @ 9600 bps
+!!!!! BP VOLT 6.90 V, 6.99 V
+      BP TEMP 7.38 C, 7.31 C, 7.40 C
+      COMM PA TEMP NOW 8.23 C LAST 8.06 C
+      COMM RX Current 52.52 mA
+      GYRO UNCAL -2.30 deg/sec, -3.76 deg/sec, 1.53 deg/sec
+      EXPERIMENT None
+      MCU TEMP 0.56 C
+      3V3 DISTR CURRENT 33 mA
+
+BeaconFrame @ 9600 bps
+!!!!! BP VOLT 6.95 V, 6.96 V
+      BP TEMP 7.06 C, 6.94 C, 7.40 C
+      COMM PA TEMP NOW 9.21 C LAST 9.10 C
+      COMM RX Current 53.28 mA
+      GYRO UNCAL -2.23 deg/sec, -3.76 deg/sec, 1.32 deg/sec
+      EXPERIMENT None
+      MCU TEMP -0.08 C
+      3V3 DISTR CURRENT 49 mA
+
+BeaconFrame @ 9600 bps
+!!!!! BP VOLT 6.94 V, 6.94 V
+      BP TEMP 7.44 C, 7.38 C, 7.40 C
+      COMM PA TEMP NOW 8.12 C LAST 8.06 C
+      COMM RX Current 52.00 mA
+      GYRO UNCAL -2.30 deg/sec, -3.97 deg/sec, 1.46 deg/sec
+      EXPERIMENT None
+      MCU TEMP -0.08 C
+      3V3 DISTR CURRENT 33 mA
+
+Upload[3]
+Upload[7]
+Upload[70]
+Upload[46]
+Upload[59]
+Upload[55]
+Upload[11]
+Upload[0]
+Upload[14]
+BeaconFrame @ 9600 bps
+!!!!! BP VOLT 6.93 V, 6.99 V
+      BP TEMP 7.31 C, 7.25 C, 7.40 C
+      COMM PA TEMP NOW 8.28 C LAST 8.17 C
+      COMM RX Current 52.95 mA
+      GYRO UNCAL -2.23 deg/sec, -3.76 deg/sec, 1.60 deg/sec
+      EXPERIMENT None
+      MCU TEMP -0.56 C
+      3V3 DISTR CURRENT 52 mA
+
+Upload[22]
+Upload[34]
+Upload[42]
+BeaconFrame @ 9600 bps
+      BP VOLT 7.10 V, 7.12 V
+      BP TEMP 7.12 C, 7.00 C, 7.40 C
+      COMM PA TEMP NOW 9.75 C LAST 9.70 C
+      COMM RX Current 51.21 mA
+      GYRO UNCAL -2.16 deg/sec, -3.62 deg/sec, 1.25 deg/sec
+      EXPERIMENT None
+      MCU TEMP 1.03 C
+      3V3 DISTR CURRENT 49 mA
+
+SetBitrateSuccessFrame: Seq=00
+Upload[65]
+<radio.radio_frame_decoder.InvalidFrame instance at 0x7fc7ccbb7830>
+BeaconFrame @ 9600 bps
+!!!!! BP VOLT 6.96 V, 6.98 V
+      BP TEMP 7.19 C, 7.12 C, 7.40 C
+      COMM PA TEMP NOW 8.66 C LAST 8.44 C
+      COMM RX Current 52.46 mA
+      GYRO UNCAL -2.30 deg/sec, -3.69 deg/sec, 1.53 deg/sec
+      EXPERIMENT None
+      MCU TEMP -0.24 C
+      3V3 DISTR CURRENT 33 mA
+
+Upload[38]
+Upload[4]
+Upload[40]
+Upload[27]
+Upload[48]
+Upload[49]
+Upload[19]
+Upload[1]
+Upload[2]
+Upload[24]
+Upload[69]
+Upload[43]
+Upload[32]
+Upload[18]
+Upload[44]
+Upload[13]
+Upload[47]
+Upload[66]
+<radio.radio_frame_decoder.InvalidFrame instance at 0x7fc7ccb54518>
+Upload[61]
+Upload[45]
+Upload[37]
+Upload[60]
+BeaconFrame @ 9600 bps
+!!!!! BP VOLT 6.94 V, 6.95 V
+      BP TEMP 7.69 C, 7.62 C, 9.20 C
+      COMM PA TEMP NOW 7.95 C LAST 7.95 C
+      COMM RX Current 52.46 mA
+      GYRO UNCAL -2.43 deg/sec, -3.76 deg/sec, 1.60 deg/sec
+      EXPERIMENT None
+      MCU TEMP -0.24 C
+      3V3 DISTR CURRENT 38 mA
+
+Upload[12]
+BeaconFrame @ 9600 bps
+!!!!! BP VOLT 6.93 V, 6.96 V
+      BP TEMP 7.56 C, 7.50 C, 9.20 C
+      COMM PA TEMP NOW 8.01 C LAST 8.01 C
+      COMM RX Current 52.73 mA
+      GYRO UNCAL -2.37 deg/sec, -3.90 deg/sec, 1.39 deg/sec
+      EXPERIMENT None
+      MCU TEMP -0.24 C
+      3V3 DISTR CURRENT 35 mA
+
+Upload[67]
+Upload[10]
+Upload[63]
+Upload[50]
+Upload[30]
+Upload[56]
+Upload[58]
+Upload[15]
+Upload[20]
