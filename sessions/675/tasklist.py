@@ -130,13 +130,17 @@ tasks = [
     ["The satellite should be inactive for 2 minutes. Next is Ping.", Print, WaitMode.Wait],
     [tc.PingTelecommand(), Send, WaitMode.Wait],
     [tc.SetBitrate(101, BaudRate.BaudRate9600), Send, WaitMode.Wait],
+
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
+    [tc.ListFiles(102, '/'), Send, WaitMode.Wait],
+
     ["Set bootslots for deep_sleep.", Print, WaitMode.Wait],
-    [tc.SetBootSlots(101, 0b111000, 0b111), Send, WaitMode.Wait],
+    [tc.SetBootSlots(103, 0b111000, 0b111), Send, WaitMode.Wait],
 
     ["Wait for good Uplink/Downlink. The next step is Ping, later Power Cycle B to switch to deep_sleep.", Print, WaitMode.Wait],
     [tc.PingTelecommand(), Send, WaitMode.Wait],
+
     [tc.PowerCycleTelecommand(110), Send, WaitMode.Wait],
 
     [[tc.SendBeacon(), 10], SendLoop, WaitMode.NoWait],
