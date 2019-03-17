@@ -6,10 +6,9 @@
         "start_time_iso_with_zone": "2019-03-17T09:12:39+01:00", 
         "stop_time_iso_with_zone": "2019-03-17T09:23:59+01:00", 
         "maximum_elevation": 16.93, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "keep-alive"
         ], 
-        "short_description": "Keep-alive session. "
+        "short_description": "Preparation for uploading deep-sleep software"
     }
 }
