@@ -2,11 +2,11 @@
     "Session": {
         "index": 695, 
         "phase": "zZz", 
-        "primary": "fp", 
+        "primary": "elka", 
         "start_time_iso_with_zone": "2019-03-20T20:18:27+01:00", 
         "stop_time_iso_with_zone": "2019-03-20T20:30:34+01:00", 
         "maximum_elevation": 30.44, 
-        "status": "planned", 
+        "status": "auto", 
         "session_tasks": [
             "sleep-beacon"
         ], 
