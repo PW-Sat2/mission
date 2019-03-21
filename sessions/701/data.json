@@ -1,15 +1,13 @@
 {
-    "Session": {
-        "index": 701, 
-        "phase": "zZz", 
-        "primary": "elka", 
-        "start_time_iso_with_zone": "2019-03-21T18:50:31+01:00", 
-        "stop_time_iso_with_zone": "2019-03-21T18:58:04+01:00", 
-        "maximum_elevation": 5.26, 
-        "status": "planned", 
-        "session_tasks": [
-            "sleep-beacon"
-        ], 
-        "short_description": "Get beacons from deep sleep"
-    }
+  "Session": {
+    "index": 701,
+    "phase": "zZz",
+    "primary": "elka",
+    "start_time_iso_with_zone": "2019-03-21T18:50:31+01:00",
+    "stop_time_iso_with_zone": "2019-03-21T18:58:04+01:00",
+    "maximum_elevation": 5.26,
+    "status": "auto",
+    "session_tasks": ["sleep-beacon"],
+    "short_description": "Get beacons from deep sleep"
+  }
 }
