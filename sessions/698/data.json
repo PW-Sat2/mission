@@ -6,7 +6,7 @@
         "start_time_iso_with_zone": "2019-03-21T09:28:17+01:00", 
         "stop_time_iso_with_zone": "2019-03-21T09:40:18+01:00", 
         "maximum_elevation": 23.17, 
-        "status": "planned", 
+        "status": "auto", 
         "session_tasks": [
             "sleep-beacon"
         ], 
