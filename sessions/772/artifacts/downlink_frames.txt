@@ -1,0 +1,85 @@
+	Time: 4520.0s
+	 VBAT_A: 7.28 V
+	 VBAT_B: 7.31 V
+	 Reboot to normal: 13
+	Time: 160.0s
+	 VBAT_A: 7.27 V
+	 VBAT_B: 7.30 V
+	 Reboot to normal: 35
+BeaconFrame @ 9600 bps
+      BP VOLT 7.27 V, 7.30 V
+      BP TEMP 3.31 C, 3.06 C, 3.70 C
+      COMM PA TEMP NOW 3.48 C LAST 3.37 C
+      COMM RX Current 50.36 mA
+      GYRO UNCAL -2.64 deg/sec, -3.55 deg/sec, 1.39 deg/sec
+      EXPERIMENT None
+      MCU TEMP -5.00 C
+      3V3 DISTR CURRENT 33 mA
+
+SetBitrateSuccessFrame: Seq=00
+FileListSuccessFrame: CID=005 Seq=00, #files: 2
+	Time: 4480.0s
+	 VBAT_A: 7.28 V
+	 VBAT_B: 7.31 V
+	 Reboot to normal: 13
+BeaconFrame @ 9600 bps
+      BP VOLT 7.28 V, 7.30 V
+      BP TEMP 3.81 C, 3.56 C, 3.70 C
+      COMM PA TEMP NOW 4.08 C LAST 3.91 C
+      COMM RX Current 50.48 mA
+      GYRO UNCAL -2.43 deg/sec, -3.48 deg/sec, 1.39 deg/sec
+      EXPERIMENT None
+      MCU TEMP -3.89 C
+      3V3 DISTR CURRENT 38 mA
+
+	Time: 4560.0s
+	 VBAT_A: 7.28 V
+	 VBAT_B: 7.31 V
+	 Reboot to normal: 13
+PowerSuccessFrame: CID=003 Seq=00
+	Time: 240.0s
+	 VBAT_A: 7.34 V
+	 VBAT_B: 7.36 V
+	 Reboot to normal: 35
+	Time: 0.0s
+	 VBAT_A: 7.27 V
+	 VBAT_B: 7.30 V
+	 Reboot to normal: 35
+	Time: 40.0s
+	 VBAT_A: 7.27 V
+	 VBAT_B: 7.30 V
+	 Reboot to normal: 35
+	Time: 80.0s
+	 VBAT_A: 7.29 V
+	 VBAT_B: 7.33 V
+	 Reboot to normal: 35
+	Time: 120.0s
+	 VBAT_A: 7.34 V
+	 VBAT_B: 7.36 V
+	 Reboot to normal: 35
+BeaconFrame @ 9600 bps
+      BP VOLT 7.28 V, 7.30 V
+      BP TEMP 3.69 C, 3.38 C, 3.70 C
+      COMM PA TEMP NOW 3.86 C LAST 3.86 C
+      COMM RX Current 50.26 mA
+      GYRO UNCAL -2.50 deg/sec, -3.48 deg/sec, 1.46 deg/sec
+      EXPERIMENT None
+      MCU TEMP -4.68 C
+      3V3 DISTR CURRENT 35 mA
+
+PongFrame: Seq=00
+BeaconFrame @ 9600 bps
+      BP VOLT 7.27 V, 7.30 V
+      BP TEMP 3.50 C, 3.25 C, 3.70 C
+      COMM PA TEMP NOW 3.75 C LAST 3.80 C
+      COMM RX Current 50.05 mA
+      GYRO UNCAL -2.50 deg/sec, -3.48 deg/sec, 1.46 deg/sec
+      EXPERIMENT None
+      MCU TEMP -4.68 C
+      3V3 DISTR CURRENT 35 mA
+
+	Time: 200.0s
+	 VBAT_A: 7.34 V
+	 VBAT_B: 7.37 V
+	 Reboot to normal: 35
+BootSlotsInfoSuccessFrame: CID=103 Seq=00
