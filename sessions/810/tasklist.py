@@ -25,7 +25,6 @@ tasks = [
     # radfet download
     [tc.DownloadFile(20, '/radfet_10', range(0, 8)), Send, WaitMode.Wait],
     [tc.DownloadFile(21, '/radfet_10', range(8, 16)), Send, WaitMode.Wait],
-    [tc.DownloadFile(22, '/radfet_10', range(16, 24)), Send, WaitMode.Wait],
     # radfet download end
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
