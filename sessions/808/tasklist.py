@@ -63,13 +63,11 @@ tasks = [
 
     # manually-generated telemetry end
 
-    [tc.DownloadFile(40, '/radfet_10', range(0, 8)), Send, WaitMode.Wait],
-    [tc.DownloadFile(41, '/radfet_10', range(8, 16)), Send, WaitMode.Wait],
-
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
     # Low res photos download
-    [tc.DownloadFile(100, '/p1_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
-    
+    [tc.DownloadFile(100, '/p1_128_1', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(100, '/p1_128_2', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
+
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
