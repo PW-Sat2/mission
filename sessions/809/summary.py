@@ -1,6 +1,6 @@
-PHOTO_SESSIONS = []
+PHOTO_SESSIONS = [808]
 
-photos = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+photos = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 for p in photos:
     extract_file('p{}_128_0'.format(p), also=PHOTO_SESSIONS)
