@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-04-07T13:06:12+02:00", 
         "stop_time_iso_with_zone": "2019-04-07T13:17:05+02:00", 
         "maximum_elevation": 13.94, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Telemetry download. 3rd post-sail SunS exp. file download"
     }
 }
