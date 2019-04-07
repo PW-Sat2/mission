@@ -6,7 +6,7 @@
     "start_time_iso_with_zone": "2019-03-19T20:14:38+01:00",
     "stop_time_iso_with_zone": "2019-03-19T20:26:29+01:00",
     "maximum_elevation": 28.32,
-    "status": "planned",
+    "status": "success",
     "session_tasks": ["refresh-deep-sleep"],
     "short_description": "Reboot to normal and back to deep sleep"
   }

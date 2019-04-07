@@ -6,7 +6,7 @@
         "start_time_iso_with_zone": "2019-03-15T19:59:10+01:00", 
         "stop_time_iso_with_zone": "2019-03-15T20:10:30+01:00", 
         "maximum_elevation": 21.34, 
-        "status": "planned", 
+        "status": "success", 
         "session_tasks": [
             "power-cycle-B"
         ], 
