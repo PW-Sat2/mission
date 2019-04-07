@@ -1,0 +1,134 @@
+FileSendSuccessFrame: CID=030 Seq=1581
+	Time: 80.0s
+	 VBAT_A: 7.24 V
+	 VBAT_B: 7.28 V
+	 Reboot to normal: 35
+FileSendSuccessFrame: CID=031 Seq=1661
+FileSendSuccessFrame: CID=031 Seq=1599
+	Time: 40.0s
+	 VBAT_A: 7.25 V
+	 VBAT_B: 7.28 V
+	 Reboot to normal: 35
+BootSlotsInfoSuccessFrame: CID=103 Seq=00
+FileSendSuccessFrame: CID=031 Seq=1699
+	Time: 400.0s
+	 VBAT_A: 7.25 V
+	 VBAT_B: 7.28 V
+	 Reboot to normal: 35
+FileSendSuccessFrame: CID=031 Seq=1488
+FileSendSuccessFrame: CID=030 Seq=1668
+FileSendSuccessFrame: CID=030 Seq=1731
+	Time: 160.0s
+	 VBAT_A: 7.24 V
+	 VBAT_B: 7.28 V
+	 Reboot to normal: 35
+	Time: 360.0s
+	 VBAT_A: 7.24 V
+	 VBAT_B: 7.28 V
+	 Reboot to normal: 35
+FileRemoveSuccessFrame: CID=041 Seq=00
+PowerSuccessFrame: CID=003 Seq=00
+FileSendSuccessFrame: CID=030 Seq=1718
+BeaconFrame @ 9600 bps
+      BP VOLT 7.24 V, 7.28 V
+      BP TEMP 12.06 C, 11.69 C, 11.40 C
+      COMM PA TEMP NOW 11.72 C LAST 11.56 C
+      COMM RX Current 50.69 mA
+      GYRO UNCAL -2.30 deg/sec, -3.41 deg/sec, 1.46 deg/sec
+      EXPERIMENT None
+      MCU TEMP 2.94 C
+      3V3 DISTR CURRENT 35 mA
+
+FileSendSuccessFrame: CID=031 Seq=1711
+FileSendSuccessFrame: CID=031 Seq=1611
+FileSendSuccessFrame: CID=030 Seq=1605
+SetBitrateSuccessFrame: Seq=00
+FileSendErrorFrame: Seq=1749
+FileSendErrorFrame: Seq=1761
+FileSendSuccessFrame: CID=030 Seq=1568
+FileSendSuccessFrame: CID=030 Seq=1655
+BeaconFrame @ 9600 bps
+      BP VOLT 7.24 V, 7.28 V
+      BP TEMP 12.25 C, 11.88 C, 11.40 C
+      COMM PA TEMP NOW 12.92 C LAST 15.60 C
+      COMM RX Current 50.81 mA
+      GYRO UNCAL -2.30 deg/sec, -3.41 deg/sec, 1.46 deg/sec
+      EXPERIMENT None
+      MCU TEMP 2.78 C
+      3V3 DISTR CURRENT 52 mA
+
+	Time: 240.0s
+	 VBAT_A: 7.24 V
+	 VBAT_B: 7.28 V
+	 Reboot to normal: 35
+FileSendSuccessFrame: CID=030 Seq=1693
+FileSendSuccessFrame: CID=031 Seq=1637
+FileSendSuccessFrame: CID=031 Seq=1675
+FileSendSuccessFrame: CID=031 Seq=620
+FileSendSuccessFrame: CID=030 Seq=1631
+FileSendSuccessFrame: CID=030 Seq=1625
+	Time: 280.0s
+	 VBAT_A: 7.25 V
+	 VBAT_B: 7.28 V
+	 Reboot to normal: 35
+FileSendSuccessFrame: CID=030 Seq=1618
+FileSendErrorFrame: Seq=1755
+	Time: 440.0s
+	 VBAT_A: 7.24 V
+	 VBAT_B: 7.28 V
+	 Reboot to normal: 35
+FileSendSuccessFrame: CID=030 Seq=1575
+	Time: 120.0s
+	 VBAT_A: 7.24 V
+	 VBAT_B: 7.28 V
+	 Reboot to normal: 35
+BeaconFrame @ 9600 bps
+      BP VOLT 7.25 V, 7.28 V
+      BP TEMP 12.69 C, 12.31 C, 12.80 C
+      COMM PA TEMP NOW 11.23 C LAST 11.23 C
+      COMM RX Current 50.54 mA
+      GYRO UNCAL -2.37 deg/sec, -3.34 deg/sec, 1.39 deg/sec
+      EXPERIMENT None
+      MCU TEMP 3.73 C
+      3V3 DISTR CURRENT 33 mA
+
+FileSendErrorFrame: Seq=1787
+FileSendErrorFrame: Seq=1775
+FileSendSuccessFrame: CID=030 Seq=1643
+FileSendErrorFrame: Seq=1781
+FileRemoveSuccessFrame: CID=042 Seq=00
+	Time: 200.0s
+	 VBAT_A: 7.24 V
+	 VBAT_B: 7.28 V
+	 Reboot to normal: 35
+FileSendSuccessFrame: CID=031 Seq=1649
+FileSendSuccessFrame: CID=030 Seq=1681
+FileSendSuccessFrame: CID=031 Seq=1737
+FileSendSuccessFrame: CID=031 Seq=1562
+FileSendSuccessFrame: CID=031 Seq=1725
+FileSendSuccessFrame: CID=031 Seq=1587
+	Time: 320.0s
+	 VBAT_A: 7.24 V
+	 VBAT_B: 7.28 V
+	 Reboot to normal: 35
+FileSendSuccessFrame: CID=031 Seq=1687
+FileSendSuccessFrame: CID=030 Seq=1593
+	Time: 0.0s
+	 VBAT_A: 7.24 V
+	 VBAT_B: 7.28 V
+	 Reboot to normal: 35
+BeaconFrame @ 9600 bps
+      BP VOLT 7.25 V, 7.28 V
+      BP TEMP 12.44 C, 12.06 C, 12.80 C
+      COMM PA TEMP NOW 11.23 C LAST 11.06 C
+      COMM RX Current 50.75 mA
+      GYRO UNCAL -2.30 deg/sec, -3.34 deg/sec, 1.46 deg/sec
+      EXPERIMENT None
+      MCU TEMP 2.94 C
+      3V3 DISTR CURRENT 33 mA
+
+FileSendSuccessFrame: CID=030 Seq=1705
+FileSendErrorFrame: Seq=1768
+FileListSuccessFrame: CID=002 Seq=00, #files: 7
+FileSendSuccessFrame: CID=031 Seq=1462
+FileSendErrorFrame: Seq=1743
