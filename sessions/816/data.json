@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-04-07T20:50:05+02:00", 
         "stop_time_iso_with_zone": "2019-04-07T21:01:02+02:00", 
         "maximum_elevation": 17.75, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Telemetry download. Missing parts from SunS exp. file download. Photo removal."
     }
 }
