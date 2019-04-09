@@ -8,7 +8,8 @@
         "maximum_elevation": 86.83, 
         "status": "success", 
         "session_tasks": [
-            "sleep-beacon"
+            "power-cycle-B",
+            "telemetry"
         ], 
         "short_description": "High res photo download, miniature removal"
     }
