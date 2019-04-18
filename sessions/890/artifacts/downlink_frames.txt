@@ -1,0 +1,59 @@
+BeaconFrame @ 9600 bps
+      BP VOLT 7.27 V, 7.30 V
+      BP TEMP 8.44 C, 8.12 C, 11.10 C
+      COMM PA TEMP NOW 8.44 C LAST 8.17 C
+      COMM RX Current 50.14 mA
+      GYRO UNCAL -2.57 deg/sec, -3.55 deg/sec, 1.46 deg/sec
+      EXPERIMENT None
+      MCU TEMP -0.71 C
+      3V3 DISTR CURRENT 33 mA
+
+SetBitrateSuccessFrame: Seq=00
+	Time: 40.0s
+	 VBAT_A: 7.27 V
+	 VBAT_B: 7.29 V
+	 Reboot to normal: 35
+BeaconFrame @ 9600 bps
+      BP VOLT 7.27 V, 7.30 V
+      BP TEMP 8.12 C, 7.88 C, 9.20 C
+      COMM PA TEMP NOW 7.95 C LAST 7.79 C
+      COMM RX Current 50.87 mA
+      GYRO UNCAL -2.43 deg/sec, -3.69 deg/sec, 1.32 deg/sec
+      EXPERIMENT None
+      MCU TEMP -0.71 C
+      3V3 DISTR CURRENT 35 mA
+
+BeaconFrame @ 1200 bps
+!!!!! BP VOLT 0.00 V, 0.00 V
+!!!!! BP TEMP 0.00 C, 0.00 C, -999.00 C
+!!!!! COMM PA TEMP NOW 189.55 C LAST 189.55 C
+      COMM RX Current 0.00 mA
+!!!!! OBC CRC 0x0000
+      GYRO UNCAL 0.00 deg/sec, 0.00 deg/sec, 0.00 deg/sec
+      EXPERIMENT None
+!!!!! MCU TEMP 389.60 C
+      3V3 DISTR CURRENT 0 mA
+
+PowerSuccessFrame: CID=003 Seq=00
+	Time: 0.0s
+	 VBAT_A: 7.27 V
+	 VBAT_B: 7.30 V
+	 Reboot to normal: 35
+BeaconFrame @ 9600 bps
+      BP VOLT 7.27 V, 7.30 V
+      BP TEMP 8.31 C, 8.00 C, 9.20 C
+      COMM PA TEMP NOW 7.68 C LAST 7.57 C
+      COMM RX Current 50.26 mA
+      GYRO UNCAL -2.50 deg/sec, -3.55 deg/sec, 1.53 deg/sec
+      EXPERIMENT None
+      MCU TEMP -0.56 C
+      3V3 DISTR CURRENT 35 mA
+
+	Time: 4560.0s
+	 VBAT_A: 7.27 V
+	 VBAT_B: 7.29 V
+	 Reboot to normal: 13
+FileListSuccessFrame: CID=005 Seq=00, #files: 2
+FileListSuccessFrame: CID=005 Seq=00, #files: 2
+PongFrame: Seq=00
+BootSlotsInfoSuccessFrame: CID=103 Seq=00
