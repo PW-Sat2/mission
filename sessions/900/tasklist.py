@@ -13,7 +13,7 @@ tasks = [
      # Get few beacons from nominal OBC
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
-    # 8th RadFET Experiment
+    # 11th RadFET Experiment
     [tc.PerformRadFETExperiment(10, 150, 110, 'radfet_11'), Send, WaitMode.Wait],
 
     [tc.ListFiles(5, '/'), Send, WaitMode.Wait],
