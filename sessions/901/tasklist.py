@@ -58,9 +58,8 @@ tasks = [
     ["The next step is telemetry download.", Print, WaitMode.Wait],
 
     # manually-generated telemetry start
-    #[TODO]
-    #[tc.DownloadFile(30, '/telemetry.current', range(0, 150, 6)), Send, WaitMode.Wait],
-    #[tc.DownloadFile(31, '/telemetry.current', range(2, 150, 6)), Send, WaitMode.Wait],
+    [tc.DownloadFile(30, '/telemetry.current', range(0, 150, 6)), Send, WaitMode.Wait],
+    [tc.DownloadFile(31, '/telemetry.current', range(2, 150, 6)), Send, WaitMode.Wait],
 
     # manually-generated telemetry end
 
