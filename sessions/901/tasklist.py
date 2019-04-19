@@ -58,14 +58,14 @@ tasks = [
     ["The next step is telemetry download.", Print, WaitMode.Wait],
 
     # manually-generated telemetry start
-    #[tc.DownloadFile(30, '/telemetry.current', range(0, 150, 6)), Send, WaitMode.Wait],
-    #[tc.DownloadFile(31, '/telemetry.current', range(2, 150, 6)), Send, WaitMode.Wait],
+    [tc.DownloadFile(30, '/telemetry.current', range(0, 150, 6)), Send, WaitMode.Wait],
+    [tc.DownloadFile(31, '/telemetry.current', range(2, 150, 6)), Send, WaitMode.Wait],
 
     # manually-generated telemetry end
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
     # Low res photos download
-    [tc.DownloadFile(100, '/p1_128_0', [i for i in range(0, 28, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(100, '/p1_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
