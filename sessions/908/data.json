@@ -6,10 +6,12 @@
         "start_time_iso_with_zone": "2019-04-21T12:14:20+02:00", 
         "stop_time_iso_with_zone": "2019-04-21T12:26:52+02:00", 
         "maximum_elevation": 37.94, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry",
+            "photo download",
+            "suns download"
         ], 
-        "short_description": ""
+        "short_description": "Telemetry download. Hi-res photos & suns download."
     }
 }
