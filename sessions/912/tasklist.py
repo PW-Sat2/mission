@@ -35,9 +35,6 @@ tasks = [
 
 
     # auto-generated file remove start
-    [tc.RemoveFile(40, 'suns_ps_4'), Send, WaitMode.Wait],
-    [tc.RemoveFile(41, 'suns_ps_4_sec'), Send, WaitMode.Wait],
-    [tc.ListFiles(42, '/'), Send, WaitMode.Wait],
     # auto-generated file remove end
 
 
