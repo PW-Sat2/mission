@@ -1,0 +1,83 @@
+	Time: 5880.0s
+	 VBAT_A: 7.22 V
+	 VBAT_B: 7.25 V
+	 Reboot to normal: 14
+	Time: 160.0s
+	 VBAT_A: 7.22 V
+	 VBAT_B: 7.24 V
+	 Reboot to normal: 35
+SetBitrateSuccessFrame: Seq=00
+	Time: 320.0s
+	 VBAT_A: 7.31 V
+	 VBAT_B: 7.33 V
+	 Reboot to normal: 35
+BeaconFrame @ 9600 bps
+      BP VOLT 7.22 V, 7.24 V
+      BP TEMP 0.62 C, 0.38 C, 0.00 C
+      COMM PA TEMP NOW 0.31 C LAST 0.80 C
+      COMM RX Current 50.48 mA
+      GYRO UNCAL -2.78 deg/sec, -3.69 deg/sec, 1.53 deg/sec
+      EXPERIMENT None
+      MCU TEMP -7.70 C
+      3V3 DISTR CURRENT 35 mA
+
+	Time: 40.0s
+	 VBAT_A: 7.22 V
+	 VBAT_B: 7.24 V
+	 Reboot to normal: 35
+BeaconFrame @ 1200 bps
+!!!!! BP VOLT 0.00 V, 0.00 V
+!!!!! BP TEMP 0.00 C, 0.00 C, -999.00 C
+!!!!! COMM PA TEMP NOW 189.55 C LAST 189.55 C
+      COMM RX Current 0.00 mA
+!!!!! OBC CRC 0x0000
+      GYRO UNCAL 0.00 deg/sec, 0.00 deg/sec, 0.00 deg/sec
+      EXPERIMENT None
+!!!!! MCU TEMP 389.60 C
+      3V3 DISTR CURRENT 0 mA
+
+FileListSuccessFrame: CID=005 Seq=00, #files: 17
+PowerSuccessFrame: CID=003 Seq=00
+FileListSuccessFrame: CID=005 Seq=01, #files: 8
+	Time: 240.0s
+	 VBAT_A: 7.22 V
+	 VBAT_B: 7.25 V
+	 Reboot to normal: 35
+BeaconFrame @ 9600 bps
+      BP VOLT 7.22 V, 7.24 V
+      BP TEMP 0.50 C, 0.19 C, 0.00 C
+      COMM PA TEMP NOW 0.36 C LAST 0.25 C
+      COMM RX Current 50.08 mA
+      GYRO UNCAL -2.78 deg/sec, -3.69 deg/sec, 1.60 deg/sec
+      EXPERIMENT None
+      MCU TEMP -8.02 C
+      3V3 DISTR CURRENT 38 mA
+
+	Time: 0.0s
+	 VBAT_A: 7.22 V
+	 VBAT_B: 7.25 V
+	 Reboot to normal: 35
+	Time: 80.0s
+	 VBAT_A: 7.22 V
+	 VBAT_B: 7.24 V
+	 Reboot to normal: 35
+	Time: 280.0s
+	 VBAT_A: 7.23 V
+	 VBAT_B: 7.27 V
+	 Reboot to normal: 35
+	Time: 120.0s
+	 VBAT_A: 7.22 V
+	 VBAT_B: 7.24 V
+	 Reboot to normal: 35
+PongFrame: Seq=00
+BeaconFrame @ 9600 bps
+      BP VOLT 7.22 V, 7.24 V
+      BP TEMP 0.31 C, 0.06 C, 0.00 C
+      COMM PA TEMP NOW 0.64 C LAST 0.69 C
+      COMM RX Current 50.26 mA
+      GYRO UNCAL -2.85 deg/sec, -3.69 deg/sec, 1.67 deg/sec
+      EXPERIMENT None
+      MCU TEMP -8.33 C
+      3V3 DISTR CURRENT 33 mA
+
+BootSlotsInfoSuccessFrame: CID=103 Seq=00
