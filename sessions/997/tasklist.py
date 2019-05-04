@@ -60,4 +60,6 @@ tasks = [
     # Low res photos download
     [tc.DownloadFile(100, '/p1_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
+
+    [tc.ListFiles(200, '/'), Send, WaitMode.Wait],
 ]

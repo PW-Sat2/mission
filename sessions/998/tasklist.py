@@ -18,11 +18,13 @@ tasks = [
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
     # Low res photos download
+    [tc.DownloadFile(99, '/p1_128_0', [35]), Send, WaitMode.Wait],
+
     [tc.DownloadFile(100, '/p2_128_0', [i for i in range(0, 18, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(101, '/p2_128_0', [i for i in range(18, 36, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(101, '/p2_128_0', [i for i in range(18, 30, 1)]), Send, WaitMode.Wait],
 
     [tc.DownloadFile(102, '/p3_128_0', [i for i in range(0, 18, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(103, '/p3_128_0', [i for i in range(18, 36, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(103, '/p3_128_0', [i for i in range(18, 32, 1)]), Send, WaitMode.Wait],
 
     [tc.DownloadFile(104, '/p4_128_0', [i for i in range(0, 18, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(105, '/p4_128_0', [i for i in range(18, 36, 1)]), Send, WaitMode.Wait],
