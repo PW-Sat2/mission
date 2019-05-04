@@ -5,9 +5,22 @@ tasks = [
 
     [[tc.SendBeacon(), 10], SendLoop, WaitMode.NoWait],
 
-    [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
+    # ReadMemory, weird telecommands
+    [tc.ReadMemory(2, 0x8801b620, 248), Send, WaitMode.Wait], # scrubbing
 
+    # Wait until good communication
     [tc.SendBeacon(), Send, WaitMode.Wait],
+
+    # Power cycle EPS B
+    [tc.PowerCycleTelecommand(3), Send, WaitMode.Wait],
+
+    [tc.PingTelecommand(), Send, WaitMode.Wait],
+
+    # Set 9600
+    [tc.SetBitrate(4, BaudRate.BaudRate9600), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+
+    [tc.ListFiles(5, '/'), Send, WaitMode.Wait],
 
     ["The next step is download RadFET experiment", Print, WaitMode.Wait],
 
