@@ -2,13 +2,27 @@ tasks = [
     # Generated on 2019-05-05 21:17:44.026501, contains telemetry from sessions 1006 to 1007.
     # The session starts on 2019-05-05 22:10:36+02:00.
 
+
     [[tc.SetBitrate(1, BaudRate.BaudRate9600), 5], SendLoop, WaitMode.NoWait],
 
     [[tc.SendBeacon(), 10], SendLoop, WaitMode.NoWait],
 
-    [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
+    # ReadMemory, weird telecommands
+    [tc.ReadMemory(2, 0x8801b620, 248), Send, WaitMode.Wait], # scrubbing
+
+    # Wait until good communication
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+
+    # Power cycle EPS B
+    [tc.PowerCycleTelecommand(3), Send, WaitMode.Wait],
+
+    [tc.PingTelecommand(), Send, WaitMode.Wait],
+
+    # Set 9600
+    [tc.SetBitrate(4, BaudRate.BaudRate9600), Send, WaitMode.Wait],
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
+    [tc.ListFiles(5, '/'), Send, WaitMode.Wait],
 
     # auto-generated telemetry start
     [tc.DownloadFile(39, '/telemetry.current', [1396, 1446, 1496, 1546, 1596, 1421, 1471, 1521, 1571, 1409, 1459, 1509, 1559, 1609, 1433, 1483, 1533, 1583, 1403, 1453]), Send, WaitMode.Wait],
