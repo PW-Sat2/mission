@@ -10,3 +10,6 @@ for p in hr_photos:
     extract_file('p{}_480_0'.format(p), also=PHOTO_SESSIONS)
     decode_photo('assembled/p{}_480_0'.format(p), output_file_name='assembled/p{}_480_0.jpg'.format(p))
 
+
+extract_file('assembled/radfet_12', also=[1002, 1003, 1004])
+parse_experiment('assembled/radfet_12')
