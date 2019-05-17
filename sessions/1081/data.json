@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-05-18T10:13:01+02:00", 
         "stop_time_iso_with_zone": "2019-05-18T10:24:03+02:00", 
         "maximum_elevation": 15.78, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "radfet"
         ], 
-        "short_description": ""
+        "short_description": "Boot to normal mode. Perform 13th RadFET experiment."
     }
 }
