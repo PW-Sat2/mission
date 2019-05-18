@@ -8,7 +8,7 @@
         "maximum_elevation": 16.48, 
         "status": "auto", 
         "session_tasks": [
-            "sleep-beacon"
+            "keep-alive"
         ], 
         "short_description": ""
     }

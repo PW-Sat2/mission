@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-05-18T22:40:31+02:00", 
         "stop_time_iso_with_zone": "2019-05-18T22:53:11+02:00", 
         "maximum_elevation": 60.42, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Power cycle B. High-res and telemetry photos download."
     }
 }
