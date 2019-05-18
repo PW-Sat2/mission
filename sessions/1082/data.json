@@ -6,10 +6,11 @@
         "start_time_iso_with_zone": "2019-05-18T11:47:48+02:00", 
         "stop_time_iso_with_zone": "2019-05-18T12:00:44+02:00", 
         "maximum_elevation": 72.65, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry",
+            "photo-queue"
         ], 
-        "short_description": ""
+        "short_description": "Take photo queue, 13th RadFET download, telemetry download, first low-res photo download."
     }
 }
