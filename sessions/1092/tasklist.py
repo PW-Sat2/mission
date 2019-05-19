@@ -21,6 +21,12 @@ tasks = [
     [tc.DownloadFile(33, '/telemetry.current', [1678, 1728, 1778, 1590, 1640, 1690, 1740, 1790, 1602, 1652, 1702, 1752, 1614, 1664, 1714, 1764]), Send, WaitMode.Wait],
     # auto-generated telemetry end
 
+    # missing telemetry
+    [tc.DownloadFile(40, '/telemetry.current', [552, 602, 652, 702, 752, 577, 627, 677, 727, 565, 615, 665, 715, 765, 589, 639, 689, 739, 559, 609]), Send, WaitMode.Wait],
+    [tc.DownloadFile(41, '/telemetry.current', [659, 709, 759, 571, 621, 671, 721, 771, 583, 633, 683, 733, 595, 645, 695, 745]), Send, WaitMode.Wait],
+
+
+
     # Carefully waste some session time
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
