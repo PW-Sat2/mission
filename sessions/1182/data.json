@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-06-01T21:32:18+02:00", 
         "stop_time_iso_with_zone": "2019-06-01T21:44:23+02:00", 
         "maximum_elevation": 36.91, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Telemetry download, low-res and hi-res photos download. RadFET download."
     }
 }
