@@ -10,6 +10,9 @@
         "session_tasks": [
             "telemetry"
         ], 
-        "short_description": "Telemetry download. 10th photo low/high-res download, 6th post-sail SunS exp. run."
+        "short_description": "Telemetry download. 10th photo low/high-res download, 6th post-sail SunS exp. run.",
+        "artifacts": [
+            "all-photos"
+        ]
     }
 }
