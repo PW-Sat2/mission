@@ -2,14 +2,14 @@
     "Session": {
         "index": 1186, 
         "phase": "zZz", 
-        "primary": "elka", 
+        "primary": "fp", 
         "start_time_iso_with_zone": "2019-06-02T12:16:12+02:00", 
         "stop_time_iso_with_zone": "2019-06-02T12:28:47+02:00", 
         "maximum_elevation": 38.15, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry download"
         ], 
-        "short_description": ""
+        "short_description": "Telemetry download. SunS post-sail 6 download. Cleaning-up files."
     }
 }
