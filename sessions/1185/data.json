@@ -8,7 +8,8 @@
         "maximum_elevation": 27.92, 
         "status": "planned", 
         "session_tasks": [
-            "telemetry"
+            "telemetry",
+            "power-cycle-B"
         ], 
         "short_description": "Telemetry download. 10th photo low/high-res download, 6th post-sail SunS exp. run.",
         "artifacts": [
