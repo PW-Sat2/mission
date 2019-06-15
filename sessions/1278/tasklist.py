@@ -10,6 +10,8 @@ tasks = [
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
+    [tc.PerformSunSExperiment(3, 0, 20, 250, datetime.timedelta(seconds=5), 3, datetime.timedelta(seconds=10), 'suns_ps_7'), Send, WaitMode.Wait],
+
     # auto-generated telemetry start
     [tc.DownloadFile(89, '/telemetry.current', [1034, 1084, 1134, 1184, 1234, 1059, 1109, 1159, 1209, 1047, 1097, 1147, 1197, 1247, 1071, 1121, 1171, 1221, 1041, 1091]), Send, WaitMode.Wait],
     [tc.DownloadFile(90, '/telemetry.current', [1141, 1191, 1241, 1053, 1103, 1153, 1203, 1065, 1115, 1165, 1215, 1077, 1127, 1177, 1227]), Send, WaitMode.Wait],
