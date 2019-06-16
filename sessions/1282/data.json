@@ -10,6 +10,9 @@
         "session_tasks": [
             "telemetry"
         ], 
+        "artifacts": [
+            "all-photos"
+        ],
         "short_description": "Telemetry download. Missings download."
     }
 }
