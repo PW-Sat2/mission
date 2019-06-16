@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-06-16T21:54:44+02:00", 
         "stop_time_iso_with_zone": "2019-06-16T22:07:16+02:00", 
         "maximum_elevation": 59.95, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Telemetry download. Back to deep sleep."
     }
 }
