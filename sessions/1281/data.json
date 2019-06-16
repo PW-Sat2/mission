@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-06-16T11:02:13+02:00", 
         "stop_time_iso_with_zone": "2019-06-16T11:14:58+02:00", 
         "maximum_elevation": 43.62, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry", "power-cycle-B"
         ], 
-        "short_description": ""
+        "short_description": "Power cycle B. Telemetry download. Missings download. SunS download."
     }
 }
