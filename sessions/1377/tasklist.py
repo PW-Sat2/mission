@@ -13,11 +13,13 @@ tasks = [
     # man-generated telemetry start
     [tc.DownloadFile(50, '/telemetry.current', [i for i in range(1206, 1400, 12)]), Send, WaitMode.Wait],
     [tc.DownloadFile(51, '/telemetry.current', [i for i in range(1212, 1400, 12)]), Send, WaitMode.Wait],
-
     # man-generated telemetry end
 
+    # Missings
     [tc.DownloadFile(30, '/p10_240_0', [60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73]), Send, WaitMode.Wait],
-	[tc.DownloadFile(31, '/telemetry.current', [366, 894, 990]), Send, WaitMode.Wait],
+    [tc.DownloadFile(31, '/telemetry.current', [366, 894, 990]), Send, WaitMode.Wait],
+    
+    
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
