@@ -1,4 +1,4 @@
-PHOTO_SESSIONS = [1372, 1373]
+PHOTO_SESSIONS = [1372, 1373, 1376]
 
 photos = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
