@@ -11,11 +11,11 @@ tasks = [
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
     # man-generated telemetry start
-    [tc.DownloadFile(50, '/telemetry.current', [i for i in range(180, 1760, 48)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(51, '/telemetry.current', [i for i in range(204, 1760, 48)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(50, '/telemetry.current', [i for i in range(180, 1300, 48)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(51, '/telemetry.current', [i for i in range(204, 1300, 48)]), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(52, '/telemetry.current', [i for i in range(192, 1760, 48)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(53, '/telemetry.current', [i for i in range(216, 1760, 48)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(52, '/telemetry.current', [i for i in range(192, 1300, 48)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(53, '/telemetry.current', [i for i in range(216, 1300, 48)]), Send, WaitMode.Wait],
     # man-generated telemetry end
 
     # Download 16th RadFET data
@@ -49,10 +49,10 @@ tasks = [
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
     # man-generated telemetry start
-    [tc.DownloadFile(54, '/telemetry.current', [i for i in range(186, 1760, 48)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(55, '/telemetry.current', [i for i in range(198, 1760, 48)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(56, '/telemetry.current', [i for i in range(210, 1760, 48)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(57, '/telemetry.current', [i for i in range(222, 1760, 48)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(54, '/telemetry.current', [i for i in range(186, 1300, 48)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(55, '/telemetry.current', [i for i in range(198, 1300, 48)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(56, '/telemetry.current', [i for i in range(210, 1300, 48)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(57, '/telemetry.current', [i for i in range(222, 1300, 48)]), Send, WaitMode.Wait],
     # man-generated telemetry end
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
