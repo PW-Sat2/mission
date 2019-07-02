@@ -1,5 +1,5 @@
 tasks = [
-    # Generated on 2019-07-02 13:00:30.373606
+    # Generated on 2019-07-02 13:02:29.715663
 
     # Get beacons from deep-sleep
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
