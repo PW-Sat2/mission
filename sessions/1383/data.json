@@ -10,6 +10,9 @@
         "session_tasks": [
             "telemetry"
         ], 
-        "short_description": "Telemetry download, photos download, SunS download."
+        "short_description": "Telemetry download, photos download, SunS download.",
+        "artifacts": [
+            "all-photos"
+        ]        
     }
 }
