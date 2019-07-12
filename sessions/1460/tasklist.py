@@ -80,7 +80,7 @@ tasks = [
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
     # Group 2
-    [tc.TakePhotoTelecommand(80, CameraLocation.Wing, PhotoResolution.p128, 50, datetime.timedelta(minutes=80), 'p51_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(80, CameraLocation.Wing, PhotoResolution.p128, 50, datetime.timedelta(minutes=86), 'p51_128'), Send, WaitMode.Wait],
 
     # =========================================
 
