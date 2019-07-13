@@ -38,11 +38,7 @@ tasks = [
     [tc.DownloadFile(104, '/p15_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(105, '/p20_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(106, '/p25_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(107, '/p30_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(108, '/p35_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(109, '/p40_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(110, '/p45_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(111, '/p50_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(107, '/p29_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
 
     [tc.DownloadFile(201, '/p52_128_0', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(202, '/p52_128_5', [i for i in range(0, 35, 1)]), Send, WaitMode.Wait],
