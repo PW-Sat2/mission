@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-07-13T22:23:16+02:00", 
         "stop_time_iso_with_zone": "2019-07-13T22:36:06+02:00", 
         "maximum_elevation": 83.67, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Download photos. Download RadFET 17 exp. file. Run 9th post-sail SunS exp."
     }
 }
