@@ -1,7 +1,7 @@
 PHOTO_SESSIONS = [1460, 1461]
 
 photos_queue = range(1, 51)
-photos_series = range(1, 30)
+photos_series = range(0, 30)
 
 for p in photos_queue:
     extract_file('p{}_128_0'.format(p), also=PHOTO_SESSIONS)
