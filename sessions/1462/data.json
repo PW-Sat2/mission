@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-07-13T20:50:00+02:00", 
         "stop_time_iso_with_zone": "2019-07-13T21:00:37+02:00", 
         "maximum_elevation": 16.07, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Photos download. Telemetry download. RadFET exp. 17 run."
     }
 }
