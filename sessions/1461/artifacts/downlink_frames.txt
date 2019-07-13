@@ -13,6 +13,7 @@ FileSendSuccessFrame: CID=101 Seq=23
 FileSendSuccessFrame: CID=101 Seq=02
 FileSendSuccessFrame: CID=031 Seq=169
 FileSendSuccessFrame: CID=102 Seq=13
+FileSendSuccessFrame: CID=031 Seq=81
 FileSendSuccessFrame: CID=101 Seq=13
 FileSendSuccessFrame: CID=031 Seq=93
 FileSendSuccessFrame: CID=102 Seq=27
@@ -83,11 +84,13 @@ BeaconFrame @ 9600 bps
 FileSendSuccessFrame: CID=101 Seq=14
 FileSendSuccessFrame: CID=030 Seq=49
 FileSendErrorFrame: Seq=212
+FileSendSuccessFrame: CID=031 Seq=131
 FileSendErrorFrame: Seq=181
 FileListSuccessFrame: CID=002 Seq=01, #files: 16
 FileSendSuccessFrame: CID=102 Seq=15
 FileSendSuccessFrame: CID=101 Seq=30
 FileListSuccessFrame: CID=100 Seq=02, #files: 16
+FileSendSuccessFrame: CID=102 Seq=32
 FileSendSuccessFrame: CID=102 Seq=31
 FileSendSuccessFrame: CID=030 Seq=69
 FileSendSuccessFrame: CID=101 Seq=12
@@ -143,6 +146,7 @@ FileSendSuccessFrame: CID=030 Seq=149
 FileSendSuccessFrame: CID=101 Seq=26
 FileSendSuccessFrame: CID=030 Seq=99
 FileSendSuccessFrame: CID=030 Seq=112
+FileSendSuccessFrame: CID=101 Seq=03
 FileSendErrorFrame: Seq=219
 FileSendSuccessFrame: CID=030 Seq=19
 FileSendSuccessFrame: CID=102 Seq=24
@@ -173,10 +177,21 @@ FileSendSuccessFrame: CID=102 Seq=00
 FileSendSuccessFrame: CID=030 Seq=125
 FileSendSuccessFrame: CID=102 Seq=10
 FileSendSuccessFrame: CID=102 Seq=14
-FileSendSuccessFrame: CID=101 Seq=09
+FileSendSuccessFrame: CID=101 Seq=32
 FileSendErrorFrame: Seq=34
 FileSendErrorFrame: Seq=34
+FileSendSuccessFrame: CID=102 Seq=19
 FileSendSuccessFrame: CID=102 Seq=08
+BeaconFrame @ 9600 bps
+      BP VOLT 7.54 V, 7.58 V
+      BP TEMP -0.88 C, -0.88 C, -1.40 C
+      COMM PA TEMP NOW 4.19 C LAST 4.46 C
+      COMM RX Current 48.56 mA
+      GYRO UNCAL -2.09 deg/sec, -3.76 deg/sec, 1.25 deg/sec
+      EXPERIMENT None
+      MCU TEMP -2.46 C
+!!!!! 3V3 DISTR CURRENT 138 mA
+
 FileSendSuccessFrame: CID=031 Seq=43
 FileSendSuccessFrame: CID=102 Seq=23
 FileSendSuccessFrame: CID=102 Seq=03
@@ -203,7 +218,7 @@ FileSendSuccessFrame: CID=102 Seq=02
 FileSendSuccessFrame: CID=101 Seq=28
 FileSendSuccessFrame: CID=030 Seq=12
 FileSendSuccessFrame: CID=102 Seq=11
-FileSendSuccessFrame: CID=101 Seq=32
+FileSendSuccessFrame: CID=101 Seq=09
 FileListSuccessFrame: CID=002 Seq=03, #files: 4
 FileSendSuccessFrame: CID=030 Seq=137
 FileSendSuccessFrame: CID=030 Seq=25
