@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-07-14T11:32:01+02:00", 
         "stop_time_iso_with_zone": "2019-07-14T11:44:59+02:00", 
         "maximum_elevation": 83.88, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry", "power-cycle-B"
         ], 
-        "short_description": ""
+        "short_description": "Power Cycle B and download: telemetry, photos, suns, radfet."
     }
 }
