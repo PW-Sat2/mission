@@ -29,7 +29,7 @@ tasks = [
     [tc.DownloadFile(31, '/p52_128_12', [4, 5, 6, 19, 20, 25, 30]), Send, WaitMode.Wait],
     [tc.DownloadFile(32, '/p52_128_11', [0, 16, 29]), Send, WaitMode.Wait],
     [tc.DownloadFile(33, '/p52_128_17', [13, 14, 15, 22]), Send, WaitMode.Wait],
-    [tc.DownloadFile(34, '/telemetry.current', [1225, 1263, 1275, 1300, 1325, 1350, 1375, 1425]), Send, WaitMode.Wait],
+    [tc.DownloadFile(34, '/telemetry.previous', [1225, 1263, 1275, 1300, 1325, 1350, 1375, 1425]), Send, WaitMode.Wait],
     [tc.DownloadFile(35, '/p52_128_15', [21, 23]), Send, WaitMode.Wait],
     [tc.DownloadFile(36, '/p52_128_14', [0, 3, 4, 7, 8, 9, 12, 13, 14, 15, 16, 17, 22, 27, 31, 33, 34, 35]), Send, WaitMode.Wait],
     [tc.DownloadFile(37, '/p52_128_19', [0, 4, 6, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19]), Send, WaitMode.Wait],
