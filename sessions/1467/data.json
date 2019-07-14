@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-07-14T13:07:33+02:00", 
         "stop_time_iso_with_zone": "2019-07-14T13:18:32+02:00", 
         "maximum_elevation": 14.77, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Download: telemetry, photos, suns, radfet."
     }
 }
