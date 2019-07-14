@@ -32,12 +32,12 @@ tasks = [
     [tc.DownloadFile(43, '/p20_128_0', [25]), Send, WaitMode.Wait],
     [tc.DownloadFile(44, '/p27_128_0', [0, 3, 4, 6, 7, 8]), Send, WaitMode.Wait],
     
-    [tc.DownloadFile(70, '/p52_128_0', [i for i in range(35, 37)]), Send, waitMode.Wait],
-    [tc.DownloadFile(72, '/p52_128_10', [i for i in range(35, 37)]), Send, waitMode.Wait],
-    [tc.DownloadFile(77, '/p52_128_15', [i for i in range(35, 37)]), Send, waitMode.Wait],
-    [tc.DownloadFile(83, '/p52_128_20', [i for i in range(35, 37)]), Send, waitMode.Wait],
-    [tc.DownloadFile(88, '/p52_128_25', [i for i in range(35, 37)]), Send, waitMode.Wait],
-    [tc.DownloadFile(94, '/p52_128_5', [i for i in range(35, 36)]), Send, waitMode.Wait],
+    [tc.DownloadFile(70, '/p52_128_0', [i for i in range(35, 37)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(72, '/p52_128_10', [i for i in range(35, 37)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(77, '/p52_128_15', [i for i in range(35, 37)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(83, '/p52_128_20', [i for i in range(35, 37)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(88, '/p52_128_25', [i for i in range(35, 37)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(94, '/p52_128_5', [i for i in range(35, 36)]), Send, WaitMode.Wait],
 
     # missing from previous session end
 
