@@ -1,0 +1,1 @@
+The correct name for suns_ps_7 is suns_ps_8!
