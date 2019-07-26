@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-07-27T10:06:06+02:00", 
         "stop_time_iso_with_zone": "2019-07-27T10:16:31+02:00", 
         "maximum_elevation": 12.35, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "photo-queue"
         ], 
-        "short_description": ""
+        "short_description": "Wake up. Take photo queue - hi res photos series."
     }
 }
