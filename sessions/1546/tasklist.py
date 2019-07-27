@@ -10,6 +10,40 @@ tasks = [
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
+    # 18th RadFET Experiment
+    [tc.PerformRadFETExperiment(10, 150, 110, 'radfet_18'), Send, WaitMode.Wait],
+
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+
+    # Europe
+    [tc.TakePhotoTelecommand(210, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=1), 'p1_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(211, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p1_480'), Send, WaitMode.Wait],
+
+    [tc.TakePhotoTelecommand(212, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=1), 'p2_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(213, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p2_480'), Send, WaitMode.Wait],
+
+    # North America
+    [tc.TakePhotoTelecommand(214, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=17), 'p3_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(215, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p3_480'), Send, WaitMode.Wait],
+
+    [tc.TakePhotoTelecommand(216, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=1), 'p4_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(217, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p4_480'), Send, WaitMode.Wait],
+
+    [tc.TakePhotoTelecommand(218, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=1), 'p5_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(219, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p5_480'), Send, WaitMode.Wait],
+
+    # Alaska
+    [tc.TakePhotoTelecommand(220, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=93), 'p6_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(221, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p6_480'), Send, WaitMode.Wait],
+
+    [tc.TakePhotoTelecommand(222, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=1), 'p7_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(223, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p7_480'), Send, WaitMode.Wait],
+
+    [tc.TakePhotoTelecommand(224, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=1), 'p8_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(225, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p8_480'), Send, WaitMode.Wait],
+
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+
     # auto-generated telemetry start
     [tc.DownloadFile(30, '/telemetry.current', [168, 218, 268, 318, 368, 418, 468, 518, 568, 618, 668, 718, 768, 818, 868, 918, 968, 1018, 1068, 1118]), Send, WaitMode.Wait],
     [tc.DownloadFile(31, '/telemetry.current', [1168, 1218, 193, 243, 293, 343, 393, 443, 493, 543, 593, 643, 693, 743, 793, 843, 893, 943, 993, 1043]), Send, WaitMode.Wait],
