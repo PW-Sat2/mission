@@ -14,8 +14,8 @@ tasks = [
     [tc.DownloadFile(22, '/telemetry.current', [i for i in range(1570, 1700, 12)]), Send, WaitMode.Wait],
     [tc.DownloadFile(23, '/telemetry.current', [i for i in range(1576, 1700, 12)]), Send, WaitMode.Wait],
     
-    [tc.DownloadFile(22, '/telemetry.current', [i for i in range(1573, 1700, 12)]), Send, WaitMode.Wait],
-    [tc.DownloadFile(23, '/telemetry.current', [i for i in range(1579, 1700, 12)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(24, '/telemetry.current', [i for i in range(1573, 1700, 12)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(25, '/telemetry.current', [i for i in range(1579, 1700, 12)]), Send, WaitMode.Wait],
     # auto-generated telemetry end
 
     # missing from previous session start
