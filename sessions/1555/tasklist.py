@@ -26,7 +26,9 @@ tasks = [
 
 
     # missing from previous session start
-    ,
+    [tc.DownloadFile(50, '/p1_480_0', [0]), Send, WaitMode.Wait],
+    [tc.DownloadFile(51, '/p_480_11', [57]), Send, WaitMode.Wait],
+    [tc.DownloadFile(52, '/p_480_10', [4, 6, 9]), Send, WaitMode.Wait],
     # missing from previous session end
 
 
