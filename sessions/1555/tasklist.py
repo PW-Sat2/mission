@@ -41,3 +41,4 @@ tasks = [
 
     # Get beacons from deep-sleep
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
+]
