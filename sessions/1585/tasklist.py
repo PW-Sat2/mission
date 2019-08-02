@@ -11,7 +11,7 @@ tasks = [
     # auto-generated telemetry start
     # auto-generated telemetry end
 
-    [tc.PerformSunSExperiment(3, 0, 20, 250, datetime.timedelta(seconds=3), 40, datetime.timedelta(seconds=10), 'suns_ps_10'), Send, WaitMode.Wait],
+    [tc.PerformSunSExperiment(3, 0, 20, 250, datetime.timedelta(seconds=5), 20, datetime.timedelta(seconds=10), 'suns_ps_10'), Send, WaitMode.Wait],
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
