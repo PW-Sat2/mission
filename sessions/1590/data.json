@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-08-04T00:13:19+02:00", 
         "stop_time_iso_with_zone": "2019-08-04T00:22:30+02:00", 
         "maximum_elevation": 8.26, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "SunS files and telemetry download"
     }
 }
