@@ -1,8 +1,9 @@
 tasks = [
+    [tc.PingTelecommand(), Send, WaitMode.Wait],
 
-    [[tc.SetBitrate(1, BaudRate.BaudRate9600), 5], SendLoop, WaitMode.NoWait],
+    [tc.SetBitrate(1, BaudRate.BaudRate9600), Send, WaitMode.Wait],
 
-    [[tc.SendBeacon(), 10], SendLoop, WaitMode.NoWait],
+    [tc.SendBeacon(), Send, WaitMode.Wait],
 
     [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
 
