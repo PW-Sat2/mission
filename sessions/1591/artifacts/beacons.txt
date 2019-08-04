@@ -1,0 +1,76 @@
+BeaconFrame @ 1200 bps
+!!!!! BP VOLT 0.00 V, 0.00 V
+!!!!! BP TEMP 0.00 C, 0.00 C, -999.00 C
+!!!!! COMM PA TEMP NOW 189.55 C LAST 189.55 C
+      COMM RX Current 0.00 mA
+!!!!! OBC CRC 0x0000
+      GYRO UNCAL 0.00 deg/sec, 0.00 deg/sec, 0.00 deg/sec
+      EXPERIMENT None
+!!!!! MCU TEMP 389.60 C
+      3V3 DISTR CURRENT 0 mA
+
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.37 V, 7.40 V
+      BP TEMP 0.69 C, 0.69 C, 0.00 C
+      COMM PA TEMP NOW 4.13 C LAST 3.75 C
+      COMM RX Current 48.92 mA
+      GYRO UNCAL -2.43 deg/sec, -4.03 deg/sec, 1.53 deg/sec
+      EXPERIMENT None
+      MCU TEMP -4.68 C
+      3V3 DISTR CURRENT 35 mA
+
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.36 V, 7.40 V
+      BP TEMP 0.94 C, 0.88 C, 0.00 C
+      COMM PA TEMP NOW 4.95 C LAST 4.68 C
+      COMM RX Current 49.01 mA
+      GYRO UNCAL -2.43 deg/sec, -3.83 deg/sec, 1.46 deg/sec
+      EXPERIMENT None
+      MCU TEMP -4.05 C
+      3V3 DISTR CURRENT 35 mA
+
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.34 V, 7.37 V
+      BP TEMP 1.19 C, 1.12 C, 0.00 C
+      COMM PA TEMP NOW 11.67 C LAST 13.03 C
+      COMM RX Current 49.87 mA
+      GYRO UNCAL -2.43 deg/sec, -3.76 deg/sec, 1.39 deg/sec
+      EXPERIMENT None
+      MCU TEMP -2.78 C
+      3V3 DISTR CURRENT 40 mA
+
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.22 V, 7.24 V
+      BP TEMP 0.56 C, 0.56 C, 0.00 C
+      COMM PA TEMP NOW 3.15 C LAST 3.09 C
+      COMM RX Current 50.63 mA
+      GYRO UNCAL -2.64 deg/sec, -3.90 deg/sec, 1.60 deg/sec
+      EXPERIMENT None
+      MCU TEMP -5.48 C
+      3V3 DISTR CURRENT 38 mA
+
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.34 V, 7.40 V
+      BP TEMP 0.62 C, 0.62 C, 0.00 C
+      COMM PA TEMP NOW 3.48 C LAST 3.48 C
+      COMM RX Current 49.29 mA
+      GYRO UNCAL -2.57 deg/sec, -3.90 deg/sec, 1.67 deg/sec
+      EXPERIMENT None
+      MCU TEMP -4.37 C
+      3V3 DISTR CURRENT 33 mA
+
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.22 V, 7.27 V
+      BP TEMP 1.00 C, 0.94 C, 0.00 C
+      COMM PA TEMP NOW 8.77 C LAST 8.83 C
+      COMM RX Current 123.65 mA
+      GYRO UNCAL -2.37 deg/sec, -3.76 deg/sec, 1.46 deg/sec
+      EXPERIMENT None
+      MCU TEMP -3.73 C
+      3V3 DISTR CURRENT 33 mA
