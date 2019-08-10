@@ -16,9 +16,15 @@ tasks = [
     # auto-generated telemetry end
 
 
-    # missing from previous session start
     [tc.DownloadFile(30, '/telemetry.current', [393, 443, 493, 543, 593, 643, 693, 743, 793, 843, 893, 943, 993]), Send, WaitMode.Wait],
     [tc.DownloadFile(31, '/telemetry.current', [1031, 1043, 1081, 1093, 1131, 1143, 1181, 1219, 1269, 1293, 1319, 1369]), Send, WaitMode.Wait],
+    [tc.DownloadFile(63, '/p11_128_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]), Send, WaitMode.Wait],
+    [tc.DownloadFile(64, '/p12_128_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]), Send, WaitMode.Wait],
+    [tc.DownloadFile(65, '/p12_128_0', [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]), Send, WaitMode.Wait],
+    [tc.DownloadFile(66, '/p13_128_0', [0, 1, 2, 3, 4]), Send, WaitMode.Wait],
+    [tc.DownloadFile(67, '/p14_128_0', [0, 1, 2, 3, 4]), Send, WaitMode.Wait],
+    [tc.DownloadFile(68, '/p15_128_0', [0, 1, 2, 3, 4]), Send, WaitMode.Wait],
+    [tc.DownloadFile(69, '/p16_128_0', [0, 1, 2, 3, 4]), Send, WaitMode.Wait],
     [tc.DownloadFile(32, '/p10_480_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]), Send, WaitMode.Wait],
     [tc.DownloadFile(33, '/p10_480_0', [19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37]), Send, WaitMode.Wait],
     [tc.DownloadFile(34, '/p10_480_0', [38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56]), Send, WaitMode.Wait],
@@ -48,17 +54,7 @@ tasks = [
     [tc.DownloadFile(58, '/p9_480_0', [100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119]), Send, WaitMode.Wait],
     [tc.DownloadFile(59, '/p9_480_0', [120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139]), Send, WaitMode.Wait],
     [tc.DownloadFile(60, '/p9_480_0', [140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158]), Send, WaitMode.Wait],
-    # missing from previous session end
-
-
-    # auto-generated file download start
-    [tc.DownloadFile(63, '/p11_128_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]), Send, WaitMode.Wait],
-    [tc.DownloadFile(64, '/p12_128_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]), Send, WaitMode.Wait],
-    [tc.DownloadFile(65, '/p12_128_0', [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]), Send, WaitMode.Wait],
-    [tc.DownloadFile(66, '/p13_128_0', [0, 1, 2, 3, 4]), Send, WaitMode.Wait],
-    [tc.DownloadFile(67, '/p14_128_0', [0, 1, 2, 3, 4]), Send, WaitMode.Wait],
-    [tc.DownloadFile(68, '/p15_128_0', [0, 1, 2, 3, 4]), Send, WaitMode.Wait],
-    [tc.DownloadFile(69, '/p16_128_0', [0, 1, 2, 3, 4]), Send, WaitMode.Wait],
+    
     [tc.DownloadFile(70, '/p11_480_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]), Send, WaitMode.Wait],
     [tc.DownloadFile(71, '/p11_480_0', [19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]), Send, WaitMode.Wait],
     [tc.DownloadFile(72, '/p11_480_0', [37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54]), Send, WaitMode.Wait],
@@ -80,8 +76,7 @@ tasks = [
     [tc.DownloadFile(88, '/p15_480_0', [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]), Send, WaitMode.Wait],
     [tc.DownloadFile(89, '/p16_480_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]), Send, WaitMode.Wait],
     [tc.DownloadFile(90, '/p16_480_0', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]), Send, WaitMode.Wait],
-    # auto-generated file download end
-
+    
 
     # auto-generated file remove start
     
