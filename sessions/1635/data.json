@@ -2,14 +2,14 @@
     "Session": {
         "index": 1635, 
         "phase": "zZz", 
-        "primary": "elka", 
+        "primary": "fp", 
         "start_time_iso_with_zone": "2019-08-11T13:21:51+02:00", 
         "stop_time_iso_with_zone": "2019-08-11T13:32:01+02:00", 
         "maximum_elevation": 11.35, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Some telemetry and go to sleep"
     }
 }
