@@ -1,0 +1,126 @@
+FileSendSuccessFrame: CID=030 Seq=550
+FileSendErrorFrame: Seq=743
+FileSendSuccessFrame: CID=031 Seq=674
+BeaconFrame @ 9600 bps
+      BP VOLT 7.18 V, 7.21 V
+!!!!! BP TEMP -3.25 C, -3.75 C, -4.20 C
+      COMM PA TEMP NOW -0.78 C LAST -1.06 C
+      COMM RX Current 51.12 mA
+      GYRO UNCAL -2.92 deg/sec, -4.10 deg/sec, 1.74 deg/sec
+      EXPERIMENT None
+      MCU TEMP -8.49 C
+      3V3 DISTR CURRENT 35 mA
+
+FileSendSuccessFrame: CID=031 Seq=636
+BeaconFrame @ 9600 bps
+      BP VOLT 7.18 V, 7.21 V
+!!!!! BP TEMP -3.00 C, -3.56 C, -4.20 C
+      COMM PA TEMP NOW 0.09 C LAST 0.36 C
+      COMM RX Current 50.48 mA
+      GYRO UNCAL -2.92 deg/sec, -3.97 deg/sec, 1.81 deg/sec
+      EXPERIMENT None
+      MCU TEMP -7.54 C
+      3V3 DISTR CURRENT 38 mA
+
+FileListSuccessFrame: CID=002 Seq=00, #files: 17
+FileListSuccessFrame: CID=002 Seq=02, #files: 3
+FileSendSuccessFrame: CID=030 Seq=668
+FileSendSuccessFrame: CID=030 Seq=718
+FileSendSuccessFrame: CID=031 Seq=624
+BeaconFrame @ 9600 bps
+      BP VOLT 7.18 V, 7.21 V
+!!!!! BP TEMP -3.31 C, -3.75 C, -4.20 C
+      COMM PA TEMP NOW -1.49 C LAST -1.82 C
+      COMM RX Current 50.39 mA
+      GYRO UNCAL -2.92 deg/sec, -4.03 deg/sec, 1.74 deg/sec
+      EXPERIMENT None
+      MCU TEMP -8.49 C
+      3V3 DISTR CURRENT 35 mA
+
+BootSlotsInfoSuccessFrame: CID=103 Seq=00
+BeaconFrame @ 9600 bps
+      BP VOLT 7.18 V, 7.21 V
+!!!!! BP TEMP -3.12 C, -3.69 C, -4.20 C
+      COMM PA TEMP NOW -0.18 C LAST -0.13 C
+      COMM RX Current 50.32 mA
+      GYRO UNCAL -2.85 deg/sec, -4.03 deg/sec, 1.81 deg/sec
+      EXPERIMENT None
+      MCU TEMP -7.86 C
+      3V3 DISTR CURRENT 35 mA
+
+FileSendSuccessFrame: CID=031 Seq=686
+FileSendErrorFrame: Seq=750
+SetBitrateSuccessFrame: Seq=00
+FileSendSuccessFrame: CID=030 Seq=656
+FileSendSuccessFrame: CID=031 Seq=586
+	Time: 0.0s
+	 VBAT_A: 7.24 V
+	 VBAT_B: 7.28 V
+	 Reboot to normal: 35
+PowerSuccessFrame: CID=003 Seq=00
+FileSendSuccessFrame: CID=031 Seq=712
+FileSendErrorFrame: Seq=762
+FileSendSuccessFrame: CID=030 Seq=543
+FileSendSuccessFrame: CID=030 Seq=556
+FileSendErrorFrame: Seq=756
+FileSendSuccessFrame: CID=030 Seq=606
+FileSendSuccessFrame: CID=030 Seq=618
+FileSendSuccessFrame: CID=031 Seq=662
+FileSendSuccessFrame: CID=030 Seq=600
+FileSendSuccessFrame: CID=030 Seq=643
+FileSendSuccessFrame: CID=030 Seq=706
+FileSendSuccessFrame: CID=031 Seq=574
+FileListSuccessFrame: CID=002 Seq=02, #files: 3
+FileListSuccessFrame: CID=002 Seq=01, #files: 16
+FileSendSuccessFrame: CID=030 Seq=680
+	Time: 160.0s
+	 VBAT_A: 7.25 V
+	 VBAT_B: 7.29 V
+	 Reboot to normal: 35
+FileSendSuccessFrame: CID=031 Seq=612
+FileSendErrorFrame: Seq=730
+BeaconFrame @ 9600 bps
+      BP VOLT 7.18 V, 7.22 V
+!!!!! BP TEMP -3.19 C, -3.69 C, -4.20 C
+      COMM PA TEMP NOW -0.67 C LAST -1.06 C
+      COMM RX Current 50.54 mA
+      GYRO UNCAL -2.85 deg/sec, -3.97 deg/sec, 1.81 deg/sec
+      EXPERIMENT None
+      MCU TEMP -8.33 C
+      3V3 DISTR CURRENT 35 mA
+
+FileSendErrorFrame: Seq=736
+FileSendSuccessFrame: CID=030 Seq=593
+BeaconFrame @ 9600 bps
+      BP VOLT 7.21 V, 7.23 V
+!!!!! BP TEMP -2.88 C, -3.38 C, -4.20 C
+      COMM PA TEMP NOW 4.24 C LAST 5.93 C
+      COMM RX Current 50.32 mA
+      GYRO UNCAL -2.92 deg/sec, -3.90 deg/sec, 1.67 deg/sec
+      EXPERIMENT None
+      MCU TEMP -6.90 C
+      3V3 DISTR CURRENT 40 mA
+
+FileSendSuccessFrame: CID=031 Seq=700
+FileSendSuccessFrame: CID=030 Seq=718
+FileSendSuccessFrame: CID=030 Seq=568
+FileSendSuccessFrame: CID=031 Seq=562
+BeaconFrame @ 9600 bps
+      BP VOLT 7.17 V, 7.21 V
+!!!!! BP TEMP -3.25 C, -3.75 C, -4.20 C
+      COMM PA TEMP NOW -1.22 C LAST -1.38 C
+      COMM RX Current 50.20 mA
+      GYRO UNCAL -3.06 deg/sec, -4.03 deg/sec, 1.67 deg/sec
+      EXPERIMENT None
+      MCU TEMP -8.81 C
+      3V3 DISTR CURRENT 35 mA
+
+FileSendErrorFrame: Seq=724
+FileSendSuccessFrame: CID=030 Seq=630
+FileSendSuccessFrame: CID=030 Seq=693
+	Time: 40.0s
+	 VBAT_A: 7.27 V
+	 VBAT_B: 7.28 V
+	 Reboot to normal: 35
+FileSendSuccessFrame: CID=031 Seq=650
+FileSendSuccessFrame: CID=030 Seq=580
