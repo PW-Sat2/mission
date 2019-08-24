@@ -17,10 +17,10 @@ tasks = [
     
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
-    [tc.TakePhotoTelecommand(11, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=0), 'x1_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(11, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=1), 'x1_128'), Send, WaitMode.Wait],
     [tc.TakePhotoTelecommand(12, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'x1_480'), Send, WaitMode.Wait],
 
-    [tc.TakePhotoTelecommand(13, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=1), 'x2_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(13, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=0), 'x2_128'), Send, WaitMode.Wait],
     [tc.TakePhotoTelecommand(14, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'x2_480'), Send, WaitMode.Wait],
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
