@@ -73,7 +73,7 @@ tasks = [
     [tc.TakePhotoTelecommand(172, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=2, seconds=30), 'p23_128'), Send, WaitMode.Wait],
     [tc.TakePhotoTelecommand(173, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=0), 'p24_128'), Send, WaitMode.Wait],
 
-    [tc.TakePhotoTelecommand(173, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=2, seconds=30), 'p25_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(193, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=2, seconds=30), 'p25_128'), Send, WaitMode.Wait],
     [tc.TakePhotoTelecommand(174, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=0), 'p26_128'), Send, WaitMode.Wait],
 
     [tc.TakePhotoTelecommand(175, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=2, seconds=30), 'p27_128'), Send, WaitMode.Wait],
@@ -95,7 +95,7 @@ tasks = [
     [tc.TakePhotoTelecommand(186, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=0), 'p38_128'), Send, WaitMode.Wait],
 
     [tc.TakePhotoTelecommand(187, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=2, seconds=30), 'p39_128'), Send, WaitMode.Wait],
-    [tc.TakePhotoTelecommand(188, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=0), 'p40_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(194, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=0), 'p40_128'), Send, WaitMode.Wait],
 
     [tc.TakePhotoTelecommand(189, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=2, seconds=30), 'p41_128'), Send, WaitMode.Wait],
     [tc.TakePhotoTelecommand(190, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(minutes=0), 'p42_128'), Send, WaitMode.Wait],
