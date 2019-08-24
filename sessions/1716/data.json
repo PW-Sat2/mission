@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-08-25T00:16:19+02:00", 
         "stop_time_iso_with_zone": "2019-08-25T00:25:30+02:00", 
         "maximum_elevation": 7.68, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "download"
         ], 
-        "short_description": ""
+        "short_description": "Downloading SunS photos"
     }
 }
