@@ -26,39 +26,39 @@ tasks = [
 
     # Orbit 1, 23:02, 60 N, Alaska
     [tc.TakePhotoTelecommand(200, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=19), 't01w_128'), Send, WaitMode.Wait],
-    [tc.TakePhotoTelecommand(201, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(seconds=0), 't01w_480'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(201, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(seconds=0), 't01w_480'), Send, WaitMode.NoWait],
     [tc.TakePhotoTelecommand(202, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(seconds=0), 't01n_128'), Send, WaitMode.NoWait], 
-    [tc.TakePhotoTelecommand(203, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(seconds=0), 't01n_480'), Send, WaitMode.NoWait],
+    [tc.TakePhotoTelecommand(203, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(seconds=0), 't01n_480'), Send, WaitMode.Wait],
 
     # Orbit 1, 23:09, 40 N, ocean
-    [tc.TakePhotoTelecommand(204, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=7), 't02w_128'), Send, WaitMode.Wait],
-    [tc.TakePhotoTelecommand(205, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(seconds=0), 't02n_128'), Send, WaitMode.NoWait], 
+    [tc.TakePhotoTelecommand(204, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=7), 't02w_128'), Send, WaitMode.NoWait],
+    [tc.TakePhotoTelecommand(205, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(seconds=0), 't02n_128'), Send, WaitMode.Wait], 
  
     # Orbit 1, time extender
     [tc.TakePhotoTelecommand(206, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=59, seconds=30), 'dummy_1'), Send, WaitMode.Wait],
  
     # Orbit 2, 00:38, 60 N, more Alaska
     [tc.TakePhotoTelecommand(207, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=29), 't03w_128'), Send, WaitMode.Wait],
-    [tc.TakePhotoTelecommand(208, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(seconds=0), 't03w_480'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(208, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(seconds=0), 't03w_480'), Send, WaitMode.NoWait],
     [tc.TakePhotoTelecommand(209, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(seconds=0), 't03n_128'), Send, WaitMode.NoWait], 
-    [tc.TakePhotoTelecommand(210, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(seconds=0), 't03n_480'), Send, WaitMode.NoWait],
+    [tc.TakePhotoTelecommand(210, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(seconds=0), 't03n_480'), Send, WaitMode.Wait],
 
     # Orbit 2, 00:45, 40 N, ocean
-    [tc.TakePhotoTelecommand(211, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=7), 't04w_128'), Send, WaitMode.Wait],
-    [tc.TakePhotoTelecommand(212, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(seconds=0), 't04n_128'), Send, WaitMode.NoWait], 
+    [tc.TakePhotoTelecommand(211, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=7), 't04w_128'), Send, WaitMode.NoWait],
+    [tc.TakePhotoTelecommand(212, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(seconds=0), 't04n_128'), Send, WaitMode.Wait], 
  
     # Orbit 2, time extender
     [tc.TakePhotoTelecommand(213, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=59, seconds=30), 'dummy_2'), Send, WaitMode.Wait],
  
     # Orbit 3, 02:14, 60 N, Siberia
     [tc.TakePhotoTelecommand(214, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=29), 't05w_128'), Send, WaitMode.Wait],
-    [tc.TakePhotoTelecommand(215, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(seconds=0), 't05w_480'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(215, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(seconds=0), 't05w_480'), Send, WaitMode.NoWait],
     [tc.TakePhotoTelecommand(216, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(seconds=0), 't05n_128'), Send, WaitMode.NoWait], 
-    [tc.TakePhotoTelecommand(217, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(seconds=0), 't05n_480'), Send, WaitMode.NoWait],
+    [tc.TakePhotoTelecommand(217, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(seconds=0), 't05n_480'), Send, WaitMode.Wait],
 
     # Orbit 3, 02:21, 40 N, ocean
-    [tc.TakePhotoTelecommand(218, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=7), 't06w_128'), Send, WaitMode.Wait],
-    [tc.TakePhotoTelecommand(219, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(seconds=0), 't06n_128'), Send, WaitMode.NoWait], 
+    [tc.TakePhotoTelecommand(218, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=7), 't06w_128'), Send, WaitMode.NoWait],
+    [tc.TakePhotoTelecommand(219, CameraLocation.Nadir, PhotoResolution.p128, 1, datetime.timedelta(seconds=0), 't06n_128'), Send, WaitMode.Wait], 
  
     # Orbit 3, time extender
     [tc.TakePhotoTelecommand(220, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=59, seconds=30), 'dummy_3'), Send, WaitMode.Wait],
