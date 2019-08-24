@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-08-24T22:38:51+02:00", 
         "stop_time_iso_with_zone": "2019-08-24T22:51:27+02:00", 
         "maximum_elevation": 71.92, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "photos"
         ], 
-        "short_description": ""
+        "short_description": "Super Long Photo Delays Experiment, part 1"
     }
 }
