@@ -22,7 +22,14 @@ tasks = [
     [tc.DownloadFile(76, '/telemetry.previous', [2135, 2185, 2235, 1597, 1647, 1697, 1747, 1797, 1847, 1897, 1947, 1997, 2047, 2097, 2147, 2197, 2247, 1477]), Send, WaitMode.Wait],
     [tc.DownloadFile(77, '/telemetry.current', [167, 217, 267, 317, 367]), Send, WaitMode.Wait],
     # auto-generated telemetry end
-
+    
+    # more telemetry during reboot start
+    [tc.DownloadFile(170, '/telemetry.previous', [i for i in range(1370, 1390, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(171, '/telemetry.previous', [i for i in range(1390, 1410, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(172, '/telemetry.previous', [i for i in range(1410, 1430, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(173, '/telemetry.previous', [i for i in range(1430, 1450, 1)]), Send, WaitMode.Wait],
+    [tc.DownloadFile(174, '/telemetry.previous', [i for i in range(1450, 1470, 1)]), Send, WaitMode.Wait],
+    # more telemetry during reboot end
 
     # missing from previous session start
     [tc.DownloadFile(33, '/p1_128_0', [11, 12]), Send, WaitMode.Wait],
