@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-08-31T10:11:45+02:00", 
         "stop_time_iso_with_zone": "2019-08-31T10:22:06+02:00", 
         "maximum_elevation": 13.25, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "suns"
         ], 
-        "short_description": ""
+        "short_description": "Wake up and SunS experiment run (suns_ps_12)"
     }
 }
