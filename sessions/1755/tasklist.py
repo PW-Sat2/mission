@@ -15,6 +15,9 @@ tasks = [
     [tc.DownloadFile(34, '/telemetry.current', [281, 331, 381, 193, 243, 293, 343, 393, 205, 255, 305, 355, 217, 267, 317, 367]), Send, WaitMode.Wait],
     # auto-generated telemetry end
 
+    # suns experiment
+    [tc.PerformSunSExperiment(3, 0, 20, 100, datetime.timedelta(seconds=3), 50, datetime.timedelta(seconds=10), 'suns_ps_14'), Send, WaitMode.Wait],
+
 
     # missing from previous session start
     [tc.DownloadFile(30, '/suns_ps_12', [101, 104, 144, 151, 152, 156, 158, 171, 183, 184, 190, 192, 193, 197, 240]), Send, WaitMode.Wait],
