@@ -6,10 +6,11 @@
         "start_time_iso_with_zone": "2019-08-31T11:46:16+02:00", 
         "stop_time_iso_with_zone": "2019-08-31T11:59:04+02:00", 
         "maximum_elevation": 86.02, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry",
+            "suns"
         ], 
-        "short_description": ""
+        "short_description": "Telemetry download. SunS download (suns_ps_12) and run of the experiment for one orbit. (suns_ps_13)"
     }
 }
