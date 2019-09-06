@@ -6,7 +6,7 @@ tasks = [
     [tc.PingTelecommand(), Send, WaitMode.Wait],
 
     # Set bitrate
-    [tc.SetoBitrate(1, BaudRate.BaudRate9600), Send, WaitMode.Wait],
+    [tc.SetBitrate(1, BaudRate.BaudRate9600), Send, WaitMode.Wait],
 
     # Get beacon
     [tc.SendBeacon(), Send, WaitMode.Wait],
