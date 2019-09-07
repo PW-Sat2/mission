@@ -1,5 +1,5 @@
 tasks = [
-[tc.DownloadFile(30, '/telemetry.current', [1190, 1240, 1283]), Send, WaitMode.Wait],
+[tc.DownloadFile(30, '/telemetry.current', [1190, 1233, 1240, 1283]), Send, WaitMode.Wait],
 	[tc.DownloadFile(31, '/t01n_480_0', [20]), Send, WaitMode.Wait],
 	[tc.DownloadFile(32, '/t01w_480_0', [51, 53, 57, 61, 62, 64, 66, 67, 75, 81, 147]), Send, WaitMode.Wait],
 	[tc.DownloadFile(33, '/t02n_480_0', [40, 72, 73, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111]), Send, WaitMode.Wait],
