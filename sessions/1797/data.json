@@ -2,14 +2,13 @@
     "Session": {
         "index": 1797, 
         "phase": "zZz", 
-        "primary": "elka", 
+        "primary": "fp", 
         "start_time_iso_with_zone": "2019-09-07T13:21:04+02:00", 
         "stop_time_iso_with_zone": "2019-09-07T13:31:26+02:00", 
         "maximum_elevation": 11.91, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
         ], 
-        "short_description": ""
+        "short_description": "Well, we'll see."
     }
 }
