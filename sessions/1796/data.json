@@ -2,14 +2,13 @@
     "Session": {
         "index": 1796, 
         "phase": "zZz", 
-        "primary": "elka", 
+        "primary": "fp", 
         "start_time_iso_with_zone": "2019-09-07T11:45:29+02:00", 
         "stop_time_iso_with_zone": "2019-09-07T11:58:27+02:00", 
         "maximum_elevation": 88.51, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
         ], 
-        "short_description": ""
+        "short_description": "Wake up. 21st RadFET experiment and hurricane hunting."
     }
 }
