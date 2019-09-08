@@ -31,7 +31,17 @@ tasks = [
     [tc.DownloadFile(39, '/t09w_480_0', [108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 146]), Send, WaitMode.Wait],
     # missing from previous session end
 
+    [tc.SendBeacon(), Send, WaitMode.Wait],
 
+    ["Set bootslots for deep_sleep.", Print, WaitMode.NoWait],
+    [tc.SetBootSlots(103, 0b111000, 0b111), Send, WaitMode.Wait],
+
+    # Wait for good uplink before power cycle
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+
+    # Power cycle EPS B
+    [tc.PowerCycleTelecommand(3), Send, WaitMode.Wait],
+    
     # auto-generated file download start
     
     # auto-generated file download end
