@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-09-08T11:45:12+02:00", 
         "stop_time_iso_with_zone": "2019-09-08T11:58:04+02:00", 
         "maximum_elevation": 89.16, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Telemetry + missings"
     }
 }
