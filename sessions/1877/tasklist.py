@@ -62,7 +62,7 @@ tasks = [
     [tc.TakePhotoTelecommand(127, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(seconds=0), 't10n_480'), Send, WaitMode.Wait],
 
     # Waiting from 07:03 to 08:32
-    [tc.TakePhotoTelecommand(128, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=59, seconds=50), 'dummy_6'), Send, WaitMode.Wait],   
+    [tc.TakePhotoTelecommand(128, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=59, seconds=50), 'dummy_9'), Send, WaitMode.Wait],   
 
     # Orbit 3, Middle East, 08:32 - 08:36
     [tc.TakePhotoTelecommand(129, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=29), 't11w_480'), Send, WaitMode.Wait],
