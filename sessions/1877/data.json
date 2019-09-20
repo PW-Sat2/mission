@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-09-20T22:28:59+02:00", 
         "stop_time_iso_with_zone": "2019-09-20T22:41:35+02:00", 
         "maximum_elevation": 86.27, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Photos Made in China"
     }
 }
