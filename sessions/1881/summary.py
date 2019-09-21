@@ -14,3 +14,7 @@ photosDummy = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 for p in photosDummy:
     extract_file('dummy_{}_0'.format(p), also=PHOTO_SESSIONS)
     decode_photo('assembled/dummy_{}_0'.format(p), output_file_name='assembled/dummy_{}_0.jpg'.format(p))
+
+# t01, t02, t03 - Japan, 03:45 - 03:47
+# t04, t05, t06, t07, t08, t09, t10 - China, Nepal, India, 06:57 - 07:03
+# t11, t12, t13, t14, t15 - Kazakhstan, Middle East, 08:32 - 08:36
