@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-09-21T22:28:14+02:00", 
         "stop_time_iso_with_zone": "2019-09-21T22:40:52+02:00", 
         "maximum_elevation": 84.7, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Reboot, telemetry and missings download."
     }
 }
