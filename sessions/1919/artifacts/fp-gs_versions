@@ -1,0 +1,16 @@
+05297104c7faf8941258fd72197abcce2c3ec3f0
+find: paths must precede expression: `parse.py'
+find: possible unquoted pattern after predicate `-iname'?
+GS Name: fp-gs
+OS: Linux satelajt 4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+GSControl directory: /home/sat_user/gs/GSControl
+GSControl revision: 57f820b62a9386b7a583ff5fb1da0a64287b5864 (dirty)
+Mission directory: /home/sat_user/gs/mission
+Mission revision: 05297104c7faf8941258fd72197abcce2c3ec3f0
+Python path: /usr/bin/python2.7
+Python version: Python 2.7.15+
+GnuRadio path /home/sat_user/gr-new/bin/gnuradio-companion
+GnuRadio version 3.7.12.0
+gr-kiss checksum d41d8cd98f00b204e9800998ecf8427e
+GPredict path: /usr/bin/gpredict
+GPredict version: 2.2.1-ubuntu18.04~ppa3
