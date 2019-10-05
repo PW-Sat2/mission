@@ -6,7 +6,7 @@
         "start_time_iso_with_zone": "2019-09-21T11:36:50+02:00", 
         "stop_time_iso_with_zone": "2019-09-21T11:49:43+02:00", 
         "maximum_elevation": 85.05, 
-        "status": "planned", 
+        "status": "success", 
         "session_tasks": [
             "telemetry",
             "photo-dowload"
