@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-10-05T22:15:52+02:00", 
         "stop_time_iso_with_zone": "2019-10-05T22:28:29+02:00", 
         "maximum_elevation": 83.37, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Download telemetry and high res photos"
     }
 }
