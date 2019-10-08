@@ -3,12 +3,12 @@
         "index": 1990, 
         "phase": "zZz", 
         "primary": "fp", 
-        "start_time_iso_with_zone": "2019-10-08T22:12:36+02:00", 
+        "start_time_iso_with_zone": "2019-10-08T22:11:36+02:00", 
         "stop_time_iso_with_zone": "2019-10-08T22:25:11+02:00", 
         "maximum_elevation": 77.17, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "refresh-deep-sleep"
         ], 
         "short_description": ""
     }
