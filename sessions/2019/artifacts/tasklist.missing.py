@@ -1,0 +1,22 @@
+tasks = [
+[tc.DownloadFile(30, '/telemetry.current', [477, 483, 533]), Send, WaitMode.Wait],
+	[tc.DownloadFile(31, '/dummy_1_0', [0, 1, 2, 3, 4, 5, 6, 7, 8]), Send, WaitMode.Wait],
+	[tc.DownloadFile(32, '/dummy_4_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]), Send, WaitMode.Wait],
+	[tc.DownloadFile(33, '/t04w_480_0', [14, 17]), Send, WaitMode.Wait],
+	[tc.DownloadFile(34, '/t07w_480_0', [8]), Send, WaitMode.Wait],
+	[tc.DownloadFile(35, '/t08n_480_0', [24]), Send, WaitMode.Wait],
+	[tc.DownloadFile(36, '/t08w_480_0', [2, 7, 28, 29]), Send, WaitMode.Wait],
+	[tc.DownloadFile(37, '/t09n_480_0', [16]), Send, WaitMode.Wait],
+	[tc.DownloadFile(38, '/dummy_2_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]), Send, WaitMode.Wait],
+	[tc.DownloadFile(39, '/dummy_2_0', [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]), Send, WaitMode.Wait],
+	[tc.DownloadFile(40, '/dummy_3_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]), Send, WaitMode.Wait],
+	[tc.DownloadFile(41, '/dummy_3_0', [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]), Send, WaitMode.Wait],
+	[tc.DownloadFile(42, '/t09w_480_0', [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]), Send, WaitMode.Wait],
+	[tc.DownloadFile(43, '/t09w_480_0', [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]), Send, WaitMode.Wait],
+	[tc.DownloadFile(44, '/t10n_480_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]), Send, WaitMode.Wait],
+	[tc.DownloadFile(45, '/t10n_480_0', [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]), Send, WaitMode.Wait],
+	[tc.DownloadFile(46, '/t10n_480_0', [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]), Send, WaitMode.Wait],
+	[tc.DownloadFile(47, '/t10w_480_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]), Send, WaitMode.Wait],
+	[tc.DownloadFile(48, '/t10w_480_0', [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34]), Send, WaitMode.Wait],
+	[tc.DownloadFile(49, '/t10w_480_0', [35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51]), Send, WaitMode.Wait]
+]
