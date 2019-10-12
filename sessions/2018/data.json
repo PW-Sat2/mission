@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-10-12T22:06:00+02:00", 
         "stop_time_iso_with_zone": "2019-10-12T22:18:32+02:00", 
         "maximum_elevation": 65.81, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Night photos of Western Europe and USA. Download all photos."
     }
 }
