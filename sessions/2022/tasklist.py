@@ -41,7 +41,15 @@ tasks = [
 
 
     # auto-generated file download start
-
+    [tc.DownloadFile(52, '/dummy_10_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]), Send, WaitMode.Wait],
+    [tc.DownloadFile(53, '/dummy_10_0', [14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]), Send, WaitMode.Wait],
+    [tc.DownloadFile(54, '/dummy_11_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]), Send, WaitMode.Wait],
+    [tc.DownloadFile(55, '/dummy_11_0', [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]), Send, WaitMode.Wait],
+    [tc.DownloadFile(56, '/dummy_12_0', [0, 1, 2, 3, 4, 5]), Send, WaitMode.Wait],
+    [tc.DownloadFile(57, '/dummy_7_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]), Send, WaitMode.Wait],
+    [tc.DownloadFile(58, '/dummy_8_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]), Send, WaitMode.Wait],
+    [tc.DownloadFile(59, '/dummy_8_0', [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]), Send, WaitMode.Wait],
+    [tc.DownloadFile(60, '/dummy_9_0', [0, 1, 2, 3, 4, 5]), Send, WaitMode.Wait],
     [tc.DownloadFile(61, '/t17n_480_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]), Send, WaitMode.Wait],
     [tc.DownloadFile(62, '/t17n_480_0', [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]), Send, WaitMode.Wait],
     [tc.DownloadFile(63, '/t17n_480_0', [36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]), Send, WaitMode.Wait],
