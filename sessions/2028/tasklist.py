@@ -24,6 +24,7 @@ tasks = [
     [tc.DownloadFile(56, '/telemetry.current', [1727, 1777, 1827, 1877, 1927, 1977, 2027, 2077, 2127, 2177, 713]), Send, WaitMode.Wait],
     # auto-generated telemetry end
 
+    [tc.SendBeacon(), Send, WaitMode.Wait],
 
     # missing from previous session start
     [tc.DownloadFile(40, '/t23n_480_0', [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47]), Send, WaitMode.Wait],
@@ -35,15 +36,19 @@ tasks = [
     # missing from previous session end
 
 
-    # auto-generated file download start
-    
-    # auto-generated file download end
+    # if good session:    
+    # Carefully waste some session time
+    [tc.SendBeacon(), Send, WaitMode.Wait],
 
+    ["Set bootslots for deep_sleep.", Print, WaitMode.NoWait],
+    [tc.SetBootSlots(103, 0b111000, 0b111), Send, WaitMode.Wait],
 
-    # auto-generated file remove start
-    
-    # auto-generated file remove end
+    # Wait for good uplink before power cycle
+    [tc.SendBeacon(), Send, WaitMode.Wait],
 
+    # Power cycle EPS B
+    [tc.PowerCycleTelecommand(3), Send, WaitMode.Wait],
 
+    # Get beacons from deep-sleep
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
