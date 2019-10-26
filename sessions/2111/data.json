@@ -6,10 +6,9 @@
         "start_time_iso_with_zone": "2019-10-26T21:43:58+02:00", 
         "stop_time_iso_with_zone": "2019-10-26T21:56:07+02:00", 
         "maximum_elevation": 39.16, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
         ], 
-        "short_description": ""
+        "short_description": "Wake up. 24th RadFET experiment + The Satellite of the Rising Sun"
     }
 }
