@@ -6,10 +6,9 @@
         "start_time_iso_with_zone": "2019-10-26T23:18:43+02:00", 
         "stop_time_iso_with_zone": "2019-10-26T23:30:56+02:00", 
         "maximum_elevation": 30.8, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
         ], 
-        "short_description": ""
+        "short_description": "The Satellite of the Rising Sun"
     }
 }
