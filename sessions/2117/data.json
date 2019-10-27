@@ -2,14 +2,14 @@
     "Session": {
         "index": 2117, 
         "phase": "zZz", 
-        "primary": "elka", 
+        "primary": "fp", 
         "start_time_iso_with_zone": "2019-10-27T19:10:32+01:00", 
         "stop_time_iso_with_zone": "2019-10-27T19:18:24+01:00", 
         "maximum_elevation": 6.07, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Telemetry + photos. Low elev."
     }
 }
