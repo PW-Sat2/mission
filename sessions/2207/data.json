@@ -6,10 +6,8 @@
         "start_time_iso_with_zone": "2019-11-09T21:46:19+01:00", 
         "stop_time_iso_with_zone": "2019-11-09T21:59:07+01:00", 
         "maximum_elevation": 67.88, 
-        "status": "auto", 
-        "session_tasks": [
-            "sleep-beacon"
-        ], 
-        "short_description": ""
+        "status": "planned", 
+        "session_tasks": [], 
+        "short_description": "Telemetry and photo download. Going to Hawaii."
     }
 }
