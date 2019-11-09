@@ -6,7 +6,7 @@
         "start_time_iso_with_zone": "2019-11-06T21:54:04+01:00", 
         "stop_time_iso_with_zone": "2019-11-06T22:06:43+01:00", 
         "maximum_elevation": 55.67, 
-        "status": "planned", 
+        "status": "success", 
         "session_tasks": [
             "refresh-deep-sleep"
         ], 

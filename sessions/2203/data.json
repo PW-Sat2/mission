@@ -6,7 +6,7 @@
         "start_time_iso_with_zone": "2019-11-09T09:21:27+01:00", 
         "stop_time_iso_with_zone": "2019-11-09T09:32:10+01:00", 
         "maximum_elevation": 14.63, 
-        "status": "planned", 
+        "status": "success", 
         "session_tasks": [
         ], 
         "short_description": "Download radfet & 20 chunks of each photo"
