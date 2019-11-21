@@ -8,8 +8,8 @@
         "maximum_elevation": 76.62, 
         "status": "auto", 
         "session_tasks": [
-            "sleep-beacon"
-        ], 
-        "short_description": ""
+            "refresh-deep-sleep"
+        ],
+        "short_description": "Reboot to normal and back to deep sleep"
     }
 }
