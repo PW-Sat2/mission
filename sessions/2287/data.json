@@ -6,10 +6,9 @@
         "start_time_iso_with_zone": "2019-11-22T21:12:37+01:00", 
         "stop_time_iso_with_zone": "2019-11-22T21:25:07+01:00", 
         "maximum_elevation": 71.59, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
         ], 
-        "short_description": ""
+        "short_description": "Wake up, Rad-FET and new movie."
     }
 }
