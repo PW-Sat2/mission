@@ -2,14 +2,14 @@
     "Session": {
         "index": 2291, 
         "phase": "zZz", 
-        "primary": "elka", 
+        "primary": "fp", 
         "start_time_iso_with_zone": "2019-11-23T11:54:23+01:00", 
         "stop_time_iso_with_zone": "2019-11-23T12:05:59+01:00", 
         "maximum_elevation": 21.45, 
         "status": "auto", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Photos download + telemetry"
     }
 }
