@@ -8,6 +8,7 @@ tasks = [
 
     # ReadMemory, weird telecommands
     [tc.ReadMemory(2, 0x8801b620, 248), Send, WaitMode.Wait], # scrubbing
+    [tc.ReadMemory(6, 0x88018760, 3720), Send, WaitMode.Wait], # YAFFS_dev structure
 
     # Wait until good communication
     [tc.SendBeacon(), Send, WaitMode.Wait],
