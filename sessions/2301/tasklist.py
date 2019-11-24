@@ -6,6 +6,10 @@ tasks = [
 
     [[tc.SendBeacon(), 10], SendLoop, WaitMode.NoWait],
 
+    [tc.PowerCycleTelecommand(3), Send, WaitMode.Wait],
+    [tc.SetBitrate(4, BaudRate.BaudRate9600), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+    
     [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
