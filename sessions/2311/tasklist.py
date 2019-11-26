@@ -23,6 +23,9 @@ tasks = [
     [tc.DownloadFile(39, '/telemetry.previous', [1864, 1914, 1964, 2014, 2064, 2114, 2164, 2214, 2264, 1076, 1126, 1176, 1226, 1276, 1326, 1376, 1426, 1476, 1526, 1576]), Send, WaitMode.Wait],
     [tc.DownloadFile(40, '/telemetry.previous', [1626, 1676, 1726, 1776, 1826, 1876, 1926, 1976, 2026, 2076, 2126, 2176, 2226, 2276, 1088, 1138, 1188, 1238, 1288, 1338]), Send, WaitMode.Wait],
     [tc.DownloadFile(41, '/telemetry.previous', [1388, 1438, 1488, 1538, 1588, 1638, 1688, 1738, 1788, 1838, 1888, 1938, 1988, 2038, 2088, 2138, 2188, 2238]), Send, WaitMode.Wait],
+    [tc.DownloadFile(42, '/telemetry.previous', [11, 61, 111, 161, 211, 36, 86, 136, 186, 236, 24, 74, 124, 174, 224, 48, 98, 148, 198, 248]), Send, WaitMode.Wait],
+    [tc.DownloadFile(43, '/telemetry.previous', [18, 68, 118, 168, 218, 30, 80, 130, 180, 230, 42, 92, 142, 192, 242, 4, 54, 104, 154, 204]), Send, WaitMode.Wait],
+    [tc.DownloadFile(44, '/telemetry.previous', [254]), Send, WaitMode.Wait],
     # auto-generated telemetry end
 
 
