@@ -8,3 +8,5 @@ for p in lr_photos:
 
     extract_file('t02w_240_{}'.format(p), also=PHOTO_SESSIONS)
     decode_photo('assembled/t02w_240_{}'.format(p), output_file_name='assembled/t02w_240_{}.jpg'.format(p))
+
+dump_scrubbing_status(2)
