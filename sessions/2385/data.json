@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2019-12-06T23:40:30+01:00", 
         "stop_time_iso_with_zone": "2019-12-06T23:47:38+01:00", 
         "maximum_elevation": 4.21, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Low elevation - file list"
     }
 }
