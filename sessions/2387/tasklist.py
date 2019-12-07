@@ -12,12 +12,20 @@ tasks = [
 
     # auto-generated telemetry start
     [tc.DownloadFile(88, '/telemetry.current', [1450, 1500, 1550, 1600, 1650, 1475, 1525, 1575, 1625, 1463, 1513, 1563, 1613, 1663, 1487, 1537, 1587, 1637, 1457, 1507]), Send, WaitMode.Wait],
-    [tc.DownloadFile(89, '/telemetry.current', [1557, 1607, 1657, 1469, 1519, 1569, 1619, 1669, 1481, 1531, 1581, 1631, 1493, 1543, 1593, 1643]), Send, WaitMode.Wait],
+    [tc.DownloadFile(89, '/telemetry.current', [1557, 1607, 1657, 1469, 1519, 1569, 1619, 1669, 1481, 1531, 1581, 1631, 1493, 1543, 1593, 1643, 1443]), Send, WaitMode.Wait],
     # auto-generated telemetry end
 
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+
+    # Long Movie Over Europe, don't have to wait
+    [tc.TakePhotoTelecommand(100, CameraLocation.Wing, PhotoResolution.p240, 29, datetime.timedelta(minutes=2), 't01w_240'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(101, CameraLocation.Wing, PhotoResolution.p240, 29, datetime.timedelta(seconds=0), 't02w_240'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(102, CameraLocation.Wing, PhotoResolution.p240, 29, datetime.timedelta(seconds=0), 't03w_240'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(103, CameraLocation.Wing, PhotoResolution.p240, 7, datetime.timedelta(seconds=0), 't04w_240'), Send, WaitMode.Wait],
+
+    [tc.SendBeacon(), Send, WaitMode.Wait],
 
     # missing from previous session start
-    [tc.DownloadFile(30, '/telemetry.current', [1443]), Send, WaitMode.Wait],
     [tc.DownloadFile(31, '/suns_ps_16', [47, 48, 59, 60, 62, 63, 64, 65, 66, 102, 114, 119, 120, 121, 122, 123, 124, 125, 126, 127]), Send, WaitMode.Wait],
     [tc.DownloadFile(32, '/suns_ps_16', [128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147]), Send, WaitMode.Wait],
     [tc.DownloadFile(33, '/suns_ps_16', [148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167]), Send, WaitMode.Wait],
