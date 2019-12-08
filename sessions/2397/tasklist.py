@@ -24,8 +24,10 @@ tasks = [
 
 
     # missing from previous session start
-    [tc.DownloadFile(30, '/telemetry.current', [930, 992, 1006, 1018, 1030, 1042, 1056, 1068, 1080, 1092, 1106, 1118, 1130, 1142, 1168, 1180, 1953, 1960, 1966]), Send, WaitMode.Wait],
-    [tc.DownloadFile(31, '/telemetry.current', [1978, 1990, 2003, 2010, 2016, 2028, 2040, 2053, 2060, 2066, 2078, 2090, 2103, 2110, 2116, 2128, 2140, 2153, 2166]), Send, WaitMode.Wait],
+    [tc.DownloadFile(30, '/telemetry.previous', [930, 992, 1006, 1018, 1030, 1042, 1056, 1068, 1080, 1092, 1106, 1118, 1130, 1142, 1168, 1180, 1953, 1960, 1966]), Send, WaitMode.Wait],
+    [tc.DownloadFile(31, '/telemetry.previous', [1978, 1990, 2003, 2010, 2016, 2028, 2040, 2053, 2060, 2066, 2078, 2090, 2103, 2110, 2116, 2128, 2140, 2153, 2166]), Send, WaitMode.Wait],
+    [tc.DownloadFile(71, '/t01w_240_9', [17, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]), Send, WaitMode.Wait],
+    [tc.DownloadFile(72, '/t01w_240_9', [51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67]), Send, WaitMode.Wait],
     [tc.DownloadFile(32, '/t01w_240_15', [40, 61, 64, 65, 67, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86]), Send, WaitMode.Wait],
     [tc.DownloadFile(33, '/t01w_240_17', [18, 19, 20, 22, 23, 28, 43, 44, 46, 48]), Send, WaitMode.Wait],
     [tc.DownloadFile(34, '/t01w_240_18', [27, 30, 31, 32, 42, 43, 44, 45, 46, 47, 48, 49]), Send, WaitMode.Wait],
@@ -65,8 +67,6 @@ tasks = [
     [tc.DownloadFile(68, '/t01w_240_28', [35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51]), Send, WaitMode.Wait],
     [tc.DownloadFile(69, '/t01w_240_28', [52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68]), Send, WaitMode.Wait],
     [tc.DownloadFile(70, '/t01w_240_28', [69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85]), Send, WaitMode.Wait],
-    [tc.DownloadFile(71, '/t01w_240_9', [17, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]), Send, WaitMode.Wait],
-    [tc.DownloadFile(72, '/t01w_240_9', [51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67]), Send, WaitMode.Wait],
     # missing from previous session end
 
 
