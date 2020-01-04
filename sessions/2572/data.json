@@ -6,10 +6,11 @@
         "start_time_iso_with_zone": "2020-01-04T21:45:24+01:00", 
         "stop_time_iso_with_zone": "2020-01-04T21:57:56+01:00", 
         "maximum_elevation": 77.64, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry",
+            "photos"
         ], 
-        "short_description": ""
+        "short_description": "Download Rad-FET and Photos."
     }
 }
