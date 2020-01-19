@@ -6,10 +6,11 @@
         "start_time_iso_with_zone": "2020-01-19T11:22:27+01:00", 
         "stop_time_iso_with_zone": "2020-01-19T11:34:58+01:00", 
         "maximum_elevation": 46.49, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry",
+            "power-cycle-B"
         ], 
-        "short_description": ""
+        "short_description": "Photors and telemetry download"
     }
 }
