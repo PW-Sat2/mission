@@ -1,4 +1,4 @@
-PHOTO_SESSIONS = [2749, 2751]
+PHOTO_SESSIONS = [2749, 2751, 2752]
 
 lr_photos = range(0, 29)
 lr_photos2 = range(0, 7)
