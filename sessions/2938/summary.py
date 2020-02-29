@@ -2,7 +2,7 @@ PHOTO_SESSIONS = [2938]
 
 photos = range(0, 5)
 
-for p in lr_photos:
+for p in photos:
     extract_file('t{}w_480_0'.format(p), also=PHOTO_SESSIONS)
     decode_photo('assembled/t{}w_480_0'.format(p), output_file_name='assembled/t{}w_480_0.jpg'.format(p))
 
