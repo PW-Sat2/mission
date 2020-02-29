@@ -1,0 +1,22 @@
+tasks = [
+[tc.DownloadFile(30, '/t0n_480_0', [80, 81, 82, 83, 84, 85, 86, 87, 88, 89]), Send, WaitMode.Wait],
+	[tc.DownloadFile(31, '/t0n_480_0', [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]), Send, WaitMode.Wait],
+	[tc.DownloadFile(32, '/t0w_480_0', [80, 81, 82, 83, 84, 85, 86, 87, 88, 89]), Send, WaitMode.Wait],
+	[tc.DownloadFile(33, '/t0w_480_0', [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]), Send, WaitMode.Wait],
+	[tc.DownloadFile(34, '/t1n_480_0', [80, 81, 82, 83, 84, 85, 86, 87, 88, 89]), Send, WaitMode.Wait],
+	[tc.DownloadFile(35, '/t1n_480_0', [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]), Send, WaitMode.Wait],
+	[tc.DownloadFile(36, '/t1w_480_0', [80, 81, 82, 83, 84, 85, 86, 87, 88, 89]), Send, WaitMode.Wait],
+	[tc.DownloadFile(37, '/t1w_480_0', [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]), Send, WaitMode.Wait],
+	[tc.DownloadFile(38, '/t2n_480_0', [80, 81, 82, 83, 84, 85, 86, 87, 88, 89]), Send, WaitMode.Wait],
+	[tc.DownloadFile(39, '/t2n_480_0', [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]), Send, WaitMode.Wait],
+	[tc.DownloadFile(40, '/t2w_480_0', [80, 81, 82, 83, 84, 85, 86, 87, 88, 89]), Send, WaitMode.Wait],
+	[tc.DownloadFile(41, '/t2w_480_0', [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]), Send, WaitMode.Wait],
+	[tc.DownloadFile(42, '/t3n_480_0', [80, 81, 82, 83, 84, 85, 86, 87, 88, 89]), Send, WaitMode.Wait],
+	[tc.DownloadFile(43, '/t3n_480_0', [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]), Send, WaitMode.Wait],
+	[tc.DownloadFile(44, '/t3w_480_0', [80, 81, 82, 83, 84, 85, 86, 87, 88, 89]), Send, WaitMode.Wait],
+	[tc.DownloadFile(45, '/t3w_480_0', [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]), Send, WaitMode.Wait],
+	[tc.DownloadFile(46, '/t4n_480_0', [60, 61, 68, 70, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83]), Send, WaitMode.Wait],
+	[tc.DownloadFile(47, '/t4n_480_0', [84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]), Send, WaitMode.Wait],
+	[tc.DownloadFile(48, '/t4w_480_0', [80, 81, 82, 83, 84, 85, 86, 87, 88, 89]), Send, WaitMode.Wait],
+	[tc.DownloadFile(49, '/t4w_480_0', [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]), Send, WaitMode.Wait]
+]
