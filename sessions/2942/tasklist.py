@@ -17,7 +17,6 @@ tasks = [
 
 
     # missing from previous session start
-    ,
     # missing from previous session end
 
 
