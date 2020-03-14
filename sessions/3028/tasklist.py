@@ -10,6 +10,13 @@ tasks = [
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
+    [tc.PowerCycleTelecommand(3), Send, WaitMode.Wait],
+
+    # Set bitrate
+    [tc.SetBitrate(1, BaudRate.BaudRate9600), Send, WaitMode.Wait],
+
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+
     # auto-generated telemetry start
     [tc.DownloadFile(72, '/telemetry.previous', [1622, 1672, 1722, 1772, 1822, 1872, 1922, 1972, 2022, 2072, 2122, 2172, 2222, 2272, 1647, 1697, 1747, 1797, 1847, 1897]), Send, WaitMode.Wait],
     [tc.DownloadFile(73, '/telemetry.current', [42, 92, 142, 192, 17, 67, 117, 167, 217, 5, 55, 105, 155, 205, 29, 79, 129, 179, 229, 49]), Send, WaitMode.Wait],
