@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2020-03-14T10:53:58+01:00", 
         "stop_time_iso_with_zone": "2020-03-14T11:06:32+01:00", 
         "maximum_elevation": 88.74, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Download telemetry and photos, take single photo, Suns experiment"
     }
 }
