@@ -13,6 +13,8 @@ tasks = [
 
     [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
 
+    [tc.PerformRadFETExperiment(10, 150, 110, 'radfet_35'), Send, WaitMode.Wait],
+
     ["The next step is Take Photo.", Print, WaitMode.Wait],
 
     # Photo queue
