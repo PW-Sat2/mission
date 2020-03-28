@@ -1,4 +1,4 @@
-PHOTO_SESSIONS = [3118]
+PHOTO_SESSIONS = [3118, 3119, 3120]
 
 for p in range(1, 11):
     extract_file('p{}_128_0'.format(p), also=PHOTO_SESSIONS)
