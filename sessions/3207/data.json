@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2020-04-11T11:40:23+02:00", 
         "stop_time_iso_with_zone": "2020-04-11T11:52:51+02:00", 
         "maximum_elevation": 59.38, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            ""
         ], 
-        "short_description": ""
+        "short_description": "Wake up, radfet 36, photos"
     }
 }
