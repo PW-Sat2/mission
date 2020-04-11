@@ -47,7 +47,9 @@ tasks = [
     # Power cycle EPS B
     [tc.PowerCycleTelecommand(3), Send, WaitMode.Wait],
 
-    # Get beacons from deep-sleep
+    # Get beacons from deep-sleep - three loops
+    [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
+    [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 
 
