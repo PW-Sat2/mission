@@ -15,6 +15,11 @@ tasks = [
     [tc.DownloadFile(76, '/telemetry.current', [1131, 1181, 1231, 1043, 1093, 1143, 1193, 1055, 1105, 1155, 1205, 1067, 1117, 1167, 1217]), Send, WaitMode.Wait],
     # auto-generated telemetry end
 
+    # photos
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(77, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=17), 'a1w_480'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(78, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'a1n_480'), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.Wait],
 
     # missing from previous session start
     [tc.DownloadFile(30, '/t1n_480_0', [30, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55]), Send, WaitMode.Wait],
