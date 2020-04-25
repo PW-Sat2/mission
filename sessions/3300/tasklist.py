@@ -32,8 +32,8 @@ tasks = [
     [tc.DownloadFile(49, '/t4n_480_0', range(0, 20)), Send, WaitMode.Wait],
     [tc.DownloadFile(48, '/t5w_480_0', range(0, 20)), Send, WaitMode.Wait],
     [tc.DownloadFile(49, '/t5n_480_0', range(0, 20)), Send, WaitMode.Wait],
-    [tc.DownloadFile(48, '/t6w_480_0', range(0, 20)), Send, WaitMode.Wait],
-    [tc.DownloadFile(49, '/t6n_480_0', range(0, 20)), Send, WaitMode.Wait],
+    [tc.DownloadFile(90, '/t6w_480_0', range(0, 20)), Send, WaitMode.Wait],
+    [tc.DownloadFile(91, '/t6n_480_0', range(0, 20)), Send, WaitMode.Wait],
 
     [tc.DownloadFile(52, '/t1w_480_0', range(20, 40)), Send, WaitMode.Wait],
     [tc.DownloadFile(53, '/t1n_480_0', range(20, 40)), Send, WaitMode.Wait],
@@ -45,8 +45,8 @@ tasks = [
     [tc.DownloadFile(59, '/t4n_480_0', range(20, 40)), Send, WaitMode.Wait],
     [tc.DownloadFile(58, '/t5w_480_0', range(20, 40)), Send, WaitMode.Wait],
     [tc.DownloadFile(59, '/t5n_480_0', range(20, 40)), Send, WaitMode.Wait],
-    [tc.DownloadFile(58, '/t6w_480_0', range(20, 40)), Send, WaitMode.Wait],
-    [tc.DownloadFile(59, '/t6n_480_0', range(20, 40)), Send, WaitMode.Wait],
+    [tc.DownloadFile(92, '/t6w_480_0', range(20, 40)), Send, WaitMode.Wait],
+    [tc.DownloadFile(93, '/t6n_480_0', range(20, 40)), Send, WaitMode.Wait],
 
     [tc.DownloadFile(62, '/t1w_480_0', range(40, 60)), Send, WaitMode.Wait],
     [tc.DownloadFile(63, '/t1n_480_0', range(40, 60)), Send, WaitMode.Wait],
@@ -58,8 +58,8 @@ tasks = [
     [tc.DownloadFile(69, '/t4n_480_0', range(40, 60)), Send, WaitMode.Wait],
     [tc.DownloadFile(68, '/t5w_480_0', range(40, 60)), Send, WaitMode.Wait],
     [tc.DownloadFile(69, '/t5n_480_0', range(40, 60)), Send, WaitMode.Wait],
-    [tc.DownloadFile(68, '/t6w_480_0', range(40, 60)), Send, WaitMode.Wait],
-    [tc.DownloadFile(69, '/t6n_480_0', range(40, 60)), Send, WaitMode.Wait],
+    [tc.DownloadFile(94, '/t6w_480_0', range(40, 60)), Send, WaitMode.Wait],
+    [tc.DownloadFile(95, '/t6n_480_0', range(40, 60)), Send, WaitMode.Wait],
 
     [tc.DownloadFile(72, '/t1w_480_0', range(60, 80)), Send, WaitMode.Wait],
     [tc.DownloadFile(73, '/t1n_480_0', range(60, 80)), Send, WaitMode.Wait],
@@ -71,8 +71,8 @@ tasks = [
     [tc.DownloadFile(79, '/t4n_480_0', range(60, 80)), Send, WaitMode.Wait],
     [tc.DownloadFile(78, '/t5w_480_0', range(60, 80)), Send, WaitMode.Wait],
     [tc.DownloadFile(79, '/t5n_480_0', range(60, 80)), Send, WaitMode.Wait],
-    [tc.DownloadFile(78, '/t6w_480_0', range(60, 80)), Send, WaitMode.Wait],
-    [tc.DownloadFile(79, '/t6n_480_0', range(60, 80)), Send, WaitMode.Wait],
+    [tc.DownloadFile(96, '/t6w_480_0', range(60, 80)), Send, WaitMode.Wait],
+    [tc.DownloadFile(97, '/t6n_480_0', range(60, 80)), Send, WaitMode.Wait],
 
     [tc.DownloadFile(82, '/t1w_480_0', range(80, 100)), Send, WaitMode.Wait],
     [tc.DownloadFile(83, '/t1n_480_0', range(80, 100)), Send, WaitMode.Wait],
@@ -84,8 +84,8 @@ tasks = [
     [tc.DownloadFile(89, '/t4n_480_0', range(80, 100)), Send, WaitMode.Wait],
     [tc.DownloadFile(88, '/t5w_480_0', range(80, 100)), Send, WaitMode.Wait],
     [tc.DownloadFile(89, '/t5n_480_0', range(80, 100)), Send, WaitMode.Wait],
-    [tc.DownloadFile(88, '/t6w_480_0', range(80, 100)), Send, WaitMode.Wait],
-    [tc.DownloadFile(89, '/t6n_480_0', range(80, 100)), Send, WaitMode.Wait],
+    [tc.DownloadFile(98, '/t6w_480_0', range(80, 100)), Send, WaitMode.Wait],
+    [tc.DownloadFile(99, '/t6n_480_0', range(80, 100)), Send, WaitMode.Wait],
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
