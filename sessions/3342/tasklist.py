@@ -1,16 +1,19 @@
 tasks = [
 
-    [[tc.SetBitrate(1, BaudRate.BaudRate9600), 5], SendLoop, WaitMode.NoWait],
+    [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 
-    [[tc.SendBeacon(), 10], SendLoop, WaitMode.NoWait],
+    [tc.PingTelecommand(), Send, WaitMode.Wait],
+
+    [[tc.SetBitrate(1, BaudRate.BaudRate9600), 5], SendLoop, WaitMode.NoWait],
 
     [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
 
     ["The next step is photo (should be send ~22:53)", Print, WaitMode.Wait],
 
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+
     # Photo queue - start ~23:00 cest
     # Group 1
-    [tc.SendBeacon(), Send, WaitMode.Wait],
     [tc.TakePhotoTelecommand(3, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=7), 'a1w_480'), Send, WaitMode.Wait],
     [tc.TakePhotoTelecommand(4, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'a1n_480'), Send, WaitMode.Wait],
 
