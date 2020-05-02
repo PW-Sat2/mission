@@ -34,6 +34,12 @@ tasks = [
     [tc.DownloadFile(50, '/a8w_480_0', [38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54]), Send, WaitMode.Wait],
     [tc.DownloadFile(51, '/a8w_480_0', [55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71]), Send, WaitMode.Wait],
     [tc.DownloadFile(52, '/a8w_480_0', [72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88]), Send, WaitMode.Wait],
+    
+    # auto-generated telemetry start
+    [tc.DownloadFile(146, '/telemetry.current', [1273, 1323, 1373, 1423, 1473, 1298, 1348, 1398, 1448, 1286, 1336, 1386, 1436, 1486, 1310, 1360, 1410, 1460, 1280, 1330]), Send, WaitMode.Wait],
+    [tc.DownloadFile(147, '/telemetry.current', [1380, 1430, 1480, 1292, 1342, 1392, 1442, 1492, 1304, 1354, 1404, 1454, 1316, 1366, 1416, 1466]), Send, WaitMode.Wait],
+    # auto-generated telemetry end
+    
     [tc.DownloadFile(53, '/a9w_480_0', [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37]), Send, WaitMode.Wait],
     [tc.DownloadFile(54, '/a9w_480_0', [38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54]), Send, WaitMode.Wait],
     [tc.DownloadFile(55, '/a9w_480_0', [55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71]), Send, WaitMode.Wait],
@@ -128,13 +134,6 @@ tasks = [
     [tc.DownloadFile(144, '/a3w_480_0', [129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148]), Send, WaitMode.Wait],
     [tc.DownloadFile(145, '/a3w_480_0', [149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167]), Send, WaitMode.Wait],
     # missing from previous session end
-
-
-    # auto-generated telemetry start
-    [tc.DownloadFile(146, '/telemetry.current', [1273, 1323, 1373, 1423, 1473, 1298, 1348, 1398, 1448, 1286, 1336, 1386, 1436, 1486, 1310, 1360, 1410, 1460, 1280, 1330]), Send, WaitMode.Wait],
-    [tc.DownloadFile(147, '/telemetry.current', [1380, 1430, 1480, 1292, 1342, 1392, 1442, 1492, 1304, 1354, 1404, 1454, 1316, 1366, 1416, 1466]), Send, WaitMode.Wait],
-    # auto-generated telemetry end
-
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
