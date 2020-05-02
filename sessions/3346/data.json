@@ -6,7 +6,7 @@
         "start_time_iso_with_zone": "2020-05-02T13:26:39+02:00", 
         "stop_time_iso_with_zone": "2020-05-02T13:37:27+02:00", 
         "maximum_elevation": 15.43,
-        "status": "planned",
+        "status": "success",
         "session_tasks": [
             "telemetry"
         ],
