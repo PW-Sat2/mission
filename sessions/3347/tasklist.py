@@ -23,7 +23,7 @@ tasks = [
 
 
     # missing from previous session start
-    [tc.DownloadFile(30, '/telemetry.current', [182]), Send, WaitMode.Wait],
+    [tc.DownloadFile(30, '/telemetry.previous', [182]), Send, WaitMode.Wait],
     [tc.DownloadFile(31, '/a7n_480_0', [58]), Send, WaitMode.Wait],
     [tc.DownloadFile(32, '/a8n_480_0', [40, 42, 47, 51, 52, 53, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64]), Send, WaitMode.Wait],
     [tc.DownloadFile(33, '/a8n_480_0', [65, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81]), Send, WaitMode.Wait],
