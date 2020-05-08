@@ -1,0 +1,50 @@
+BeaconFrame @ 1200 bps
+!!!!! BP VOLT 0.00 V, 0.00 V
+!!!!! BP TEMP 0.00 C, 0.00 C, -999.00 C
+!!!!! COMM PA TEMP NOW 189.55 C LAST 189.55 C
+      COMM RX Current 0.00 mA
+!!!!! OBC CRC 0x0000
+      GYRO UNCAL 0.00 deg/sec, 0.00 deg/sec, 0.00 deg/sec
+      EXPERIMENT None
+!!!!! MCU TEMP 389.60 C
+      3V3 DISTR CURRENT 0 mA
+
+	Time: 120.0s
+	 VBAT_A: 7.56 V
+	 VBAT_B: 7.59 V
+	 Reboot to normal: 35
+BeaconFrame @ 9600 bps
+      BP VOLT 7.53 V, 7.56 V
+      BP TEMP 5.56 C, 5.44 C, 7.40 C
+      COMM PA TEMP NOW 4.62 C LAST 4.51 C
+      COMM RX Current 48.53 mA
+      GYRO UNCAL -2.92 deg/sec, -3.90 deg/sec, 1.74 deg/sec
+      EXPERIMENT None
+      MCU TEMP -3.89 C
+      3V3 DISTR CURRENT 35 mA
+
+	Time: 200.0s
+	 VBAT_A: 7.63 V
+	 VBAT_B: 7.64 V
+	 Reboot to normal: 35
+	Time: 4480.0s
+	 VBAT_A: 7.52 V
+	 VBAT_B: 7.56 V
+	 Reboot to normal: 2
+	Time: 0.0s
+	 VBAT_A: 7.54 V
+	 VBAT_B: 7.57 V
+	 Reboot to normal: 35
+PongFrame: Seq=00
+	Time: 80.0s
+	 VBAT_A: 7.52 V
+	 VBAT_B: 7.56 V
+	 Reboot to normal: 35
+	Time: 40.0s
+	 VBAT_A: 7.53 V
+	 VBAT_B: 7.56 V
+	 Reboot to normal: 35
+SetBitrateSuccessFrame: Seq=00
+PowerSuccessFrame: CID=003 Seq=00
+FileListSuccessFrame: CID=005 Seq=00, #files: 1
+BootSlotsInfoSuccessFrame: CID=103 Seq=00
