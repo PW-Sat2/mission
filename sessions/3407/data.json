@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2020-05-12T00:27:29+02:00", 
         "stop_time_iso_with_zone": "2020-05-12T00:37:02+02:00", 
         "maximum_elevation": 9.86, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "refresh-deep-sleep"
         ], 
-        "short_description": ""
+        "short_description": "Refresh Deep Sleep"
     }
 }
