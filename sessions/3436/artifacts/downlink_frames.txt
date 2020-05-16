@@ -1,0 +1,23 @@
+BeaconFrame @ 9600 bps
+      BP VOLT 7.54 V, 7.56 V
+      BP TEMP 3.94 C, 3.75 C, 3.70 C
+      COMM PA TEMP NOW 6.10 C LAST 5.88 C
+      COMM RX Current 48.37 mA
+      GYRO UNCAL -2.37 deg/sec, -3.90 deg/sec, 1.46 deg/sec
+      EXPERIMENT None
+      MCU TEMP -1.35 C
+      3V3 DISTR CURRENT 33 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.56 V, 7.58 V
+      BP TEMP 3.81 C, 3.62 C, 3.70 C
+      COMM PA TEMP NOW 5.71 C LAST 5.50 C
+      COMM RX Current 48.49 mA
+      GYRO UNCAL -2.37 deg/sec, -3.97 deg/sec, 1.53 deg/sec
+      EXPERIMENT None
+      MCU TEMP -1.83 C
+      3V3 DISTR CURRENT 35 mA
+
+FileListSuccessFrame: CID=200 Seq=00, #files: 16
+FileListSuccessFrame: CID=200 Seq=01, #files: 5
+FileListSuccessFrame: CID=200 Seq=01, #files: 5
