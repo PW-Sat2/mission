@@ -1,16 +1,10 @@
 tasks = [
     # Generated on 2020-05-16 23:25:39.981000, contains telemetry from sessions 3435 to 3439.
     # The session starts on 2020-05-16 23:38:53+02:00.
-​
     [[tc.SetBitrate(1, BaudRate.BaudRate9600), 5], SendLoop, WaitMode.NoWait],
-​
     [[tc.SendBeacon(), 10], SendLoop, WaitMode.NoWait],
-​
     [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
-​
     [tc.SendBeacon(), Send, WaitMode.Wait],
-​
-​
     # missing from previous session start
     [tc.DownloadFile(30, '/m4w_480_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]), Send, WaitMode.Wait],
     [tc.DownloadFile(31, '/m5n_480_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]), Send, WaitMode.Wait],
@@ -82,18 +76,5 @@ tasks = [
     [tc.DownloadFile(97, '/m9w_480_0', [91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108]), Send, WaitMode.Wait],
     [tc.DownloadFile(98, '/m9w_480_0', [109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126]), Send, WaitMode.Wait],
     [tc.DownloadFile(99, '/m9w_480_0', [127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144]), Send, WaitMode.Wait],
-    # missing from previous session end
-​
-​
-    # auto-generated file download start
-    
-    # auto-generated file download end
-​
-​
-    # auto-generated file remove start
-    
-    # auto-generated file remove end
-​
-​
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
