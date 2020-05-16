@@ -2,14 +2,14 @@
     "Session": {
         "index": 3434, 
         "phase": "zZz", 
-        "primary": "elka", 
+        "primary": "fp", 
         "start_time_iso_with_zone": "2020-05-16T11:16:50+02:00", 
         "stop_time_iso_with_zone": "2020-05-16T11:28:49+02:00", 
         "maximum_elevation": 30.64, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "radfet"
         ], 
-        "short_description": ""
+        "short_description": "Boot to normal mode. Perform 38th RadFET experiment."
     }
 }
