@@ -1,0 +1,135 @@
+	Time: 160.0s
+	 VBAT_A: 7.30 V
+	 VBAT_B: 7.34 V
+	 Reboot to normal: 35
+BeaconFrame @ 9600 bps
+      BP VOLT 7.30 V, 7.34 V
+      BP TEMP 8.75 C, 8.38 C, 11.10 C
+      COMM PA TEMP NOW 7.41 C LAST 7.84 C
+      COMM RX Current 50.57 mA
+      GYRO UNCAL -2.43 deg/sec, -3.34 deg/sec, 1.39 deg/sec
+      EXPERIMENT None
+      MCU TEMP 0.24 C
+      3V3 DISTR CURRENT 35 mA
+
+	Time: 0.0s
+	 VBAT_A: 7.30 V
+	 VBAT_B: 7.33 V
+	 Reboot to normal: 35
+	Time: 240.0s
+	 VBAT_A: 7.29 V
+	 VBAT_B: 7.33 V
+	 Reboot to normal: 35
+	Time: 320.0s
+	 VBAT_A: 7.30 V
+	 VBAT_B: 7.34 V
+	 Reboot to normal: 35
+	Time: 120.0s
+	 VBAT_A: 7.30 V
+	 VBAT_B: 7.33 V
+	 Reboot to normal: 35
+BeaconFrame @ 9600 bps
+      BP VOLT 7.21 V, 7.33 V
+      BP TEMP 8.50 C, 8.12 C, 11.10 C
+      COMM PA TEMP NOW 7.73 C LAST 7.24 C
+      COMM RX Current 50.36 mA
+      GYRO UNCAL -2.43 deg/sec, -3.41 deg/sec, 1.46 deg/sec
+      EXPERIMENT None
+      MCU TEMP -0.08 C
+      3V3 DISTR CURRENT 33 mA
+
+	Time: 280.0s
+	 VBAT_A: 7.31 V
+	 VBAT_B: 7.35 V
+	 Reboot to normal: 35
+	Time: 200.0s
+	 VBAT_A: 7.30 V
+	 VBAT_B: 7.34 V
+	 Reboot to normal: 35
+	Time: 80.0s
+	 VBAT_A: 7.30 V
+	 VBAT_B: 7.33 V
+	 Reboot to normal: 35
+	Time: 40.0s
+	 VBAT_A: 7.30 V
+	 VBAT_B: 7.33 V
+	 Reboot to normal: 35
+BeaconFrame @ 9600 bps
+      BP VOLT 7.21 V, 7.23 V
+      BP TEMP 8.31 C, 7.94 C, 11.10 C
+      COMM PA TEMP NOW 11.06 C LAST 10.96 C
+      COMM RX Current 124.78 mA
+      GYRO UNCAL -2.43 deg/sec, -3.48 deg/sec, 1.39 deg/sec
+      EXPERIMENT None
+      MCU TEMP -0.87 C
+      3V3 DISTR CURRENT 49 mA
+
+SetBitrateSuccessFrame: Seq=00
+FileListSuccessFrame: CID=002 Seq=00, #files: 16
+FileListSuccessFrame: CID=002 Seq=01, #files: 6
+PowerSuccessFrame: CID=006 Seq=00
+FileSendSuccessFrame: CID=030 Seq=112
+FileSendSuccessFrame: CID=030 Seq=127
+FileSendSuccessFrame: CID=030 Seq=128
+FileSendSuccessFrame: CID=030 Seq=129
+FileSendSuccessFrame: CID=030 Seq=130
+FileSendSuccessFrame: CID=030 Seq=131
+FileSendSuccessFrame: CID=030 Seq=132
+FileSendSuccessFrame: CID=030 Seq=133
+FileSendSuccessFrame: CID=030 Seq=134
+FileSendSuccessFrame: CID=030 Seq=135
+FileSendSuccessFrame: CID=030 Seq=136
+FileSendSuccessFrame: CID=030 Seq=137
+FileSendSuccessFrame: CID=030 Seq=138
+FileSendSuccessFrame: CID=030 Seq=139
+FileSendSuccessFrame: CID=030 Seq=140
+FileSendSuccessFrame: CID=030 Seq=141
+FileSendSuccessFrame: CID=030 Seq=142
+FileSendSuccessFrame: CID=030 Seq=143
+FileSendSuccessFrame: CID=030 Seq=144
+FileSendSuccessFrame: CID=031 Seq=1855
+FileSendSuccessFrame: CID=031 Seq=1862
+FileSendSuccessFrame: CID=031 Seq=1868
+FileSendSuccessFrame: CID=031 Seq=1880
+FileSendSuccessFrame: CID=031 Seq=1892
+FileSendSuccessFrame: CID=031 Seq=1905
+FileSendSuccessFrame: CID=031 Seq=1912
+FileSendSuccessFrame: CID=031 Seq=1918
+FileSendSuccessFrame: CID=031 Seq=1930
+FileSendSuccessFrame: CID=031 Seq=1942
+FileSendSuccessFrame: CID=031 Seq=1955
+FileSendSuccessFrame: CID=031 Seq=1968
+FileSendSuccessFrame: CID=031 Seq=1980
+FileSendSuccessFrame: CID=031 Seq=1992
+FileSendSuccessFrame: CID=031 Seq=2005
+FileSendSuccessFrame: CID=031 Seq=2018
+FileSendErrorFrame: Seq=2030
+FileSendErrorFrame: Seq=2042
+FileSendErrorFrame: Seq=2055
+FileSendErrorFrame: Seq=2068
+FileSendSuccessFrame: CID=032 Seq=1874
+FileSendSuccessFrame: CID=032 Seq=1886
+FileSendSuccessFrame: CID=032 Seq=1898
+FileSendSuccessFrame: CID=032 Seq=1924
+FileSendSuccessFrame: CID=032 Seq=1936
+FileSendSuccessFrame: CID=032 Seq=1948
+FileSendSuccessFrame: CID=032 Seq=1962
+FileSendSuccessFrame: CID=032 Seq=1974
+FileSendSuccessFrame: CID=032 Seq=1986
+FileSendSuccessFrame: CID=032 Seq=1998
+FileSendSuccessFrame: CID=032 Seq=2012
+FileSendErrorFrame: Seq=2024
+FileSendErrorFrame: Seq=2036
+FileSendErrorFrame: Seq=2048
+FileSendErrorFrame: Seq=2062
+FileSendErrorFrame: Seq=2074
+FileSendSuccessFrame: CID=034 Seq=968
+FileSendSuccessFrame: CID=034 Seq=1855
+FileSendSuccessFrame: CID=034 Seq=1861
+FileSendSuccessFrame: CID=034 Seq=1868
+FileSendSuccessFrame: CID=034 Seq=1875
+FileSendSuccessFrame: CID=034 Seq=1881
+FileSendSuccessFrame: CID=034 Seq=1887
+FileSendSuccessFrame: CID=034 Seq=1893
+FileSendSuccessFrame: CID=034 Seq=1899
+BootSlotsInfoSuccessFrame: CID=103 Seq=00
