@@ -14,7 +14,7 @@ tasks = [
     [tc.DownloadFile(31, '/telemetry.current', [1855, 1905, 1955, 2005, 2055, 1880, 1930, 1980, 2030, 1868, 1918, 1968, 2018, 2068, 1892, 1942, 1992, 2042, 1862, 1912]), Send, WaitMode.Wait],
     [tc.DownloadFile(32, '/telemetry.current', [1962, 2012, 2062, 1874, 1924, 1974, 2024, 2074, 1886, 1936, 1986, 2036, 1898, 1948, 1998, 2048]), Send, WaitMode.Wait],
     # auto-generated telemetry end
-
+    [tc.DownloadFile(34, '/telemetry.current', [968, 1868, 1893, 1881, 1855, 1875, 1887, 1899, 1861]), Send, WaitMode.Wait],
 
     # missing from previous session start
     [tc.DownloadFile(30, '/m9w_480_0', [112, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144]), Send, WaitMode.Wait],
