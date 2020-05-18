@@ -1,6 +1,5 @@
 tasks = [
-    # Generated on 2020-05-17 23:53:58.003000, contains telemetry from sessions 3445 to 3447.
-    # The session starts on 2020-05-18 10:57:54+02:00.
+    # Generated on 2020-05-18 11:15:58.003000, contains telemetry from sessions 3445 to 3448.
 
     [[tc.SetBitrate(1, BaudRate.BaudRate9600), 5], SendLoop, WaitMode.NoWait],
 
@@ -25,16 +24,18 @@ tasks = [
 
     # auto-generated telemetry start
     [tc.DownloadFile(130, '/telemetry.previous', [1698, 1748, 1798, 1848, 1898, 1948, 1998, 2048, 2098, 2148, 2198, 2248, 1723, 1773, 1823, 1873, 1923, 1973, 2023, 2073]), Send, WaitMode.Wait],
-    [tc.DownloadFile(131, '/telemetry.current', [18, 68, 118, 168, 218, 268, 318, 368, 418, 468, 518, 568, 618, 668, 718, 43, 93, 143, 193, 243]), Send, WaitMode.Wait],
+    [tc.DownloadFile(131, '/telemetry.current', [18, 68, 118, 168, 218, 268, 318, 368, 418, 468, 518, 568, 618, 668, 718, 768, 818, 868, 43, 93]), Send, WaitMode.Wait],
     [tc.DownloadFile(132, '/telemetry.previous', [2123, 2173, 2223, 2273, 1711, 1761, 1811, 1861, 1911, 1961, 2011, 2061, 2111, 2161, 2211, 2261, 1735, 1785, 1835, 1885]), Send, WaitMode.Wait],
-    [tc.DownloadFile(133, '/telemetry.current', [293, 343, 393, 443, 493, 543, 593, 643, 693, 31, 81, 131, 181, 231, 281, 331, 381, 431, 481, 531]), Send, WaitMode.Wait],
-    [tc.DownloadFile(134, '/telemetry.current', [581, 631, 681, 5, 55, 105, 155, 205, 255, 305, 355, 405, 455, 505, 555, 605, 655, 705, 25, 75]), Send, WaitMode.Wait],
+    [tc.DownloadFile(133, '/telemetry.current', [143, 193, 243, 293, 343, 393, 443, 493, 543, 593, 643, 693, 743, 793, 843, 31, 81, 131, 181, 231]), Send, WaitMode.Wait],
+    [tc.DownloadFile(134, '/telemetry.current', [281, 331, 381, 431, 481, 531, 581, 631, 681, 731, 781, 831, 881, 5, 55, 105, 155, 205, 255, 305]), Send, WaitMode.Wait],
     [tc.DownloadFile(135, '/telemetry.previous', [1935, 1985, 2035, 2085, 2135, 2185, 2235, 1705, 1755, 1805, 1855, 1905, 1955, 2005, 2055, 2105, 2155, 2205, 2255, 1717]), Send, WaitMode.Wait],
-    [tc.DownloadFile(136, '/telemetry.current', [125, 175, 225, 275, 325, 375, 425, 475, 525, 575, 625, 675, 37, 87, 137, 187, 237, 287, 337, 387]), Send, WaitMode.Wait],
-    [tc.DownloadFile(137, '/telemetry.previous', [1767, 1817, 1867, 1917, 1967, 2017, 2067, 2117, 2167, 2217, 2267, 1729, 1779, 1829, 1879, 1929, 1979, 2029, 2079, 2129]), Send, WaitMode.Wait],
-    [tc.DownloadFile(138, '/telemetry.current', [437, 487, 537, 587, 637, 687, 49, 99, 149, 199, 249, 299, 349, 399, 449, 499, 549, 599, 649, 699]), Send, WaitMode.Wait],
-    [tc.DownloadFile(139, '/telemetry.previous', [2179, 2229, 2279, 1741, 1791, 1841, 1891, 1941, 1991, 2041, 2091, 2141, 2191, 2241]), Send, WaitMode.Wait],
-    [tc.DownloadFile(140, '/telemetry.current', [11, 61, 111, 161, 211, 261, 311, 361, 411, 461, 511, 561, 611, 661, 711]), Send, WaitMode.Wait],
+    [tc.DownloadFile(136, '/telemetry.current', [355, 405, 455, 505, 555, 605, 655, 705, 755, 805, 855, 25, 75, 125, 175, 225, 275, 325, 375, 425]), Send, WaitMode.Wait],
+    [tc.DownloadFile(137, '/telemetry.current', [475, 525, 575, 625, 675, 725, 775, 825, 875, 37, 87, 137, 187, 237, 287, 337, 387, 437, 487, 537]), Send, WaitMode.Wait],
+    [tc.DownloadFile(138, '/telemetry.previous', [1767, 1817, 1867, 1917, 1967, 2017, 2067, 2117, 2167, 2217, 2267, 1729, 1779, 1829, 1879, 1929, 1979, 2029, 2079, 2129]), Send, WaitMode.Wait],
+    [tc.DownloadFile(139, '/telemetry.current', [587, 637, 687, 737, 787, 837, 887, 49, 99, 149, 199, 249, 299, 349, 399, 449, 499, 549, 599, 649]), Send, WaitMode.Wait],
+    [tc.DownloadFile(140, '/telemetry.previous', [2179, 2229, 2279, 1741, 1791, 1841, 1891, 1941, 1991, 2041, 2091, 2141, 2191, 2241]), Send, WaitMode.Wait],
+    [tc.DownloadFile(141, '/telemetry.current', [699, 749, 799, 849, 11, 61, 111, 161, 211, 261, 311, 361, 411, 461, 511, 561, 611, 661, 711, 761]), Send, WaitMode.Wait],
+    [tc.DownloadFile(142, '/telemetry.current', [811, 861]), Send, WaitMode.Wait],
     # auto-generated telemetry end
 
 
@@ -89,6 +90,19 @@ tasks = [
     
     # auto-generated file remove end
 
+    # When everything is downloaded, switch to deep-sleep
+    # Carefully waste some session time
+    [tc.SendBeacon(), Send, WaitMode.Wait],
 
+    ["Set bootslots for deep_sleep.", Print, WaitMode.NoWait],
+    [tc.SetBootSlots(103, 0b111000, 0b111), Send, WaitMode.Wait],
+
+    # Wait for good uplink before power cycle
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+
+    # Power cycle EPS B
+    [tc.PowerCycleTelecommand(6), Send, WaitMode.Wait],
+
+    # Get beacons from deep-sleep
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
