@@ -53,6 +53,8 @@ tasks = [
 
      # =========================================
 
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+
     [tc.DownloadFile(23, '/radfet_39', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]), Send, WaitMode.Wait],
 
     [tc.DownloadFile(24, '/telemetry.current', [7, 57, 107, 157, 207, 32, 82, 132, 182, 20, 70, 120, 170, 220, 44, 94, 144, 194, 14, 64]), Send, WaitMode.Wait],
