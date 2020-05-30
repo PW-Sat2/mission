@@ -14,20 +14,20 @@ tasks = [
 
     # Photo queue - start ~21:46 cest
     # Group 1
-    [tc.TakePhotoTelecommand(13, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=20), 'a11w_480_21_45'), Send, WaitMode.Wait],
-    [tc.TakePhotoTelecommand(14, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'a11n_480_21_45'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(13, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=20), 'a11w_480_21_46'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(14, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'a11n_480_21_46'), Send, WaitMode.Wait],
 
     # Group 2
-    [tc.TakePhotoTelecommand(15, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=1), 'a12w_480_21_46'), Send, WaitMode.Wait],
-    [tc.TakePhotoTelecommand(16, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'a12n_480_21_46'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(15, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=1), 'a12w_480_21_47'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(16, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'a12n_480_21_47'), Send, WaitMode.Wait],
 
     # Group 3
-    [tc.TakePhotoTelecommand(17, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=1), 'a13w_480_21_47'), Send, WaitMode.Wait],
-    [tc.TakePhotoTelecommand(18, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'a13n_480_21_47'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(17, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=1), 'a13w_480_21_48'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(18, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'a13n_480_21_48'), Send, WaitMode.Wait],
 
     # Group 4
-    [tc.TakePhotoTelecommand(19, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=1), 'a14w_480_21_48'), Send, WaitMode.Wait],
-    [tc.TakePhotoTelecommand(20, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'a14n_480_21_48'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(19, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=1), 'a14w_480_21_49'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(20, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'a14n_480_21_49'), Send, WaitMode.Wait],
 
     # auto-generated telemetry start
     [tc.DownloadFile(5, '/telemetry.current', [345, 395, 445, 495, 545, 595, 645, 695, 745, 795, 845, 895, 945, 995, 1045, 1095, 1145, 1195, 370, 420]), Send, WaitMode.Wait],

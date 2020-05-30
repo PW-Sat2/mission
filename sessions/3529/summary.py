@@ -1,4 +1,4 @@
-PHOTO_SESSIONS = []
+PHOTO_SESSIONS = [3528]
 
 extract_file('a1w_480_12_16_0', also=PHOTO_SESSIONS)
 decode_photo('assembled/a1w_480_12_16_0', output_file_name='assembled/a1w_480_12_16_0.jpg')
