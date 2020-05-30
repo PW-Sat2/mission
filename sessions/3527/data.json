@@ -6,10 +6,10 @@
     "start_time_iso_with_zone": "2020-05-30T12:09:49+02:00",
     "stop_time_iso_with_zone": "2020-05-30T12:22:20+02:00",
     "maximum_elevation": 89.8,
-    "status": "auto",
+    "status": "planned",
     "session_tasks": [
-      "sleep-beacon"
+      "photos"
     ],
-    "short_description": ""
+    "short_description": "Photos and get radfet."
   }
 }
