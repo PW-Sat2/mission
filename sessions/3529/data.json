@@ -6,10 +6,10 @@
     "start_time_iso_with_zone": "2020-05-30T21:24:15+02:00",
     "stop_time_iso_with_zone": "2020-05-30T21:34:36+02:00",
     "maximum_elevation": 16.52,
-    "status": "auto",
+    "status": "planned",
     "session_tasks": [
-      "sleep-beacon"
+      "download-photos"
     ],
-    "short_description": ""
+    "short_description": "Download photos and take four more above USA"
   }
 }
