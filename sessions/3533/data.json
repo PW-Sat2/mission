@@ -6,10 +6,10 @@
     "start_time_iso_with_zone": "2020-05-31T11:59:36+02:00",
     "stop_time_iso_with_zone": "2020-05-31T12:12:06+02:00",
     "maximum_elevation": 81.43,
-    "status": "auto",
+    "status": "planned",
     "session_tasks": [
-      "sleep-beacon"
-    ],
-    "short_description": ""
+        "download-photos"
+      ],
+      "short_description": "Download photos."
   }
 }
