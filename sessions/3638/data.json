@@ -1,15 +1,15 @@
 {
-    "Session": {
-        "index": 3638, 
-        "phase": "zZz", 
-        "primary": "fp", 
-        "start_time_iso_with_zone": "2020-06-16T21:34:22+02:00", 
-        "stop_time_iso_with_zone": "2020-06-16T21:44:51+02:00", 
-        "maximum_elevation": 18.94, 
-        "status": "auto", 
-        "session_tasks": [
-            "sleep-beacon"
-        ], 
-        "short_description": ""
-    }
+  "Session": {
+    "index": 3638,
+    "phase": "zZz",
+    "primary": "fp",
+    "start_time_iso_with_zone": "2020-06-16T21:34:22+02:00",
+    "stop_time_iso_with_zone": "2020-06-16T21:44:51+02:00",
+    "maximum_elevation": 18.94,
+    "status": "auto",
+    "session_tasks": [
+      "sleep-beacon"
+    ],
+    "short_description": ""
+  }
 }
