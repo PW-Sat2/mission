@@ -23,6 +23,7 @@ tasks = [
 
 
     # missing from previous session start
+    [tc.DownloadFile(145, '/a_n_17_00_0', range(100, 120)), Send, WaitMode.Wait],
     [tc.DownloadFile(31, '/dummy_15_33_0', [80, 100, 102, 104, 107, 114, 115, 116, 117, 118, 119, 120, 121, 122]), Send, WaitMode.Wait],
     [tc.DownloadFile(32, '/dummy_15_33_0', [123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135]), Send, WaitMode.Wait],
     [tc.DownloadFile(33, '/dummy_16_33_0', [60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77]), Send, WaitMode.Wait],
