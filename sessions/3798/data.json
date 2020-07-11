@@ -5,11 +5,11 @@
         "primary": "fp", 
         "start_time_iso_with_zone": "2020-07-11T21:35:24+02:00", 
         "stop_time_iso_with_zone": "2020-07-11T21:45:50+02:00", 
-        "maximum_elevation": 17.72, 
-        "status": "auto", 
+        "maximum_elevation": 17.72,
+        "status": "planned",
         "session_tasks": [
-            "sleep-beacon"
-        ], 
-        "short_description": ""
+            "download_photos"
+        ],
+        "short_description": "Download photos."
     }
 }
