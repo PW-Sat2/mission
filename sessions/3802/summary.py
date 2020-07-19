@@ -24,3 +24,5 @@ files = [
 for f in files:
     extract_file(f, also=PHOTO_SESSIONS)
     decode_photo('assembled/' + f, output_file_name='assembled/' + f + '.jpg')
+
+dump_scrubbing_status(2)
