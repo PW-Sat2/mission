@@ -12,15 +12,15 @@ tasks = [
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
-    # Photo queue - commands will be send ~12:46 cest
+    # Photo queue - commands will be send ~12:44 cest
     [tc.TakePhotoTelecommand(4, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=2), 'a_w_12_46'), Send, WaitMode.Wait],
     [tc.TakePhotoTelecommand(5, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'a_n_12_46'), Send, WaitMode.Wait],
 
 
-    [tc.TakePhotoTelecommand(6, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=2), 'a_w_12_49'), Send, WaitMode.Wait],
-    [tc.TakePhotoTelecommand(7, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'a_n_12_49'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(6, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=2), 'a_w_12_48'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(7, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'a_n_12_48'), Send, WaitMode.Wait],
 
-    [tc.TakePhotoTelecommand(8, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=1), 'a_w_12_50'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(8, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=2), 'a_w_12_50'), Send, WaitMode.Wait],
     [tc.TakePhotoTelecommand(9, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'a_n_12_50'), Send, WaitMode.Wait],
 
     # Night start
