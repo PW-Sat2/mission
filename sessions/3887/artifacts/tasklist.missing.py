@@ -1,0 +1,23 @@
+tasks = [
+[tc.DownloadFile(30, '/a_n_12_50_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]), Send, WaitMode.Wait],
+	[tc.DownloadFile(31, '/a_n_14_10_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]), Send, WaitMode.Wait],
+	[tc.DownloadFile(32, '/a_n_14_12_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]), Send, WaitMode.Wait],
+	[tc.DownloadFile(33, '/a_n_14_14_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]), Send, WaitMode.Wait],
+	[tc.DownloadFile(34, '/a_n_14_16_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]), Send, WaitMode.Wait],
+	[tc.DownloadFile(35, '/a_w_12_50_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]), Send, WaitMode.Wait],
+	[tc.DownloadFile(36, '/a_w_14_10_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]), Send, WaitMode.Wait],
+	[tc.DownloadFile(37, '/a_w_14_12_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]), Send, WaitMode.Wait],
+	[tc.DownloadFile(38, '/a_w_14_14_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]), Send, WaitMode.Wait],
+	[tc.DownloadFile(39, '/a_w_14_16_0', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]), Send, WaitMode.Wait],
+	[tc.DownloadFile(40, '/a_n_12_50_0', [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]), Send, WaitMode.Wait],
+	[tc.DownloadFile(41, '/a_n_14_10_0', [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]), Send, WaitMode.Wait],
+	[tc.DownloadFile(42, '/a_n_14_12_0', [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]), Send, WaitMode.Wait],
+	[tc.DownloadFile(43, '/a_n_14_14_0', [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]), Send, WaitMode.Wait],
+	[tc.DownloadFile(44, '/a_n_14_16_0', [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]), Send, WaitMode.Wait],
+	[tc.DownloadFile(45, '/a_w_12_48_0', [4]), Send, WaitMode.Wait],
+	[tc.DownloadFile(46, '/a_w_12_50_0', [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]), Send, WaitMode.Wait],
+	[tc.DownloadFile(47, '/a_w_14_10_0', [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]), Send, WaitMode.Wait],
+	[tc.DownloadFile(48, '/a_w_14_12_0', [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]), Send, WaitMode.Wait],
+	[tc.DownloadFile(49, '/a_w_14_14_0', [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]), Send, WaitMode.Wait],
+	[tc.DownloadFile(50, '/a_w_14_16_0', [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]), Send, WaitMode.Wait]
+]
