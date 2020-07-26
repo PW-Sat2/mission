@@ -13,6 +13,15 @@ tasks = [
     # auto-generated telemetry start
     [tc.DownloadFile(125, '/telemetry.previous', [1375, 1425, 1475, 1525, 1575, 1625, 1675, 1725, 1775, 1825, 1875, 1925, 1975, 2025, 2075, 2125, 2175, 2225, 2275, 1400]), Send, WaitMode.Wait],
     [tc.DownloadFile(126, '/telemetry.current', [45, 95, 145, 195, 20, 70, 120, 170, 8, 58, 108, 158, 208, 32, 82, 132, 182, 2, 52, 102]), Send, WaitMode.Wait],
+    
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+    
+    [tc.TakePhotoTelecommand(4, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=1), 'ag_w_1100'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(5, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=1), 'ag_n_1101'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(6, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=1), 'ag_w_1102'), Send, WaitMode.Wait],
+    
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+    
     [tc.DownloadFile(127, '/telemetry.previous', [1450, 1500, 1550, 1600, 1650, 1700, 1750, 1800, 1850, 1900, 1950, 2000, 2050, 2100, 2150, 2200, 2250, 1388, 1438, 1488]), Send, WaitMode.Wait],
     [tc.DownloadFile(128, '/telemetry.previous', [1538, 1588, 1638, 1688, 1738, 1788, 1838, 1888, 1938, 1988, 2038, 2088, 2138, 2188, 2238, 1412, 1462, 1512, 1562, 1612]), Send, WaitMode.Wait],
     [tc.DownloadFile(129, '/telemetry.previous', [1662, 1712, 1762, 1812, 1862, 1912, 1962, 2012, 2062, 2112, 2162, 2212, 2262, 1382, 1432, 1482, 1532, 1582, 1632, 1682]), Send, WaitMode.Wait],
