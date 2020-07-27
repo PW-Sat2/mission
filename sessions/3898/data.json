@@ -6,7 +6,7 @@
         "start_time_iso_with_zone": "2020-07-27T10:44:10+02:00", 
         "stop_time_iso_with_zone": "2020-07-27T10:53:58+02:00", 
         "maximum_elevation": 11.63, 
-        "status": "planned", 
+        "status": "success",
         "session_tasks": [
             "download", "telemetry"
         ], 
