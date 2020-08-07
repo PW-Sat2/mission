@@ -1,0 +1,63 @@
+	Time: 3720.0s
+	 VBAT_A: 7.34 V
+	 VBAT_B: 7.37 V
+	 Reboot to normal: 2
+	Time: 320.0s
+	 VBAT_A: 7.33 V
+	 VBAT_B: 7.35 V
+	 Reboot to normal: 35
+	Time: 80.0s
+	 VBAT_A: 7.33 V
+	 VBAT_B: 7.36 V
+	 Reboot to normal: 35
+	Time: 280.0s
+	 VBAT_A: 7.35 V
+	 VBAT_B: 7.37 V
+	 Reboot to normal: 35
+	Time: 240.0s
+	 VBAT_A: 7.34 V
+	 VBAT_B: 7.35 V
+	 Reboot to normal: 35
+	Time: 3760.0s
+	 VBAT_A: 7.34 V
+	 VBAT_B: 7.37 V
+	 Reboot to normal: 2
+	Time: 160.0s
+	 VBAT_A: 7.34 V
+	 VBAT_B: 7.36 V
+	 Reboot to normal: 35
+	Time: 120.0s
+	 VBAT_A: 7.35 V
+	 VBAT_B: 7.37 V
+	 Reboot to normal: 35
+	Time: 200.0s
+	 VBAT_A: 7.35 V
+	 VBAT_B: 7.36 V
+	 Reboot to normal: 35
+	Time: 0.0s
+	 VBAT_A: 7.45 V
+	 VBAT_B: 7.48 V
+	 Reboot to normal: 35
+PongFrame: Seq=00
+BeaconFrame @ 9600 bps
+      BP VOLT 7.33 V, 7.35 V
+      BP TEMP 2.81 C, 2.50 C, 3.70 C
+      COMM PA TEMP NOW 2.33 C LAST 2.44 C
+      COMM RX Current 49.87 mA
+      GYRO UNCAL -2.92 deg/sec, -3.83 deg/sec, 1.67 deg/sec
+      EXPERIMENT None
+      MCU TEMP -5.95 C
+      3V3 DISTR CURRENT 38 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.34 V, 7.36 V
+      BP TEMP 3.00 C, 2.69 C, 3.70 C
+      COMM PA TEMP NOW 2.44 C LAST 2.66 C
+      COMM RX Current 49.78 mA
+      GYRO UNCAL -2.78 deg/sec, -3.69 deg/sec, 1.74 deg/sec
+      EXPERIMENT None
+      MCU TEMP -6.27 C
+      3V3 DISTR CURRENT 33 mA
+
+FileListSuccessFrame: CID=005 Seq=00, #files: 2
+BootSlotsInfoSuccessFrame: CID=103 Seq=00
