@@ -30,3 +30,5 @@ files = [
 for f in files:
     extract_file(f, also=PHOTO_SESSIONS)
     decode_photo('assembled/' + f, output_file_name='assembled/' + f + '.jpg')
+
+extract_file('radfet_44', also=PHOTO_SESSIONS)
