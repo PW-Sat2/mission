@@ -24,18 +24,18 @@ tasks = [
     [tc.ListFiles(5, '/'), Send, WaitMode.Wait],
 
     # auto-generated telemetry start
-    [tc.DownloadFile(31, '/telemetry.previous', [1367, 1417, 1467, 1517, 1567, 1617, 1667, 1717, 1767, 1817, 1867, 1917, 1967, 2017, 2067, 2117, 2167, 2217, 2267, 1392]), Send, WaitMode.Wait],
-    [tc.DownloadFile(32, '/telemetry.current', [37, 87, 137, 187, 237, 287, 337, 12, 62, 112, 162, 212, 262, 312, 362, 0, 50, 100, 150, 200]), Send, WaitMode.Wait],
-    [tc.DownloadFile(33, '/telemetry.previous', [1442, 1492, 1542, 1592, 1642, 1692, 1742, 1792, 1842, 1892, 1942, 1992, 2042, 2092, 2142, 2192, 2242, 1380, 1430, 1480]), Send, WaitMode.Wait],
-    [tc.DownloadFile(34, '/telemetry.previous', [1530, 1580, 1630, 1680, 1730, 1780, 1830, 1880, 1930, 1980, 2030, 2080, 2130, 2180, 2230, 1404, 1454, 1504, 1554, 1604]), Send, WaitMode.Wait],
-    [tc.DownloadFile(35, '/telemetry.current', [250, 300, 350, 24, 74, 124, 174, 224, 274, 324, 374, 44, 94, 144, 194, 244, 294, 344, 6, 56]), Send, WaitMode.Wait],
-    [tc.DownloadFile(36, '/telemetry.previous', [1654, 1704, 1754, 1804, 1854, 1904, 1954, 2004, 2054, 2104, 2154, 2204, 2254, 1374, 1424, 1474, 1524, 1574, 1624, 1674]), Send, WaitMode.Wait],
-    [tc.DownloadFile(37, '/telemetry.previous', [1724, 1774, 1824, 1874, 1924, 1974, 2024, 2074, 2124, 2174, 2224, 2274, 1386, 1436, 1486, 1536, 1586, 1636, 1686, 1736]), Send, WaitMode.Wait],
-    [tc.DownloadFile(38, '/telemetry.previous', [1786, 1836, 1886, 1936, 1986, 2036, 2086, 2136, 2186, 2236, 1398, 1448, 1498, 1548, 1598, 1648, 1698, 1748, 1798, 1848]), Send, WaitMode.Wait],
-    [tc.DownloadFile(39, '/telemetry.current', [106, 156, 206, 256, 306, 356, 18, 68, 118, 168, 218, 268, 318, 368, 30, 80, 130, 180, 230, 280]), Send, WaitMode.Wait],
-    [tc.DownloadFile(40, '/telemetry.previous', [1898, 1948, 1998, 2048, 2098, 2148, 2198, 2248, 1410, 1460, 1510, 1560, 1610, 1660, 1710, 1760, 1810, 1860, 1910, 1960]), Send, WaitMode.Wait],
-    [tc.DownloadFile(41, '/telemetry.previous', [2010, 2060, 2110, 2160, 2210, 2260]), Send, WaitMode.Wait],
-    [tc.DownloadFile(42, '/telemetry.current', [330, 380]), Send, WaitMode.Wait],
+    [tc.DownloadFile(131, '/telemetry.previous', [1367, 1417, 1467, 1517, 1567, 1617, 1667, 1717, 1767, 1817, 1867, 1917, 1967, 2017, 2067, 2117, 2167, 2217, 2267, 1392]), Send, WaitMode.Wait],
+    [tc.DownloadFile(132, '/telemetry.current', [37, 87, 137, 187, 237, 287, 337, 12, 62, 112, 162, 212, 262, 312, 362, 0, 50, 100, 150, 200]), Send, WaitMode.Wait],
+    [tc.DownloadFile(133, '/telemetry.previous', [1442, 1492, 1542, 1592, 1642, 1692, 1742, 1792, 1842, 1892, 1942, 1992, 2042, 2092, 2142, 2192, 2242, 1380, 1430, 1480]), Send, WaitMode.Wait],
+    [tc.DownloadFile(134, '/telemetry.previous', [1530, 1580, 1630, 1680, 1730, 1780, 1830, 1880, 1930, 1980, 2030, 2080, 2130, 2180, 2230, 1404, 1454, 1504, 1554, 1604]), Send, WaitMode.Wait],
+    [tc.DownloadFile(135, '/telemetry.current', [250, 300, 350, 24, 74, 124, 174, 224, 274, 324, 374, 44, 94, 144, 194, 244, 294, 344, 6, 56]), Send, WaitMode.Wait],
+    [tc.DownloadFile(136, '/telemetry.previous', [1654, 1704, 1754, 1804, 1854, 1904, 1954, 2004, 2054, 2104, 2154, 2204, 2254, 1374, 1424, 1474, 1524, 1574, 1624, 1674]), Send, WaitMode.Wait],
+    [tc.DownloadFile(137, '/telemetry.previous', [1724, 1774, 1824, 1874, 1924, 1974, 2024, 2074, 2124, 2174, 2224, 2274, 1386, 1436, 1486, 1536, 1586, 1636, 1686, 1736]), Send, WaitMode.Wait],
+    [tc.DownloadFile(138, '/telemetry.previous', [1786, 1836, 1886, 1936, 1986, 2036, 2086, 2136, 2186, 2236, 1398, 1448, 1498, 1548, 1598, 1648, 1698, 1748, 1798, 1848]), Send, WaitMode.Wait],
+    [tc.DownloadFile(139, '/telemetry.current', [106, 156, 206, 256, 306, 356, 18, 68, 118, 168, 218, 268, 318, 368, 30, 80, 130, 180, 230, 280]), Send, WaitMode.Wait],
+    [tc.DownloadFile(140, '/telemetry.previous', [1898, 1948, 1998, 2048, 2098, 2148, 2198, 2248, 1410, 1460, 1510, 1560, 1610, 1660, 1710, 1760, 1810, 1860, 1910, 1960]), Send, WaitMode.Wait],
+    [tc.DownloadFile(141, '/telemetry.previous', [2010, 2060, 2110, 2160, 2210, 2260]), Send, WaitMode.Wait],
+    [tc.DownloadFile(142, '/telemetry.current', [330, 380]), Send, WaitMode.Wait],
     # auto-generated telemetry end
 
 
