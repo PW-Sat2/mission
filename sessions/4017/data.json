@@ -6,9 +6,9 @@
         "start_time_iso_with_zone": "2020-08-14T22:21:37+02:00", 
         "stop_time_iso_with_zone": "2020-08-14T22:33:15+02:00", 
         "maximum_elevation": 40.87, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "refresh-deep-sleep"
         ], 
         "short_description": ""
     }
