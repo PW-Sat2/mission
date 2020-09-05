@@ -6,9 +6,9 @@
         "start_time_iso_with_zone": "2020-09-05T12:52:04+02:00", 
         "stop_time_iso_with_zone": "2020-09-05T13:04:10+02:00", 
         "maximum_elevation": 44.82, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "download photos and radfet"
         ], 
         "short_description": ""
     }
