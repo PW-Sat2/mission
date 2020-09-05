@@ -1,0 +1,62 @@
+BeaconFrame @ 9600 bps
+      BP VOLT 7.46 V, 7.48 V
+      BP TEMP 5.38 C, 5.06 C, 7.40 C
+      COMM PA TEMP NOW 4.57 C LAST 4.84 C
+      COMM RX Current 49.23 mA
+      GYRO UNCAL -2.57 deg/sec, -3.62 deg/sec, 1.74 deg/sec
+      EXPERIMENT None
+      MCU TEMP -3.41 C
+      3V3 DISTR CURRENT 33 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.46 V, 7.48 V
+      BP TEMP 5.50 C, 5.25 C, 7.40 C
+      COMM PA TEMP NOW 4.35 C LAST 3.97 C
+      COMM RX Current 49.07 mA
+      GYRO UNCAL -2.50 deg/sec, -3.62 deg/sec, 1.74 deg/sec
+      EXPERIMENT None
+      MCU TEMP -3.41 C
+      3V3 DISTR CURRENT 35 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.46 V, 7.48 V
+      BP TEMP 5.69 C, 5.44 C, 7.40 C
+      COMM PA TEMP NOW 4.51 C LAST 4.73 C
+      COMM RX Current 48.95 mA
+      GYRO UNCAL -2.43 deg/sec, -3.62 deg/sec, 1.74 deg/sec
+      EXPERIMENT None
+      MCU TEMP -3.10 C
+      3V3 DISTR CURRENT 35 mA
+
+SetBitrateSuccessFrame: Seq=00
+FileListSuccessFrame: CID=002 Seq=00, #files: 14
+FileListSuccessFrame: CID=002 Seq=01, #files: 13
+FileSendSuccessFrame: CID=080 Seq=510
+FileSendSuccessFrame: CID=080 Seq=535
+FileSendSuccessFrame: CID=080 Seq=560
+FileSendSuccessFrame: CID=080 Seq=585
+FileSendSuccessFrame: CID=080 Seq=635
+FileSendSuccessFrame: CID=080 Seq=660
+FileSendSuccessFrame: CID=080 Seq=685
+FileSendSuccessFrame: CID=080 Seq=710
+FileSendSuccessFrame: CID=080 Seq=735
+FileSendSuccessFrame: CID=080 Seq=860
+FileSendSuccessFrame: CID=080 Seq=910
+FileSendSuccessFrame: CID=080 Seq=960
+FileSendSuccessFrame: CID=080 Seq=1010
+FileSendSuccessFrame: CID=080 Seq=1060
+FileSendErrorFrame: Seq=1210
+FileSendSuccessFrame: CID=082 Seq=517
+FileSendSuccessFrame: CID=082 Seq=567
+FileSendSuccessFrame: CID=082 Seq=647
+FileSendSuccessFrame: CID=082 Seq=697
+FileSendSuccessFrame: CID=082 Seq=747
+FileSendSuccessFrame: CID=082 Seq=797
+FileSendSuccessFrame: CID=082 Seq=847
+FileSendSuccessFrame: CID=082 Seq=897
+FileSendSuccessFrame: CID=082 Seq=947
+FileSendSuccessFrame: CID=082 Seq=1073
+FileSendSuccessFrame: CID=082 Seq=1123
+FileSendSuccessFrame: CID=082 Seq=1147
+FileSendErrorFrame: Seq=1197
+FileSendErrorFrame: Seq=1223
