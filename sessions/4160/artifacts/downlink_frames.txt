@@ -1,0 +1,75 @@
+BeaconFrame @ 9600 bps
+      BP VOLT 7.52 V, 7.54 V
+      BP TEMP 2.25 C, 2.19 C, 1.80 C
+      COMM PA TEMP NOW 4.08 C LAST 4.08 C
+      COMM RX Current 50.75 mA
+      GYRO UNCAL -2.37 deg/sec, -3.76 deg/sec, 1.60 deg/sec
+      EXPERIMENT None
+      MCU TEMP -3.89 C
+      3V3 DISTR CURRENT 33 mA
+
+PongFrame: Seq=00
+BeaconFrame @ 1200 bps
+!!!!! BP VOLT 0.00 V, 0.00 V
+!!!!! BP TEMP 0.00 C, 0.00 C, -999.00 C
+!!!!! COMM PA TEMP NOW 189.55 C LAST 189.55 C
+      COMM RX Current 0.00 mA
+!!!!! OBC CRC 0x0000
+      GYRO UNCAL 0.00 deg/sec, 0.00 deg/sec, 0.00 deg/sec
+      EXPERIMENT None
+!!!!! MCU TEMP 389.60 C
+      3V3 DISTR CURRENT 0 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.58 V, 7.62 V
+      BP TEMP 2.44 C, 2.38 C, 1.80 C
+      COMM PA TEMP NOW 5.44 C LAST 5.06 C
+      COMM RX Current 47.70 mA
+      GYRO UNCAL -2.23 deg/sec, -3.76 deg/sec, 1.46 deg/sec
+      EXPERIMENT None
+      MCU TEMP -2.94 C
+      3V3 DISTR CURRENT 33 mA
+
+SetBitrateSuccessFrame: Seq=00
+MemoryContent: Seq=00
+MemoryContent: Seq=01
+MemoryContent: Seq=01
+PowerSuccessFrame: CID=003 Seq=00
+SetBitrateSuccessFrame: Seq=00
+FileListSuccessFrame: CID=005 Seq=00, #files: 14
+FileListSuccessFrame: CID=005 Seq=01, #files: 13
+FileListSuccessFrame: CID=005 Seq=02, #files: 1
+FileSendSuccessFrame: CID=231 Seq=1528
+FileSendSuccessFrame: CID=231 Seq=1553
+FileSendSuccessFrame: CID=231 Seq=1578
+FileSendSuccessFrame: CID=231 Seq=1603
+FileSendSuccessFrame: CID=231 Seq=1628
+FileSendSuccessFrame: CID=231 Seq=1653
+FileSendSuccessFrame: CID=231 Seq=1678
+FileSendSuccessFrame: CID=231 Seq=1703
+FileSendSuccessFrame: CID=231 Seq=1728
+FileSendSuccessFrame: CID=231 Seq=1778
+FileSendSuccessFrame: CID=231 Seq=1828
+FileSendSuccessFrame: CID=231 Seq=1878
+FileSendSuccessFrame: CID=231 Seq=1928
+FileSendSuccessFrame: CID=231 Seq=1978
+FileSendSuccessFrame: CID=231 Seq=2028
+FileSendSuccessFrame: CID=231 Seq=2078
+FileSendSuccessFrame: CID=231 Seq=2128
+FileSendSuccessFrame: CID=231 Seq=2178
+FileSendSuccessFrame: CID=231 Seq=2228
+FileSendSuccessFrame: CID=231 Seq=2278
+FileSendSuccessFrame: CID=232 Seq=48
+FileSendSuccessFrame: CID=232 Seq=73
+FileSendSuccessFrame: CID=232 Seq=123
+FileSendSuccessFrame: CID=232 Seq=148
+FileSendSuccessFrame: CID=232 Seq=173
+FileSendSuccessFrame: CID=232 Seq=198
+FileSendSuccessFrame: CID=232 Seq=248
+FileSendSuccessFrame: CID=232 Seq=298
+FileSendSuccessFrame: CID=232 Seq=348
+FileSendSuccessFrame: CID=232 Seq=398
+FileSendSuccessFrame: CID=232 Seq=423
+FileSendSuccessFrame: CID=232 Seq=448
+FileSendSuccessFrame: CID=232 Seq=473
+FileSendSuccessFrame: CID=232 Seq=498
