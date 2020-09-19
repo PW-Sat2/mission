@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2020-09-19T23:17:51+02:00", 
         "stop_time_iso_with_zone": "2020-09-19T23:30:01+02:00", 
         "maximum_elevation": 78.48, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Download Radfet and photos"
     }
 }
