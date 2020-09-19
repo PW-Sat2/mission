@@ -58,6 +58,8 @@ tasks = [
     [tc.DownloadFile(90, '/t_w_21_53_0', range(140, 160)), Send, WaitMode.Wait],
     [tc.DownloadFile(91, '/t_n_21_53_0', range(140, 160)), Send, WaitMode.Wait],
 
+    [tc.DownloadFile(95, '/t_w_21_53_0', range(160, 170)), Send, WaitMode.Wait],
+
     # Carefully waste some session time
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
