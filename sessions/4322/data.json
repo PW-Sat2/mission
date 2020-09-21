@@ -1,0 +1,15 @@
+{
+    "Session": {
+        "index": 4322, 
+        "phase": "zZz", 
+        "primary": "fp", 
+        "start_time_iso_with_zone": "2020-10-01T12:37:32+02:00", 
+        "stop_time_iso_with_zone": "2020-10-01T12:49:47+02:00", 
+        "maximum_elevation": 72.75, 
+        "status": "auto", 
+        "session_tasks": [
+            "sleep-beacon"
+        ], 
+        "short_description": ""
+    }
+}
