@@ -1,0 +1,141 @@
+BeaconFrame @ 9600 bps
+      BP VOLT 7.54 V, 7.58 V
+      BP TEMP 5.12 C, 4.88 C, 5.50 C
+      COMM PA TEMP NOW 4.57 C LAST 4.89 C
+      COMM RX Current 48.65 mA
+      GYRO UNCAL -1.88 deg/sec, -2.23 deg/sec, 0.83 deg/sec
+      EXPERIMENT RadFET NoResult
+      MCU TEMP -3.73 C
+      3V3 DISTR CURRENT 35 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.54 V, 7.58 V
+      BP TEMP 5.88 C, 5.56 C, 7.40 C
+      COMM PA TEMP NOW 5.55 C LAST 5.77 C
+      COMM RX Current 48.34 mA
+      GYRO UNCAL -1.53 deg/sec, -2.23 deg/sec, 0.77 deg/sec
+      EXPERIMENT RadFET NoResult
+      MCU TEMP -3.10 C
+      3V3 DISTR CURRENT 38 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.54 V, 7.58 V
+      BP TEMP 7.00 C, 6.75 C, 9.20 C
+      COMM PA TEMP NOW 6.97 C LAST 7.52 C
+      COMM RX Current 48.92 mA
+      GYRO UNCAL -1.74 deg/sec, -2.02 deg/sec, 0.97 deg/sec
+      EXPERIMENT RadFET NoResult
+      MCU TEMP -0.87 C
+      3V3 DISTR CURRENT 35 mA
+
+BeaconFrame @ 1200 bps
+!!!!! BP VOLT 0.00 V, 0.00 V
+!!!!! BP TEMP 0.00 C, 0.00 C, -999.00 C
+!!!!! COMM PA TEMP NOW 189.55 C LAST 189.55 C
+      COMM RX Current 0.00 mA
+!!!!! OBC CRC 0x0000
+      GYRO UNCAL 0.00 deg/sec, 0.00 deg/sec, 0.00 deg/sec
+      EXPERIMENT None
+!!!!! MCU TEMP 389.60 C
+      3V3 DISTR CURRENT 0 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.56 V, 7.59 V
+      BP TEMP 7.19 C, 6.88 C, 9.20 C
+      COMM PA TEMP NOW 7.30 C LAST 7.35 C
+      COMM RX Current 48.77 mA
+      GYRO UNCAL -1.60 deg/sec, -2.02 deg/sec, 0.90 deg/sec
+      EXPERIMENT None
+      MCU TEMP -0.56 C
+      3V3 DISTR CURRENT 38 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.54 V, 7.58 V
+      BP TEMP 6.56 C, 6.25 C, 7.40 C
+      COMM PA TEMP NOW 7.19 C LAST 6.86 C
+      COMM RX Current 48.68 mA
+      GYRO UNCAL -1.53 deg/sec, -2.16 deg/sec, 0.97 deg/sec
+      EXPERIMENT RadFET NoResult
+      MCU TEMP -1.51 C
+      3V3 DISTR CURRENT 38 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.56 V, 7.59 V
+      BP TEMP 7.31 C, 7.06 C, 9.20 C
+      COMM PA TEMP NOW 7.68 C LAST 7.19 C
+      COMM RX Current 48.46 mA
+      GYRO UNCAL -1.60 deg/sec, -2.09 deg/sec, 0.83 deg/sec
+      EXPERIMENT None
+      MCU TEMP -0.08 C
+      3V3 DISTR CURRENT 35 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.54 V, 7.58 V
+      BP TEMP 6.69 C, 6.44 C, 7.40 C
+      COMM PA TEMP NOW 6.64 C LAST 6.70 C
+      COMM RX Current 48.68 mA
+      GYRO UNCAL -1.60 deg/sec, -2.23 deg/sec, 0.70 deg/sec
+      EXPERIMENT RadFET NoResult
+      MCU TEMP -1.19 C
+      3V3 DISTR CURRENT 33 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.54 V, 7.58 V
+      BP TEMP 6.38 C, 6.06 C, 7.40 C
+      COMM PA TEMP NOW 6.26 C LAST 6.37 C
+      COMM RX Current 48.40 mA
+      GYRO UNCAL -1.53 deg/sec, -2.09 deg/sec, 1.18 deg/sec
+      EXPERIMENT RadFET NoResult
+      MCU TEMP -1.35 C
+      3V3 DISTR CURRENT 35 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.54 V, 7.58 V
+      BP TEMP 5.56 C, 5.25 C, 7.40 C
+      COMM PA TEMP NOW 5.17 C LAST 5.55 C
+      COMM RX Current 48.71 mA
+      GYRO UNCAL -1.88 deg/sec, -2.16 deg/sec, 1.11 deg/sec
+      EXPERIMENT RadFET NoResult
+      MCU TEMP -3.10 C
+      3V3 DISTR CURRENT 35 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.54 V, 7.58 V
+      BP TEMP 6.88 C, 6.56 C, 7.40 C
+      COMM PA TEMP NOW 6.81 C LAST 6.97 C
+      COMM RX Current 49.29 mA
+      GYRO UNCAL -1.81 deg/sec, -1.95 deg/sec, 0.90 deg/sec
+      EXPERIMENT RadFET NoResult
+      MCU TEMP -0.87 C
+      3V3 DISTR CURRENT 33 mA
+
+PongFrame: Seq=00
+BeaconFrame @ 9600 bps
+      BP VOLT 7.54 V, 7.58 V
+      BP TEMP 6.06 C, 5.75 C, 7.40 C
+      COMM PA TEMP NOW 5.77 C LAST 5.93 C
+      COMM RX Current 48.56 mA
+      GYRO UNCAL -1.95 deg/sec, -2.09 deg/sec, 0.70 deg/sec
+      EXPERIMENT RadFET NoResult
+      MCU TEMP -2.62 C
+      3V3 DISTR CURRENT 33 mA
+
+	Time: 3720.0s
+	 VBAT_A: 7.56 V
+	 VBAT_B: 7.59 V
+	 Reboot to normal: 2
+BeaconFrame @ 9600 bps
+      BP VOLT 7.54 V, 7.58 V
+      BP TEMP 5.69 C, 5.44 C, 7.40 C
+      COMM PA TEMP NOW 5.55 C LAST 5.33 C
+      COMM RX Current 48.53 mA
+      GYRO UNCAL -1.67 deg/sec, -2.23 deg/sec, 0.97 deg/sec
+      EXPERIMENT RadFET NoResult
+      MCU TEMP -2.62 C
+      3V3 DISTR CURRENT 33 mA
+
+SetBitrateSuccessFrame: Seq=00
+FileListSuccessFrame: CID=002 Seq=00, #files: 2
+PhotoSuccessFrame: CID=010 Seq=00
+PhotoSuccessFrame: CID=012 Seq=00
+ExperimentSuccessFrame: CID=100 Seq=00
