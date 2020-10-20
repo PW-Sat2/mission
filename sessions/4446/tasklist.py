@@ -1,5 +1,5 @@
 tasks = [
-    # Completed before this session: 29/181, no missing replies
+    # Completed before this session: 66/181, no missing replies
 
     # Generated for file C:\Users\begreen\Downloads\LittleOryx_1.0\archive\build-fm-fm\OBC\OBC\firmware\hw\little_oryx_hw_stripped.bin at 2020-10-19 19:42:35, md5sum: e22a1cfad48cb3ffd6e225f67e058ee4, crc: 0x6A45
 
