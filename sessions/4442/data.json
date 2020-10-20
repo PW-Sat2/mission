@@ -6,7 +6,7 @@
         "start_time_iso_with_zone": "2020-10-20T11:56:51+02:00", 
         "stop_time_iso_with_zone": "2020-10-20T12:08:42+02:00", 
         "maximum_elevation": 42.02, 
-        "status": "planned", 
+        "status": "success", 
         "session_tasks": [
         ], 
         "short_description": "Wake up, remove secondary boot slots and start Little Oryx upload"
