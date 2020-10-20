@@ -6,10 +6,9 @@
         "start_time_iso_with_zone": "2020-10-20T22:40:50+02:00", 
         "stop_time_iso_with_zone": "2020-10-20T22:52:30+02:00", 
         "maximum_elevation": 48.62, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
         ], 
-        "short_description": ""
+        "short_description": "Continue upload little-oryx"
     }
 }
