@@ -6,10 +6,9 @@
         "start_time_iso_with_zone": "2020-10-21T11:39:21+02:00", 
         "stop_time_iso_with_zone": "2020-10-21T11:50:47+02:00", 
         "maximum_elevation": 27.61, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
         ], 
-        "short_description": ""
+        "short_description": "Wake up Little Oryx"
     }
 }
