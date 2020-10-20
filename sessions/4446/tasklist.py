@@ -11,7 +11,7 @@ tasks = [
 
     [tc.SetBitrate(4, BaudRate.BaudRate9600), Send, WaitMode.Wait],
 
-    [[tc.SendBeacon(), 10], SendLoop, WaitMode.NoWait]
+    [[tc.SendBeacon(), 10], SendLoop, WaitMode.NoWait],
 
 
     # ["The next step is EraseBootTableEntry.", Print, WaitMode.Wait],
