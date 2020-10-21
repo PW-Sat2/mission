@@ -1,9 +1,6 @@
 tasks = [
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
-    ["The next step is SetBootSlots.", Print, WaitMode.Wait],
-    [tc.SetBootSlots(76, 0b111000, 0b111), Send, WaitMode.Wait],
-
     ["The next step is Little Oryx Power Cycle", Print, WaitMode.Wait],
     [tc.little_oryx.Reboot(), Send, WaitMode.Wait],
     
