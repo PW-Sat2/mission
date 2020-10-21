@@ -7,7 +7,7 @@ tasks = [
     [tc.SetBootSlots(76, 0b111000, 0b111), Send, WaitMode.Wait],
 
     ["The next step is Power Cycle B.", Print, WaitMode.Wait],
-    [tc.PowerCycleTelecommand(100), Send, WaitMode.Wait],
+    [tc.PowerCycleTelecommand(99), Send, WaitMode.Wait],
     
     ["The satellite shall boot to the new software.", Print, WaitMode.Wait],
     [tc.PingTelecommand(), Send, WaitMode.Wait],
