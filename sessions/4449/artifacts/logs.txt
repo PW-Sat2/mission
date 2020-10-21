@@ -1,0 +1,21 @@
++0.01s [INFO] Initialized
++0.01s [INFO] [Boot] Boot info valid
++0.01s [INFO] [Boot] Runlevel 3
++0.02s [INFO] [scheduler] Starting task
++0.02s [ERROR] [comm] Unable to send command 204 to 97
++0.03s [ERROR] [comm] Unable to send command 40 to 97
++0.03s [WARNING] Unable to set comm transmitter bitrate
++0.14s [INFO] [gyro] Gyro successfully initialized
++0.14s [INFO] Starting deep sleep
++0.15s [INFO] [Beacon] State change: 0 -> 2
++0.15s [ERROR] [comm] Unable to send command 204 to 96
++0.16s [ERROR] [comm] Unable to send command 204 to 97
++0.16s [ERROR] [comm] Unable to send command 33 to 96
++0.16s [ERROR] [comm] Unable to get frame count
++0.17s [INFO] [Scheduler] State change: 0 -> 2
++0.17s [INFO] [Scheduler] State change: 2 -> 3
++0.19s [INFO] [gyro] Gyro anesthetized
++0.20s [INFO] Disabled LCL-s.
++0.21s [INFO] Remaining to erase 17
++0.24s [INFO] [beacon] Performing!
++0.24s [INFO] [Scheduler] State change: 3 -> 2
