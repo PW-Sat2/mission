@@ -1,0 +1,24 @@
++0.02s [INFO] [scheduler] Starting task
++0.02s [ERROR] [comm] Unable to send command 204 to 97
++0.03s [ERROR] [comm] Unable to send command 40 to 97
++0.03s [WARNING] Unable to set comm transmitter bitrate
++0.14s [INFO] [gyro] Gyro successfully initialized
++0.14s [INFO] Starting deep sleep
++0.16s [ERROR] [comm] Unable to send command 33 to 96
++0.16s [ERROR] [comm] Unable to get frame count
++0.17s [INFO] [Scheduler] State change: 0 -> 2
++0.21s [INFO] Remaining to erase 18
++0.24s [INFO] [beacon] Performing!
++0.24s [INFO] [Scheduler] State change: 3 -> 2
++0.26s [INFO] Deep sleep loop 0s Remaining reboots 35
++0.32s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x0
++0.67s [INFO] [scrub] Check result: True, True, True
++1.39s [INFO] [scrub] Check result: True, True, True
++1.40s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x30000
++1.75s [INFO] [scrub] Check result: True, True, True
++1.75s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x40000
++2.10s [INFO] [scrub] Check result: True, True, True
++2.11s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x50000
++2.47s [INFO] [scrub] Check result: True, True, True
++2.47s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x60000
++2.82s [INFO] [scrub] Check result: True, True, True
