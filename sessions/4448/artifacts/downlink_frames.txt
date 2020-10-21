@@ -1,0 +1,58 @@
+BeaconFrame @ 9600 bps
+      BP VOLT 7.56 V, 7.59 V
+      BP TEMP 5.25 C, 5.06 C, 5.50 C
+      COMM PA TEMP NOW 4.95 C LAST 4.73 C
+      COMM RX Current 48.46 mA
+      GYRO UNCAL -1.95 deg/sec, -1.88 deg/sec, 0.77 deg/sec
+      EXPERIMENT None
+      MCU TEMP -3.57 C
+      3V3 DISTR CURRENT 38 mA
+
+	Time: 465s
+	VBAT_A: 7.57 V
+	VBAT_B: 7.62 V
+	Reboot to normal: 35
+	3V3 Current: 59 mA
+	5V Current: 7 mA
+	Vbat Current: 38 mA
+	Temp A: 4.56 C
+	Temp B: 4.38 C
+BeaconFrame @ 9600 bps
+      BP VOLT 7.57 V, 7.59 V
+      BP TEMP 5.31 C, 5.12 C, 5.50 C
+      COMM PA TEMP NOW 4.79 C LAST 4.68 C
+      COMM RX Current 48.62 mA
+      GYRO UNCAL -2.09 deg/sec, -1.60 deg/sec, 0.97 deg/sec
+      EXPERIMENT None
+      MCU TEMP -2.78 C
+      3V3 DISTR CURRENT 35 mA
+
+	Time: 38s
+	VBAT_A: 7.60 V
+	VBAT_B: 7.65 V
+	Reboot to normal: 35
+	3V3 Current: 40 mA
+	5V Current: 7 mA
+	Vbat Current: 40 mA
+	Temp A: 5.06 C
+	Temp B: 4.81 C
+	Time: 82s
+	VBAT_A: 7.57 V
+	VBAT_B: 7.60 V
+	Reboot to normal: 35
+	3V3 Current: 49 mA
+	5V Current: 7 mA
+	Vbat Current: 40 mA
+	Temp A: 4.94 C
+	Temp B: 4.75 C
+SetBitrateSuccessFrame: Seq=00
+BootSlotsInfoSuccessFrame: CID=076 Seq=00
+PowerSuccessFrame: CID=099 Seq=00
+MemoryContent: Seq=00
+MemoryContent: Seq=00
+MemoryContent: Seq=00
+MemoryContent: Seq=00
+MemoryContent: Seq=00
+MemoryContent: Seq=00
+MemoryContent: Seq=00
+MemoryContent: Seq=00
