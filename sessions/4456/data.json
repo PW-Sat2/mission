@@ -6,10 +6,9 @@
         "start_time_iso_with_zone": "2020-10-22T12:55:29+02:00", 
         "stop_time_iso_with_zone": "2020-10-22T13:07:25+02:00", 
         "maximum_elevation": 49.83, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
         ], 
-        "short_description": ""
+        "short_description": "Rebooting to Little Oryx 1.0.1!"
     }
 }
