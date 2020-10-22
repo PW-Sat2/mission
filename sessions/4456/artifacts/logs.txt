@@ -1,0 +1,97 @@
++0.01s [INFO] Initialized
++0.01s [INFO] [Boot] Boot info valid
++0.01s [INFO] [Boot] Runlevel 3
++0.02s [INFO] [scheduler] Starting task
++2.13s [INFO] [gyro] Gyro successfully initialized
++2.13s [INFO] Starting deep sleep
++2.14s [INFO] [Beacon] State change: 0 -> 2
++2.16s [INFO] [gyro] Gyro anesthetized
++2.16s [INFO] [Scheduler] State change: 0 -> 2
++2.17s [INFO] [Scheduler] State change: 2 -> 3
++2.19s [INFO] Disabled LCL-s.
++2.20s [INFO] Remaining to erase 16
++2.22s [INFO] [beacon] Performing!
++2.22s [INFO] [Scheduler] State change: 3 -> 2
++2.26s [INFO] Deep sleep loop 2s Remaining reboots 35
++2.30s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x0
++2.66s [INFO] [scrub] Check result: True, True, True
++2.66s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x10000
++3.01s [INFO] [scrub] Check result: True, True, True
++3.02s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x20000
++3.38s [INFO] [scrub] Check result: True, True, True
++3.38s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x30000
++3.74s [INFO] [scrub] Check result: True, True, True
++3.74s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x40000
++4.09s [INFO] [scrub] Check result: True, True, True
++4.09s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x50000
++4.46s [INFO] [scrub] Check result: True, True, True
++4.46s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x60000
++4.81s [INFO] [scrub] Check result: True, True, True
++4.81s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x70000
++5.17s [INFO] [scrub] Check result: True, True, True
++5.17s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x0
++5.53s [INFO] [scrub] Check result: True, True, True
++5.54s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x10000
++5.89s [INFO] [scrub] Check result: True, True, True
++5.89s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x20000
++6.25s [INFO] [scrub] Check result: True, True, True
++6.25s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x30000
++6.61s [INFO] [scrub] Check result: True, True, True
++6.61s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x40000
++6.97s [INFO] [scrub] Check result: True, True, True
++6.97s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x50000
++7.32s [INFO] [scrub] Check result: True, True, True
++7.32s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x60000
++7.69s [INFO] [scrub] Check result: True, True, True
++7.69s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x70000
++8.04s [INFO] [scrub] Check result: True, True, True
++8.04s [INFO] [scrub] Scrubbing bootloader copies
++8.71s [INFO] [scrub] Scrubbing bootloader in MCU
++8.76s [INFO] [scrub] Finished scrubbing bootloader
++8.76s [INFO] [scrub] Scrubbing safe mode copies
++9.09s [INFO] [scrub] Scrubbing safe mode in EEPROM
++9.14s [INFO] [scrub] Finished scrubbing safe mode
++9.14s [INFO] [scrub] Scrubbing boot settings
++9.15s [INFO] [scrub] Finished
++42.32s [INFO] Deep sleep loop 42s Remaining reboots 35
++82.32s [INFO] Deep sleep loop 82s Remaining reboots 35
++102.41s [INFO] [beacon] Performing!
++113.54s [INFO] [beacon] Performing!
++122.32s [INFO] Deep sleep loop 122s Remaining reboots 35
++155.85s [INFO] [beacon] Performing!
++162.32s [INFO] Deep sleep loop 162s Remaining reboots 35
++196.22s [INFO] [beacon] Performing!
++25.70s [INFO] <undefined_format at 0x000885a4>
++30.77s [INFO] <undefined_format at 0x000885a4>
++202.32s [INFO] Deep sleep loop 202s Remaining reboots 35
++38.87s [INFO] <undefined_format at 0x000885a4>
++40.26s [INFO]  0x28
++46.97s [INFO] <undefined_format at 0x000885a4>
++80.26s [INFO]  0x50
++120.26s [INFO]  0x78
++131.14s [INFO] <undefined_format at 0x000885a4>
++160.26s [INFO]  0xA0
++200.26s [INFO]  0xC8
++217.24s [INFO] ed N25Q flashes successfully
++4440.27s [INFO]  0x1158
++4480.27s [INFO]  0x1180
++4520.27s [INFO]  0x11A8
++4560.27s [INFO]  0x11D0
++4567.61s [INFO] <undefined_format at 0x000885a4>
++4600.27s [INFO]  0x11F8
++4640.27s [INFO]  0x1220
++4680.27s [INFO]  0x1248
++4720.27s [INFO]  0x1270
++4760.27s [INFO]  0x1298
++4800.27s [INFO]  0x12C0
++4807.66s [INFO] <undefined_format at 0x000885a4>
++4840.27s [INFO]  0x12E8
++4880.27s [INFO]  0x1310
++4920.27s [INFO]  0x1338
++4960.27s [INFO]  0x1360
++5000.27s [INFO]  0x1388
++5040.27s [INFO]  0x13B0
++5047.71s [INFO] <undefined_format at 0x000885a4>
++5080.27s [INFO]  0x13D8
++5120.27s [INFO]  0x1400
++5160.27s [INFO]  0x1428
