@@ -1,0 +1,97 @@
++3602.67s [INFO] [scrub] Check result: True, True, True
++3602.67s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x10000
++3602.99s [INFO] [beacon] Performing!
++3603.05s [INFO] [scrub] Check result: True, True, True
++3603.06s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x20000
++3603.41s [INFO] [scrub] Check result: True, True, True
++3603.41s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x30000
++3603.78s [INFO] [scrub] Check result: True, True, True
++3603.78s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x40000
++3604.13s [INFO] [scrub] Check result: True, True, True
++3604.13s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x50000
++3604.49s [INFO] [scrub] Check result: True, True, True
++3604.49s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x60000
++3604.85s [INFO] [scrub] Check result: True, True, True
++3604.85s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x70000
++3605.21s [INFO] [scrub] Check result: True, True, True
++3605.21s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x0
++3605.56s [INFO] [scrub] Check result: True, True, True
++3605.57s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x10000
++3605.93s [INFO] [scrub] Check result: True, True, True
++3605.93s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x20000
++3606.29s [INFO] [scrub] Check result: True, True, True
++3606.29s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x30000
++3606.64s [INFO] [scrub] Check result: True, True, True
++3606.65s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x40000
++3607.00s [INFO] [scrub] Check result: True, True, True
++3607.01s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x50000
++3607.36s [INFO] [scrub] Check result: True, True, True
++3607.36s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x60000
++3607.73s [INFO] [scrub] Check result: True, True, True
++3607.73s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x70000
++3608.08s [INFO] [scrub] Check result: True, True, True
++3608.08s [INFO] [scrub] Scrubbing bootloader copies
++3608.75s [INFO] [scrub] Scrubbing bootloader in MCU
++3608.80s [INFO] [scrub] Finished scrubbing bootloader
++3608.80s [INFO] [scrub] Scrubbing safe mode copies
++3609.13s [INFO] [scrub] Scrubbing safe mode in EEPROM
++3609.18s [INFO] [scrub] Finished scrubbing safe mode
++3609.18s [INFO] [scrub] Scrubbing boot settings
++3609.19s [INFO] [scrub] Finished
++3642.25s [INFO] Deep sleep loop 3642s Remaining reboots 31
++3682.25s [INFO] Deep sleep loop 3682s Remaining reboots 31
++3722.25s [INFO] Deep sleep loop 3722s Remaining reboots 31
++3762.25s [INFO] Deep sleep loop 3762s Remaining reboots 31
++3802.25s [INFO] Deep sleep loop 3802s Remaining reboots 31
++3842.25s [INFO] Deep sleep loop 3842s Remaining reboots 31
++3843.05s [INFO] [beacon] Performing!
++3882.25s [INFO] Deep sleep loop 3882s Remaining reboots 31
++3922.25s [INFO] Deep sleep loop 3922s Remaining reboots 31
++3962.25s [INFO] Deep sleep loop 3962s Remaining reboots 31
++4002.25s [INFO] Deep sleep loop 4002s Remaining reboots 31
++4034.09s [INFO] [beacon] Performing!
++4038.15s [INFO] [beacon] Performing!
++4042.25s [INFO] Deep sleep loop 4042s Remaining reboots 31
++4080.59s [INFO] [beacon] Performing!
++4082.25s [INFO] Deep sleep loop 4082s Remaining reboots 31
++4117.85s [INFO] [beacon] Performing!
++2242.25s [INFO] Deep sleep loop 2242s Remaining reboots 31
++4122.25s [INFO] Deep sleep loop 4122s Remaining reboots 31
++4123.93s [INFO] [beacon] Performing!
++2282.25s [INFO] Deep sleep loop 2282s Remaining reboots 31
++2322.25s [INFO] Deep sleep loop 2322s Remaining reboots 31
++2362.25s [INFO] Deep sleep loop 2362s Remaining reboots 31
++2402.25s [INFO] Deep sleep loop 2402s Remaining reboots 31
++2402.74s [INFO] [beacon] Performing!
++2442.25s [INFO] Deep sleep loop 2442s Remaining reboots 31
++2482.25s [INFO] Deep sleep loop 2482s Remaining reboots 31
++2522.25s [INFO] Deep sleep loop 2522s Remaining reboots 31
++2562.25s [INFO] Deep sleep loop 2562s Remaining reboots 31
++2602.25s [INFO] Deep sleep loop 2602s Remaining reboots 31
++2642.25s [INFO] Deep sleep loop 2642s Remaining reboots 31
++2642.79s [INFO] [beacon] Performing!
++2682.25s [INFO] Deep sleep loop 2682s Remaining reboots 31
++2722.25s [INFO] Deep sleep loop 2722s Remaining reboots 31
++2762.25s [INFO] Deep sleep loop 2762s Remaining reboots 31
++2802.25s [INFO] Deep sleep loop 2802s Remaining reboots 31
++2842.25s [INFO] Deep sleep loop 2842s Remaining reboots 31
++2882.25s [INFO] Deep sleep loop 2882s Remaining reboots 31
++2882.84s [INFO] [beacon] Performing!
++2922.25s [INFO] Deep sleep loop 2922s Remaining reboots 31
++2962.25s [INFO] Deep sleep loop 2962s Remaining reboots 31
++3002.25s [INFO] Deep sleep loop 3002s Remaining reboots 31
++3042.25s [INFO] Deep sleep loop 3042s Remaining reboots 31
++3082.25s [INFO] Deep sleep loop 3082s Remaining reboots 31
++3122.25s [INFO] Deep sleep loop 3122s Remaining reboots 31
++3122.89s [INFO] [beacon] Performing!
++3162.25s [INFO] Deep sleep loop 3162s Remaining reboots 31
++3202.25s [INFO] Deep sleep loop 3202s Remaining reboots 31
++3242.25s [INFO] Deep sleep loop 3242s Remaining reboots 31
++3282.25s [INFO] Deep sleep loop 3282s Remaining reboots 31
++3322.25s [INFO] Deep sleep loop 3322s Remaining reboots 31
++3362.25s [INFO] Deep sleep loop 3362s Remaining reboots 31
++3362.94s [INFO] [beacon] Performing!
++3402.25s [INFO] Deep sleep loop 3402s Remaining reboots 31
++3442.25s [INFO] Deep sleep loop 3442s Remaining reboots 31
++3482.25s [INFO] Deep sleep loop 3482s Remaining reboots 31
++3522.25s [INFO] Deep sleep loop 3522s Remaining reboots 31
