@@ -1,0 +1,126 @@
+	Time: 289s
+	VBAT_A: 7.62 V
+	VBAT_B: 7.64 V
+	Reboot to normal: 35
+	3V3 Current: 56 mA
+	5V Current: 7 mA
+	Vbat Current: 40 mA
+	Temp A: 5.62 C
+	Temp B: 5.38 C
+	Time: 241s
+	VBAT_A: 7.54 V
+	VBAT_B: 7.58 V
+	Reboot to normal: 35
+	3V3 Current: 56 mA
+	5V Current: 7 mA
+	Vbat Current: 40 mA
+	Temp A: 5.69 C
+	Temp B: 5.44 C
+	Time: 155s
+	VBAT_A: 7.56 V
+	VBAT_B: 7.59 V
+	Reboot to normal: 35
+	3V3 Current: 33 mA
+	5V Current: 7 mA
+	Vbat Current: 40 mA
+	Temp A: 5.81 C
+	Temp B: 5.56 C
+PongFrame: Seq=00
+	Time: 196s
+	VBAT_A: 7.65 V
+	VBAT_B: 7.68 V
+	Reboot to normal: 35
+	3V3 Current: 42 mA
+	5V Current: 7 mA
+	Vbat Current: 40 mA
+	Temp A: 5.75 C
+	Temp B: 5.50 C
+	Time: 102s
+	VBAT_A: 7.59 V
+	VBAT_B: 7.63 V
+	Reboot to normal: 35
+	3V3 Current: 56 mA
+	5V Current: 7 mA
+	Vbat Current: 40 mA
+	Temp A: 5.94 C
+	Temp B: 5.62 C
+	Time: 376s
+	VBAT_A: 7.59 V
+	VBAT_B: 7.63 V
+	Reboot to normal: 35
+	3V3 Current: 59 mA
+	5V Current: 7 mA
+	Vbat Current: 40 mA
+	Temp A: 5.56 C
+	Temp B: 5.31 C
+	Time: 308s
+	VBAT_A: 7.65 V
+	VBAT_B: 7.69 V
+	Reboot to normal: 35
+	3V3 Current: 40 mA
+	5V Current: 7 mA
+	Vbat Current: 38 mA
+	Temp A: 5.56 C
+	Temp B: 5.38 C
+	Time: 113s
+	VBAT_A: 7.62 V
+	VBAT_B: 7.67 V
+	Reboot to normal: 35
+	3V3 Current: 61 mA
+	5V Current: 7 mA
+	Vbat Current: 40 mA
+	Temp A: 5.88 C
+	Temp B: 5.62 C
+	Time: 2s
+	VBAT_A: 7.56 V
+	VBAT_B: 7.59 V
+	Reboot to normal: 35
+	3V3 Current: 59 mA
+	5V Current: 7 mA
+	Vbat Current: 40 mA
+	Temp A: 6.12 C
+	Temp B: 5.88 C
+BeaconFrame @ 9600 bps
+      BP VOLT 7.56 V, 7.58 V
+      BP TEMP 6.31 C, 6.06 C, 7.40 C
+      COMM PA TEMP NOW 5.33 C LAST 5.33 C
+      COMM RX Current 48.65 mA
+      GYRO UNCAL -1.67 deg/sec, -1.74 deg/sec, 0.70 deg/sec
+      EXPERIMENT None
+      MCU TEMP -2.94 C
+      3V3 DISTR CURRENT 35 mA
+
+BootSlotsInfoSuccessFrame: CID=076 Seq=00
+Memory: CID=100 Seq=0
+Memory: CID=101 Seq=0
+Memory: CID=102 Seq=0
+Memory: CID=103 Seq=0
+Memory: CID=104 Seq=0
+Memory: CID=105 Seq=0
+Memory: CID=106 Seq=0
+Memory: CID=107 Seq=0
+Memory: CID=108 Seq=0
+Memory: CID=109 Seq=0
+Memory: CID=110 Seq=0
+Memory: CID=111 Seq=0
+Memory: CID=112 Seq=0
+Memory: CID=113 Seq=0
+Memory: CID=114 Seq=0
+Memory: CID=115 Seq=0
+Memory: CID=116 Seq=0
+Memory: CID=117 Seq=0
+Memory: CID=118 Seq=0
+Memory: CID=119 Seq=0
+Memory: CID=120 Seq=0
+Memory: CID=121 Seq=0
+Memory: CID=122 Seq=0
+Memory: CID=123 Seq=0
+Memory: CID=124 Seq=0
+Memory: CID=125 Seq=0
+Memory: CID=126 Seq=0
+Memory: CID=127 Seq=0
+Memory: CID=128 Seq=0
+Memory: CID=129 Seq=0
+Memory: CID=130 Seq=0
+Memory: CID=131 Seq=0
+Memory: CID=132 Seq=0
