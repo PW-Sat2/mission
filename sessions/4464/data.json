@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2020-10-23T21:48:36+02:00", 
         "stop_time_iso_with_zone": "2020-10-23T21:58:36+02:00", 
         "maximum_elevation": 15.85, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
             "sleep-beacon"
         ], 
-        "short_description": ""
+        "short_description": "Test little oryx reboot to normal and get back to sleep."
     }
 }
