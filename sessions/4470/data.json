@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2020-10-24T21:31:22+02:00", 
         "stop_time_iso_with_zone": "2020-10-24T21:40:26+02:00", 
         "maximum_elevation": 11.2, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            ""
         ], 
-        "short_description": ""
+        "short_description": "Delay the automatic reboot to normal for entire week."
     }
 }
