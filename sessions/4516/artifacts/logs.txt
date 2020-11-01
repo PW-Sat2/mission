@@ -1,0 +1,97 @@
++4842.42s [INFO] Deep sleep loop 4842s Remaining reboots 48
++4882.42s [INFO] Deep sleep loop 4882s Remaining reboots 48
++4922.42s [INFO] Deep sleep loop 4922s Remaining reboots 48
++4962.42s [INFO] Deep sleep loop 4962s Remaining reboots 48
++5002.42s [INFO] Deep sleep loop 5002s Remaining reboots 48
++5042.42s [INFO] Deep sleep loop 5042s Remaining reboots 48
++5072.19s [INFO] [beacon] Performing!
++5082.42s [INFO] Deep sleep loop 5082s Remaining reboots 48
++5122.42s [INFO] Deep sleep loop 5122s Remaining reboots 48
++5162.42s [INFO] Deep sleep loop 5162s Remaining reboots 48
++5202.42s [INFO] Deep sleep loop 5202s Remaining reboots 48
++5242.42s [INFO] Deep sleep loop 5242s Remaining reboots 48
++5282.42s [INFO] Deep sleep loop 5282s Remaining reboots 48
++5312.24s [INFO] [beacon] Performing!
++5322.42s [INFO] Deep sleep loop 5322s Remaining reboots 48
++5362.42s [INFO] Deep sleep loop 5362s Remaining reboots 48
++5402.30s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x0
++5402.42s [INFO] Deep sleep loop 5402s Remaining reboots 48
++5402.66s [INFO] [scrub] Check result: True, True, True
++5402.66s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x10000
++5403.02s [INFO] [scrub] Check result: True, True, True
++5403.02s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x20000
++5403.38s [INFO] [scrub] Check result: True, True, True
++5403.38s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x30000
++5403.74s [INFO] [scrub] Check result: True, True, True
++5403.74s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x40000
++5404.10s [INFO] [scrub] Check result: True, True, True
++5404.10s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x50000
++5404.45s [INFO] [scrub] Check result: True, True, True
++5404.46s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x60000
++5404.82s [INFO] [scrub] Check result: True, True, True
++5404.82s [INFO] [scrub] Running program scrubbing on slots 0x38 at offset 0x70000
++5405.17s [INFO] [scrub] Check result: True, True, True
++5405.18s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x0
++5405.53s [INFO] [scrub] Check result: True, True, True
++5405.53s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x10000
++5405.89s [INFO] [scrub] Check result: True, True, True
++5405.90s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x20000
++5406.25s [INFO] [scrub] Check result: True, True, True
++5406.25s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x30000
++5406.61s [INFO] [scrub] Check result: True, True, True
++5406.61s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x40000
++5406.97s [INFO] [scrub] Check result: True, True, True
++5406.97s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x50000
++5407.33s [INFO] [scrub] Check result: True, True, True
++5407.33s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x60000
++5407.68s [INFO] [scrub] Check result: True, True, True
++5407.69s [INFO] [scrub] Running program scrubbing on slots 0x7 at offset 0x70000
++5408.05s [INFO] [scrub] Check result: True, True, True
++5408.05s [INFO] [scrub] Scrubbing bootloader copies
++5408.71s [INFO] [scrub] Scrubbing bootloader in MCU
++5408.76s [INFO] [scrub] Finished scrubbing bootloader
++5408.76s [INFO] [scrub] Scrubbing safe mode copies
++5409.10s [INFO] [scrub] Scrubbing safe mode in EEPROM
++5409.14s [INFO] [scrub] Finished scrubbing safe mode
++5409.15s [INFO] [scrub] Scrubbing boot settings
++5409.16s [INFO] [scrub] Finished
++5442.43s [INFO] Deep sleep loop 5442s Remaining reboots 48
++5482.43s [INFO] Deep sleep loop 5482s Remaining reboots 48
++5522.43s [INFO] Deep sleep loop 5522s Remaining reboots 48
++5552.29s [INFO] [beacon] Performing!
++5562.43s [INFO] Deep sleep loop 5562s Remaining reboots 48
++5602.43s [INFO] Deep sleep loop 5602s Remaining reboots 48
++5642.43s [INFO] Deep sleep loop 5642s Remaining reboots 48
++5682.43s [INFO] Deep sleep loop 5682s Remaining reboots 48
++5722.43s [INFO] Deep sleep loop 5722s Remaining reboots 48
++5762.43s [INFO] Deep sleep loop 5762s Remaining reboots 48
++5792.34s [INFO] [beacon] Performing!
++5802.43s [INFO] Deep sleep loop 5802s Remaining reboots 48
++5842.43s [INFO] Deep sleep loop 5842s Remaining reboots 48
++5882.43s [INFO] Deep sleep loop 5882s Remaining reboots 48
++5922.43s [INFO] Deep sleep loop 5922s Remaining reboots 48
++5962.43s [INFO] Deep sleep loop 5962s Remaining reboots 48
++5980.68s [INFO] [beacon] Performing!
++5999.89s [INFO] [beacon] Performing!
++6002.43s [INFO] Deep sleep loop 6002s Remaining reboots 48
++6009.04s [INFO] [beacon] Performing!
++6038.42s [INFO] [beacon] Performing!
++6042.43s [INFO] Deep sleep loop 6042s Remaining reboots 48
++6045.51s [INFO] [beacon] Performing!
++6053.61s [INFO] [beacon] Performing!
++4362.42s [INFO] Deep sleep loop 4362s Remaining reboots 48
++4402.42s [INFO] Deep sleep loop 4402s Remaining reboots 48
++4442.42s [INFO] Deep sleep loop 4442s Remaining reboots 48
++4482.42s [INFO] Deep sleep loop 4482s Remaining reboots 48
++6082.43s [INFO] Deep sleep loop 6082s Remaining reboots 48
++6108.17s [INFO] [beacon] Performing!
++6117.28s [INFO] [beacon] Performing!
++6122.43s [INFO] Deep sleep loop 6122s Remaining reboots 48
++6162.43s [INFO] Deep sleep loop 6162s Remaining reboots 48
++4522.42s [INFO] Deep sleep loop 4522s Remaining reboots 48
++4562.42s [INFO] Deep sleep loop 4562s Remaining reboots 48
++4592.09s [INFO] [beacon] Performing!
++4602.42s [INFO] Deep sleep loop 4602s Remaining reboots 48
++4642.42s [INFO] Deep sleep loop 4642s Remaining reboots 48
++4682.42s [INFO] Deep sleep loop 4682s Remaining reboots 48
++4722.42s [INFO] Deep sleep loop 4722s Remaining reboots 48
