@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2020-11-14T23:01:56+01:00", 
         "stop_time_iso_with_zone": "2020-11-14T23:13:22+01:00", 
         "maximum_elevation": 32.1, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Telemetry, radfet and photos download. And go to sleep."
     }
 }
