@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2020-11-21T12:56:59+01:00", 
         "stop_time_iso_with_zone": "2020-11-21T13:07:17+01:00", 
         "maximum_elevation": 14.7, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Telemetry download, SunS exp, photos & radfet download."
     }
 }
