@@ -14,13 +14,15 @@ tasks = [
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
-    # TODO: change photos times
-    [tc.TakePhotoTelecommand(4, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=20), 'w_p480_0'), Send, WaitMode.Wait],
-    [tc.TakePhotoTelecommand(5, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'n_p480_0'), Send, WaitMode.Wait],
-
-    [tc.TakePhotoTelecommand(6, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=20), 'w_p480_1'), Send, WaitMode.Wait],
-    [tc.TakePhotoTelecommand(7, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'n_p480_1'), Send, WaitMode.Wait],
-
+    #10:33
+    [tc.TakePhotoTelecommand(4, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'b_w_p480_0'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(5, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'b_n_p480_0'), Send, WaitMode.Wait],
+    # 10:37 egipt
+    [tc.TakePhotoTelecommand(6, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=4), 'b_w_p480_1'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(7, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'b_n_p480_1'), Send, WaitMode.Wait],
+    #11:08 antarktyda
+    [tc.TakePhotoTelecommand(8, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=31), 'b_w_p480_2'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(9, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'b_n_p480_2'), Send, WaitMode.Wait],
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
