@@ -1,0 +1,96 @@
+BeaconFrame @ 9600 bps
+      BP VOLT 7.70 V, 7.73 V
+      BP TEMP 7.00 C, 6.69 C, 7.40 C
+      COMM PA TEMP NOW 7.30 C LAST 7.24 C
+      COMM RX Current 47.58 mA
+      GYRO UNCAL -1.39 deg/sec, -2.30 deg/sec, 0.07 deg/sec
+      EXPERIMENT None
+      MCU TEMP -1.67 C
+      3V3 DISTR CURRENT 35 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.65 V, 7.69 V
+      BP TEMP 7.56 C, 7.31 C, 9.20 C
+      COMM PA TEMP NOW 7.24 C LAST 7.08 C
+      COMM RX Current 48.16 mA
+      GYRO UNCAL -1.60 deg/sec, -1.60 deg/sec, 1.53 deg/sec
+      EXPERIMENT None
+      MCU TEMP -1.98 C
+      3V3 DISTR CURRENT 33 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.60 V, 7.64 V
+      BP TEMP 7.38 C, 7.12 C, 9.20 C
+      COMM PA TEMP NOW 7.46 C LAST 7.30 C
+      COMM RX Current 49.04 mA
+      GYRO UNCAL -1.32 deg/sec, -2.23 deg/sec, 0.70 deg/sec
+      EXPERIMENT None
+      MCU TEMP -1.67 C
+      3V3 DISTR CURRENT 33 mA
+
+BeaconFrame @ 1200 bps
+!!!!! BP VOLT 0.00 V, 0.00 V
+!!!!! BP TEMP 0.00 C, 0.00 C, -999.00 C
+!!!!! COMM PA TEMP NOW 189.55 C LAST 189.55 C
+      COMM RX Current 0.00 mA
+!!!!! OBC CRC 0x0000
+      GYRO UNCAL 0.00 deg/sec, 0.00 deg/sec, 0.00 deg/sec
+      EXPERIMENT None
+!!!!! MCU TEMP 389.60 C
+      3V3 DISTR CURRENT 0 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.60 V, 7.64 V
+      BP TEMP 7.44 C, 7.19 C, 9.20 C
+      COMM PA TEMP NOW 7.13 C LAST 7.13 C
+      COMM RX Current 48.77 mA
+      GYRO UNCAL -1.60 deg/sec, -1.74 deg/sec, 1.11 deg/sec
+      EXPERIMENT None
+      MCU TEMP -1.67 C
+      3V3 DISTR CURRENT 35 mA
+
+	Time: 6738s
+	VBAT_A: 7.60 V
+	VBAT_B: 7.63 V
+	Reboot to normal: 48
+	3V3 Current: 49 mA
+	5V Current: 7 mA
+	Vbat Current: 40 mA
+	Temp A: 7.88 C
+	Temp B: 7.56 C
+BeaconFrame @ 9600 bps
+      BP VOLT 7.60 V, 7.68 V
+      BP TEMP 7.25 C, 6.94 C, 7.40 C
+      COMM PA TEMP NOW 7.35 C LAST 7.08 C
+      COMM RX Current 48.92 mA
+      GYRO UNCAL -0.90 deg/sec, -2.23 deg/sec, 0.97 deg/sec
+      EXPERIMENT None
+      MCU TEMP -1.67 C
+      3V3 DISTR CURRENT 33 mA
+
+SetBitrateSuccessFrame: Seq=00
+FileListSuccessFrame: CID=002 Seq=00, #files: 1
+PhotoSuccessFrame: CID=007 Seq=00
+PhotoSuccessFrame: CID=008 Seq=00
+PhotoSuccessFrame: CID=009 Seq=00
+PhotoSuccessFrame: CID=010 Seq=00
+PhotoSuccessFrame: CID=011 Seq=00
+PhotoSuccessFrame: CID=012 Seq=00
+PhotoSuccessFrame: CID=013 Seq=00
+PhotoSuccessFrame: CID=014 Seq=00
+PhotoSuccessFrame: CID=015 Seq=00
+PhotoSuccessFrame: CID=016 Seq=00
+PhotoSuccessFrame: CID=018 Seq=00
+PhotoSuccessFrame: CID=019 Seq=00
+PhotoSuccessFrame: CID=020 Seq=00
+PhotoSuccessFrame: CID=021 Seq=00
+PhotoSuccessFrame: CID=022 Seq=00
+PhotoSuccessFrame: CID=023 Seq=00
+PhotoSuccessFrame: CID=025 Seq=00
+PhotoSuccessFrame: CID=026 Seq=00
+PhotoSuccessFrame: CID=027 Seq=00
+PhotoSuccessFrame: CID=028 Seq=00
+PhotoSuccessFrame: CID=029 Seq=00
+PhotoSuccessFrame: CID=030 Seq=00
+PhotoSuccessFrame: CID=031 Seq=00
+PhotoSuccessFrame: CID=032 Seq=00
