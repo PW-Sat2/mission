@@ -1,4 +1,4 @@
-PHOTO_SESSIONS = [4789]
+PHOTO_SESSIONS = [4789, 4790]
 
 photos = [    
     '16_08',
