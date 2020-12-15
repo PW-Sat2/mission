@@ -1,4 +1,4 @@
-PHOTO_SESSIONS = [4789, 4790, 4791]
+PHOTO_SESSIONS = list(range(4789, session.session_number))
 
 photos = [    
     '16_08',
