@@ -1,0 +1,43 @@
+	Time: 5283s
+	VBAT_A: 7.59 V
+	VBAT_B: 7.63 V
+	Reboot to normal: 44
+	3V3 Current: 26 mA
+	5V Current: 7 mA
+	Vbat Current: 38 mA
+	Temp A: 10.81 C
+	Temp B: 10.56 C
+BeaconFrame @ 9600 bps
+      BP VOLT 7.58 V, 7.62 V
+      BP TEMP 10.25 C, 9.94 C, 12.90 C
+      COMM PA TEMP NOW 10.30 C LAST 10.14 C
+      COMM RX Current 48.80 mA
+      GYRO UNCAL -0.42 deg/sec, -2.16 deg/sec, 0.21 deg/sec
+      EXPERIMENT RadFET NoResult
+      MCU TEMP 1.98 C
+      3V3 DISTR CURRENT 40 mA
+
+BeaconFrame @ 1200 bps
+!!!!! BP VOLT 0.00 V, 0.00 V
+!!!!! BP TEMP 0.00 C, 0.00 C, -999.00 C
+!!!!! COMM PA TEMP NOW 189.55 C LAST 189.55 C
+      COMM RX Current 0.00 mA
+!!!!! OBC CRC 0x0000
+      GYRO UNCAL 0.00 deg/sec, 0.00 deg/sec, 0.00 deg/sec
+      EXPERIMENT None
+!!!!! MCU TEMP 389.60 C
+      3V3 DISTR CURRENT 0 mA
+
+	Time: 5285s
+	VBAT_A: 7.59 V
+	VBAT_B: 7.63 V
+	Reboot to normal: 44
+	3V3 Current: 56 mA
+	5V Current: 7 mA
+	Vbat Current: 40 mA
+	Temp A: 10.81 C
+	Temp B: 10.50 C
+PongFrame: Seq=00
+SetBitrateSuccessFrame: Seq=00
+FileListSuccessFrame: CID=002 Seq=00, #files: 1
+ExperimentSuccessFrame: CID=100 Seq=00
