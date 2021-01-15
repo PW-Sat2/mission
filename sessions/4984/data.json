@@ -6,10 +6,9 @@
         "start_time_iso_with_zone": "2021-01-15T22:30:22+01:00", 
         "stop_time_iso_with_zone": "2021-01-15T22:41:31+01:00", 
         "maximum_elevation": 82.82, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
         ], 
-        "short_description": ""
+        "short_description": "Another medium-res time-lapse movie"
     }
 }
