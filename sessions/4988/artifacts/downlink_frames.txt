@@ -1,0 +1,369 @@
+BeaconFrame @ 9600 bps
+      BP VOLT 7.44 V, 7.59 V
+      BP TEMP 5.44 C, 5.25 C, 5.50 C
+      COMM PA TEMP NOW 8.99 C LAST 8.94 C
+      COMM RX Current 48.53 mA
+      GYRO UNCAL -1.46 deg/sec, -1.67 deg/sec, 1.95 deg/sec
+      EXPERIMENT None
+      MCU TEMP -3.73 C
+      3V3 DISTR CURRENT 33 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.54 V, 7.58 V
+      BP TEMP 5.12 C, 4.81 C, 5.50 C
+      COMM PA TEMP NOW 12.16 C LAST 14.07 C
+      COMM RX Current 48.62 mA
+      GYRO UNCAL -2.50 deg/sec, -2.16 deg/sec, -0.21 deg/sec
+      EXPERIMENT None
+      MCU TEMP -3.57 C
+      3V3 DISTR CURRENT 40 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.54 V, 7.58 V
+      BP TEMP 5.69 C, 5.44 C, 5.50 C
+      COMM PA TEMP NOW 4.68 C LAST 4.68 C
+      COMM RX Current 48.65 mA
+      GYRO UNCAL -1.74 deg/sec, -2.16 deg/sec, 1.53 deg/sec
+      EXPERIMENT None
+      MCU TEMP -3.57 C
+      3V3 DISTR CURRENT 38 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.44 V, 7.46 V
+      BP TEMP 5.38 C, 5.19 C, 5.50 C
+      COMM PA TEMP NOW 10.57 C LAST 10.30 C
+      COMM RX Current 120.84 mA
+      GYRO UNCAL -1.04 deg/sec, -2.50 deg/sec, 1.32 deg/sec
+      EXPERIMENT None
+      MCU TEMP -3.41 C
+      3V3 DISTR CURRENT 54 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.56 V, 7.58 V
+      BP TEMP 5.25 C, 5.00 C, 5.50 C
+      COMM PA TEMP NOW 14.01 C LAST 14.07 C
+      COMM RX Current 49.20 mA
+      GYRO UNCAL -0.63 deg/sec, -2.99 deg/sec, 0.83 deg/sec
+      EXPERIMENT None
+      MCU TEMP -3.57 C
+      3V3 DISTR CURRENT 33 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.54 V, 7.46 V
+      BP TEMP 5.31 C, 5.12 C, 5.50 C
+      COMM PA TEMP NOW 9.54 C LAST 10.08 C
+      COMM RX Current 121.85 mA
+      GYRO UNCAL -0.42 deg/sec, -3.20 deg/sec, 1.11 deg/sec
+      EXPERIMENT None
+      MCU TEMP -3.41 C
+      3V3 DISTR CURRENT 35 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.57 V, 7.60 V
+      BP TEMP 5.12 C, 4.94 C, 5.50 C
+      COMM PA TEMP NOW 16.25 C LAST 17.40 C
+      COMM RX Current 48.34 mA
+      GYRO UNCAL -1.11 deg/sec, -3.41 deg/sec, -0.42 deg/sec
+      EXPERIMENT None
+      MCU TEMP -3.25 C
+      3V3 DISTR CURRENT 33 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.50 V, 7.53 V
+      BP TEMP 5.19 C, 5.00 C, 5.50 C
+      COMM PA TEMP NOW 16.80 C LAST 16.47 C
+      COMM RX Current 121.24 mA
+      GYRO UNCAL -0.97 deg/sec, -3.20 deg/sec, -0.14 deg/sec
+      EXPERIMENT None
+      MCU TEMP -3.25 C
+      3V3 DISTR CURRENT 38 mA
+
+SetBitrateSuccessFrame: Seq=00
+FileListSuccessFrame: CID=002 Seq=00, #files: 15
+FileListSuccessFrame: CID=002 Seq=01, #files: 14
+FileListSuccessFrame: CID=002 Seq=02, #files: 15
+FileListSuccessFrame: CID=002 Seq=03, #files: 14
+FileListSuccessFrame: CID=002 Seq=04, #files: 15
+FileListSuccessFrame: CID=002 Seq=05, #files: 14
+FileListSuccessFrame: CID=002 Seq=06, #files: 10
+FileSendSuccessFrame: CID=030 Seq=02
+FileSendSuccessFrame: CID=030 Seq=03
+FileSendSuccessFrame: CID=030 Seq=04
+FileSendSuccessFrame: CID=030 Seq=05
+FileSendSuccessFrame: CID=030 Seq=06
+FileSendSuccessFrame: CID=030 Seq=07
+FileSendSuccessFrame: CID=030 Seq=08
+FileSendSuccessFrame: CID=030 Seq=09
+FileSendSuccessFrame: CID=030 Seq=10
+FileSendSuccessFrame: CID=030 Seq=11
+FileSendSuccessFrame: CID=030 Seq=12
+FileSendSuccessFrame: CID=030 Seq=13
+FileSendSuccessFrame: CID=030 Seq=14
+FileSendSuccessFrame: CID=030 Seq=15
+FileSendSuccessFrame: CID=031 Seq=00
+FileSendSuccessFrame: CID=031 Seq=01
+FileSendSuccessFrame: CID=031 Seq=02
+FileSendSuccessFrame: CID=031 Seq=03
+FileSendSuccessFrame: CID=031 Seq=04
+FileSendSuccessFrame: CID=031 Seq=08
+FileSendSuccessFrame: CID=031 Seq=09
+FileSendSuccessFrame: CID=031 Seq=10
+FileSendSuccessFrame: CID=031 Seq=11
+FileSendSuccessFrame: CID=031 Seq=12
+FileSendSuccessFrame: CID=031 Seq=13
+FileSendSuccessFrame: CID=031 Seq=14
+FileSendSuccessFrame: CID=031 Seq=15
+FileSendSuccessFrame: CID=031 Seq=16
+FileSendSuccessFrame: CID=031 Seq=17
+FileSendSuccessFrame: CID=031 Seq=18
+FileSendSuccessFrame: CID=031 Seq=19
+FileSendSuccessFrame: CID=032 Seq=00
+FileSendSuccessFrame: CID=032 Seq=01
+FileSendSuccessFrame: CID=032 Seq=02
+FileSendSuccessFrame: CID=032 Seq=09
+FileSendSuccessFrame: CID=032 Seq=10
+FileSendSuccessFrame: CID=032 Seq=11
+FileSendSuccessFrame: CID=032 Seq=12
+FileSendSuccessFrame: CID=032 Seq=13
+FileSendSuccessFrame: CID=032 Seq=14
+FileSendSuccessFrame: CID=032 Seq=15
+FileSendSuccessFrame: CID=032 Seq=16
+FileSendSuccessFrame: CID=033 Seq=00
+FileSendSuccessFrame: CID=033 Seq=01
+FileSendSuccessFrame: CID=033 Seq=02
+FileSendSuccessFrame: CID=033 Seq=06
+FileSendSuccessFrame: CID=033 Seq=07
+FileSendSuccessFrame: CID=033 Seq=09
+FileSendSuccessFrame: CID=033 Seq=10
+FileSendSuccessFrame: CID=033 Seq=11
+FileSendSuccessFrame: CID=033 Seq=12
+FileSendSuccessFrame: CID=033 Seq=13
+FileSendSuccessFrame: CID=033 Seq=14
+FileSendSuccessFrame: CID=033 Seq=15
+FileSendSuccessFrame: CID=033 Seq=16
+FileSendSuccessFrame: CID=033 Seq=17
+FileSendSuccessFrame: CID=033 Seq=18
+FileSendSuccessFrame: CID=033 Seq=19
+FileSendSuccessFrame: CID=035 Seq=01
+FileSendSuccessFrame: CID=035 Seq=02
+FileSendSuccessFrame: CID=035 Seq=03
+FileSendSuccessFrame: CID=035 Seq=04
+FileSendSuccessFrame: CID=035 Seq=05
+FileSendSuccessFrame: CID=035 Seq=06
+FileSendSuccessFrame: CID=035 Seq=07
+FileSendSuccessFrame: CID=035 Seq=08
+FileSendSuccessFrame: CID=035 Seq=09
+FileSendSuccessFrame: CID=035 Seq=10
+FileSendSuccessFrame: CID=035 Seq=13
+FileSendSuccessFrame: CID=035 Seq=14
+FileSendSuccessFrame: CID=035 Seq=15
+FileSendSuccessFrame: CID=035 Seq=16
+FileSendSuccessFrame: CID=036 Seq=00
+FileSendSuccessFrame: CID=036 Seq=01
+FileSendSuccessFrame: CID=036 Seq=02
+FileSendSuccessFrame: CID=036 Seq=03
+FileSendSuccessFrame: CID=036 Seq=04
+FileSendSuccessFrame: CID=036 Seq=06
+FileSendSuccessFrame: CID=036 Seq=07
+FileSendSuccessFrame: CID=036 Seq=11
+FileSendSuccessFrame: CID=037 Seq=00
+FileSendSuccessFrame: CID=037 Seq=01
+FileSendSuccessFrame: CID=037 Seq=02
+FileSendSuccessFrame: CID=037 Seq=03
+FileSendSuccessFrame: CID=037 Seq=04
+FileSendSuccessFrame: CID=037 Seq=05
+FileSendSuccessFrame: CID=037 Seq=06
+FileSendSuccessFrame: CID=037 Seq=07
+FileSendSuccessFrame: CID=037 Seq=08
+FileSendSuccessFrame: CID=037 Seq=09
+FileSendSuccessFrame: CID=037 Seq=10
+FileSendSuccessFrame: CID=037 Seq=11
+FileSendSuccessFrame: CID=037 Seq=12
+FileSendSuccessFrame: CID=037 Seq=13
+FileSendSuccessFrame: CID=037 Seq=14
+FileSendSuccessFrame: CID=037 Seq=15
+FileSendSuccessFrame: CID=037 Seq=16
+FileSendSuccessFrame: CID=038 Seq=00
+FileSendSuccessFrame: CID=038 Seq=01
+FileSendSuccessFrame: CID=038 Seq=02
+FileSendSuccessFrame: CID=038 Seq=03
+FileSendSuccessFrame: CID=038 Seq=04
+FileSendSuccessFrame: CID=038 Seq=05
+FileSendSuccessFrame: CID=038 Seq=06
+FileSendSuccessFrame: CID=038 Seq=07
+FileSendSuccessFrame: CID=038 Seq=08
+FileSendSuccessFrame: CID=038 Seq=09
+FileSendSuccessFrame: CID=038 Seq=10
+FileSendSuccessFrame: CID=038 Seq=11
+FileSendSuccessFrame: CID=038 Seq=12
+FileSendSuccessFrame: CID=038 Seq=13
+FileSendSuccessFrame: CID=038 Seq=14
+FileSendSuccessFrame: CID=038 Seq=15
+FileSendSuccessFrame: CID=038 Seq=17
+FileSendSuccessFrame: CID=038 Seq=18
+FileSendSuccessFrame: CID=038 Seq=19
+FileSendSuccessFrame: CID=039 Seq=00
+FileSendSuccessFrame: CID=039 Seq=01
+FileSendSuccessFrame: CID=039 Seq=02
+FileSendSuccessFrame: CID=039 Seq=03
+FileSendSuccessFrame: CID=039 Seq=04
+FileSendSuccessFrame: CID=039 Seq=07
+FileSendSuccessFrame: CID=039 Seq=08
+FileSendSuccessFrame: CID=039 Seq=09
+FileSendSuccessFrame: CID=039 Seq=10
+FileSendSuccessFrame: CID=039 Seq=11
+FileSendSuccessFrame: CID=039 Seq=12
+FileSendSuccessFrame: CID=039 Seq=13
+FileSendSuccessFrame: CID=039 Seq=14
+FileSendSuccessFrame: CID=039 Seq=15
+FileSendSuccessFrame: CID=039 Seq=16
+FileSendSuccessFrame: CID=039 Seq=17
+FileSendSuccessFrame: CID=040 Seq=02
+FileSendSuccessFrame: CID=040 Seq=03
+FileSendSuccessFrame: CID=040 Seq=04
+FileSendSuccessFrame: CID=040 Seq=05
+FileSendSuccessFrame: CID=040 Seq=06
+FileSendSuccessFrame: CID=040 Seq=07
+FileSendSuccessFrame: CID=040 Seq=08
+FileSendSuccessFrame: CID=040 Seq=09
+FileSendSuccessFrame: CID=040 Seq=10
+FileSendSuccessFrame: CID=040 Seq=11
+FileSendSuccessFrame: CID=040 Seq=12
+FileSendSuccessFrame: CID=040 Seq=13
+FileSendSuccessFrame: CID=040 Seq=14
+FileSendSuccessFrame: CID=041 Seq=00
+FileSendSuccessFrame: CID=041 Seq=01
+FileSendSuccessFrame: CID=041 Seq=02
+FileSendSuccessFrame: CID=041 Seq=04
+FileSendSuccessFrame: CID=041 Seq=05
+FileSendSuccessFrame: CID=041 Seq=06
+FileSendSuccessFrame: CID=041 Seq=07
+FileSendSuccessFrame: CID=041 Seq=08
+FileSendSuccessFrame: CID=041 Seq=09
+FileSendSuccessFrame: CID=041 Seq=10
+FileSendSuccessFrame: CID=041 Seq=11
+FileSendSuccessFrame: CID=041 Seq=12
+FileSendSuccessFrame: CID=041 Seq=13
+FileSendSuccessFrame: CID=041 Seq=14
+FileSendSuccessFrame: CID=041 Seq=15
+FileSendSuccessFrame: CID=041 Seq=16
+FileSendSuccessFrame: CID=042 Seq=00
+FileSendSuccessFrame: CID=042 Seq=01
+FileSendSuccessFrame: CID=042 Seq=02
+FileSendSuccessFrame: CID=042 Seq=03
+FileSendSuccessFrame: CID=042 Seq=04
+FileSendSuccessFrame: CID=042 Seq=05
+FileSendSuccessFrame: CID=042 Seq=06
+FileSendSuccessFrame: CID=042 Seq=07
+FileSendSuccessFrame: CID=042 Seq=08
+FileSendSuccessFrame: CID=042 Seq=10
+FileSendSuccessFrame: CID=042 Seq=11
+FileSendSuccessFrame: CID=042 Seq=12
+FileSendSuccessFrame: CID=042 Seq=13
+FileSendSuccessFrame: CID=042 Seq=14
+FileSendSuccessFrame: CID=042 Seq=15
+FileSendSuccessFrame: CID=043 Seq=01
+FileSendSuccessFrame: CID=043 Seq=03
+FileSendSuccessFrame: CID=043 Seq=04
+FileSendSuccessFrame: CID=043 Seq=05
+FileSendSuccessFrame: CID=043 Seq=06
+FileSendSuccessFrame: CID=043 Seq=07
+FileSendSuccessFrame: CID=043 Seq=08
+FileSendSuccessFrame: CID=043 Seq=09
+FileSendSuccessFrame: CID=043 Seq=10
+FileSendSuccessFrame: CID=043 Seq=11
+FileSendSuccessFrame: CID=043 Seq=12
+FileSendSuccessFrame: CID=043 Seq=13
+FileSendSuccessFrame: CID=043 Seq=14
+FileSendSuccessFrame: CID=043 Seq=15
+FileSendSuccessFrame: CID=043 Seq=16
+FileSendSuccessFrame: CID=043 Seq=17
+FileSendSuccessFrame: CID=044 Seq=00
+FileSendSuccessFrame: CID=044 Seq=01
+FileSendSuccessFrame: CID=044 Seq=02
+FileSendSuccessFrame: CID=044 Seq=03
+FileSendSuccessFrame: CID=044 Seq=04
+FileSendSuccessFrame: CID=044 Seq=05
+FileSendSuccessFrame: CID=044 Seq=06
+FileSendSuccessFrame: CID=044 Seq=07
+FileSendSuccessFrame: CID=044 Seq=08
+FileSendSuccessFrame: CID=044 Seq=09
+FileSendSuccessFrame: CID=044 Seq=10
+FileSendSuccessFrame: CID=044 Seq=11
+FileSendSuccessFrame: CID=044 Seq=12
+FileSendSuccessFrame: CID=044 Seq=13
+FileSendSuccessFrame: CID=044 Seq=14
+FileSendSuccessFrame: CID=045 Seq=00
+FileSendSuccessFrame: CID=045 Seq=01
+FileSendSuccessFrame: CID=045 Seq=02
+FileSendSuccessFrame: CID=045 Seq=03
+FileSendSuccessFrame: CID=045 Seq=04
+FileSendSuccessFrame: CID=045 Seq=05
+FileSendSuccessFrame: CID=045 Seq=06
+FileSendSuccessFrame: CID=045 Seq=07
+FileSendSuccessFrame: CID=045 Seq=08
+FileSendSuccessFrame: CID=045 Seq=09
+FileSendSuccessFrame: CID=045 Seq=10
+FileSendSuccessFrame: CID=045 Seq=11
+FileSendSuccessFrame: CID=045 Seq=12
+FileSendSuccessFrame: CID=045 Seq=13
+FileSendSuccessFrame: CID=045 Seq=14
+FileSendSuccessFrame: CID=045 Seq=15
+FileSendSuccessFrame: CID=045 Seq=16
+FileSendSuccessFrame: CID=045 Seq=17
+FileSendSuccessFrame: CID=045 Seq=18
+FileSendSuccessFrame: CID=045 Seq=19
+FileSendSuccessFrame: CID=071 Seq=00
+FileSendSuccessFrame: CID=071 Seq=01
+FileSendSuccessFrame: CID=071 Seq=02
+FileSendSuccessFrame: CID=071 Seq=03
+FileSendSuccessFrame: CID=071 Seq=04
+FileSendSuccessFrame: CID=071 Seq=05
+FileSendSuccessFrame: CID=071 Seq=06
+FileSendSuccessFrame: CID=071 Seq=07
+FileSendSuccessFrame: CID=071 Seq=08
+FileSendSuccessFrame: CID=071 Seq=09
+FileSendSuccessFrame: CID=071 Seq=10
+FileSendSuccessFrame: CID=071 Seq=11
+FileSendSuccessFrame: CID=071 Seq=12
+FileSendSuccessFrame: CID=071 Seq=15
+FileSendSuccessFrame: CID=071 Seq=16
+FileSendSuccessFrame: CID=071 Seq=17
+FileSendSuccessFrame: CID=072 Seq=02
+FileSendSuccessFrame: CID=072 Seq=03
+FileSendSuccessFrame: CID=072 Seq=04
+FileSendSuccessFrame: CID=073 Seq=00
+FileSendSuccessFrame: CID=073 Seq=01
+FileSendSuccessFrame: CID=073 Seq=02
+FileSendSuccessFrame: CID=073 Seq=03
+FileSendSuccessFrame: CID=073 Seq=04
+FileSendSuccessFrame: CID=073 Seq=05
+FileSendSuccessFrame: CID=073 Seq=06
+FileSendSuccessFrame: CID=073 Seq=07
+FileSendSuccessFrame: CID=073 Seq=08
+FileSendSuccessFrame: CID=073 Seq=09
+FileSendSuccessFrame: CID=073 Seq=10
+FileSendSuccessFrame: CID=073 Seq=11
+FileSendSuccessFrame: CID=073 Seq=12
+FileSendSuccessFrame: CID=073 Seq=13
+FileSendSuccessFrame: CID=073 Seq=14
+FileSendSuccessFrame: CID=073 Seq=15
+FileSendSuccessFrame: CID=073 Seq=16
+FileSendSuccessFrame: CID=073 Seq=17
+FileSendSuccessFrame: CID=198 Seq=1416
+FileSendSuccessFrame: CID=198 Seq=1423
+FileSendSuccessFrame: CID=198 Seq=1441
+FileSendSuccessFrame: CID=198 Seq=1453
+FileSendSuccessFrame: CID=198 Seq=1466
+FileSendSuccessFrame: CID=198 Seq=1473
+FileSendSuccessFrame: CID=198 Seq=1491
+FileSendSuccessFrame: CID=198 Seq=1503
+FileSendSuccessFrame: CID=198 Seq=1516
+FileSendSuccessFrame: CID=198 Seq=1541
+FileSendSuccessFrame: CID=198 Seq=1566
+FileSendErrorFrame: Seq=1591
+FileSendErrorFrame: Seq=1603
+FileSendErrorFrame: Seq=1616
+FileSendErrorFrame: Seq=1629
+FileSendErrorFrame: Seq=1585
+FileSendErrorFrame: Seq=1597
