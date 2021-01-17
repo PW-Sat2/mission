@@ -1,0 +1,23 @@
+tasks = [
+[tc.DownloadFile(30, '/telemetry.current', [153, 585, 597, 603, 635, 659, 673, 679, 685, 697, 709, 723, 729, 779]), Send, WaitMode.Wait],
+	[tc.DownloadFile(31, '/p02w_240_5', [19, 26, 27, 28, 29, 30, 32, 33]), Send, WaitMode.Wait],
+	[tc.DownloadFile(32, '/p02w_240_7', [38]), Send, WaitMode.Wait],
+	[tc.DownloadFile(33, '/p02w_240_9', [41, 42, 43]), Send, WaitMode.Wait],
+	[tc.DownloadFile(34, '/p03w_240_10', [29, 30]), Send, WaitMode.Wait],
+	[tc.DownloadFile(35, '/p03w_240_12', [26, 27, 49, 50, 51, 52, 57, 58, 59, 81, 82, 83]), Send, WaitMode.Wait],
+	[tc.DownloadFile(36, '/p03w_240_14', [23, 24, 33, 35, 36]), Send, WaitMode.Wait],
+	[tc.DownloadFile(37, '/p03w_240_16', [24, 26, 50, 51, 52, 53, 55, 69, 70, 71]), Send, WaitMode.Wait],
+	[tc.DownloadFile(38, '/p03w_240_18', [20, 21, 42, 47, 65, 69, 79, 81, 90, 91, 92, 93, 98, 100]), Send, WaitMode.Wait],
+	[tc.DownloadFile(39, '/p03w_240_2', [27, 29, 31, 38, 41, 45, 46, 59, 62, 63, 64, 65, 66]), Send, WaitMode.Wait],
+	[tc.DownloadFile(40, '/p03w_240_2', [67, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80]), Send, WaitMode.Wait],
+	[tc.DownloadFile(41, '/p03w_240_20', [18]), Send, WaitMode.Wait],
+	[tc.DownloadFile(42, '/p03w_240_22', [17, 32, 33]), Send, WaitMode.Wait],
+	[tc.DownloadFile(43, '/p03w_240_24', [22, 23, 57, 58, 59, 60, 61, 62, 63]), Send, WaitMode.Wait],
+	[tc.DownloadFile(44, '/p03w_240_26', [18, 24, 25, 26, 27, 28, 29, 30]), Send, WaitMode.Wait],
+	[tc.DownloadFile(45, '/p03w_240_28', [26, 27, 28, 31]), Send, WaitMode.Wait],
+	[tc.DownloadFile(46, '/p03w_240_4', [38, 39, 40, 41, 42, 43, 55]), Send, WaitMode.Wait],
+	[tc.DownloadFile(47, '/p03w_240_8', [25, 27, 28, 29, 31, 32, 33, 34]), Send, WaitMode.Wait],
+	[tc.DownloadFile(48, '/p04w_240_1', [22, 23, 24, 36, 37, 38, 74, 76, 77, 78]), Send, WaitMode.Wait],
+	[tc.DownloadFile(49, '/p04w_240_3', [52, 55, 56, 65, 68]), Send, WaitMode.Wait],
+	[tc.DownloadFile(50, '/p04w_240_5', [19, 20, 21, 22, 23]), Send, WaitMode.Wait]
+]
