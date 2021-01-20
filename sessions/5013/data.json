@@ -6,7 +6,7 @@
         "start_time_iso_with_zone": "2021-01-20T20:51:34+01:00", 
         "stop_time_iso_with_zone": "2021-01-20T20:59:35+01:00", 
         "maximum_elevation": 8.65, 
-        "status": "planned",
+        "status": "success",
         "session_tasks": [
             "download"
         ], 
