@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2021-01-24T12:10:44+01:00", 
         "stop_time_iso_with_zone": "2021-01-24T12:21:52+01:00", 
         "maximum_elevation": 60.18, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Download"
     }
 }
