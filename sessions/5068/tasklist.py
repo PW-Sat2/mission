@@ -14,7 +14,7 @@ tasks = [
 
     [tc.PerformRadFETExperiment(100, 150, 110, 'radfet_58'), Send, WaitMode.Wait],
 
-    # foteczki (11:04), zakładamy wysłanie o 11:00
+    # foteczki (11:04), zakladamy wyslanie o 11:00
     [tc.TakePhotoTelecommand(4, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=4), 'wro_w_p480_11_04'), Send, WaitMode.Wait],
     [tc.TakePhotoTelecommand(5, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'wro_n_p480_11_04'), Send, WaitMode.Wait],
 
