@@ -14,8 +14,8 @@ tasks = [
     [tc.DownloadFile(47, '/telemetry.current', [618, 668, 718, 768, 818, 868, 918, 968, 643, 693, 743, 793, 843, 893, 943, 993, 631, 681, 731, 781]), Send, WaitMode.Wait],
     [tc.DownloadFile(48, '/telemetry.current', [831, 881, 931, 981, 655, 705, 755, 805, 855, 905, 955, 625, 675, 725, 775, 825, 875, 925, 975, 637]), Send, WaitMode.Wait],
     [tc.DownloadFile(49, '/telemetry.current', [687, 737, 787, 837, 887, 937, 987, 649, 699, 749, 799, 849, 899, 949, 661, 711, 761, 811, 861, 911]), Send, WaitMode.Wait],
-    [tc.DownloadFile(47, '/telemetry.current', [776, 826, 876, 926, 976, 801, 851, 901, 951, 789, 839, 889, 939, 989, 813, 863, 913, 963, 783, 833]), Send, WaitMode.Wait],
-    [tc.DownloadFile(48, '/telemetry.current', [883, 933, 983, 795, 845, 895, 945, 807, 857, 907, 957, 819, 869, 919, 969, 961]), Send, WaitMode.Wait],
+    [tc.DownloadFile(57, '/telemetry.current', [776, 826, 876, 926, 976, 801, 851, 901, 951, 789, 839, 889, 939, 989, 813, 863, 913, 963, 783, 833]), Send, WaitMode.Wait],
+    [tc.DownloadFile(58, '/telemetry.current', [883, 933, 983, 795, 845, 895, 945, 807, 857, 907, 957, 819, 869, 919, 969, 961]), Send, WaitMode.Wait],
     # auto-generated telemetry end
 
     [tc.DownloadFile(30, '/radfet_58', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]), Send, WaitMode.Wait],
