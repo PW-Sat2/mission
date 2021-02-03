@@ -10,6 +10,14 @@ tasks = [
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
+    # foteczki (21:45), zakladamy wyslanie o 21:29
+    [tc.TakePhotoTelecommand(4, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=16), 'wro_w_p480_21_45'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(5, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'wro_n_p480_21_45'), Send, WaitMode.Wait],
+
+    # 22:24
+    [tc.TakePhotoTelecommand(6, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=39), 'wro_w_p480_22_24'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(7, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'wro_n_p480_22_24'), Send, WaitMode.Wait],
+
     # auto-generated telemetry start
     [tc.DownloadFile(30, '/telemetry.current', [62, 112, 162, 212, 262, 312, 362, 412, 462, 512, 562, 612, 662, 712, 762, 812, 862, 912, 962, 1012]), Send, WaitMode.Wait],
     [tc.DownloadFile(31, '/telemetry.current', [1062, 87, 137, 187, 237, 287, 337, 387, 437, 487, 537, 587, 637, 687, 737, 787, 837, 887, 937, 987]), Send, WaitMode.Wait],
