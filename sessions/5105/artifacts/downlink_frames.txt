@@ -1,0 +1,116 @@
+BeaconFrame @ 9600 bps
+      BP VOLT 7.54 V, 7.57 V
+      BP TEMP 6.81 C, 6.56 C, 7.40 C
+      COMM PA TEMP NOW 8.23 C LAST 7.90 C
+      COMM RX Current 48.80 mA
+      GYRO UNCAL -0.14 deg/sec, -0.90 deg/sec, 0.70 deg/sec
+      EXPERIMENT None
+      MCU TEMP -1.98 C
+      3V3 DISTR CURRENT 40 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.57 V, 7.59 V
+      BP TEMP 6.69 C, 6.50 C, 7.40 C
+      COMM PA TEMP NOW 7.84 C LAST 8.01 C
+      COMM RX Current 48.83 mA
+      GYRO UNCAL -0.49 deg/sec, -0.83 deg/sec, -0.14 deg/sec
+      EXPERIMENT None
+      MCU TEMP -1.83 C
+      3V3 DISTR CURRENT 35 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.53 V, 7.57 V
+      BP TEMP 7.38 C, 7.12 C, 9.20 C
+      COMM PA TEMP NOW 6.75 C LAST 6.48 C
+      COMM RX Current 49.01 mA
+      GYRO UNCAL -2.09 deg/sec, -0.42 deg/sec, -0.07 deg/sec
+      EXPERIMENT None
+      MCU TEMP -2.46 C
+      3V3 DISTR CURRENT 35 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.54 V, 7.57 V
+      BP TEMP 7.75 C, 7.50 C, 9.20 C
+      COMM PA TEMP NOW 6.26 C LAST 6.31 C
+      COMM RX Current 48.65 mA
+      GYRO UNCAL -0.42 deg/sec, -0.83 deg/sec, 0.14 deg/sec
+      EXPERIMENT None
+      MCU TEMP -1.35 C
+      3V3 DISTR CURRENT 35 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.62 V, 7.65 V
+      BP TEMP 7.00 C, 6.75 C, 7.40 C
+      COMM PA TEMP NOW 8.50 C LAST 8.44 C
+      COMM RX Current 47.82 mA
+      GYRO UNCAL -1.11 deg/sec, -0.21 deg/sec, 1.60 deg/sec
+      EXPERIMENT None
+      MCU TEMP -2.46 C
+      3V3 DISTR CURRENT 35 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.53 V, 7.56 V
+      BP TEMP 7.06 C, 6.81 C, 7.40 C
+      COMM PA TEMP NOW 8.77 C LAST 10.57 C
+      COMM RX Current 48.89 mA
+      GYRO UNCAL -1.81 deg/sec, -0.35 deg/sec, 1.18 deg/sec
+      EXPERIMENT None
+      MCU TEMP -2.46 C
+      3V3 DISTR CURRENT 35 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.56 V, 7.58 V
+      BP TEMP 6.88 C, 6.69 C, 7.40 C
+      COMM PA TEMP NOW 8.12 C LAST 8.12 C
+      COMM RX Current 48.95 mA
+      GYRO UNCAL -0.90 deg/sec, -0.28 deg/sec, 1.32 deg/sec
+      EXPERIMENT None
+      MCU TEMP -2.30 C
+      3V3 DISTR CURRENT 33 mA
+
+BeaconFrame @ 9600 bps
+      BP VOLT 7.62 V, 7.67 V
+      BP TEMP 7.50 C, 7.25 C, 9.20 C
+      COMM PA TEMP NOW 6.26 C LAST 6.37 C
+      COMM RX Current 48.59 mA
+      GYRO UNCAL -1.25 deg/sec, -0.83 deg/sec, -0.49 deg/sec
+      EXPERIMENT None
+      MCU TEMP -2.14 C
+      3V3 DISTR CURRENT 49 mA
+
+SetBitrateSuccessFrame: Seq=00
+FileListSuccessFrame: CID=002 Seq=00, #files: 8
+FileSendSuccessFrame: CID=031 Seq=580
+FileSendSuccessFrame: CID=031 Seq=587
+FileSendSuccessFrame: CID=031 Seq=593
+FileSendSuccessFrame: CID=031 Seq=605
+FileSendSuccessFrame: CID=031 Seq=617
+FileSendSuccessFrame: CID=031 Seq=630
+FileSendSuccessFrame: CID=031 Seq=637
+FileSendSuccessFrame: CID=031 Seq=643
+FileSendSuccessFrame: CID=031 Seq=655
+FileSendSuccessFrame: CID=031 Seq=667
+FileSendSuccessFrame: CID=031 Seq=680
+FileSendSuccessFrame: CID=031 Seq=687
+FileSendSuccessFrame: CID=031 Seq=693
+FileSendSuccessFrame: CID=031 Seq=705
+FileSendSuccessFrame: CID=031 Seq=717
+FileSendSuccessFrame: CID=031 Seq=730
+FileSendSuccessFrame: CID=031 Seq=743
+FileSendErrorFrame: Seq=755
+FileSendErrorFrame: Seq=767
+FileSendErrorFrame: Seq=780
+FileSendSuccessFrame: CID=032 Seq=599
+FileSendSuccessFrame: CID=032 Seq=611
+FileSendSuccessFrame: CID=032 Seq=623
+FileSendSuccessFrame: CID=032 Seq=649
+FileSendSuccessFrame: CID=032 Seq=661
+FileSendSuccessFrame: CID=032 Seq=673
+FileSendSuccessFrame: CID=032 Seq=699
+FileSendSuccessFrame: CID=032 Seq=711
+FileSendSuccessFrame: CID=032 Seq=723
+FileSendSuccessFrame: CID=032 Seq=737
+FileSendSuccessFrame: CID=032 Seq=749
+FileSendErrorFrame: Seq=761
+FileSendErrorFrame: Seq=773
+FileSendErrorFrame: Seq=787
