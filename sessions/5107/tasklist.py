@@ -4,12 +4,27 @@ tasks = [
 
     [[tc.SetBitrate(1, BaudRate.BaudRate9600), 5], SendLoop, WaitMode.NoWait],
 
-    [[tc.SendBeacon(), 10], SendLoop, WaitMode.NoWait],
+    # Wait until good communication
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+
+    # Power cycle EPS A
+    [tc.RawI2C(3, 0, 0x35, 1, [0xE0]), Send, WaitMode.Wait],
+    [tc.PingTelecommand(), Send, WaitMode.Wait],
+
+    # Set 9600
+    [tc.SetBitrate(4, BaudRate.BaudRate9600), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.Wait],
 
     [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
 
-    [tc.SendBeacon(), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.Wait],    
 
+    # remove old files    
+    [tc.RemoveFile(40, '/wro_n_p480_21_45_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(41, '/wro_n_p480_22_24_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(42, '/wro_w_p480_21_45_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(43, '/wro_w_p480_22_24_0'), Send, WaitMode.Wait],
+    
     # auto-generated telemetry start
     [tc.DownloadFile(30, '/telemetry.current', [916, 966, 1016, 1066, 1116, 1166, 1216, 1266, 1316, 1366, 1416, 1466, 1516, 1566, 1616, 1666, 1716, 1766, 941, 991]), Send, WaitMode.Wait],
     [tc.DownloadFile(31, '/telemetry.current', [1041, 1091, 1141, 1191, 1241, 1291, 1341, 1391, 1441, 1491, 1541, 1591, 1641, 1691, 1741, 929, 979, 1029, 1079, 1129]), Send, WaitMode.Wait],
