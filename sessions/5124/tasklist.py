@@ -6,9 +6,24 @@ tasks = [
 
     [[tc.SendBeacon(), 10], SendLoop, WaitMode.NoWait],
 
-    [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
+    # ReadMemory, weird telecommands
+    [tc.ReadMemory(2, 0x8801b620, 248), Send, WaitMode.Wait], # scrubbing
 
+    # Wait until good communication
     [tc.SendBeacon(), Send, WaitMode.Wait],
+
+    # Power cycle EPS A
+    [tc.RawI2C(3, 0, 0x35, 1, [0xE0]), Send, WaitMode.Wait],
+    [tc.PingTelecommand(), Send, WaitMode.Wait],
+
+    # Set 9600
+    [tc.SetBitrate(4, BaudRate.BaudRate9600), Send, WaitMode.Wait],
+
+    [tc.TakePhotoTelecommand(10, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=17), 'l01w'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(11, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'l01n'), Send, WaitMode.Wait],
+
+    [tc.TakePhotoTelecommand(12, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=1), 'l02w'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(13, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'l02n'), Send, WaitMode.Wait],
 
     # auto-generated telemetry start
     [tc.DownloadFile(30, '/telemetry.previous', [1857, 1907, 1957, 2007, 2057, 2107, 2157, 2207, 2257, 1882, 1932, 1982, 2032, 2082, 2132, 2182, 2232, 1870, 1920, 1970]), Send, WaitMode.Wait],
