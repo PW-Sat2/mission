@@ -53,6 +53,17 @@ tasks = [
     [tc.DownloadFile(77, '/l02n', range(140, 160)), Send, WaitMode.Wait],
     # missing from previous session end
 
+    [tc.DownloadFile(81, '/l01w_0', range(0, 20)), Send, WaitMode.Wait],
+    [tc.DownloadFile(82, '/l01w_0', range(21, 40)), Send, WaitMode.Wait],
+    [tc.DownloadFile(82, '/l01w_0', range(41, 60)), Send, WaitMode.Wait],
+    [tc.DownloadFile(83, '/l01w_0', range(41, 60)), Send, WaitMode.Wait],
+    [tc.DownloadFile(84, '/l01w_0', range(61, 80)), Send, WaitMode.Wait],
+    [tc.DownloadFile(85, '/l01w_0', range(81, 100)), Send, WaitMode.Wait],
+    [tc.DownloadFile(86, '/l01w_0', range(101, 120)), Send, WaitMode.Wait],
+    [tc.DownloadFile(87, '/l01n_0', range(0, 20)), Send, WaitMode.Wait],
+    [tc.DownloadFile(88, '/l01n_0', range(20, 50)), Send, WaitMode.Wait],
+    [tc.DownloadFile(89, '/l01n_0', range(51, 80)), Send, WaitMode.Wait],
+    [tc.DownloadFile(90, '/l02w_0', range(0, 30)), Send, WaitMode.Wait],
 
     # auto-generated file download start
 
