@@ -26,17 +26,17 @@ tasks = [
 
 
     # missing from previous session start
-    [tc.DownloadFile(30, '/l01w_0', [0, 1, 2, 4, 8, 10, 11, 68]), Send, WaitMode.Wait],
-    [tc.DownloadFile(31, '/l01n_0', [9, 10, 20, 21, 22, 23, 24, 25, 29, 31, 32, 33, 34]), Send, WaitMode.Wait],
+    [tc.DownloadFile(30, '/l01w_0', [0, 1, 2, 4, 8, 10, 11, 20, 40, 60, 68, 80]), Send, WaitMode.Wait],
+    [tc.DownloadFile(31, '/l01n_0', [9, 10, 20, 21, 22, 23, 24, 25, 29, 30, 31, 32, 33, 34, 40, 60, 80]), Send, WaitMode.Wait],
     [tc.DownloadFile(32, '/l02w_0', range(0, 20)), Send, WaitMode.Wait],
-    [tc.DownloadFile(33, '/l02w_0', range(21, 40)), Send, WaitMode.Wait],
-    [tc.DownloadFile(34, '/l02w_0', range(41, 60)), Send, WaitMode.Wait],
-    [tc.DownloadFile(35, '/l02w_0', range(61, 80)), Send, WaitMode.Wait],
-    [tc.DownloadFile(36, '/l02w_0', range(81, 86)), Send, WaitMode.Wait],
+    [tc.DownloadFile(33, '/l02w_0', range(20, 40)), Send, WaitMode.Wait],
+    [tc.DownloadFile(34, '/l02w_0', range(40, 60)), Send, WaitMode.Wait],
+    [tc.DownloadFile(35, '/l02w_0', range(60, 80)), Send, WaitMode.Wait],
+    [tc.DownloadFile(36, '/l02w_0', range(80, 86)), Send, WaitMode.Wait],
     [tc.DownloadFile(37, '/l02n_0', range(0, 20)), Send, WaitMode.Wait],
-    [tc.DownloadFile(38, '/l02n_0', range(21, 40)), Send, WaitMode.Wait],
-    [tc.DownloadFile(39, '/l02n_0', range(41, 60)), Send, WaitMode.Wait],
-    [tc.DownloadFile(40, '/l02n_0', range(61, 74)), Send, WaitMode.Wait],
+    [tc.DownloadFile(38, '/l02n_0', range(20, 40)), Send, WaitMode.Wait],
+    [tc.DownloadFile(39, '/l02n_0', range(40, 60)), Send, WaitMode.Wait],
+    [tc.DownloadFile(40, '/l02n_0', range(60, 74)), Send, WaitMode.Wait],
     # missing from previous session end
 
 
@@ -48,11 +48,6 @@ tasks = [
     # auto-generated file remove start
 
     # auto-generated file remove end
-
-    tc.RemoveFile(41, '/l01w_0'), Send, WaitMode.Wait],
-    tc.RemoveFile(42, '/l01n_0'), Send, WaitMode.Wait],
-    tc.RemoveFile(43, '/l02w_0'), Send, WaitMode.Wait],
-    tc.RemoveFile(44, '/l02n_0'), Send, WaitMode.Wait],
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
