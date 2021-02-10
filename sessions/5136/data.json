@@ -6,9 +6,9 @@
         "start_time_iso_with_zone": "2021-02-10T23:10:35+01:00", 
         "stop_time_iso_with_zone": "2021-02-10T23:21:01+01:00", 
         "maximum_elevation": 45.14, 
-        "status": "planned", 
+        "status": "success", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry-download"
         ], 
         "short_description": "Reboot EPS A & retake photos"
     }
