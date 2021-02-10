@@ -10,6 +10,11 @@ tasks = [
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
+    [tc.TakePhotoTelecommand(20, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=1), 'p0_w_p480'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(21, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p0_n_p480'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(22, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=2), 'p1_w_p480'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(23, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p1_n_p480'), Send, WaitMode.Wait],
+
     # auto-generated telemetry start
     [tc.DownloadFile(30, '/telemetry.current', [244, 294, 344, 394, 444, 494, 544, 594, 644, 694, 744, 794, 844, 894, 944, 994, 1044, 1094, 1144, 1194]), Send, WaitMode.Wait],
     [tc.DownloadFile(31, '/telemetry.current', [1244, 269, 319, 369, 419, 469, 519, 569, 619, 669, 719, 769, 819, 869, 919, 969, 1019, 1069, 1119, 1169]), Send, WaitMode.Wait],
@@ -22,6 +27,7 @@ tasks = [
     [tc.DownloadFile(38, '/telemetry.current', [1037, 1087, 1137, 1187, 1237]), Send, WaitMode.Wait],
     # auto-generated telemetry end
 
+    [tc.ListFiles(3, '/'), Send, WaitMode.Wait],
 
     # missing from previous session start
     [tc.DownloadFile(40, '/telemetry.previous', [1244, 1249, 1253, 1254, 1258, 1259, 1264, 1269, 1273, 1274, 1278, 1279, 1284, 1289, 1293, 1294, 1298, 1299, 1304]), Send, WaitMode.Wait],
@@ -32,6 +38,51 @@ tasks = [
     [tc.DownloadFile(45, '/telemetry.previous', [1553, 1554, 1558, 1559, 1564, 1568, 1569, 1573, 1574, 1578, 1579, 1584, 1588, 1589, 1593, 1594, 1598, 1599]), Send, WaitMode.Wait],
     # missing from previous session end
 
+    [tc.ListFiles(4, '/'), Send, WaitMode.Wait],
+
+    [tc.DownloadFile(50, '/p0_w_p480_0', range(0, 20)), Send, WaitMode.Wait],
+    [tc.DownloadFile(51, '/p0_w_p480_0', range(20, 40)), Send, WaitMode.Wait],
+    [tc.DownloadFile(52, '/p0_w_p480_0', range(40, 60)), Send, WaitMode.Wait],
+    [tc.DownloadFile(53, '/p0_w_p480_0', range(60, 80)), Send, WaitMode.Wait],
+    [tc.DownloadFile(54, '/p0_w_p480_0', range(80, 100)), Send, WaitMode.Wait],
+    [tc.DownloadFile(55, '/p0_w_p480_0', range(100, 120)), Send, WaitMode.Wait],
+    [tc.DownloadFile(56, '/p0_w_p480_0', range(120, 140)), Send, WaitMode.Wait],
+    [tc.DownloadFile(57, '/p0_w_p480_0', range(140, 160)), Send, WaitMode.Wait],
+    [tc.DownloadFile(58, '/p0_w_p480_0', range(160, 180)), Send, WaitMode.Wait],
+    [tc.DownloadFile(59, '/p0_w_p480_0', range(180, 200)), Send, WaitMode.Wait],
+
+    [tc.DownloadFile(60, '/p0_n_p480_0', range(0, 20)), Send, WaitMode.Wait],
+    [tc.DownloadFile(61, '/p0_n_p480_0', range(20, 40)), Send, WaitMode.Wait],
+    [tc.DownloadFile(62, '/p0_n_p480_0', range(40, 60)), Send, WaitMode.Wait],
+    [tc.DownloadFile(63, '/p0_n_p480_0', range(60, 80)), Send, WaitMode.Wait],
+    [tc.DownloadFile(64, '/p0_n_p480_0', range(80, 100)), Send, WaitMode.Wait],
+    [tc.DownloadFile(65, '/p0_n_p480_0', range(100, 120)), Send, WaitMode.Wait],
+    [tc.DownloadFile(66, '/p0_n_p480_0', range(120, 140)), Send, WaitMode.Wait],
+    [tc.DownloadFile(67, '/p0_n_p480_0', range(140, 160)), Send, WaitMode.Wait],
+    [tc.DownloadFile(68, '/p0_n_p480_0', range(160, 180)), Send, WaitMode.Wait],
+    [tc.DownloadFile(69, '/p0_n_p480_0', range(180, 200)), Send, WaitMode.Wait],
+    
+    [tc.DownloadFile(70, '/p1_w_p480_0', range(0, 20)), Send, WaitMode.Wait],
+    [tc.DownloadFile(71, '/p1_w_p480_0', range(20, 40)), Send, WaitMode.Wait],
+    [tc.DownloadFile(72, '/p1_w_p480_0', range(40, 60)), Send, WaitMode.Wait],
+    [tc.DownloadFile(73, '/p1_w_p480_0', range(60, 80)), Send, WaitMode.Wait],
+    [tc.DownloadFile(74, '/p1_w_p480_0', range(80, 100)), Send, WaitMode.Wait],
+    [tc.DownloadFile(75, '/p1_w_p480_0', range(100, 120)), Send, WaitMode.Wait],
+    [tc.DownloadFile(76, '/p1_w_p480_0', range(120, 140)), Send, WaitMode.Wait],
+    [tc.DownloadFile(77, '/p1_w_p480_0', range(140, 160)), Send, WaitMode.Wait],
+    [tc.DownloadFile(78, '/p1_w_p480_0', range(160, 180)), Send, WaitMode.Wait],
+    [tc.DownloadFile(79, '/p1_w_p480_0', range(180, 200)), Send, WaitMode.Wait],
+
+    [tc.DownloadFile(80, '/p1_n_p480_0', range(0, 20)), Send, WaitMode.Wait],
+    [tc.DownloadFile(81, '/p1_n_p480_0', range(20, 40)), Send, WaitMode.Wait],
+    [tc.DownloadFile(82, '/p1_n_p480_0', range(40, 60)), Send, WaitMode.Wait],
+    [tc.DownloadFile(83, '/p1_n_p480_0', range(60, 80)), Send, WaitMode.Wait],
+    [tc.DownloadFile(84, '/p1_n_p480_0', range(80, 100)), Send, WaitMode.Wait],
+    [tc.DownloadFile(85, '/p1_n_p480_0', range(100, 120)), Send, WaitMode.Wait],
+    [tc.DownloadFile(86, '/p1_n_p480_0', range(120, 140)), Send, WaitMode.Wait],
+    [tc.DownloadFile(87, '/p1_n_p480_0', range(140, 160)), Send, WaitMode.Wait],
+    [tc.DownloadFile(88, '/p1_n_p480_0', range(160, 180)), Send, WaitMode.Wait],
+    [tc.DownloadFile(89, '/p1_n_p480_0', range(180, 200)), Send, WaitMode.Wait],
 
     # auto-generated file download start
 
