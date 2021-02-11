@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2021-02-11T22:17:14+01:00", 
         "stop_time_iso_with_zone": "2021-02-11T22:27:24+01:00", 
         "maximum_elevation": 47.17, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Now reboot A and downloading photos."
     }
 }
