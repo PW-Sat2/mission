@@ -6,7 +6,7 @@
         "start_time_iso_with_zone": "2021-02-11T11:49:38+01:00", 
         "stop_time_iso_with_zone": "2021-02-11T12:00:15+01:00", 
         "maximum_elevation": 68.37, 
-        "status": "planned", 
+        "status": "success", 
         "session_tasks": [
             "telemetry-and-photos-download"
         ], 
