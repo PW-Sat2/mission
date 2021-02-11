@@ -6,10 +6,10 @@
         "start_time_iso_with_zone": "2021-02-11T20:48:40+01:00", 
         "stop_time_iso_with_zone": "2021-02-11T20:54:59+01:00", 
         "maximum_elevation": 4.96, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Reboot A and next photos."
     }
 }
