@@ -4,8 +4,8 @@ tasks = [
 
     [[tc.SendBeacon(), 10], SendLoop, WaitMode.NoWait],
 
-    # Power cycle EPS A
-    [tc.RawI2C(3, 0, 0x35, 1, [0xE0]), Send, WaitMode.Wait],
+    # Power cycle EPS B
+    [tc.PowerCycleTelecommand(3), Send, WaitMode.Wait],
 
     [[tc.SendBeacon(), 10], SendLoop, WaitMode.NoWait],
 
