@@ -8,8 +8,8 @@
         "maximum_elevation": 12.48, 
         "status": "auto", 
         "session_tasks": [
-            "sleep-beacon"
+            "fix-satellite"
         ], 
-        "short_description": ""
+        "short_description": "Try to understand what happened, and reboot"
     }
 }
