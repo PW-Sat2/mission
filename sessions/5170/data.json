@@ -6,10 +6,9 @@
         "start_time_iso_with_zone": "2021-02-16T23:39:13+01:00", 
         "stop_time_iso_with_zone": "2021-02-16T23:48:22+01:00", 
         "maximum_elevation": 20.65, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
         ], 
-        "short_description": ""
+        "short_description": "Wake up, radfet, photos"
     }
 }
