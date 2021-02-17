@@ -10,6 +10,13 @@ tasks = [
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
+    # First download the missing chunks - so we can take next photos without mixing them
+    [tc.DownloadFile(33, '/p1_w_p480_0', [22, 53, 54, 58, 59]), Send, WaitMode.Wait],
+
+    # Low pass, but try to take the photos, if succeeds then we can download them on next pass
+    [tc.TakePhotoTelecommand(4, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=30), 'p5174_0_n_p480'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(6, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=1), 'p5174_1_w_p480'), Send, WaitMode.Wait],
+
     # auto-generated telemetry start
     [tc.DownloadFile(34, '/telemetry.previous', [1571, 1621, 1671, 1721, 1771, 1821, 1871, 1921, 1971, 2021, 2071, 2121, 2171, 2221, 2271, 1596, 1646, 1696, 1746, 1796]), Send, WaitMode.Wait],
     [tc.DownloadFile(35, '/telemetry.current', [41, 91, 141, 16, 66, 116, 4, 54, 104, 28, 78, 128, 48, 98, 10, 60, 110, 22, 72, 122]), Send, WaitMode.Wait],
@@ -20,8 +27,6 @@ tasks = [
     [tc.DownloadFile(40, '/telemetry.previous', [1614, 1664, 1714, 1764, 1814, 1864, 1914, 1964, 2014, 2064, 2114, 2164, 2214, 2264]), Send, WaitMode.Wait],
     [tc.DownloadFile(41, '/telemetry.current', [34, 84, 134]), Send, WaitMode.Wait],
     # auto-generated telemetry end
-
-    [tc.DownloadFile(33, '/p1_w_p480_0', [22, 53, 54, 58, 59]), Send, WaitMode.Wait],
 
     # missing from previous session start
     [tc.DownloadFile(30, '/telemetry.previous', [78, 84, 240, 360, 703, 716, 928, 990, 1134, 1140, 1146, 1178, 1184, 1190, 1196]), Send, WaitMode.Wait],
