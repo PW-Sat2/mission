@@ -10,7 +10,13 @@ tasks = [
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
 
-    [tc.DownloadFile(40, '/p5174_1_w_p480_0', [149]), Send, WaitMode.Wait]
+    [tc.DownloadFile(40, '/p5174_1_w_p480_0', [149]), Send, WaitMode.Wait],
+
+    [tc.TakePhotoTelecommand(10, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=25), 'n01w'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(11, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'n01n'), Send, WaitMode.Wait],
+
+    [tc.TakePhotoTelecommand(12, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=1), 'n02w'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(13, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'n02n'), Send, WaitMode.Wait],
 
     [tc.TakePhotoTelecommand(10, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=25), 'n01w'), Send, WaitMode.Wait],
     [tc.TakePhotoTelecommand(11, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'n01n'), Send, WaitMode.Wait],
