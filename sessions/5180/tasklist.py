@@ -12,6 +12,12 @@ tasks = [
 
     [tc.DownloadFile(40, '/p5174_1_w_p480_0', [149]), Send, WaitMode.Wait]
 
+    [tc.TakePhotoTelecommand(10, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=25), 'n01w'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(11, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'n01n'), Send, WaitMode.Wait],
+
+    [tc.TakePhotoTelecommand(12, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=1), 'n02w'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(13, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'n02n'), Send, WaitMode.Wait],
+
     # auto-generated telemetry start
     [tc.DownloadFile(31, '/telemetry.previous', [1802, 1852, 1902, 1952, 2002, 2052, 2102, 2152, 2202, 2252, 1827, 1877, 1927, 1977, 2027, 2077, 2127, 2177, 2227, 2277]), Send, WaitMode.Wait],
     [tc.DownloadFile(32, '/telemetry.current', [22, 72, 122, 172, 222, 272, 322, 372, 422, 472, 522, 47, 97, 147, 197, 247, 297, 347, 397, 447]), Send, WaitMode.Wait],
@@ -23,12 +29,6 @@ tasks = [
     [tc.DownloadFile(38, '/telemetry.previous', [1883, 1933, 1983, 2033, 2083, 2133, 2183, 2233, 1845, 1895, 1945, 1995, 2045, 2095, 2145, 2195, 2245]), Send, WaitMode.Wait],
     [tc.DownloadFile(39, '/telemetry.current', [265, 315, 365, 415, 465, 515]), Send, WaitMode.Wait],
     # auto-generated telemetry end
-
-    [tc.TakePhotoTelecommand(10, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=25), 'n01w'), Send, WaitMode.Wait],
-    [tc.TakePhotoTelecommand(11, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'n01n'), Send, WaitMode.Wait],
-
-    [tc.TakePhotoTelecommand(12, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=1), 'n02w'), Send, WaitMode.Wait],
-    [tc.TakePhotoTelecommand(13, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'n02n'), Send, WaitMode.Wait],
 
     # missing from previous session start
     
