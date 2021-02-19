@@ -8,8 +8,8 @@
         "maximum_elevation": 17.18, 
         "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Telemetry download, take photos"
     }
 }
