@@ -23,6 +23,15 @@ tasks = [
 
     # auto-generated telemetry start
     [tc.DownloadFile(31, '/telemetry.previous', [2198, 2248, 2223, 2273, 2211, 2261, 2235, 2205, 2255, 2217, 2267, 2229, 2279, 2241]), Send, WaitMode.Wait],
+    
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(100, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=15), 'p1_w_480'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(101, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p1_n_480'), Send, WaitMode.Wait],
+    
+    [tc.TakePhotoTelecommand(102, CameraLocation.Wing, PhotoResolution.p480, 1, datetime.timedelta(minutes=2), 'p2_w_480'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(103, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'p2_n_480'), Send, WaitMode.Wait],
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+    
     [tc.DownloadFile(32, '/telemetry.current', [18, 68, 118, 168, 218, 268, 318, 368, 418, 468, 518, 568, 618, 668, 718, 768, 818, 868, 918, 43]), Send, WaitMode.Wait],
     [tc.DownloadFile(33, '/telemetry.current', [93, 143, 193, 243, 293, 343, 393, 443, 493, 543, 593, 643, 693, 743, 793, 843, 893, 31, 81, 131]), Send, WaitMode.Wait],
     [tc.DownloadFile(34, '/telemetry.current', [181, 231, 281, 331, 381, 431, 481, 531, 581, 631, 681, 731, 781, 831, 881, 931, 5, 55, 105, 155]), Send, WaitMode.Wait],
