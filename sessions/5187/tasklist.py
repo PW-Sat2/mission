@@ -34,7 +34,7 @@ tasks = [
     # missing from previous session end
 
 
-    [tc.PerformRadFETExperiment(100, 150, 110, 'radfet_61'), Send, WaitMode.Wait],
+    [tc.PerformRadFETExperiment(200, 150, 110, 'radfet_61'), Send, WaitMode.Wait],
 
     [tc.DownloadFile(100, '/p1_n_480_0', [i for i in range(100, 120, 1)]), Send, WaitMode.Wait],
     [tc.DownloadFile(101, '/p1_n_480_0', [i for i in range(120, 140, 1)]), Send, WaitMode.Wait],
