@@ -56,9 +56,22 @@ tasks = [
 
 
     # auto-generated file remove start
-    
+    [tc.RemoveFile(77, 'n01n_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(78, 'n01w_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(79, 'n02n_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(80, 'n02w_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(81, 'p0_n_p480_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(82, 'p1_n_480_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(83, 'p1_w_480_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(84, 'p1_w_p480_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(85, 'p2_n_480_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(86, 'p2_w_480_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(87, 'p5174_0_n_p480_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(88, 'p5174_1_w_p480_0'), Send, WaitMode.Wait],
+    [tc.RemoveFile(89, 'radfet_60'), Send, WaitMode.Wait],
+    [tc.RemoveFile(90, 'radfet_61'), Send, WaitMode.Wait],
+    [tc.ListFiles(91, '/'), Send, WaitMode.Wait],
     # auto-generated file remove end
-
 
     [[tc.SendBeacon(), 20], SendLoop, WaitMode.NoWait],
 ]
