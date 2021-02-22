@@ -1,0 +1,23 @@
+tasks = [
+[tc.DownloadFile(30, '/telemetry.current', [82, 729, 886, 893, 899, 905, 911, 917, 923, 929, 936, 943, 949, 955, 961, 967, 973, 979, 986]), Send, WaitMode.Wait],
+	[tc.DownloadFile(31, '/telemetry.current', [993, 999, 1005, 1011, 1017, 1023, 1029, 1036, 1043, 1049, 1055, 1061, 1067, 1073, 1079, 1086, 1093, 1099]), Send, WaitMode.Wait],
+	[tc.DownloadFile(32, '/telemetry.current', [1105, 1111, 1117, 1123, 1129, 1136, 1143, 1149, 1155, 1161, 1167, 1173, 1179, 1186, 1193, 1199, 1205, 1211]), Send, WaitMode.Wait],
+	[tc.DownloadFile(33, '/telemetry.current', [1217, 1223, 1229, 1236, 1243, 1249, 1255, 1261, 1267, 1273, 1279, 1286, 1293, 1299, 1305, 1311, 1317, 1323]), Send, WaitMode.Wait],
+	[tc.DownloadFile(34, '/telemetry.current', [1329, 1336, 1343, 1349, 1355, 1361, 1367, 1373, 1379, 1386, 1393, 1399, 1405, 1411, 1417, 1423, 1429, 1436]), Send, WaitMode.Wait],
+	[tc.DownloadFile(35, '/telemetry.current', [1443, 1449, 1455, 1461, 1467, 1473, 1479, 1486, 1493, 1499, 1505, 1511, 1517, 1523, 1529, 1536, 1543, 1549]), Send, WaitMode.Wait],
+	[tc.DownloadFile(36, '/telemetry.current', [1555, 1561, 1567, 1573, 1579, 1586, 1593, 1599, 1605, 1611, 1617, 1623, 1629, 1636, 1643, 1649, 1655, 1661]), Send, WaitMode.Wait],
+	[tc.DownloadFile(37, '/telemetry.current', [1667, 1673, 1679, 1686, 1693, 1699, 1705, 1711, 1717, 1723, 1729, 1736, 1743, 1749, 1755, 1761, 1767, 1773]), Send, WaitMode.Wait],
+	[tc.DownloadFile(38, '/telemetry.current', [1779, 1786, 1793, 1799, 1805, 1811, 1817, 1823, 1829, 1836, 1843, 1849, 1855, 1861, 1867, 1873, 1879, 1886]), Send, WaitMode.Wait],
+	[tc.DownloadFile(39, '/telemetry.previous', [2028, 2160]), Send, WaitMode.Wait],
+	[tc.DownloadFile(40, '/pw_p10_0', [28, 29, 30, 39, 52, 53, 54, 55, 56, 57, 58, 65, 66, 67, 68, 69]), Send, WaitMode.Wait],
+	[tc.DownloadFile(41, '/pw_p14_0', [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]), Send, WaitMode.Wait],
+	[tc.DownloadFile(42, '/pw_p14_0', [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47]), Send, WaitMode.Wait],
+	[tc.DownloadFile(43, '/pw_p14_0', [48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62]), Send, WaitMode.Wait],
+	[tc.DownloadFile(44, '/pw_p19_0', [2, 4, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]), Send, WaitMode.Wait],
+	[tc.DownloadFile(45, '/pw_p19_0', [30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45]), Send, WaitMode.Wait],
+	[tc.DownloadFile(46, '/pw_p19_0', [46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]), Send, WaitMode.Wait],
+	[tc.DownloadFile(47, '/pw_p6_0', [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]), Send, WaitMode.Wait],
+	[tc.DownloadFile(48, '/pw_p6_0', [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47]), Send, WaitMode.Wait],
+	[tc.DownloadFile(49, '/pw_p6_0', [48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]), Send, WaitMode.Wait],
+	[tc.DownloadFile(50, '/pw_p6_0', [64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]), Send, WaitMode.Wait]
+]
