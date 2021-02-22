@@ -11,6 +11,14 @@ tasks = [
     [tc.SendBeacon(), Send, WaitMode.Wait],
     
     [tc.SetPeriodicMessageTelecommand(100, interval_minutes=3, repeat_count=1, message='Goodbye PW-Sat2 and youtu.be/dQw4w9WgXcQ'), Send, WaitMode.Wait],
+    
+    [tc.SendBeacon(), Send, WaitMode.Wait],
+    
+    [tc.TakePhotoTelecommand(149, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=17), 'o1_w_128'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(150, CameraLocation.Wing, PhotoResolution.p128, 1, datetime.timedelta(minutes=0), 'o1_w_128'), Send, WaitMode.Wait],
+    
+    [tc.TakePhotoTelecommand(151, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'o1_n_480'), Send, WaitMode.Wait],
+    [tc.TakePhotoTelecommand(152, CameraLocation.Nadir, PhotoResolution.p480, 1, datetime.timedelta(minutes=0), 'o1_n_480'), Send, WaitMode.Wait],
 
     # auto-generated telemetry start
     [tc.DownloadFile(51, '/telemetry.current', [886, 936, 986, 1036, 1086, 1136, 1186, 1236, 1286, 1336, 1386, 1436, 1486, 1536, 1586, 1636, 1686, 1736, 1786, 1836]), Send, WaitMode.Wait],
