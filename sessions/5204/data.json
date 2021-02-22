@@ -3,13 +3,13 @@
         "index": 5204, 
         "phase": "zZz", 
         "primary": "fp", 
-        "start_time_iso_with_zone": "2021-02-23T00:14:05+01:00", 
+        "start_time_iso_with_zone": "2021-02-23T00:11:05+01:00", 
         "stop_time_iso_with_zone": "2021-02-23T00:19:45+01:00", 
         "maximum_elevation": 5.03, 
-        "status": "auto", 
+        "status": "planned", 
         "session_tasks": [
-            "sleep-beacon"
+            "telemetry"
         ], 
-        "short_description": ""
+        "short_description": "Telemetry"
     }
 }
