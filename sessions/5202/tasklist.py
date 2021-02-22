@@ -9,6 +9,8 @@ tasks = [
     [tc.ListFiles(2, '/'), Send, WaitMode.Wait],
 
     [tc.SendBeacon(), Send, WaitMode.Wait],
+    
+    [tc.SetPeriodicMessageTelecommand(100, interval_minutes=1, repeat_count=1, message='Goodbye PW-Sat2 and youtu.be/dQw4w9WgXcQ'), Send, WaitMode.Wait],
 
     # auto-generated telemetry start
     [tc.DownloadFile(41, '/telemetry.previous', [2028, 2160]), Send, WaitMode.Wait],
